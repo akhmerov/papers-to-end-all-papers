@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "scope": {
+    "condensed-matter": "Fundamental many-body or solid-state physics, quantum materials, quantum transport/devices, or condensed-matter experiments.",
+    "materials-science": "Materials discovery, electronic structure, atomistic/continuum simulation, synthesis, processing, or engineering properties.",
+    "adjacent-quantum": "Quantum computing, circuits, algorithms or quantum information without a specific condensed-matter/materials application.",
+    "other-physics": "Physics outside condensed matter and materials, including statistical physics of AI unless an actual condensed-matter application is shown.",
+    "molecular-chemistry": "Molecular chemistry or chemical reactions without a clear solid-state/materials application.",
+    "cross-domain-science": "Several scientific domains; no single condensed-matter/materials application is primary or established by the abstract.",
+    "general-methods": "General LLM/agent infrastructure or methods without a demonstrated domain-specific scientific application.",
+    "out-of-scope": "Medicine, finance, education, social science, unrelated engineering, or other topics outside this review.",
+    "unclear": "Insufficient information to determine the scientific domain."
+  },
+  "use": {
+    "reasoning-proof": "Developing physical arguments, derivations, mathematical proofs, or hypotheses with substantive LLM reasoning.",
+    "simulation-workflow": "Setting up, running, debugging or coordinating scientific calculations and simulation tools.",
+    "experimental-control": "Selecting/acquiring measurements, controlling instruments, or closing an experimental feedback loop.",
+    "data-interpretation": "Interpreting, fitting, labeling, or analyzing scientific measurements or simulation outputs.",
+    "design-optimization": "Proposing and optimizing materials, structures, protocols, or scientific designs.",
+    "property-prediction": "Predicting scientific/material properties with language models, including non-agentic predictors.",
+    "literature-knowledge": "Literature retrieval, extraction, databases, knowledge graphs or scientific information curation.",
+    "scientific-qa": "Scientific question answering, conversational assistance, or domain knowledge tests without an executed research workflow.",
+    "code-algorithm-generation": "Generating or improving scientific code, numerical algorithms, quantum circuits, or executable scientific programs.",
+    "research-orchestration": "Coordinating multiple scientific stages from planning/hypothesis through execution/evaluation; use only for genuinely broad workflows.",
+    "agent-evaluation": "Evaluating general agent capability or reliability where no more specific scientific use is primary.",
+    "no-substantive-application": "No scientific LLM application: e.g. physics of AI, non-language foundation models, or incidental AI/writing mentions.",
+    "unclear": "The abstract does not establish what scientific work the LLM performs."
+  },
+  "agent_form": {
+    "tool-using-agent": "LLM chooses or executes tools; multiple agents are not established.",
+    "multi-agent": "Several interacting LLM agents explicitly described; mere LLM ensembles or multiple models are not enough.",
+    "llm-pipeline": "Fixed LLM stages, retrieval, prompting, or extraction pipeline without established agentic control.",
+    "single-model": "Direct LLM prediction or response; no tool use or agency established.",
+    "human-ai-collaboration": "Substantive AI-assisted research under human direction; autonomous tool use is not established.",
+    "no-llm-application": "Non-LLM ML/foundation models, conventional agents, physics of AI, or incidental LLM references.",
+    "unspecified": "LLM/agent use is mentioned but its architecture is not established."
+  },
+  "autonomy": {
+    "single-step": "Direct response, prediction or one-shot generation.",
+    "human-in-loop": "A human directs or reviews intermediate scientific steps.",
+    "bounded-multistep": "Agent performs several tool/reasoning steps within an assigned task.",
+    "closed-loop": "Explicit iterative proposal-execution-measurement/evaluation-feedback loop.",
+    "not-applicable": "No scientific LLM application or pure context/review.",
+    "unspecified": "Cannot establish autonomy from title/abstract; do not infer from the word agent."
+  },
+  "breadth": {
+    "single-task": "One bounded prediction, extraction, analysis, proof or algorithmic task.",
+    "workflow": "Several connected scientific steps for a specific research objective.",
+    "platform": "Reusable infrastructure/framework spanning many tasks or workflows.",
+    "field-overview": "Survey, review or perspective across a field.",
+    "unclear": "Not established by title/abstract."
+  },
+  "kind": {
+    "application": "Reports an applied scientific research result or demonstrated application.",
+    "method": "Introduces a method/framework with domain demonstrations or tests.",
+    "benchmark": "Primary contribution is a dataset, benchmark or evaluation.",
+    "review-perspective": "Review, survey, perspective or overview.",
+    "proposal": "Proposed application or agenda without a reported demonstration.",
+    "other": "Other or unclear paper type."
+  },
+  "llm_role": {
+    "substantive": "An LLM performs scientific work, scientific data processing or research evaluation.",
+    "proposed": "Substantive scientific LLM use is proposed but not demonstrated.",
+    "incidental": "Only writing assistance, background comparison or a passing mention.",
+    "none": "No scientific language-model application is established; generic ML or physics of LLMs does not qualify.",
+    "unclear": "Insufficient evidence."
+  },
+  "confidence": {
+    "high": "Title/abstract directly establishes the labels.",
+    "medium": "Some labels are uncertain despite useful evidence.",
+    "low": "Missing abstract, ambiguous language, or substantial uncertainty."
+  }
+}

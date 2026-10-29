@@ -1,0 +1,338 @@
+{
+  "arxiv:2610.19404": {
+    "reviewer": "Codex, following Opus pilot audit",
+    "overrides": {
+      "agent_form": "unspecified"
+    },
+    "note": "The abstract says only that some benchmarked active-learning policies are guided by LLMs. It doesn't say whether the LLM predicts directly or calls tools, so single-model is more specific than the abstract supports."
+  },
+  "arxiv:2610.17832": {
+    "reviewer": "Codex, following Opus pilot audit",
+    "overrides": {
+      "scope": "cross-domain-science",
+      "application_scopes": [
+        "materials-science",
+        "molecular-chemistry"
+      ]
+    },
+    "note": "Two of the four test tasks (Buchwald–Hartwig and Suzuki–Miyaura) are molecular reaction optimization, alongside COF and PCE10. The abstract doesn't make the materials tasks primary, and the label's own reason admits the mix."
+  },
+  "arxiv:2610.17804": {
+    "reviewer": "Codex, following Opus pilot audit",
+    "overrides": {
+      "agent_form": "unspecified"
+    },
+    "note": "The model proposes architectures and examines simulated fracture responses, but the abstract never says the LLM chooses or runs the simulation tools. The proposal–evaluation loop still supports closed-loop autonomy."
+  },
+  "arxiv:2610.14922": {
+    "reviewer": "Codex, following Opus pilot audit",
+    "overrides": {
+      "use": "unclear",
+      "reason": "The abstract reports collaboration with a named AI model on neural-network Lyapunov spectra, but does not establish the specific AI contribution; this is adjacent statistical physics."
+    },
+    "note": "The paper only says it was done \"in collaboration with\" ChatGPT, and the label already sets llm_role to unclear. Assigning reasoning-proof claims a specific contribution the abstract doesn't describe."
+  },
+  "arxiv:2610.12426": {
+    "reviewer": "Codex, following Opus pilot audit",
+    "overrides": {
+      "use": "unclear",
+      "reason": "The abstract reports collaboration with a named AI model on neural-network Lyapunov spectra, but does not establish the specific AI contribution; this is adjacent statistical physics."
+    },
+    "note": "The named models' role is described only as collaboration, and llm_role is unclear. A reasoning-proof use isn't established."
+  },
+  "arxiv:2610.00943": {
+    "reviewer": "Codex, following Opus pilot audit",
+    "overrides": {
+      "scope": "cross-domain-science",
+      "application_scopes": [
+        "condensed-matter",
+        "materials-science",
+        "molecular-chemistry"
+      ]
+    },
+    "note": "The framework covers molecular, crystalline and model-Hamiltonian systems. Two of the three demonstrations are molecular (lutein DMRG-CASSCF, a CCSD dataset) and one is condensed-matter (honeycomb Hubbard DMET), so neither domain is primary."
+  },
+  "arxiv:2609.37053": {
+    "reviewer": "Codex, following Opus pilot audit",
+    "overrides": {
+      "use": "data-interpretation",
+      "secondary_uses": [
+        "literature-knowledge",
+        "agent-evaluation"
+      ],
+      "reason": "Benchmarks multimodal GUI agents on materials-science software, plotting scripts, and database queries; the abstract does not establish simulation execution."
+    },
+    "note": "The tasks named are GUI operation, OriginPro scripting and figure generation, and database queries. Running simulations isn't established, so data analysis is the tested scientific task, with database querying as a secondary use."
+  },
+  "arxiv:2610.12700": {
+    "reviewer": "Codex",
+    "overrides": {},
+    "note": "Checked against the full supplied abstract: explicit human-directed AI contribution to the Laughlin-gap proof and SDP search; mathematical correctness is not assessed."
+  },
+  "arxiv:2609.34119": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "autonomy": "human-in-loop",
+      "evidence": "The author formulated the problem and proposed the basic strategy, while ChatGPT Astra made substantial contributions to the development of the proof."
+    },
+    "note": "The abstract explicitly says the human directed the work, so human-in-loop is established and is not just a fallback label."
+  },
+  "arxiv:2609.25384": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "use": "code-algorithm-generation",
+      "breadth": "single-task",
+      "llm_role": "substantive"
+    },
+    "note": "The abstract says the released code was designed with extensive LLM use, so the role is code generation. How the model was used (agent_form, autonomy) stays unspecified. Confidence stays low."
+  },
+  "arxiv:2609.25000": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "kind": "application"
+    },
+    "note": "This reports a proved result with an LLM-generated construction. Label it as an application, consistent with the other LLM-assisted proof papers in this set."
+  },
+  "arxiv:2608.08752": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "kind": "application"
+    },
+    "note": "This is a rigorous result with LLM-generated arguments. Label it as an application, consistent with the other proof-collaboration records."
+  },
+  "arxiv:2609.17123": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "evidence": "Astra selects a redistributed source-interconnect geometry, while a coordinating agent proposes a substrate-directed heat-removal path."
+    },
+    "note": "The current evidence is only background motivation. The replacement text names the two agents, which is what supports the multi-agent and design labels."
+  },
+  "arxiv:2609.14928": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "agent_form": "unspecified"
+    },
+    "note": "The LLM agent generates control code. The abstract does not say whether the agent picks or runs tools itself, so tool-using is not established."
+  },
+  "arxiv:2609.22210": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "kind": "method"
+    },
+    "note": "The abstract describes released open-source software that already exists, not a proposed agenda. A substantive LLM role together with kind 'proposal' is inconsistent. No evaluation is reported, so confidence stays medium."
+  },
+  "arxiv:2609.00663": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "kind": "benchmark"
+    },
+    "note": "The main contribution is an evaluation instrument for vision-language models on rendered crystal structures, so this is a benchmark rather than a scientific method."
+  },
+  "arxiv:2608.25189": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "evidence": "a stage that measures the field into the quantities a theorist would consult and supplies them to the model as a direct input"
+    },
+    "note": "The current evidence is a motivating claim. The replacement text states the method itself."
+  },
+  "arxiv:2608.24513": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "llm_role": "unclear",
+      "confidence": "low"
+    },
+    "note": "'Chemical language model' here means a composition encoder distilled from an interatomic potential. Treat this generic term as establishing an LLM only cautiously."
+  },
+  "arxiv:2609.27036": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "confidence": "medium"
+    },
+    "note": "'Language model' is one of several generic predictor families compared, and graph models do best. The LLM role is thin and may refer to chemical language models."
+  },
+  "arxiv:2608.23631": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "agent_form": "unspecified"
+    },
+    "note": "The abstract mentions LLM agents and executable edits but never says the LLM chooses or runs tools. The contribution is a feedback/ranking framework."
+  },
+  "arxiv:2608.15928": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "use": "literature-knowledge",
+      "secondary_uses": [
+        "design-optimization"
+      ],
+      "evidence": "a large language model (LLM) that distills synthesis knowledge from the literature"
+    },
+    "note": "In this abstract the LLM's job is to distill literature to initialize the search. The experimental loop is closed by Bayesian optimization and imaging, not by LLM control of the experiments."
+  },
+  "arxiv:2607.23988": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "llm_role": "unclear",
+      "use": "unclear",
+      "autonomy": "unspecified",
+      "confidence": "low",
+      "reason": "A GPT-2 policy emits operator sequences for molecular electronic structure; the abstract does not establish a pretrained language model or scientific agent role.",
+      "scope": "molecular-chemistry",
+      "agent_form": "unspecified"
+    },
+    "note": "Lead qualification of the audit: the abstract is insufficient to declare a non-LLM architecture categorically; leave its language-model role unclear for full-text inspection."
+  },
+  "arxiv:2607.17498": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "scope": "adjacent-quantum",
+      "use": "design-optimization",
+      "secondary_uses": [
+        "code-algorithm-generation",
+        "literature-knowledge",
+        "simulation-workflow"
+      ],
+      "evidence": "We demonstrate this approach across three distinct settings: Case 1, Rydberg-atom maximum-independent-set arrays; Case 2, interacting XXZ spin chains",
+      "reason": "LLM workflow designs quantum optimal-control protocols for Rydberg MIS arrays, XXZ chains and TFIM annealing. The domain is quantum control, and the output is protocol design."
+    },
+    "note": "The paper is about quantum optimal control for adiabatic computation and annealing. The spin chains are control targets, not condensed-matter studies, so the scope is adjacent-quantum. The concrete output is control protocols, so design-optimization fits better than research-orchestration."
+  },
+  "arxiv:2607.17417": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "scope": "cross-domain-science",
+      "application_scopes": [
+        "molecular-chemistry",
+        "materials-science"
+      ],
+      "evidence": "Checkable claims, checked cheaply, are a practical lever for trustworthy machine reasoning in chemistry.",
+      "reason": "A database-grounded verifier repairs LLM chemistry and materials claims (formulas, space groups, energies). The reported gains concern formulas across chemistry prompts."
+    },
+    "note": "The title and abstract cover both chemistry and materials, and the headline result is about chemical formulas. Labelling it materials-science only overstates the materials focus. The materials-science application scope is kept."
+  },
+  "arxiv:2606.29717": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "use": "code-algorithm-generation",
+      "secondary_uses": [
+        "property-prediction"
+      ]
+    },
+    "note": "The coding agent writes and improves the GNN code. The language model does not predict band gaps itself, so property prediction is only the target task."
+  },
+  "arxiv:2606.29592": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "use": "data-interpretation",
+      "secondary_uses": [
+        "experimental-control"
+      ],
+      "autonomy": "unspecified",
+      "confidence": "low",
+      "evidence": "Production-tier vision-language models further underperform task-specific CNNs by {\\sim}13x on crystallographic defect analysis."
+    },
+    "note": "The closed-loop navigators in the benchmark are Bayesian, RL or FSM, not LLMs. The abstract only establishes VLMs as perception analysts for defect analysis, so closed-loop LLM autonomy is invented. agent_form stays unspecified."
+  },
+  "arxiv:2606.20729": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "scope": "molecular-chemistry",
+      "evidence": "We show that LADeQ accelerates coupled cluster singles and doubles (CCSD) and configuration interaction singles and doubles (CISD) calculations"
+    },
+    "note": "The demonstrations are CCSD and CISD in quantum-chemistry codes. The abstract mentions materials discovery only as motivation and shows no solid-state application."
+  },
+  "arxiv:2606.03764": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "use": "data-interpretation",
+      "secondary_uses": [
+        "property-prediction"
+      ]
+    },
+    "note": "The LLM's part is the inverse model, which infers crystal structure from measured Raman spectra and formulas. The forward spectrum predictor is a non-LLM GNN."
+  },
+  "arxiv:2606.05472": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "secondary_uses": [],
+      "confidence": "low"
+    },
+    "note": "Having no-substantive-application as a secondary use contradicts llm_role substantive. Generating synthetic device data fits no use category well, so confidence is low."
+  },
+  "arxiv:2606.14215": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "confidence": "low",
+      "llm_role": "unclear",
+      "agent_form": "unspecified",
+      "reason": "Conversational crystal generation is demonstrated, but the abstract does not establish whether the underlying model is an LLM; full text is needed."
+    },
+    "note": "The abstract never says LapidaryEngine is or contains an LLM. LLMs appear only as motivation, so the substantive LLM role is uncertain."
+  },
+  "arxiv:2608.05266": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "confidence": "low"
+    },
+    "note": "The abstract never names materials or samples, so the materials-science scope is inferred only from the instrument type (microscopes and beamlines)."
+  },
+  "arxiv:2605.26179": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "secondary_uses": []
+    },
+    "note": "VASPBench is a scientific DFT task benchmark; per guidance use the scientific task (simulation-workflow) rather than generic agent-evaluation."
+  },
+  "arxiv:2605.24002": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "scope": "cross-domain-science",
+      "application_scopes": [
+        "materials-science",
+        "molecular-chemistry"
+      ],
+      "evidence": "conduct atomistic research across materials science, chemistry, and drug discovery"
+    },
+    "note": "Mixed-domain harness; demonstrations include materials campaigns (electrolytes, MOFs, catalysts, XRD) and molecular drug-design virtual screening, so cross-domain primary with materials retained."
+  },
+  "arxiv:2605.20242": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "autonomy": "human-in-loop",
+      "evidence": "an expert-in-the-loop closed framework that couples a domain-specialized large language model(LLM) with active learning"
+    },
+    "note": "Loop is explicitly expert-in-the-loop with expert feasibility review between screening rounds; closed-loop autonomy overstates it. LLM supplies literature-derived descriptors to Bayesian optimization."
+  },
+  "arxiv:2605.17675": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "scope": "general-methods"
+    },
+    "note": "Primary contribution is governance guidance for AI-assisted scientific software development; the fusion tritium-migration code is only a demonstration platform, not a materials application."
+  },
+  "arxiv:2605.16191": {
+    "reviewer": "Opus abstract audit, integrated by Codex",
+    "overrides": {
+      "scope": "other-physics"
+    },
+    "note": "Optimizes macroscopic 3D PV geometry and sun-angle/shadowing via an optics solver; no materials discovery or properties are involved."
+  },
+  "arxiv:2605.26741": {
+    "reviewer": "Codex",
+    "overrides": {},
+    "note": "Did not accept incidental-role recommendation: the abstract explicitly reports evaluating LLM recommendation strategies for materials inverse design. Being one of many tested baselines does not make scientific LLM evaluation incidental."
+  },
+  "arxiv:2609.30133": {
+    "reviewer": "Codex",
+    "overrides": {
+      "evidence": "adaptive multi-objective optimization, and context-aware large-language-model reasoning"
+    },
+    "note": "Replaced a paraphrased source excerpt with an exact contiguous abstract substring; labels retained after checking the abstract."
+  },
+  "arxiv:2607.04072": {
+    "reviewer": "Codex",
+    "overrides": {
+      "evidence": "introduce quantum-api-drift, a benchmark for measuring version fidelity"
+    },
+    "note": "Replaced a paraphrased source excerpt with an exact contiguous abstract substring; labels retained after checking the abstract."
+  }
+}

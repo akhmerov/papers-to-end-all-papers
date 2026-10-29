@@ -1,0 +1,1486 @@
+{
+  "models": [
+    {
+      "key": "deepseek-v4-pro",
+      "identified_as": "DeepSeek-V4-Pro",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2026-04-24",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "First public API preview; GA update followed 2026-08-13."
+    },
+    {
+      "key": "deepseek-r1",
+      "identified_as": "DeepSeek-R1 / DeepSeek-R1-Distill-Llama-8B",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2025-01-20",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "Merged full R1 and 8B distillation; same release, different models."
+    },
+    {
+      "key": "deepseek-v4-flash",
+      "identified_as": "DeepSeek-V4-Flash",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2026-04-24",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "First public API preview; subsequent updates retain same family name."
+    },
+    {
+      "key": "qwen2.5-7b",
+      "identified_as": "Qwen2.5-7B (Base/Instruct)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Raw Turbo suffix may denote provider optimization; not an official original checkpoint."
+    },
+    {
+      "key": "qwen3-8b",
+      "identified_as": "Qwen3-8B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "Original hybrid thinking/non-thinking checkpoint; informal Instruct suffix does not specify a later 2507 variant."
+    },
+    {
+      "key": "qwen3-max",
+      "identified_as": "Qwen3-Max",
+      "vendor": "Alibaba (Qwen)",
+      "class": "frontier-api",
+      "release_date": "2025-09-05",
+      "date_precision": "day",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "note": "First usable Max preview September 5; full Instruct September 23 (China), September 24 internationally; later Thinking is distinct."
+    },
+    {
+      "key": "qwen3-4b",
+      "identified_as": "Qwen3-4B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "Original hybrid thinking/non-thinking checkpoint; informal Instruct suffix does not specify a later 2507 variant."
+    },
+    {
+      "key": "qwen3-32b",
+      "identified_as": "Qwen3-32B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "Original hybrid thinking/non-thinking checkpoint; informal Instruct suffix does not specify a later 2507 variant."
+    },
+    {
+      "key": "qwen3-vl-8b",
+      "identified_as": "Qwen3-VL-8B (Instruct/Thinking)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-10-15",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "Both Instruct and Thinking released together."
+    },
+    {
+      "key": "qwen3.6-plus",
+      "identified_as": "Qwen3.6-Plus",
+      "vendor": "Alibaba (Qwen)",
+      "class": "frontier-api",
+      "release_date": "2026-04-02",
+      "date_precision": "day",
+      "source_url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen3-6-plus-to-accelerate-agentic?_p_lc=1",
+      "note": ""
+    },
+    {
+      "key": "deepseek-v3",
+      "identified_as": "DeepSeek-V3",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2024-12-26",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "V3 identified from raw name; deepseek-chat is a mutable alias, not a fixed checkpoint."
+    },
+    {
+      "key": "deepseek-v3.2",
+      "identified_as": "DeepSeek-V3.2",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2025-12-01",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "MAAS denotes serving platform, not a separate release."
+    },
+    {
+      "key": "qwen3.5-9b",
+      "identified_as": "Qwen3.5-9B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-03-02",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": ""
+    },
+    {
+      "key": "qwen2.5-14b",
+      "identified_as": "Qwen2.5-14B (Base/Instruct)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Base/Instruct unspecified where absent from raw name; shared release."
+    },
+    {
+      "key": "qwen3-235b-a22b",
+      "identified_as": "Qwen3-235B-A22B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "235B shorthand omits A22B. Separate Instruct/Thinking-2507 releases must not be conflated with original hybrid model."
+    },
+    {
+      "key": "qwen3.5-397b-a17b",
+      "identified_as": "Qwen3.5-397B-A17B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-02-16",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": "Repository release news dates weights February 16; blog dateline is February 15."
+    },
+    {
+      "key": "kimi-k2.5",
+      "identified_as": "Kimi K2.5",
+      "vendor": "Moonshot AI",
+      "class": "open-weights",
+      "release_date": "2026-01-27",
+      "date_precision": "day",
+      "source_url": "https://www.kimi.com/en/blog/",
+      "note": ""
+    },
+    {
+      "key": "qwen3-1.7b",
+      "identified_as": "Qwen3-1.7B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "Original hybrid thinking/non-thinking checkpoint; informal Instruct suffix does not specify a later 2507 variant."
+    },
+    {
+      "key": "qwen2.5-coder-7b",
+      "identified_as": "Qwen2.5-Coder-7B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Coding specialization retains general language ability; not a scientific domain model."
+    },
+    {
+      "key": "deepseek-v4.1-flash",
+      "identified_as": "DeepSeek-V4.1-Flash",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2026-09-10",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": ""
+    },
+    {
+      "key": "kimi-k2",
+      "identified_as": "Kimi K2 / Kimi K2 Thinking",
+      "vendor": "Moonshot AI",
+      "class": "open-weights",
+      "release_date": "2025-07-11",
+      "date_precision": "day",
+      "source_url": "https://www.kimi.com/en/blog/",
+      "note": "Merged distinct models: K2 Instruct July 11; K2 Thinking November 6. Date is earliest, not Thinking release."
+    },
+    {
+      "key": "deepseek-r1-0528-qwen3-8b",
+      "identified_as": "DeepSeek-R1-0528-Qwen3-8B",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2025-05-29",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B/commits/main",
+      "note": "Weights upload date; separate from full R1-0528 API update."
+    },
+    {
+      "key": "qwen3.5-122b-a10b",
+      "identified_as": "Qwen3.5-122B-A10B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-02-24",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": ""
+    },
+    {
+      "key": "qwen3-235b-a22b-2507",
+      "identified_as": "Qwen3-235B-A22B-Instruct-2507 / Thinking-2507",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-07-21",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3",
+      "note": "Merged releases: Instruct 2025-07-21; Thinking 2025-07-25. Date is earliest, not valid for Thinking."
+    },
+    {
+      "key": "qwen3-vl-32b",
+      "identified_as": "Qwen3-VL-32B (Instruct/Thinking)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-10-21",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "Both Instruct and Thinking released together."
+    },
+    {
+      "key": "glm-4.6v",
+      "identified_as": "GLM-4.6V",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2025-12-08",
+      "date_precision": "day",
+      "source_url": "https://z.ai/blog/glm-4.6v",
+      "note": ""
+    },
+    {
+      "key": "kimi-k2.6",
+      "identified_as": "Kimi K2.6",
+      "vendor": "Moonshot AI",
+      "class": "open-weights",
+      "release_date": "2026-04-20",
+      "date_precision": "day",
+      "source_url": "https://www.kimi.com/en/blog/",
+      "note": ""
+    },
+    {
+      "key": "minimax-m2.7",
+      "identified_as": "MiniMax-M2.7",
+      "vendor": "MiniMax",
+      "class": "open-weights",
+      "release_date": "2026-03-18",
+      "date_precision": "day",
+      "source_url": "https://www.minimax.io/news/minimax-m27-en",
+      "note": "First public product/API release; open weights followed."
+    },
+    {
+      "key": "qwen2.5-3b",
+      "identified_as": "Qwen2.5-3B (Base/Instruct)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Base/Instruct unspecified where absent from raw name; shared release."
+    },
+    {
+      "key": "glm-5.1",
+      "identified_as": "GLM-5.1",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2026-04-07",
+      "date_precision": "day",
+      "source_url": "https://docs.z.ai/release-notes/new-released",
+      "note": ""
+    },
+    {
+      "key": "qwen3-vl-235b",
+      "identified_as": "Qwen3-VL-235B-A22B (Instruct/Thinking)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-09-23",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "235B shorthand omits A22B."
+    },
+    {
+      "key": "qwen3-vl",
+      "identified_as": "Qwen3-VL family",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "No fixed checkpoint/size identified; family or mutable endpoint alone is insufficient."
+    },
+    {
+      "key": "qwen3.6-35b-a3b",
+      "identified_as": "Qwen3.6-35B-A3B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-04-16",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": "35B Ollama shorthand omits A3B."
+    },
+    {
+      "key": "glm-4.5-air",
+      "identified_as": "GLM-4.5-Air",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2025-07-28",
+      "date_precision": "day",
+      "source_url": "https://z.ai/blog/glm-4.5",
+      "note": ""
+    },
+    {
+      "key": "qwen3.5-35b-a3b",
+      "identified_as": "Qwen3.5-35B-A3B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-02-24",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": ""
+    },
+    {
+      "key": "qwen3.5-27b",
+      "identified_as": "Qwen3.5-27B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-02-24",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": ""
+    },
+    {
+      "key": "qwen3-235b",
+      "identified_as": "Qwen3-235B-A22B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "235B shorthand omits A22B. Separate Instruct/Thinking-2507 releases must not be conflated with original hybrid model."
+    },
+    {
+      "key": "internvl3.5",
+      "identified_as": "InternVL3.5 family",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": "No size/checkpoint; family first released 2025-08-26."
+    },
+    {
+      "key": "qwen2.5-vl",
+      "identified_as": "Qwen2.5-VL / Qwen2.5",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "Extraction merges a VLM family and text-only family; no unique model/date."
+    },
+    {
+      "key": "qwen3.5",
+      "identified_as": "Qwen3.5 family or hosted alias",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "note": "No fixed checkpoint/size identified; family or mutable endpoint alone is insufficient."
+    },
+    {
+      "key": "qwen3-0.6b",
+      "identified_as": "Qwen3-0.6B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "Original hybrid thinking/non-thinking checkpoint; informal Instruct suffix does not specify a later 2507 variant."
+    },
+    {
+      "key": "deepseek-v4",
+      "identified_as": "DeepSeek-V4 family (Pro or Flash unspecified)",
+      "vendor": "DeepSeek",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "Family released 2026-04-24; tier unspecified."
+    },
+    {
+      "key": "glm-5v",
+      "identified_as": "GLM-5V-Turbo",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "frontier-api",
+      "release_date": "2026-04-01",
+      "date_precision": "day",
+      "source_url": "https://www.zhipuai.cn/en/research",
+      "note": "Key drops Turbo; vendor research index dates April 1, GitHub news April 2."
+    },
+    {
+      "key": "internvl3-5-4b",
+      "identified_as": "InternVL3.5-4B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-08-26",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": "Underscore 3_5 and dot 3.5 denote same generation; Instruct is informal suffix."
+    },
+    {
+      "key": "qwen3.6-27b",
+      "identified_as": "Qwen3.6-27B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-04-21",
+      "date_precision": "day",
+      "source_url": "https://qwen.ai/blog?id=qwen3.6-27b",
+      "note": "Blog says live in chat and open weights April 21; repository news/API rollout dated April 22."
+    },
+    {
+      "key": "qwen3-coder",
+      "identified_as": "Qwen3-Coder family",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/QwenLM/Qwen3-Coder",
+      "note": "No fixed checkpoint/size identified; family or mutable endpoint alone is insufficient."
+    },
+    {
+      "key": "qwen2.5-coder-32b",
+      "identified_as": "Qwen2.5-Coder-32B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-11-12",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+      "note": "Coding specialization retains general language ability; not a scientific domain model."
+    },
+    {
+      "key": "doubao-seed-1-8",
+      "identified_as": "Doubao-Seed-1.8 (Seed1.8)",
+      "vendor": "ByteDance",
+      "class": "frontier-api",
+      "release_date": "2025-12-18",
+      "date_precision": "day",
+      "source_url": "https://seed.bytedance.com/en/seed1_8?trk=article-ssr-frontend-pulse_little-text-block",
+      "note": "Official launch article December 18; portfolio lists December 17; December 28 is a later API snapshot."
+    },
+    {
+      "key": "qwen2.5-72b",
+      "identified_as": "Qwen2.5-72B (Base/Instruct)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Base/Instruct unspecified where absent from raw name; shared release."
+    },
+    {
+      "key": "deepseek-r1-0528",
+      "identified_as": "DeepSeek-R1-0528",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2025-05-28",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": ""
+    },
+    {
+      "key": "qwen2.5-1.5b",
+      "identified_as": "Qwen2.5-1.5B (Base/Instruct)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Base/Instruct unspecified where absent from raw name; shared release."
+    },
+    {
+      "key": "glm-4.6",
+      "identified_as": "GLM-4.6",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2025-09-30",
+      "date_precision": "day",
+      "source_url": "https://docs.z.ai/release-notes/new-released",
+      "note": ""
+    },
+    {
+      "key": "mimo-v2-flash",
+      "identified_as": "MiMo-V2-Flash",
+      "vendor": "Xiaomi",
+      "class": "open-weights",
+      "release_date": "2025-12-16",
+      "date_precision": "day",
+      "source_url": "https://mimo.xiaomi.com/mimo-v2-flash",
+      "note": ""
+    },
+    {
+      "key": "deepseek-v3.1",
+      "identified_as": "DeepSeek-V3.1",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2025-08-21",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": ""
+    },
+    {
+      "key": "internvl3-38b",
+      "identified_as": "InternVL3-38B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-04-11",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": ""
+    },
+    {
+      "key": "internvl3-78b",
+      "identified_as": "InternVL3-78B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-04-11",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": ""
+    },
+    {
+      "key": "kimi-vl-a3b",
+      "identified_as": "Kimi-VL-A3B-Instruct / Kimi-VL-A3B-Thinking",
+      "vendor": "Moonshot AI",
+      "class": "open-weights",
+      "release_date": "2025-04-09",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct/commits/main",
+      "note": "First weights upload April 9 UTC; vendor blog indexed April 10. Instruct/Thinking variant unspecified."
+    },
+    {
+      "key": "deepseek-model",
+      "identified_as": "DeepSeek-V3",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2024-12-26",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "V3 identified from raw name; deepseek-chat is a mutable alias, not a fixed checkpoint."
+    },
+    {
+      "key": "deepseek-v3.2-exp",
+      "identified_as": "DeepSeek-V3.2-Exp",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2025-09-29",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": ""
+    },
+    {
+      "key": "internvl3.5-2b",
+      "identified_as": "InternVL3.5-2B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-08-26",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": "Underscore 3_5 and dot 3.5 denote same generation; Instruct is informal suffix."
+    },
+    {
+      "key": "internvl3.5-8b",
+      "identified_as": "InternVL3.5-8B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-08-26",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": "Underscore 3_5 and dot 3.5 denote same generation; Instruct is informal suffix."
+    },
+    {
+      "key": "qwen3-vl-4b",
+      "identified_as": "Qwen3-VL-4B (Instruct/Thinking)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-10-15",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "Both Instruct and Thinking released together."
+    },
+    {
+      "key": "qwen3-vl-embedding",
+      "identified_as": "Qwen3-VL-Embedding (2B or 8B unspecified)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "encoder-or-other",
+      "release_date": "2026-01-07",
+      "date_precision": "day",
+      "source_url": "https://qwen.ai/blog?id=qwen3-vl-embedding",
+      "note": "Embedding family, not a generative VLM; both sizes share release."
+    },
+    {
+      "key": "qwen3-vl-2b",
+      "identified_as": "Qwen3-VL-2B (Instruct/Thinking)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-10-21",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "Both Instruct and Thinking released together."
+    },
+    {
+      "key": "internvl3.5-4b",
+      "identified_as": "InternVL3.5-4B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-08-26",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": "Underscore 3_5 and dot 3.5 denote same generation; Instruct is informal suffix."
+    },
+    {
+      "key": "scienceone-s1-base-ultra",
+      "identified_as": "ScienceOne S1-Base-Ultra (probably S1-Base-671B)",
+      "vendor": "Chinese Academy of Sciences / ScienceOne-AI",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://indico.ihep.ac.cn/event/26373/contributions/199248/attachments/94111/123398/%E7%A3%90%E7%9F%B3.pdf",
+      "note": "Scientific foundation model. Ultra branding appears in ScienceOne material; mapping to 671B plausible but not established by this model card."
+    },
+    {
+      "key": "qwen3.6-35b",
+      "identified_as": "Qwen3.6-35B-A3B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-04-16",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": "35B Ollama shorthand omits A3B."
+    },
+    {
+      "key": "qwen3.8-27b",
+      "identified_as": "Qwen3.8-27B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-08-14",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": "Verified model; not an extraction typo for Qwen3.6."
+    },
+    {
+      "key": "qwen3-next-80b",
+      "identified_as": "Qwen3-Next-80B-A3B-Instruct",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-09-11",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": "Raw name omits A3B."
+    },
+    {
+      "key": "qwen-plus",
+      "identified_as": "Qwen-Plus (rolling API alias)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "note": "No fixed checkpoint/size identified; family or mutable endpoint alone is insufficient."
+    },
+    {
+      "key": "doubao-1.5-pro",
+      "identified_as": "Doubao-1.5-Pro (Seed1.5)",
+      "vendor": "ByteDance",
+      "class": "frontier-api",
+      "release_date": "2025-01-22",
+      "date_precision": "day",
+      "source_url": "https://seed.bytedance.com/en/seed_model_portfolio",
+      "note": ""
+    },
+    {
+      "key": "qwen3.5-plus",
+      "identified_as": "Qwen3.5-Plus",
+      "vendor": "Alibaba (Qwen)",
+      "class": "frontier-api",
+      "release_date": "2026-02-15",
+      "date_precision": "day",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "note": "Earliest hosted release in vendor lifecycle table; distinct from next-day open-weights announcement."
+    },
+    {
+      "key": "doubao-seed-2.0",
+      "identified_as": "Doubao-Seed-2.0 (Pro/Lite/Mini unspecified)",
+      "vendor": "ByteDance",
+      "class": "frontier-api",
+      "release_date": "2026-02-14",
+      "date_precision": "day",
+      "source_url": "https://seed.bytedance.com/en/seed_model_portfolio",
+      "note": "Model family/tier unspecified; shared initial release."
+    },
+    {
+      "key": "hunyuan-1.8b",
+      "identified_as": "Hunyuan-1.8B-Instruct",
+      "vendor": "Tencent",
+      "class": "open-weights",
+      "release_date": "2025-07-30",
+      "date_precision": "day",
+      "source_url": "https://github.com/Tencent-Hunyuan/Hunyuan-1.8B/blob/main/README_CN.md",
+      "note": ""
+    },
+    {
+      "key": "hunyuan-7b",
+      "identified_as": "Hunyuan-7B-Instruct",
+      "vendor": "Tencent",
+      "class": "open-weights",
+      "release_date": "2025-07-30",
+      "date_precision": "day",
+      "source_url": "https://github.com/Tencent-Hunyuan/Hunyuan-1.8B/blob/main/README_CN.md",
+      "note": ""
+    },
+    {
+      "key": "hunyuan-4b",
+      "identified_as": "Hunyuan-4B-Instruct",
+      "vendor": "Tencent",
+      "class": "open-weights",
+      "release_date": "2025-07-30",
+      "date_precision": "day",
+      "source_url": "https://github.com/Tencent-Hunyuan/Hunyuan-1.8B/blob/main/README_CN.md",
+      "note": ""
+    },
+    {
+      "key": "intern-s1-pro",
+      "identified_as": "Intern-S1-Pro",
+      "vendor": "Shanghai AI Laboratory",
+      "class": "domain",
+      "release_date": "2026-02-04",
+      "date_precision": "day",
+      "source_url": "https://www.shlab.org.cn/news/5444227",
+      "note": "Vendor article February 5 explicitly says open-sourced February 4."
+    },
+    {
+      "key": "qwen3-30b-a3b-2507",
+      "identified_as": "Qwen3-30B-A3B-Instruct-2507",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-07-30",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3",
+      "note": ""
+    },
+    {
+      "key": "qwen3-coder-480b",
+      "identified_as": "Qwen3-Coder-480B-A35B-Instruct",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-07-22",
+      "date_precision": "day",
+      "source_url": "https://qwen.ai/blog?id=qwen3-coder",
+      "note": "Raw name omits A35B-Instruct."
+    },
+    {
+      "key": "qwen3-coder-next",
+      "identified_as": "Qwen3-Coder-Next",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-02-03",
+      "date_precision": "day",
+      "source_url": "https://qwen.ai/blog?id=qwen3-coder-next",
+      "note": "Public launch February 3; English blog dateline February 2. Repository was staged January 30; upload time alone does not establish public availability."
+    },
+    {
+      "key": "s1-base-8b",
+      "identified_as": "ScienceOne S1-Base-8B",
+      "vendor": "Chinese Academy of Sciences / ScienceOne-AI",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/ScienceOne-AI/S1-Base-8B",
+      "note": "Scientific fine-tune of Qwen3-8B; not the unrelated s1 reasoning project."
+    },
+    {
+      "key": "qwen3.6",
+      "identified_as": "Qwen3.6 family",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "note": "No fixed checkpoint/size identified; family or mutable endpoint alone is insufficient."
+    },
+    {
+      "key": "qwen3-14b",
+      "identified_as": "Qwen3-14B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-04-29",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "Original hybrid thinking/non-thinking checkpoint; informal Instruct suffix does not specify a later 2507 variant."
+    },
+    {
+      "key": "qwen2.5-3b-base",
+      "identified_as": "Qwen2.5-3B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Explicit base checkpoint."
+    },
+    {
+      "key": "glm-5",
+      "identified_as": "GLM-5",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2026-02-11",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/zai-org/GLM-5/commits/main",
+      "note": "First public weights February 11; API release notes/blog dated February 12."
+    },
+    {
+      "key": "deepseek-r1-14b",
+      "identified_as": "DeepSeek-R1-Distill-Qwen-14B",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2025-01-20",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "Ollama 14B tag denotes the distillation, not full R1."
+    },
+    {
+      "key": "qwen3.5-4b",
+      "identified_as": "Qwen3.5-4B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2026-03-02",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3.8",
+      "note": ""
+    },
+    {
+      "key": "qwenvlm-7b",
+      "identified_as": "Possibly Qwen2-VL-7B; Qwen-VL / Qwen2.5-VL-7B also possible",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "Noncanonical name; generation unresolved, so no release date assigned."
+    },
+    {
+      "key": "qwen3-coder-plus",
+      "identified_as": "Qwen3-Coder-Plus",
+      "vendor": "Alibaba (Qwen)",
+      "class": "frontier-api",
+      "release_date": "2025-07-22",
+      "date_precision": "day",
+      "source_url": "https://www.qwencloud.com/models/qwen3-coder-plus-2025-07-22",
+      "note": "Hosted proprietary coding model retaining general language ability; later snapshots share the rolling alias."
+    },
+    {
+      "key": "internvl3-5-8b",
+      "identified_as": "InternVL3.5-8B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-08-26",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": "Underscore 3_5 and dot 3.5 denote same generation; Instruct is informal suffix."
+    },
+    {
+      "key": "internvl3-5-2b",
+      "identified_as": "InternVL3.5-2B",
+      "vendor": "OpenGVLab / Shanghai AI Laboratory",
+      "class": "open-weights",
+      "release_date": "2025-08-26",
+      "date_precision": "day",
+      "source_url": "https://github.com/OpenGVLab/InternVL",
+      "note": "Underscore 3_5 and dot 3.5 denote same generation; Instruct is informal suffix."
+    },
+    {
+      "key": "glm-4.6v-flash",
+      "identified_as": "GLM-4.6V-Flash",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2025-12-08",
+      "date_precision": "day",
+      "source_url": "https://z.ai/blog/glm-4.6v",
+      "note": "9B open-weights version, released together with 106B."
+    },
+    {
+      "key": "qwen3.6-flash",
+      "identified_as": "Qwen3.6-Flash",
+      "vendor": "Alibaba (Qwen)",
+      "class": "frontier-api",
+      "release_date": "2026-04-16",
+      "date_precision": "day",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "note": "China API availability April 16; international rollout April 17."
+    },
+    {
+      "key": "glm-5.2",
+      "identified_as": "GLM-5.2",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2026-06-16",
+      "date_precision": "day",
+      "source_url": "https://docs.z.ai/release-notes/new-released",
+      "note": ""
+    },
+    {
+      "key": "glm-4.7-flash",
+      "identified_as": "GLM-4.7-Flash",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2026-01-19",
+      "date_precision": "day",
+      "source_url": "https://www.zhipuai.cn/en/research",
+      "note": ""
+    },
+    {
+      "key": "qwen2.5",
+      "identified_as": "Qwen2.5 family",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "note": "No fixed checkpoint/size identified; family or mutable endpoint alone is insufficient."
+    },
+    {
+      "key": "qwen2.5-coder",
+      "identified_as": "Qwen2.5-Coder family",
+      "vendor": "Alibaba (Qwen)",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/QwenLM/Qwen3-Coder",
+      "note": "No fixed checkpoint/size identified; family or mutable endpoint alone is insufficient."
+    },
+    {
+      "key": "kimi-k3",
+      "identified_as": "Kimi K3",
+      "vendor": "Moonshot AI",
+      "class": "open-weights",
+      "release_date": "2026-07-16",
+      "date_precision": "day",
+      "source_url": "https://www.kimi.com/en/blog/",
+      "note": "First public chat/API release; weights announced for July 27."
+    },
+    {
+      "key": "minimax-m3",
+      "identified_as": "MiniMax-M3",
+      "vendor": "MiniMax",
+      "class": "open-weights",
+      "release_date": "2026-06-01",
+      "date_precision": "day",
+      "source_url": "https://www.minimax.io/blog/minimax-m3",
+      "note": "API/chat available at launch; weights promised within ten days."
+    },
+    {
+      "key": "qwen2.5-coder-3b",
+      "identified_as": "Qwen2.5-Coder-3B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-11-12",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+      "note": "Coding specialization retains general language ability; not a scientific domain model."
+    },
+    {
+      "key": "qwen2.5-coder-14b",
+      "identified_as": "Qwen2.5-Coder-14B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-11-12",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+      "note": "Coding specialization retains general language ability; not a scientific domain model."
+    },
+    {
+      "key": "qwen3-embedding-8b",
+      "identified_as": "Qwen3-Embedding-8B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "encoder-or-other",
+      "release_date": "2025-06-05",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen3-embedding/",
+      "note": "Official public release announcement; repository staged uploads began June 3, which does not establish public visibility."
+    },
+    {
+      "key": "deepseek-7b",
+      "identified_as": "DeepSeek LLM 7B (Base or Chat unspecified)",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2023-11-29",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat/commits/main",
+      "note": "Plausible identification; could also be shorthand for another DeepSeek 7B model."
+    },
+    {
+      "key": "qwq-32b",
+      "identified_as": "QwQ-32B",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-03-06",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwq-32b/",
+      "note": "Full QwQ-32B release, distinct from November 2024 QwQ-32B-Preview."
+    },
+    {
+      "key": "mimo-v2.5",
+      "identified_as": "MiMo-V2.5",
+      "vendor": "Xiaomi",
+      "class": "open-weights",
+      "release_date": "2026-04-22",
+      "date_precision": "day",
+      "source_url": "https://mimo.xiaomi.com/mimo-v2-5",
+      "note": "English launch dateline April 22; China public beta April 23."
+    },
+    {
+      "key": "mimo-v2.5-pro",
+      "identified_as": "MiMo-V2.5-Pro",
+      "vendor": "Xiaomi",
+      "class": "open-weights",
+      "release_date": "2026-04-23",
+      "date_precision": "day",
+      "source_url": "https://mimo.mi.com/docs/en-US/news/latest/v2.5-open-sourced",
+      "note": "Vendor records public testing April 23; English GA/open-weight article April 27."
+    },
+    {
+      "key": "qwen3-vl-235b-a22b",
+      "identified_as": "Qwen3-VL-235B-A22B (Instruct/Thinking)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-09-23",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": "235B shorthand omits A22B."
+    },
+    {
+      "key": "qwen2.5-vl-72b",
+      "identified_as": "Qwen2.5-VL-72B-Instruct",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-01-28",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": ""
+    },
+    {
+      "key": "z-ai/glm-4.6v",
+      "identified_as": "GLM-4.6V",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2025-12-08",
+      "date_precision": "day",
+      "source_url": "https://z.ai/blog/glm-4.6v",
+      "note": "Provider-qualified duplicate of glm-4.6v."
+    },
+    {
+      "key": "bytedance-seed/seed-1.6",
+      "identified_as": "Seed1.6 / Doubao-1.6",
+      "vendor": "ByteDance",
+      "class": "frontier-api",
+      "release_date": "2025-06-11",
+      "date_precision": "day",
+      "source_url": "https://epaper.stcn.com/att/202506/12/e3fb702f-e27e-4557-9766-9a4352ec5a9b.pdf",
+      "note": "Reliable secondary source: Securities Times June 12 reporting public launch June 11. Vendor technical introduction June 25 is later."
+    },
+    {
+      "key": "qwen2.5-0.5b",
+      "identified_as": "Qwen2.5-0.5B (Base/Instruct)",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2024-09-19",
+      "date_precision": "day",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "note": "Base/Instruct unspecified where absent from raw name; shared release."
+    },
+    {
+      "key": "qwen2.5-vl-7b",
+      "identified_as": "Qwen2.5-VL-7B-Instruct",
+      "vendor": "Alibaba (Qwen)",
+      "class": "open-weights",
+      "release_date": "2025-01-28",
+      "date_precision": "day",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL",
+      "note": ""
+    },
+    {
+      "key": "kimi",
+      "identified_as": "Kimi (product/family unspecified)",
+      "vendor": "Moonshot AI",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.kimi.com/en/blog/",
+      "note": "No model generation or checkpoint."
+    },
+    {
+      "key": "deepseek-flash",
+      "identified_as": "DeepSeek Flash (rolling API alias)",
+      "vendor": "DeepSeek",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "Currently V4.1-Flash-1017; unversioned alias cannot identify the paper's checkpoint."
+    },
+    {
+      "key": "glm-5.3",
+      "identified_as": "GLM-5.3",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2026-08-14",
+      "date_precision": "day",
+      "source_url": "https://z.ai/blog/glm-5.3",
+      "note": "Usable through GLM Coding Plan August 14; direct API release notes August 18; weights later."
+    },
+    {
+      "key": "glm-5.3-flash",
+      "identified_as": "GLM-5.3-Flash",
+      "vendor": "Zhipu AI (Z.ai)",
+      "class": "open-weights",
+      "release_date": "2026-08-26",
+      "date_precision": "day",
+      "source_url": "https://docs.z.ai/release-notes/new-released",
+      "note": ""
+    },
+    {
+      "key": "deepseek-4.0-pro",
+      "identified_as": "DeepSeek-V4-Pro",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2026-04-24",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "First public API preview; GA update followed 2026-08-13. '4.0 Pro' is noncanonical spelling."
+    },
+    {
+      "key": "deepseek-4.0-flash",
+      "identified_as": "DeepSeek-V4-Flash",
+      "vendor": "DeepSeek",
+      "class": "open-weights",
+      "release_date": "2026-04-24",
+      "date_precision": "day",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "note": "Initial API preview; '4.0 Flash' is noncanonical spelling."
+    }
+  ],
+  "frontier": [
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-01 (Text-01 / VL-01)",
+      "release_date": "2025-01-15",
+      "source_url": "https://huggingface.co/blog/MiniMax-AI/minimax01"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-R1",
+      "release_date": "2025-01-20",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi K1.5 (public web release; secondary-source date)",
+      "release_date": "2025-01-25",
+      "source_url": "https://the-decoder.com/chinese-openai-o1-challenger-kimi-k1-5-now-available-as-free-web-version/"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen2.5-Max",
+      "release_date": "2025-01-28",
+      "source_url": "https://qwenlm.github.io/blog/qwen2.5-max/"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "QwQ-32B",
+      "release_date": "2025-03-06",
+      "source_url": "https://qwenlm.github.io/blog/qwq-32b/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3-0324",
+      "release_date": "2025-03-24",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-4-32B-0414 / GLM-Z1-32B-0414",
+      "release_date": "2025-04-14",
+      "source_url": "https://github.com/zai-org/GLM-4/blob/main/README.md"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3-235B-A22B",
+      "release_date": "2025-04-29",
+      "source_url": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi Thinking Preview (secondary-source date)",
+      "release_date": "2025-05-06",
+      "source_url": "https://www.ithome.com/0/851/026.htm"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-R1-0528",
+      "release_date": "2025-05-28",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M1",
+      "release_date": "2025-06-16",
+      "source_url": "https://www.minimax.io/news/minimaxm1"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi K2",
+      "release_date": "2025-07-11",
+      "source_url": "https://www.kimi.com/en/blog/"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "release_date": "2025-07-21",
+      "source_url": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "release_date": "2025-07-25",
+      "source_url": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-4.5",
+      "release_date": "2025-07-28",
+      "source_url": "https://z.ai/blog/glm-4.5"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3.1",
+      "release_date": "2025-08-21",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3-Max-Preview",
+      "release_date": "2025-09-05",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi-K2-Instruct-0905",
+      "release_date": "2025-09-05",
+      "source_url": "https://www.kimi.com/en/blog/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3.1-Terminus",
+      "release_date": "2025-09-22",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3-Max-Instruct (GA)",
+      "release_date": "2025-09-23",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3.2-Exp",
+      "release_date": "2025-09-29",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-4.6",
+      "release_date": "2025-09-30",
+      "source_url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M2",
+      "release_date": "2025-10-27",
+      "source_url": "https://www.minimax.io/blog"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi K2 Thinking",
+      "release_date": "2025-11-06",
+      "source_url": "https://www.kimi.com/en/blog/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3.2-Speciale",
+      "release_date": "2025-12-01",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-4.7",
+      "release_date": "2025-12-22",
+      "source_url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M2.1",
+      "release_date": "2025-12-23",
+      "source_url": "https://www.minimax.io/blog"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3-Max-Thinking",
+      "release_date": "2026-01-23",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi K2.5",
+      "release_date": "2026-01-27",
+      "source_url": "https://www.kimi.com/en/blog/"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-5",
+      "release_date": "2026-02-11",
+      "source_url": "https://www.zhipuai.cn/en/research"
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M2.5",
+      "release_date": "2026-02-12",
+      "source_url": "https://www.minimax.io/news/minimax-m25"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3.5-Plus",
+      "release_date": "2026-02-15",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M2.7",
+      "release_date": "2026-03-18",
+      "source_url": "https://www.minimax.io/news/minimax-m27-en"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3.6-Plus",
+      "release_date": "2026-04-02",
+      "source_url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen3-6-plus-to-accelerate-agentic?_p_lc=1"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-5.1",
+      "release_date": "2026-04-07",
+      "source_url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3.6-Max-Preview",
+      "release_date": "2026-04-14",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi K2.6",
+      "release_date": "2026-04-20",
+      "source_url": "https://www.kimi.com/en/blog/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V4-Pro (preview)",
+      "release_date": "2026-04-24",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3.7-Max",
+      "release_date": "2026-05-20",
+      "source_url": "https://qwen.ai/blog?id=qwen3.7"
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M3",
+      "release_date": "2026-06-01",
+      "source_url": "https://www.minimax.io/blog/minimax-m3"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-5.2",
+      "release_date": "2026-06-16",
+      "source_url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi K3",
+      "release_date": "2026-07-16",
+      "source_url": "https://www.kimi.com/en/blog/"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3.8-Max",
+      "release_date": "2026-08-02",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V4-Pro (GA update)",
+      "release_date": "2026-08-13",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "Zhipu AI (Z.ai)",
+      "model": "GLM-5.3",
+      "release_date": "2026-08-14",
+      "source_url": "https://z.ai/blog/glm-5.3"
+    },
+    {
+      "vendor": "Alibaba (Qwen)",
+      "model": "Qwen3.8-Max-0902",
+      "release_date": "2026-09-02",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V4.1-Flash",
+      "release_date": "2026-09-10",
+      "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V4.1-Flash-1017",
+      "release_date": "2026-10-17",
+      "source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M3.1-Flash",
+      "release_date": "2026-10-19",
+      "source_url": "https://www.minimax.io/blog/minimax-m31f"
+    },
+    {
+      "vendor": "Moonshot AI",
+      "model": "Kimi K3.1 Pro",
+      "release_date": "2026-10-23",
+      "source_url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html"
+    }
+  ]
+}

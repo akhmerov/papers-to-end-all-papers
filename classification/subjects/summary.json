@@ -1,0 +1,263 @@
+{
+ "n": 228,
+ "coders": {
+  "sol": "GPT-6.1 Sol",
+  "opus": "Claude Opus 5.5"
+ },
+ "agreement": {
+  "field": {
+   "n": 228,
+   "kappa": 0.9,
+   "raw": 0.91
+  },
+  "field_supergroup": {
+   "n": 228,
+   "kappa": 0.9,
+   "raw": 0.93
+  },
+  "question": {
+   "n": 228,
+   "kappa": 0.9,
+   "raw": 0.93
+  },
+  "question_supergroup": {
+   "n": 228,
+   "kappa": 0.94,
+   "raw": 0.99
+  }
+ },
+ "field_shares": {
+  "quantum-software": {
+   "share": 0.173,
+   "lo": 0.127,
+   "hi": 0.224
+  },
+  "materials-informatics": {
+   "share": 0.099,
+   "lo": 0.064,
+   "hi": 0.138
+  },
+  "other-fields": {
+   "share": 0.099,
+   "lo": 0.061,
+   "hi": 0.138
+  },
+  "atomistic-simulation": {
+   "share": 0.094,
+   "lo": 0.061,
+   "hi": 0.132
+  },
+  "quantum-information": {
+   "share": 0.075,
+   "lo": 0.044,
+   "hi": 0.11
+  },
+  "quantum-hardware": {
+   "share": 0.059,
+   "lo": 0.031,
+   "hi": 0.09
+  },
+  "quantum-matter": {
+   "share": 0.059,
+   "lo": 0.031,
+   "hi": 0.09
+  },
+  "electronic-functional": {
+   "share": 0.053,
+   "lo": 0.029,
+   "hi": 0.081
+  },
+  "structural-materials": {
+   "share": 0.05,
+   "lo": 0.024,
+   "hi": 0.079
+  },
+  "porous-hosts": {
+   "share": 0.046,
+   "lo": 0.022,
+   "hi": 0.075
+  },
+  "molecular-soft": {
+   "share": 0.039,
+   "lo": 0.018,
+   "hi": 0.066
+  },
+  "energy-reactive": {
+   "share": 0.035,
+   "lo": 0.013,
+   "hi": 0.059
+  },
+  "cross-materials": {
+   "share": 0.033,
+   "lo": 0.013,
+   "hi": 0.057
+  },
+  "synthesis-labs": {
+   "share": 0.033,
+   "lo": 0.013,
+   "hi": 0.055
+  },
+  "diffraction-spectroscopy": {
+   "share": 0.031,
+   "lo": 0.009,
+   "hi": 0.053
+  },
+  "microscopy": {
+   "share": 0.022,
+   "lo": 0.007,
+   "hi": 0.042
+  }
+ },
+ "field_supergroup_shares": {
+  "methods": {
+   "share": 0.311,
+   "lo": 0.254,
+   "hi": 0.373
+  },
+  "quantum": {
+   "share": 0.307,
+   "lo": 0.248,
+   "hi": 0.366
+  },
+  "materials": {
+   "share": 0.283,
+   "lo": 0.228,
+   "hi": 0.342
+  },
+  "other": {
+   "share": 0.099,
+   "lo": 0.061,
+   "hi": 0.138
+  }
+ },
+ "question_shares": {
+  "method-capability": {
+   "share": 0.408,
+   "lo": 0.349,
+   "hi": 0.471
+  },
+  "model-evaluation": {
+   "share": 0.215,
+   "lo": 0.164,
+   "hi": 0.27
+  },
+  "workflow-automation": {
+   "share": 0.107,
+   "lo": 0.07,
+   "hi": 0.149
+  },
+  "research-infrastructure": {
+   "share": 0.096,
+   "lo": 0.061,
+   "hi": 0.134
+  },
+  "physical-findings": {
+   "share": 0.092,
+   "lo": 0.057,
+   "hi": 0.129
+  },
+  "targeted-design": {
+   "share": 0.037,
+   "lo": 0.015,
+   "hi": 0.061
+  },
+  "ai-workflow-perspective": {
+   "share": 0.035,
+   "lo": 0.013,
+   "hi": 0.061
+  },
+  "literature-findings": {
+   "share": 0.009,
+   "lo": 0.0,
+   "hi": 0.022
+  }
+ },
+ "question_supergroup_shares": {
+  "ai-workflow": {
+   "share": 0.862,
+   "lo": 0.818,
+   "hi": 0.904
+  },
+  "physical-world": {
+   "share": 0.138,
+   "lo": 0.096,
+   "hi": 0.182
+  }
+ },
+ "field_by_question_supergroup": {
+  "quantum-software": {
+   "physical-world": 0.011,
+   "ai-workflow": 0.162
+  },
+  "materials-informatics": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.099
+  },
+  "other-fields": {
+   "physical-world": 0.009,
+   "ai-workflow": 0.09
+  },
+  "atomistic-simulation": {
+   "physical-world": 0.004,
+   "ai-workflow": 0.09
+  },
+  "quantum-information": {
+   "physical-world": 0.059,
+   "ai-workflow": 0.015
+  },
+  "quantum-hardware": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.059
+  },
+  "quantum-matter": {
+   "physical-world": 0.031,
+   "ai-workflow": 0.029
+  },
+  "electronic-functional": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.053
+  },
+  "structural-materials": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.05
+  },
+  "porous-hosts": {
+   "physical-world": 0.009,
+   "ai-workflow": 0.037
+  },
+  "molecular-soft": {
+   "physical-world": 0.009,
+   "ai-workflow": 0.031
+  },
+  "energy-reactive": {
+   "physical-world": 0.007,
+   "ai-workflow": 0.029
+  },
+  "cross-materials": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.033
+  },
+  "synthesis-labs": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.033
+  },
+  "diffraction-spectroscopy": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.031
+  },
+  "microscopy": {
+   "physical-world": 0.0,
+   "ai-workflow": 0.022
+  }
+ },
+ "fields_of_physical_world_papers": {
+  "quantum-information": 0.429,
+  "quantum-matter": 0.222,
+  "quantum-software": 0.079,
+  "porous-hosts": 0.063,
+  "molecular-soft": 0.063,
+  "other-fields": 0.063,
+  "energy-reactive": 0.048,
+  "atomistic-simulation": 0.032
+ }
+}

@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "arxiv:2604.18176",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.18805",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.20304",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.20899",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.21850",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.22571",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.22938",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.23758",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.23821",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.24283",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.25199",
+    "field": "atomistic-simulation",
+    "field_alt": "quantum-matter",
+    "confidence": "medium",
+    "note": "Electronic-structure correction with substantive quasiparticle-band physics."
+  },
+  {
+    "id": "arxiv:2604.25884",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2604.27709",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.00803",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Computational reproducibility dominates; abstract leaves individual simulation methods unspecified."
+  },
+  {
+    "id": "arxiv:2605.03205",
+    "field": "cross-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.03515",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.06839",
+    "field": "electronic-functional",
+    "field_alt": "microscopy",
+    "confidence": "medium",
+    "note": "Ferroelectric switching laws and domain-wall physics set the material field."
+  },
+  {
+    "id": "arxiv:2605.07145",
+    "field": "microscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.08255",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.10120",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.10327",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.13618",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Evaluations emphasize harsh-service materials and a high-entropy-alloy database."
+  },
+  {
+    "id": "arxiv:2605.13911",
+    "field": "diffraction-spectroscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.14344",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.14527",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.14671",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.15227",
+    "field": "synthesis-labs",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.15625",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.15842",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.16191",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.17254",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.17675",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "General scientific-software governance demonstrated using fusion tritium-transport code."
+  },
+  {
+    "id": "arxiv:2605.18407",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Two-dimensional material fabrication culminates in field-effect transistors."
+  },
+  {
+    "id": "arxiv:2605.20242",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.20416",
+    "field": "diffraction-spectroscopy",
+    "field_alt": "microscopy",
+    "confidence": "medium",
+    "note": "Crystallographic plane inference dominates, with fracture-image interpretation also substantive."
+  },
+  {
+    "id": "arxiv:2605.20495",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.23934",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "QUBO formulation and constraint weighting dominate; laser-device physics is not evaluated."
+  },
+  {
+    "id": "arxiv:2605.24002",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.26021",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.26179",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.26741",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.27210",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.28487",
+    "field": "synthesis-labs",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.29179",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.29394",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Reactive trajectory modeling is central; specific chemical systems are not supplied."
+  },
+  {
+    "id": "arxiv:2605.29446",
+    "field": "diffraction-spectroscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.29555",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.29833",
+    "field": "cross-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.30358",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2605.31495",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.00065",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Evaluation is restricted to piezoelectric ceramics despite broader extraction claims."
+  },
+  {
+    "id": "arxiv:2606.00315",
+    "field": "synthesis-labs",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.01089",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.02418",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.02434",
+    "field": "electronic-functional",
+    "field_alt": "microscopy",
+    "confidence": "medium",
+    "note": "Semiconductor inspection geometry defines the restricted evaluation; SEM image interpretation also matters."
+  },
+  {
+    "id": "arxiv:2606.03300",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.03764",
+    "field": "diffraction-spectroscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.05050",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.05472",
+    "field": "quantum-hardware",
+    "field_alt": "quantum-matter",
+    "confidence": "medium",
+    "note": "Synthetic signals span qubit control and collective quantum electronic phenomena."
+  },
+  {
+    "id": "arxiv:2606.06415",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.07314",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.07570",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.07712",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.09462",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.12916",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Molecular host-guest binding and solution-affinity validation dominate, without a materials focus."
+  },
+  {
+    "id": "arxiv:2606.13380",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.13811",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.17809",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.18422",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.19152",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.20729",
+    "field": "atomistic-simulation",
+    "field_alt": "other-fields",
+    "confidence": "medium",
+    "note": "Transferable electronic-structure approximations; molecular-chemistry scope is not specified."
+  },
+  {
+    "id": "arxiv:2606.21395",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.21974",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.22375",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.22376",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.22497",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.23571",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.24480",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.24808",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.25870",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.27231",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.29459",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.29592",
+    "field": "microscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.29667",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.29687",
+    "field": "quantum-software",
+    "field_alt": "quantum-information",
+    "confidence": "medium",
+    "note": "Exact performance theorem for a particular QAOA construction, rather than general complexity limits."
+  },
+  {
+    "id": "arxiv:2606.29717",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2606.29966",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.00924",
+    "field": "cross-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.00939",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.02329",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.02934",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Phase-diagram knowledge representation spans unspecified systems; alloy-only restriction is not established."
+  },
+  {
+    "id": "arxiv:2607.03105",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.03193",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.04072",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.05805",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.07554",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.07597",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.07604",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.07857",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.09007",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.09195",
+    "field": "cross-materials",
+    "field_alt": null,
+    "confidence": "low",
+    "note": "Materials research tasks are unspecified; no dominant material or methods community is established."
+  },
+  {
+    "id": "arxiv:2607.09789",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.10057",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.14082",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.15535",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.17012",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Generic instrumentation interface; abstract establishes no materials or quantum platform."
+  },
+  {
+    "id": "arxiv:2607.17417",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Database-grounded verification of chemical and materials facts dominates."
+  },
+  {
+    "id": "arxiv:2607.17498",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.19198",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.19506",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.20058",
+    "field": "cross-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.20225",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.21533",
+    "field": "quantum-information",
+    "field_alt": "quantum-software",
+    "confidence": "medium",
+    "note": "Balanced information-theory and quantum-algorithm proof benchmarks."
+  },
+  {
+    "id": "arxiv:2607.21811",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.23006",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.24479",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.24687",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.24714",
+    "field": "quantum-hardware",
+    "field_alt": "quantum-software",
+    "confidence": "medium",
+    "note": "Physical ion transport across trap architectures determines compiler performance."
+  },
+  {
+    "id": "arxiv:2607.25145",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.25647",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.25865",
+    "field": "quantum-software",
+    "field_alt": "quantum-information",
+    "confidence": "medium",
+    "note": "Code-circuit-decoder co-design is judged by full syndrome-extraction implementations."
+  },
+  {
+    "id": "arxiv:2607.26305",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.27262",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2607.28200",
+    "field": "diffraction-spectroscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.00149",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.01431",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.02642",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.03824",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.04947",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.05266",
+    "field": "microscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.05387",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.06694",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.07439",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.07637",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.08752",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.10483",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.10882",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.11224",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.11283",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.15900",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.15928",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.16048",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.17629",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.19116",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Thermodynamic sampling spans alloys, spin models and semiconductor defects; no material class dominates."
+  },
+  {
+    "id": "arxiv:2608.19790",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.20434",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.23631",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.25189",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "General PDE-discovery benchmark lacks an explicit materials or quantum-computing focus."
+  },
+  {
+    "id": "arxiv:2608.25392",
+    "field": "synthesis-labs",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.27363",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.27572",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.27587",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.28100",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.29309",
+    "field": "synthesis-labs",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2608.29665",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.00070",
+    "field": "diffraction-spectroscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.00099",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.00663",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.00795",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.04674",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.05039",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.05121",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.05157",
+    "field": "quantum-information",
+    "field_alt": "quantum-software",
+    "confidence": "medium",
+    "note": "Textbook-wide formalization spans quantum information and computation without a dominant program implementation."
+  },
+  {
+    "id": "arxiv:2609.06038",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.07655",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.10520",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.12181",
+    "field": "cross-materials",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Physical-consistency reasoning spans imaging, spectroscopy, diffraction and material properties."
+  },
+  {
+    "id": "arxiv:2609.12184",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.12796",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.13121",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.13357",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.14080",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.14840",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.14928",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "ZIF-8 particle-size dependence is a substantive framework-specific synthesis result."
+  },
+  {
+    "id": "arxiv:2609.16466",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.17123",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.17291",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.18598",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "LiCoO2 film-growth study is restricted to a battery-electrode material."
+  },
+  {
+    "id": "arxiv:2609.19550",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.19837",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.20258",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.20319",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.22210",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.24470",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.25000",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.25384",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.27036",
+    "field": "molecular-soft",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.27302",
+    "field": "microscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.29492",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.29595",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.30133",
+    "field": "energy-reactive",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.30157",
+    "field": "quantum-hardware",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.31679",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.31790",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.33192",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.34119",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.34293",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.35581",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.36469",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "medium",
+    "note": "Perspective centers on computational simulation autonomy rather than experimental materials communities."
+  },
+  {
+    "id": "arxiv:2609.37053",
+    "field": "cross-materials",
+    "field_alt": null,
+    "confidence": "low",
+    "note": "Broad materials-software benchmark; specific tools and dominant scientific methods are not identified."
+  },
+  {
+    "id": "arxiv:2609.38340",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2609.39302",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.00636",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.00943",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.02671",
+    "field": "atomistic-simulation",
+    "field_alt": "materials-informatics",
+    "confidence": "medium",
+    "note": "Physically constrained geometric editing dominates; property-directed inverse design is also evaluated."
+  },
+  {
+    "id": "arxiv:2610.04134",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.04866",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.05304",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.06623",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.07862",
+    "field": "diffraction-spectroscopy",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.10258",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.10879",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.12187",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.12700",
+    "field": "quantum-matter",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.13573",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.13811",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.16733",
+    "field": "other-fields",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.17193",
+    "field": "quantum-hardware",
+    "field_alt": "other-fields",
+    "confidence": "medium",
+    "note": "Quantum defect and pulse-control studies anchor otherwise broad experimental-physics guidance."
+  },
+  {
+    "id": "arxiv:2610.17286",
+    "field": "quantum-information",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.17708",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.17804",
+    "field": "structural-materials",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.17832",
+    "field": "materials-informatics",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.18949",
+    "field": "electronic-functional",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.19404",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.20779",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.21015",
+    "field": "atomistic-simulation",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.21050",
+    "field": "porous-hosts",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "id": "arxiv:2610.22367",
+    "field": "quantum-software",
+    "field_alt": null,
+    "confidence": "high",
+    "note": ""
+  }
+]

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Papers to end all papers: dataset</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top"><span class="brand">Papers to end all papers</span>
+  <a href="index.html" aria-current="page">Dataset</a><a href="methods.html">Methods and findings</a>
+  <a href="https://github.com/akhmerov/papers-to-end-all-papers">Repository</a></nav>
+<main class="wide">
+<header>
+  <h1>Language models and agents in condensed matter, materials and quantum research</h1>
+  <p class="lede">The 228 arXiv preprints submitted from 18 April to 18 October 2026 that name a language model
+  in their title or abstract, belong to a condensed-matter, materials or quantum category or domain, and give the
+  model a substantive role, labelled and read in full by AI agents. The searches miss papers that mention AI only
+  in the body. Companion to a commentary in the
+  <a href="https://www.condmatjclub.org">Journal Club for Condensed Matter Physics</a>.
+  Labels describe what a paper is about; referee scores are not published.</p>
+</header>
+
+<section class="tiles" id="tiles" aria-live="polite"></section>
+
+<section class="filters" aria-label="Filters">
+  <label class="search">Search titles, authors and abstracts
+    <input type="search" id="q" placeholder="e.g. DFT, Majorana, microscopy, Lean"></label>
+  <label>Field<select id="field"></select></label>
+  <label>Question<select id="question"></select></label>
+  <label>Use of the model<select id="use"></select></label>
+  <label>Model developer<select id="family"></select></label>
+  <label>From<input type="date" id="from" min="2026-04-18" max="2026-10-18"></label>
+  <label>To<input type="date" id="to" min="2026-04-18" max="2026-10-18"></label>
+  <div class="checks">
+    <label class="check"><input type="checkbox" id="code"> Code linked</label>
+    <label class="check"><input type="checkbox" id="statement"> AI-use statement</label>
+    <label class="check"><input type="checkbox" id="physical"> Question about the physical world</label>
+    <button type="button" id="reset">Reset</button>
+  </div>
+</section>
+
+<section class="charts">
+  <figure><figcaption>Papers per week</figcaption><div id="chart-time" class="chart"></div></figure>
+  <figure><figcaption>Model developers <span class="hint">click to filter</span></figcaption><div id="chart-family" class="chart"></div></figure>
+  <figure class="field"><figcaption>Field <span class="hint">click a bar to filter</span></figcaption><div id="chart-field" class="chart"></div></figure>
+</section>
+
+<section class="results">
+  <div class="bar">
+    <span id="count" aria-live="polite"></span>
+    <span class="actions"><label>Sort<select id="sort"><option value="new">Newest first</option>
+      <option value="old">Oldest first</option><option value="title">Title</option></select></label>
+      <button type="button" id="csv">Download CSV</button></span>
+  </div>
+  <ol id="list" class="papers"></ol>
+  <button type="button" id="more" class="more">Show more</button>
+</section>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

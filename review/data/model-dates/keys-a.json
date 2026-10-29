@@ -1,0 +1,920 @@
+[
+ {
+  "key": "gpt-5.4",
+  "papers": 34,
+  "raw_names": [
+   "ChaptGPT 5.4",
+   "ChatGPT 5.4",
+   "GPT-5.4",
+   "GPT-5.4 (API)",
+   "GPT-5.4 (Codex CLI)",
+   "GPT-5.4 (Default)",
+   "GPT-5.4 (Extended Reasoning)",
+   "GPT-5.4 (No Reasoning)",
+   "GPT-5.4 (reasoning: high)",
+   "GPT-5.4-Reasoning",
+   "gpt-5.4"
+  ]
+ },
+ {
+  "key": "gpt-5.5",
+  "papers": 32,
+  "raw_names": [
+   "5.5",
+   "ChatGPT 5.5",
+   "GPT 5.5",
+   "GPT-5.5",
+   "GPT-5.5-Reasoning",
+   "OpenAI GPT-5.5",
+   "gpt-5.5",
+   "gpt-5.5-2026-04-23"
+  ]
+ },
+ {
+  "key": "gpt-4o",
+  "papers": 23,
+  "raw_names": [
+   "4o",
+   "GPT-4o",
+   "GPT4o",
+   "gpt-4o"
+  ]
+ },
+ {
+  "key": "gpt-5",
+  "papers": 22,
+  "raw_names": [
+   "ChatGPT-5",
+   "GPT-5",
+   "GPT-5 / Codex",
+   "GPT-5-Chat-Latest",
+   "GPT5",
+   "GPT5 thinking / gpt-5-chat"
+  ]
+ },
+ {
+  "key": "claude-sonnet-4.6",
+  "papers": 22,
+  "raw_names": [
+   "Claude Sonnet 4.6",
+   "Claude Sonnet 4.6 (Thinking)",
+   "Claude Sonnet-4.6",
+   "Claude-Sonnet-4-6",
+   "Claude-Sonnet-4.6",
+   "Claude-sonnet-4.6",
+   "Sonnet 4.6",
+   "claude-sonnet-4-6",
+   "sonnet-4.6"
+  ]
+ },
+ {
+  "key": "gemini-3.1-pro",
+  "papers": 22,
+  "raw_names": [
+   "Gemini 3.1 Pro",
+   "Gemini 3.1 Pro Preview",
+   "Gemini 3.1 Pro-Reasoning",
+   "Gemini-3.1-Pro",
+   "Gemini-3.1-Pro-Preview",
+   "Gemini-3.1-pro",
+   "Google Gemini 3.1 Pro",
+   "gemini-3.1 pro-preview",
+   "gemini-3.1-pro-preview"
+  ]
+ },
+ {
+  "key": "claude-opus-4.6",
+  "papers": 20,
+  "raw_names": [
+   "Claude Opus 4.6",
+   "Opus 4.6",
+   "Opus-4.6",
+   "claude-opus-4-6"
+  ]
+ },
+ {
+  "key": "gpt-5.6-sol",
+  "papers": 19,
+  "raw_names": [
+   "ChatGPT 5.6 Sol",
+   "GPT-5.6 Sol",
+   "GPT-5.6-Sol",
+   "GPT-5.6-sol",
+   "gpt-5.6-sol"
+  ]
+ },
+ {
+  "key": "claude-haiku-4.5",
+  "papers": 16,
+  "raw_names": [
+   "Claude Haiku 4.5",
+   "Haiku 4.5",
+   "claude haiku-4.5",
+   "claude-haiku-4-5",
+   "claude-haiku-4.5"
+  ]
+ },
+ {
+  "key": "gpt-5.4-mini",
+  "papers": 16,
+  "raw_names": [
+   "GPT-5.4 Mini",
+   "GPT-5.4 mini",
+   "GPT-5.4-Mini",
+   "GPT-5.4-mini",
+   "gpt-5.4-mini"
+  ]
+ },
+ {
+  "key": "gpt-oss-120b",
+  "papers": 15,
+  "raw_names": [
+   "GPT-OSS",
+   "GPT-OSS 120B",
+   "GPT-OSS-120B",
+   "gpt-oss-120b",
+   "gpt-oss:120b"
+  ]
+ },
+ {
+  "key": "claude-opus-4.7",
+  "papers": 14,
+  "raw_names": [
+   "Claude Opus 4.7",
+   "Claude opus-4.7",
+   "Opus 4.7",
+   "claude-opus-4-7"
+  ]
+ },
+ {
+  "key": "claude-opus-5",
+  "papers": 13,
+  "raw_names": [
+   "Claude Opus 5",
+   "Opus 5",
+   "claude-opus-5"
+  ]
+ },
+ {
+  "key": "claude-opus-4.8",
+  "papers": 13,
+  "raw_names": [
+   "Claude Opus 4.8",
+   "Claude Opus-4.8",
+   "Claude-Opus-4.8",
+   "Opus 4.8",
+   "anthropic/claude-opus-4.8"
+  ]
+ },
+ {
+  "key": "claude-sonnet-4.5",
+  "papers": 12,
+  "raw_names": [
+   "Claude Sonnet 4.5",
+   "Claude-Sonnet-4.5",
+   "Sonnet 4.5",
+   "claude-sonnet-4-5"
+  ]
+ },
+ {
+  "key": "gpt-4.1",
+  "papers": 12,
+  "raw_names": [
+   "ChatGPT 4.1",
+   "GPT-4.1",
+   "gpt-4.1"
+  ]
+ },
+ {
+  "key": "gemini-2.5-pro",
+  "papers": 11,
+  "raw_names": [
+   "Gemini 2.5 Pro",
+   "Gemini 2.5-Pro",
+   "Gemini-2.5-Pro",
+   "Google Gemini 2.5 Pro",
+   "gemini-2.5-pro"
+  ]
+ },
+ {
+  "key": "gemma-4-31b",
+  "papers": 10,
+  "raw_names": [
+   "Gemma 4 31B",
+   "Gemma-4 31B",
+   "Gemma-4-31B",
+   "Gemma-4-31B-IT",
+   "gemma4:31b",
+   "google/gemma-4-31B-it"
+  ]
+ },
+ {
+  "key": "claude-fable-5",
+  "papers": 10,
+  "raw_names": [
+   "Claude Fable 5",
+   "Fable 5"
+  ]
+ },
+ {
+  "key": "gemini-2.5-flash",
+  "papers": 9,
+  "raw_names": [
+   "GEMINI 2.5 Flash",
+   "Gemini 2.5 Flash",
+   "Gemini 2.5-Flash",
+   "Gemini-2.5-Flash"
+  ]
+ },
+ {
+  "key": "gpt-4o-mini",
+  "papers": 9,
+  "raw_names": [
+   "GPT-4o mini",
+   "GPT-4o-mini",
+   "gpt-4o-mini"
+  ]
+ },
+ {
+  "key": "gpt-5-mini",
+  "papers": 9,
+  "raw_names": [
+   "GPT-5 mini",
+   "GPT-5-mini",
+   "GPT-5o-mini",
+   "gpt-5-mini",
+   "gpt-5-mini-2025-08-07"
+  ]
+ },
+ {
+  "key": "gpt-5.2",
+  "papers": 9,
+  "raw_names": [
+   "5.2",
+   "GPT 5.2 extended thinking",
+   "GPT-5.2",
+   "GPT-5.2-Reasoning",
+   "gpt-5.2"
+  ]
+ },
+ {
+  "key": "gpt-5.4-nano",
+  "papers": 9,
+  "raw_names": [
+   "5.4-nano",
+   "GPT-5.4 Nano",
+   "GPT-5.4-nano",
+   "gpt-5.4-nano"
+  ]
+ },
+ {
+  "key": "claude-sonnet-5",
+  "papers": 8,
+  "raw_names": [
+   "Claude Sonnet 5",
+   "Sonnet 5",
+   "claude-sonnet-5"
+  ]
+ },
+ {
+  "key": "gpt-4.1-mini",
+  "papers": 7,
+  "raw_names": [
+   "GPT-4.1-mini",
+   "gpt-4.1-mini",
+   "openai/gpt-4.1-mini"
+  ]
+ },
+ {
+  "key": "gpt-oss-20b",
+  "papers": 6,
+  "raw_names": [
+   "GPT-OSS-20B",
+   "gpt-oss 20B",
+   "gpt-oss-20b",
+   "gpt-oss:20b",
+   "gpt-oss:20b (Ollama)"
+  ]
+ },
+ {
+  "key": "gemini-3-flash",
+  "papers": 6,
+  "raw_names": [
+   "Gemini 3 Flash",
+   "Gemini 3 Flash Preview",
+   "Gemini 3.0 Flash",
+   "Gemini-3-Flash-Preview",
+   "gemini-3-flash"
+  ]
+ },
+ {
+  "key": "claude-sonnet-4",
+  "papers": 5,
+  "raw_names": [
+   "Claude Sonnet 4",
+   "Claude Sonnet-4",
+   "Claude-Sonnet-4"
+  ]
+ },
+ {
+  "key": "o4-mini",
+  "papers": 5,
+  "raw_names": [
+   "O4-mini",
+   "o4-mini"
+  ]
+ },
+ {
+  "key": "o3",
+  "papers": 5,
+  "raw_names": [
+   "O3",
+   "o3"
+  ]
+ },
+ {
+  "key": "gpt-5.6-terra",
+  "papers": 5,
+  "raw_names": [
+   "GPT-5.6 Terra",
+   "GPT-5.6-Terra"
+  ]
+ },
+ {
+  "key": "gpt-6-astra",
+  "papers": 5,
+  "raw_names": [
+   "GPT 6 Astra",
+   "GPT-6 Astra",
+   "GPT-6-Astra"
+  ]
+ },
+ {
+  "key": "gpt-5.1",
+  "papers": 4,
+  "raw_names": [
+   "GPT-5.1"
+  ]
+ },
+ {
+  "key": "gpt-5.3-codex",
+  "papers": 4,
+  "raw_names": [
+   "GPT-5.3-Codex",
+   "GPT-5.3-codex"
+  ]
+ },
+ {
+  "key": "gemini-2.5-flash-lite",
+  "papers": 4,
+  "raw_names": [
+   "Gemini 2.5 Flash Lite",
+   "Gemini 2.5-Flash-lite",
+   "gemini-2.5-flash-lite"
+  ]
+ },
+ {
+  "key": "gpt-4",
+  "papers": 4,
+  "raw_names": [
+   "GPT-4",
+   "GPT-4.0"
+  ]
+ },
+ {
+  "key": "gpt-5.6-luna",
+  "papers": 4,
+  "raw_names": [
+   "GPT-5.6 Luna",
+   "GPT-5.6-Luna",
+   "gpt-5.6-luna"
+  ]
+ },
+ {
+  "key": "gemini-3-pro",
+  "papers": 4,
+  "raw_names": [
+   "Gemini 3 Pro",
+   "Gemini 3 Pro Preview",
+   "Gemini 3.0 Pro",
+   "Gemini-3-Pro"
+  ]
+ },
+ {
+  "key": "gemini-3.5-flash",
+  "papers": 4,
+  "raw_names": [
+   "Gemini 3.5 Flash",
+   "Gemini-3.5-Flash"
+  ]
+ },
+ {
+  "key": "grok-4",
+  "papers": 3,
+  "raw_names": [
+   "Grok 4",
+   "Grok-4"
+  ]
+ },
+ {
+  "key": "claude-opus-4.5",
+  "papers": 3,
+  "raw_names": [
+   "Claude Opus 4.5",
+   "Opus 4.5",
+   "claude-opus-4-5"
+  ]
+ },
+ {
+  "key": "gemini-3.1-flash-lite",
+  "papers": 3,
+  "raw_names": [
+   "Gemini 3.1 Flash Lite",
+   "Gemini-3.1-Flash-Lite"
+  ]
+ },
+ {
+  "key": "claude-opus-4.1",
+  "papers": 3,
+  "raw_names": [
+   "Claude Opus 4.1",
+   "Opus 4.1"
+  ]
+ },
+ {
+  "key": "o1",
+  "papers": 3,
+  "raw_names": [
+   "o1"
+  ]
+ },
+ {
+  "key": "gemma-4-e4b",
+  "papers": 3,
+  "raw_names": [
+   "Gemma4:e4b",
+   "gemma4:e4b",
+   "google/gemma-4-E4B-it"
+  ]
+ },
+ {
+  "key": "gpt-5.5-pro",
+  "papers": 3,
+  "raw_names": [
+   "ChatGPT 5.5 Pro",
+   "GPT 5.5 Pro"
+  ]
+ },
+ {
+  "key": "claude-fable-5.1",
+  "papers": 3,
+  "raw_names": [
+   "Claude Fable 5.1"
+  ]
+ },
+ {
+  "key": "claude-opus-5.5",
+  "papers": 3,
+  "raw_names": [
+   "Claude Opus 5.5",
+   "Opus 5.5"
+  ]
+ },
+ {
+  "key": "text-embedding-3-small",
+  "papers": 2,
+  "raw_names": [
+   "text-embedding-3-small"
+  ]
+ },
+ {
+  "key": "gemini-3",
+  "papers": 2,
+  "raw_names": [
+   "Gemini 3",
+   "Gemini-3"
+  ]
+ },
+ {
+  "key": "text-embedding-3-large",
+  "papers": 2,
+  "raw_names": [
+   "text-embedding-3-large"
+  ]
+ },
+ {
+  "key": "gpt-3.5",
+  "papers": 2,
+  "raw_names": [
+   "GPT-3.5"
+  ]
+ },
+ {
+  "key": "gemini-2.0-flash",
+  "papers": 2,
+  "raw_names": [
+   "Gemini 2.0 Flash",
+   "Gemini-2.0-Flash"
+  ]
+ },
+ {
+  "key": "gpt-5-nano",
+  "papers": 2,
+  "raw_names": [
+   "GPT-5-nano",
+   "gpt-5-nano-2025-08-07"
+  ]
+ },
+ {
+  "key": "gpt-5.6-sol-ultra",
+  "papers": 2,
+  "raw_names": [
+   "GPT-5.6 Sol Ultra"
+  ]
+ },
+ {
+  "key": "gemma-3-4b",
+  "papers": 2,
+  "raw_names": [
+   "Gemma-3-4B-IT",
+   "Gemma3-4B"
+  ]
+ },
+ {
+  "key": "gpt-6",
+  "papers": 2,
+  "raw_names": [
+   "GPT-6"
+  ]
+ },
+ {
+  "key": "o3-mini",
+  "papers": 2,
+  "raw_names": [
+   "GPT-o3-mini",
+   "o3-mini"
+  ]
+ },
+ {
+  "key": "gemini-3.8-flash",
+  "papers": 2,
+  "raw_names": [
+   "Gemini 3.8 Flash"
+  ]
+ },
+ {
+  "key": "gpt-o1",
+  "papers": 1,
+  "raw_names": [
+   "ChatGPT-o1"
+  ]
+ },
+ {
+  "key": "anthropic-claude-3.5-sonnet",
+  "papers": 1,
+  "raw_names": [
+   "Anthropic Claude 3.5 Sonnet"
+  ]
+ },
+ {
+  "key": "grok-3",
+  "papers": 1,
+  "raw_names": [
+   "Grok-3"
+  ]
+ },
+ {
+  "key": "gemini-embedding-001",
+  "papers": 1,
+  "raw_names": [
+   "gemini-embedding-001"
+  ]
+ },
+ {
+  "key": "grok-4-fast",
+  "papers": 1,
+  "raw_names": [
+   "Grok 4 Fast"
+  ]
+ },
+ {
+  "key": "gemma-3-27b",
+  "papers": 1,
+  "raw_names": [
+   "Gemma 3 27B"
+  ]
+ },
+ {
+  "key": "gpt-5.2-codex",
+  "papers": 1,
+  "raw_names": [
+   "gpt-5.2-codex"
+  ]
+ },
+ {
+  "key": "perplexity",
+  "papers": 1,
+  "raw_names": [
+   "Perplexity"
+  ]
+ },
+ {
+  "key": "gemini-2.5",
+  "papers": 1,
+  "raw_names": [
+   "Gemini 2.5"
+  ]
+ },
+ {
+  "key": "gpt-2",
+  "papers": 1,
+  "raw_names": [
+   "GPT-2"
+  ]
+ },
+ {
+  "key": "gemini-1.5-flash",
+  "papers": 1,
+  "raw_names": [
+   "gemini-1.5-flash"
+  ]
+ },
+ {
+  "key": "gpt-4-mini",
+  "papers": 1,
+  "raw_names": [
+   "ChatGPT-4-mini"
+  ]
+ },
+ {
+  "key": "claude-haiku-3.5",
+  "papers": 1,
+  "raw_names": [
+   "Haiku 3.5"
+  ]
+ },
+ {
+  "key": "gpt-5-pro",
+  "papers": 1,
+  "raw_names": [
+   "ChatGPT 5 pro"
+  ]
+ },
+ {
+  "key": "claude-class-configuration",
+  "papers": 1,
+  "raw_names": [
+   "Claude-class configuration"
+  ]
+ },
+ {
+  "key": "gpt-based-deep-research-pipeline",
+  "papers": 1,
+  "raw_names": [
+   "GPT-based deep-research pipeline"
+  ]
+ },
+ {
+  "key": "claude-3-opus-4.6",
+  "papers": 1,
+  "raw_names": [
+   "Claude 3 Opus 4.6"
+  ]
+ },
+ {
+  "key": "grok-4.1-fast",
+  "papers": 1,
+  "raw_names": [
+   "Grok-4.1-Fast-Reasoning"
+  ]
+ },
+ {
+  "key": "gemma-4-26b-a4b",
+  "papers": 1,
+  "raw_names": [
+   "Gemma 4 26B-A4B"
+  ]
+ },
+ {
+  "key": "claude-code",
+  "papers": 1,
+  "raw_names": [
+   "Claude Code"
+  ]
+ },
+ {
+  "key": "grok-4.3",
+  "papers": 1,
+  "raw_names": [
+   "Grok-4.3"
+  ]
+ },
+ {
+  "key": "gpt-5.6-terra-medium",
+  "papers": 1,
+  "raw_names": [
+   "GPT-5.6-Terra-Medium-Thinking"
+  ]
+ },
+ {
+  "key": "o3-deep-research",
+  "papers": 1,
+  "raw_names": [
+   "o3-deep-research"
+  ]
+ },
+ {
+  "key": "gemma-4",
+  "papers": 1,
+  "raw_names": [
+   "Gemma4"
+  ]
+ },
+ {
+  "key": "oss-120b",
+  "papers": 1,
+  "raw_names": [
+   "OpenAI OSS-120B"
+  ]
+ },
+ {
+  "key": "gpt-5.3",
+  "papers": 1,
+  "raw_names": [
+   "GPT-5.3 (Codex)"
+  ]
+ },
+ {
+  "key": "embeddinggemma-300m",
+  "papers": 1,
+  "raw_names": [
+   "google/embeddinggemma_300m"
+  ]
+ },
+ {
+  "key": "grok-4-1-fast-non",
+  "papers": 1,
+  "raw_names": [
+   "grok-4-1-fast-non-reasoning"
+  ]
+ },
+ {
+  "key": "grok-4.20",
+  "papers": 1,
+  "raw_names": [
+   "Grok 4.20"
+  ]
+ },
+ {
+  "key": "gemma-4-12b",
+  "papers": 1,
+  "raw_names": [
+   "google/gemma-4-12B-it"
+  ]
+ },
+ {
+  "key": "codex-gpt-5.6-sol",
+  "papers": 1,
+  "raw_names": [
+   "Codex GPT-5.6 Sol"
+  ]
+ },
+ {
+  "key": "gpt-5.6-sol-gpt-5.6-sol",
+  "papers": 1,
+  "raw_names": [
+   "ChatGPT 5.6 Sol (GPT-5.6 Sol)"
+  ]
+ },
+ {
+  "key": "claude-sonnet-3.7",
+  "papers": 1,
+  "raw_names": [
+   "Claude Sonnet 3.7"
+  ]
+ },
+ {
+  "key": "gemma-3-12b",
+  "papers": 1,
+  "raw_names": [
+   "Gemma-3-12B-IT"
+  ]
+ },
+ {
+  "key": "gemma-3-1b",
+  "papers": 1,
+  "raw_names": [
+   "Gemma-3-1B-IT"
+  ]
+ },
+ {
+  "key": "gpt-5.6-pro",
+  "papers": 1,
+  "raw_names": [
+   "GPT-5.6 Pro"
+  ]
+ },
+ {
+  "key": "gpt-5.6-ultra",
+  "papers": 1,
+  "raw_names": [
+   "GPT-5.6 Ultra"
+  ]
+ },
+ {
+  "key": "claude-opus-4",
+  "papers": 1,
+  "raw_names": [
+   "Claude Opus 4"
+  ]
+ },
+ {
+  "key": "gemini-3.1-pro-low",
+  "papers": 1,
+  "raw_names": [
+   "Gemini 3.1 Pro Low"
+  ]
+ },
+ {
+  "key": "gemini-3.6-flash",
+  "papers": 1,
+  "raw_names": [
+   "google/gemini-3.6-flash"
+  ]
+ },
+ {
+  "key": "grok-4.5",
+  "papers": 1,
+  "raw_names": [
+   "x-ai/grok-4.5"
+  ]
+ },
+ {
+  "key": "chat-gpt-6",
+  "papers": 1,
+  "raw_names": [
+   "Chat GPT 6"
+  ]
+ },
+ {
+  "key": "perplexity-[grok-4.6]",
+  "papers": 1,
+  "raw_names": [
+   "Perplexity [Grok 4.6]"
+  ]
+ },
+ {
+  "key": "grok-labelled-table",
+  "papers": 1,
+  "raw_names": [
+   "Grok-labelled table"
+  ]
+ },
+ {
+  "key": "gpt-6-astra-pro",
+  "papers": 1,
+  "raw_names": []
+ },
+ {
+  "key": "claude-opus-4.6-and-higher",
+  "papers": 1,
+  "raw_names": [
+   "Opus 4.6 and higher"
+  ]
+ },
+ {
+  "key": "gemini-flash-lite",
+  "papers": 1,
+  "raw_names": [
+   "Gemini Flash Lite"
+  ]
+ },
+ {
+  "key": "gpt-6.1-sol",
+  "papers": 1,
+  "raw_names": [
+   "ChatGPT 6.1 Sol"
+  ]
+ },
+ {
+  "key": "gpt-5.6",
+  "papers": 1,
+  "raw_names": [
+   "GPT-5.6"
+  ]
+ },
+ {
+  "key": "nano-banana-2",
+  "papers": 1,
+  "raw_names": [
+   "Nano Banana 2"
+  ]
+ },
+ {
+  "key": "claude-mythos-5",
+  "papers": 1,
+  "raw_names": [
+   "Claude Mythos 5"
+  ]
+ }
+]

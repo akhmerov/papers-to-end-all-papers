@@ -1,0 +1,473 @@
+[
+ {
+  "id": "arxiv:2605.26741",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "materials formulations",
+  "question": "Optimize formulations for target material properties",
+  "ai_job": "Recommend candidate formulations"
+ },
+ {
+  "id": "arxiv:2609.27036",
+  "scope": "materials-science",
+  "use": "property-prediction",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "polymers",
+  "question": "Predict properties across polymer architectures",
+  "ai_job": "Predict polymer properties"
+ },
+ {
+  "id": "arxiv:2609.10520",
+  "scope": "adjacent-quantum",
+  "use": "reasoning-proof",
+  "secondary_uses": [],
+  "kind": "application",
+  "agent_form": "human-ai-collaboration",
+  "autonomy": "human-in-loop",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "quantum communication channels",
+  "question": "Can zero-private-capacity channels jointly transmit private information?",
+  "ai_job": "Help identify a channel activation example"
+ },
+ {
+  "id": "arxiv:2605.20495",
+  "scope": "out-of-scope",
+  "use": "data-interpretation",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "human-ai-collaboration",
+  "autonomy": "human-in-loop",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "biomedical microscopy images",
+  "question": "Classify microscopy images with fewer expert annotations",
+  "ai_job": "Draft captions and classify microscopy images"
+ },
+ {
+  "id": "arxiv:2606.24808",
+  "scope": "adjacent-quantum",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "code-algorithm-generation"
+  ],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "quantum error-correcting codes",
+  "question": "Discover sparse quantum codes with favorable error correction",
+  "ai_job": "Evolve algebraic code specifications and programs"
+ },
+ {
+  "id": "arxiv:2607.25865",
+  "scope": "adjacent-quantum",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "code-algorithm-generation",
+   "simulation-workflow"
+  ],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "quantum error-correcting codes",
+  "question": "Design codes with improved circuit-level error suppression",
+  "ai_job": "Coordinate code generation, screening, and circuit evaluation"
+ },
+ {
+  "id": "arxiv:2606.02418",
+  "scope": "adjacent-quantum",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "code-algorithm-generation"
+  ],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "quantum error-correcting codes",
+  "question": "Discover and certify improved bivariate bicycle codes",
+  "ai_job": "Mutate programs generating candidate quantum codes"
+ },
+ {
+  "id": "arxiv:2608.19116",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "multicomponent alloys",
+  "question": "Balance optical and mechanical properties in disordered alloys",
+  "ai_job": "Guide evolutionary inverse design using neural sampling"
+ },
+ {
+  "id": "arxiv:2609.00663",
+  "scope": "materials-science",
+  "use": "data-interpretation",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "crystal structures",
+  "question": "Recover crystal geometry from rendered views",
+  "ai_job": "Infer crystal geometry from images"
+ },
+ {
+  "id": "arxiv:2606.19152",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "simulation-workflow"
+  ],
+  "kind": "method",
+  "agent_form": "multi-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "heterogeneous catalyst surfaces",
+  "question": "Find lowest-energy surface adsorption configurations",
+  "ai_job": "Propose and correct configurations using relaxation feedback"
+ },
+ {
+  "id": "arxiv:2604.18805",
+  "scope": "cross-domain-science",
+  "use": "agent-evaluation",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "tool-using-agent",
+  "autonomy": "bounded-multistep",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "none",
+  "question": "Assess evidence use and hypothesis revision in research",
+  "ai_job": "Execute research tasks with evaluated reasoning traces"
+ },
+ {
+  "id": "arxiv:2606.06415",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "platform",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "acrylate polymers",
+  "question": "Design polymers with targeted molecular properties",
+  "ai_job": "Generate targeted molecular SELFIES sequences"
+ },
+ {
+  "id": "arxiv:2605.29833",
+  "scope": "materials-science",
+  "use": "scientific-qa",
+  "secondary_uses": [
+   "reasoning-proof"
+  ],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "materials (generic)",
+  "question": "Solve materials knowledge and calculation problems",
+  "ai_job": "Answer multimodal materials questions and calculations"
+ },
+ {
+  "id": "arxiv:2608.17629",
+  "scope": "adjacent-quantum",
+  "use": "reasoning-proof",
+  "secondary_uses": [],
+  "kind": "application",
+  "agent_form": "human-ai-collaboration",
+  "autonomy": "human-in-loop",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "BB84 quantum states",
+  "question": "Establish indistinguishability security of unclonable encryption",
+  "ai_job": "Discover a simultaneous Goldreich-Levin reduction"
+ },
+ {
+  "id": "arxiv:2609.36469",
+  "scope": "materials-science",
+  "use": "research-orchestration",
+  "secondary_uses": [],
+  "kind": "review-perspective",
+  "agent_form": "unspecified",
+  "autonomy": "not-applicable",
+  "breadth": "field-overview",
+  "llm_role": "proposed",
+  "confidence": "high",
+  "system": "materials (generic)",
+  "question": "Define levels of autonomy in computational materials discovery",
+  "ai_job": "Potentially reason, execute simulations, and refine strategies"
+ },
+ {
+  "id": "arxiv:2607.00924",
+  "scope": "materials-science",
+  "use": "reasoning-proof",
+  "secondary_uses": [
+   "scientific-qa"
+  ],
+  "kind": "method",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "materials (generic)",
+  "question": "Generate traceable hypotheses about materials mechanisms",
+  "ai_job": "Generate hypotheses through structured graph reasoning"
+ },
+ {
+  "id": "arxiv:2604.23821",
+  "scope": "condensed-matter",
+  "use": "experimental-control",
+  "secondary_uses": [
+   "data-interpretation"
+  ],
+  "kind": "method",
+  "agent_form": "multi-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "quantum magnets",
+  "question": "Identify spin Hamiltonians efficiently from neutron spectroscopy",
+  "ai_job": "Audit hypotheses and select falsification measurements"
+ },
+ {
+  "id": "arxiv:2605.27210",
+  "scope": "adjacent-quantum",
+  "use": "code-algorithm-generation",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "quantum circuits",
+  "question": "Implement quantum algorithms and circuit constructions",
+  "ai_job": "Generate Qiskit programs for verified exercises"
+ },
+ {
+  "id": "arxiv:2609.16466",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "multi-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "inorganic crystals (generic)",
+  "question": "Design stable crystals satisfying joint functional requirements",
+  "ai_job": "Debate proposals, use tools, and revise structures"
+ },
+ {
+  "id": "arxiv:2606.07712",
+  "scope": "materials-science",
+  "use": "property-prediction",
+  "secondary_uses": [
+   "design-optimization"
+  ],
+  "kind": "method",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "platform",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "inorganic crystals (generic)",
+  "question": "Predict crystal properties and generate stable functional structures",
+  "ai_job": "Predict properties and generate crystal structures"
+ },
+ {
+  "id": "arxiv:2606.25870",
+  "scope": "adjacent-quantum",
+  "use": "code-algorithm-generation",
+  "secondary_uses": [
+   "design-optimization"
+  ],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "fermion-to-qubit encodings",
+  "question": "Improve encoding distance and qubit efficiency for molecular simulation",
+  "ai_job": "Evolve encoding constructor programs using verifier scores"
+ },
+ {
+  "id": "arxiv:2609.29595",
+  "scope": "materials-science",
+  "use": "simulation-workflow",
+  "secondary_uses": [
+   "design-optimization"
+  ],
+  "kind": "method",
+  "agent_form": "llm-pipeline",
+  "autonomy": "bounded-multistep",
+  "breadth": "platform",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "atomic structures",
+  "question": "Build physically constrained atomic structures from verbal specifications",
+  "ai_job": "Translate requests into structured atomic construction specifications"
+ },
+ {
+  "id": "arxiv:2606.07570",
+  "scope": "condensed-matter",
+  "use": "literature-knowledge",
+  "secondary_uses": [],
+  "kind": "application",
+  "agent_form": "llm-pipeline",
+  "autonomy": "bounded-multistep",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "high-temperature superconductors",
+  "question": "Recover competing mechanisms and evolving consensus from superconductivity literature",
+  "ai_job": "Extract mechanism and evidence relations into graphs"
+ },
+ {
+  "id": "arxiv:2610.04866",
+  "scope": "materials-science",
+  "use": "reasoning-proof",
+  "secondary_uses": [
+   "design-optimization"
+  ],
+  "kind": "method",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "metal-organic frameworks",
+  "question": "Propose and test unusual guest-host phenomena in frameworks",
+  "ai_job": "Propose mechanisms, signatures, and falsifiers from descriptions"
+ },
+ {
+  "id": "arxiv:2609.12796",
+  "scope": "materials-science",
+  "use": "experimental-control",
+  "secondary_uses": [
+   "code-algorithm-generation"
+  ],
+  "kind": "application",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "Ru/C X-ray multilayer mirrors",
+  "question": "Deposit multilayers with accurately controlled layer periods",
+  "ai_job": "Author and submit recipes using measurement feedback"
+ },
+ {
+  "id": "arxiv:2609.17123",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "simulation-workflow",
+   "data-interpretation"
+  ],
+  "kind": "application",
+  "agent_form": "multi-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "2D complementary field-effect transistor inverters",
+  "question": "Reduce inverter heating while quantifying electrical performance costs",
+  "ai_job": "Propose structures and test electrothermal design trade-offs"
+ },
+ {
+  "id": "arxiv:2605.15227",
+  "scope": "materials-science",
+  "use": "experimental-control",
+  "secondary_uses": [
+   "code-algorithm-generation"
+  ],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "bounded-multistep",
+  "breadth": "platform",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "color-matching laboratory samples",
+  "question": "Automate experimental planning and execution in a laboratory",
+  "ai_job": "Invoke laboratory tools and generate executable workflows"
+ },
+ {
+  "id": "arxiv:2606.29459",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "reasoning-proof",
+   "simulation-workflow"
+  ],
+  "kind": "method",
+  "agent_form": "multi-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "metal-organic frameworks",
+  "question": "Optimize framework adsorption, separation, and electronic properties",
+  "ai_job": "Generate hypotheses, impose constraints, and evaluate candidates"
+ },
+ {
+  "id": "arxiv:2609.30133",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "experimental-control",
+   "research-orchestration"
+  ],
+  "kind": "application",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "palladium-based oxide catalysts",
+  "question": "Find durable iridium-free catalysts for acidic oxygen evolution",
+  "ai_job": "Guide catalyst selection with context-aware reasoning"
+ }
+]

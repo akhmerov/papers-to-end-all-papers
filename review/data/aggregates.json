@@ -1,0 +1,2433 @@
+{
+ "min_cell": 10,
+ "review": {
+  "overall": {
+   "n": 228,
+   "reproducibility": {
+    "mean": 2.52,
+    "median": 2,
+    "dist": {
+     "1": 22,
+     "2": 103,
+     "3": 70,
+     "4": 28,
+     "5": 5
+    }
+   },
+   "writing_quality": {
+    "mean": 3.73,
+    "median": 4,
+    "dist": {
+     "2": 4,
+     "3": 64,
+     "4": 149,
+     "5": 11
+    }
+   },
+   "claims_match_evidence": {
+    "mean": 3.15,
+    "median": 3,
+    "dist": {
+     "1": 2,
+     "2": 53,
+     "3": 102,
+     "4": 50,
+     "5": 21
+    }
+   },
+   "overclaiming": {
+    "substantial": 84,
+    "mild": 112,
+    "none": 32
+   },
+   "share_substantial_or_severe": 0.368,
+   "share_with_major_issue": 0.877,
+   "mean_major_issues": 1.99,
+   "harness": {
+    "custom": 121,
+    "off-the-shelf": 58,
+    "unclear": 22,
+    "none": 27
+   },
+   "repeated_runs": {
+    "some": 81,
+    "systematic": 44,
+    "none": 103
+   },
+   "human_intervention": {
+    "substantial": 100,
+    "none reported": 67,
+    "unclear": 29,
+    "minor": 32
+   },
+   "new_scientific_result": {
+    "none": 157,
+    "claimed and independently validated": 38,
+    "claimed": 33
+   },
+   "share_variance_reported": 0.487,
+   "share_cost_reported": 0.425,
+   "share_code_url_given": 0.662,
+   "share_any_dated_system_snapshot": 0.066,
+   "share_evaluation_dates_stated": 0.039,
+   "share_single_base_model": 0.39,
+   "share_ai_use_statement": 0.333
+  },
+  "missing": [],
+  "by_scope_group": {
+   "adjacent-quantum": {
+    "n": 64,
+    "reproducibility": {
+     "mean": 2.73,
+     "median": 3,
+     "dist": {
+      "1": 6,
+      "2": 25,
+      "3": 17,
+      "4": 12,
+      "5": 4
+     }
+    },
+    "writing_quality": {
+     "mean": 3.73,
+     "median": 4,
+     "dist": {
+      "2": 2,
+      "3": 19,
+      "4": 37,
+      "5": 6
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.22,
+     "median": 3,
+     "dist": {
+      "1": 2,
+      "2": 13,
+      "3": 28,
+      "4": 11,
+      "5": 10
+     }
+    },
+    "overclaiming": {
+     "mild": 29,
+     "substantial": 22,
+     "none": 13
+    },
+    "share_substantial_or_severe": 0.344,
+    "share_with_major_issue": 0.812,
+    "mean_major_issues": 1.89,
+    "harness": {
+     "custom": 31,
+     "off-the-shelf": 19,
+     "none": 3,
+     "unclear": 11
+    },
+    "repeated_runs": {
+     "some": 25,
+     "none": 29,
+     "systematic": 10
+    },
+    "human_intervention": {
+     "unclear": 14,
+     "substantial": 27,
+     "none reported": 13,
+     "minor": 10
+    },
+    "new_scientific_result": {
+     "none": 46,
+     "claimed": 4,
+     "claimed and independently validated": 14
+    },
+    "share_variance_reported": 0.422,
+    "share_cost_reported": 0.422,
+    "share_code_url_given": 0.703,
+    "share_any_dated_system_snapshot": 0.016,
+    "share_evaluation_dates_stated": 0.016,
+    "share_single_base_model": 0.344,
+    "share_ai_use_statement": 0.312
+   },
+   "condensed-matter": {
+    "n": 21,
+    "reproducibility": {
+     "mean": 2.95,
+     "median": 3,
+     "dist": {
+      "1": 2,
+      "2": 5,
+      "3": 7,
+      "4": 6,
+      "5": 1
+     }
+    },
+    "writing_quality": {
+     "mean": 4.05,
+     "median": 4,
+     "dist": {
+      "3": 2,
+      "4": 16,
+      "5": 3
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.52,
+     "median": 4,
+     "dist": {
+      "2": 6,
+      "3": 3,
+      "4": 7,
+      "5": 5
+     }
+    },
+    "overclaiming": {
+     "substantial": 7,
+     "mild": 7,
+     "none": 7
+    },
+    "share_substantial_or_severe": 0.333,
+    "share_with_major_issue": 0.714,
+    "mean_major_issues": 1.43,
+    "harness": {
+     "custom": 8,
+     "unclear": 6,
+     "off-the-shelf": 3,
+     "none": 4
+    },
+    "repeated_runs": {
+     "some": 4,
+     "none": 15,
+     "systematic": 2
+    },
+    "human_intervention": {
+     "none reported": 1,
+     "substantial": 15,
+     "minor": 2,
+     "unclear": 3
+    },
+    "new_scientific_result": {
+     "none": 10,
+     "claimed and independently validated": 7,
+     "claimed": 4
+    },
+    "share_variance_reported": 0.143,
+    "share_cost_reported": 0.333,
+    "share_code_url_given": 0.476,
+    "share_any_dated_system_snapshot": 0.0,
+    "share_evaluation_dates_stated": 0.095,
+    "share_single_base_model": 0.333,
+    "share_ai_use_statement": 0.714
+   },
+   "materials-science": {
+    "n": 111,
+    "reproducibility": {
+     "mean": 2.34,
+     "median": 2,
+     "dist": {
+      "1": 11,
+      "2": 57,
+      "3": 37,
+      "4": 6
+     }
+    },
+    "writing_quality": {
+     "mean": 3.68,
+     "median": 4,
+     "dist": {
+      "2": 1,
+      "3": 34,
+      "4": 75,
+      "5": 1
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.02,
+     "median": 3,
+     "dist": {
+      "2": 27,
+      "3": 58,
+      "4": 23,
+      "5": 3
+     }
+    },
+    "overclaiming": {
+     "substantial": 45,
+     "mild": 60,
+     "none": 6
+    },
+    "share_substantial_or_severe": 0.405,
+    "share_with_major_issue": 0.946,
+    "mean_major_issues": 2.14,
+    "harness": {
+     "off-the-shelf": 23,
+     "custom": 68,
+     "none": 16,
+     "unclear": 4
+    },
+    "repeated_runs": {
+     "systematic": 27,
+     "some": 40,
+     "none": 44
+    },
+    "human_intervention": {
+     "substantial": 46,
+     "unclear": 9,
+     "minor": 12,
+     "none reported": 44
+    },
+    "new_scientific_result": {
+     "claimed and independently validated": 13,
+     "none": 78,
+     "claimed": 20
+    },
+    "share_variance_reported": 0.595,
+    "share_cost_reported": 0.378,
+    "share_code_url_given": 0.658,
+    "share_any_dated_system_snapshot": 0.099,
+    "share_evaluation_dates_stated": 0.036,
+    "share_single_base_model": 0.405,
+    "share_ai_use_statement": 0.261
+   },
+   "other": {
+    "n": 32,
+    "reproducibility": {
+     "mean": 2.44,
+     "median": 2,
+     "dist": {
+      "1": 3,
+      "2": 16,
+      "3": 9,
+      "4": 4
+     }
+    },
+    "writing_quality": {
+     "mean": 3.69,
+     "median": 4,
+     "dist": {
+      "2": 1,
+      "3": 9,
+      "4": 21,
+      "5": 1
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.25,
+     "median": 3,
+     "dist": {
+      "2": 7,
+      "3": 13,
+      "4": 9,
+      "5": 3
+     }
+    },
+    "overclaiming": {
+     "substantial": 10,
+     "mild": 16,
+     "none": 6
+    },
+    "share_substantial_or_severe": 0.312,
+    "share_with_major_issue": 0.875,
+    "mean_major_issues": 2.06,
+    "harness": {
+     "custom": 14,
+     "off-the-shelf": 13,
+     "none": 4,
+     "unclear": 1
+    },
+    "repeated_runs": {
+     "some": 12,
+     "systematic": 5,
+     "none": 15
+    },
+    "human_intervention": {
+     "substantial": 12,
+     "none reported": 9,
+     "minor": 8,
+     "unclear": 3
+    },
+    "new_scientific_result": {
+     "none": 23,
+     "claimed and independently validated": 4,
+     "claimed": 5
+    },
+    "share_variance_reported": 0.469,
+    "share_cost_reported": 0.656,
+    "share_code_url_given": 0.719,
+    "share_any_dated_system_snapshot": 0.094,
+    "share_evaluation_dates_stated": 0.062,
+    "share_single_base_model": 0.469,
+    "share_ai_use_statement": 0.375
+   }
+  },
+  "by_kind": {
+   "application": {
+    "n": 67,
+    "reproducibility": {
+     "mean": 2.61,
+     "median": 2,
+     "dist": {
+      "1": 5,
+      "2": 32,
+      "3": 15,
+      "4": 14,
+      "5": 1
+     }
+    },
+    "writing_quality": {
+     "mean": 3.79,
+     "median": 4,
+     "dist": {
+      "2": 2,
+      "3": 13,
+      "4": 49,
+      "5": 3
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.31,
+     "median": 3,
+     "dist": {
+      "1": 1,
+      "2": 14,
+      "3": 24,
+      "4": 19,
+      "5": 9
+     }
+    },
+    "overclaiming": {
+     "substantial": 26,
+     "mild": 27,
+     "none": 14
+    },
+    "share_substantial_or_severe": 0.388,
+    "share_with_major_issue": 0.821,
+    "mean_major_issues": 1.87,
+    "harness": {
+     "off-the-shelf": 21,
+     "unclear": 14,
+     "none": 8,
+     "custom": 24
+    },
+    "repeated_runs": {
+     "systematic": 10,
+     "some": 24,
+     "none": 33
+    },
+    "human_intervention": {
+     "substantial": 48,
+     "minor": 5,
+     "none reported": 9,
+     "unclear": 5
+    },
+    "new_scientific_result": {
+     "claimed and independently validated": 24,
+     "claimed": 13,
+     "none": 30
+    },
+    "share_variance_reported": 0.418,
+    "share_cost_reported": 0.313,
+    "share_code_url_given": 0.627,
+    "share_any_dated_system_snapshot": 0.015,
+    "share_evaluation_dates_stated": 0.045,
+    "share_single_base_model": 0.418,
+    "share_ai_use_statement": 0.463
+   },
+   "benchmark": {
+    "n": 39,
+    "reproducibility": {
+     "mean": 2.69,
+     "median": 3,
+     "dist": {
+      "1": 2,
+      "2": 13,
+      "3": 19,
+      "4": 5
+     }
+    },
+    "writing_quality": {
+     "mean": 3.64,
+     "median": 4,
+     "dist": {
+      "3": 14,
+      "4": 25
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 2.95,
+     "median": 3,
+     "dist": {
+      "2": 11,
+      "3": 20,
+      "4": 7,
+      "5": 1
+     }
+    },
+    "overclaiming": {
+     "substantial": 15,
+     "mild": 22,
+     "none": 2
+    },
+    "share_substantial_or_severe": 0.385,
+    "share_with_major_issue": 0.923,
+    "mean_major_issues": 2.1,
+    "harness": {
+     "custom": 22,
+     "off-the-shelf": 14,
+     "none": 3
+    },
+    "repeated_runs": {
+     "systematic": 10,
+     "some": 12,
+     "none": 17
+    },
+    "human_intervention": {
+     "none reported": 15,
+     "substantial": 15,
+     "minor": 6,
+     "unclear": 3
+    },
+    "new_scientific_result": {
+     "none": 37,
+     "claimed and independently validated": 2
+    },
+    "share_variance_reported": 0.538,
+    "share_cost_reported": 0.487,
+    "share_code_url_given": 0.897,
+    "share_any_dated_system_snapshot": 0.077,
+    "share_evaluation_dates_stated": 0.026,
+    "share_single_base_model": 0.128,
+    "share_ai_use_statement": 0.282
+   },
+   "method": {
+    "n": 105,
+    "reproducibility": {
+     "mean": 2.23,
+     "median": 2,
+     "dist": {
+      "1": 14,
+      "2": 57,
+      "3": 30,
+      "4": 4
+     }
+    },
+    "writing_quality": {
+     "mean": 3.68,
+     "median": 4,
+     "dist": {
+      "2": 2,
+      "3": 33,
+      "4": 67,
+      "5": 3
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 2.97,
+     "median": 3,
+     "dist": {
+      "1": 1,
+      "2": 27,
+      "3": 54,
+      "4": 20,
+      "5": 3
+     }
+    },
+    "overclaiming": {
+     "substantial": 42,
+     "mild": 56,
+     "none": 7
+    },
+    "share_substantial_or_severe": 0.4,
+    "share_with_major_issue": 0.981,
+    "mean_major_issues": 2.25,
+    "harness": {
+     "custom": 73,
+     "none": 11,
+     "off-the-shelf": 20,
+     "unclear": 1
+    },
+    "repeated_runs": {
+     "some": 43,
+     "none": 39,
+     "systematic": 23
+    },
+    "human_intervention": {
+     "substantial": 26,
+     "unclear": 18,
+     "none reported": 40,
+     "minor": 21
+    },
+    "new_scientific_result": {
+     "none": 82,
+     "claimed": 16,
+     "claimed and independently validated": 7
+    },
+    "share_variance_reported": 0.562,
+    "share_cost_reported": 0.524,
+    "share_code_url_given": 0.638,
+    "share_any_dated_system_snapshot": 0.095,
+    "share_evaluation_dates_stated": 0.038,
+    "share_single_base_model": 0.495,
+    "share_ai_use_statement": 0.238
+   },
+   "other": {
+    "n": 9,
+    "suppressed": "fewer than 10 papers"
+   },
+   "review-perspective": {
+    "n": 7,
+    "suppressed": "fewer than 10 papers"
+   }
+  },
+  "by_human_intervention": {
+   "minor": {
+    "n": 32,
+    "reproducibility": {
+     "mean": 2.34,
+     "median": 2,
+     "dist": {
+      "1": 4,
+      "2": 14,
+      "3": 13,
+      "4": 1
+     }
+    },
+    "writing_quality": {
+     "mean": 3.62,
+     "median": 4,
+     "dist": {
+      "3": 12,
+      "4": 20
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 2.88,
+     "median": 3,
+     "dist": {
+      "2": 8,
+      "3": 20,
+      "4": 4
+     }
+    },
+    "overclaiming": {
+     "mild": 17,
+     "substantial": 13,
+     "none": 2
+    },
+    "share_substantial_or_severe": 0.406,
+    "share_with_major_issue": 0.969,
+    "mean_major_issues": 2.34,
+    "harness": {
+     "none": 2,
+     "custom": 16,
+     "off-the-shelf": 13,
+     "unclear": 1
+    },
+    "repeated_runs": {
+     "some": 9,
+     "none": 17,
+     "systematic": 6
+    },
+    "human_intervention": {
+     "minor": 32
+    },
+    "new_scientific_result": {
+     "claimed and independently validated": 4,
+     "claimed": 4,
+     "none": 24
+    },
+    "share_variance_reported": 0.5,
+    "share_cost_reported": 0.5,
+    "share_code_url_given": 0.781,
+    "share_any_dated_system_snapshot": 0.031,
+    "share_evaluation_dates_stated": 0.0,
+    "share_single_base_model": 0.406,
+    "share_ai_use_statement": 0.188
+   },
+   "none reported": {
+    "n": 67,
+    "reproducibility": {
+     "mean": 2.43,
+     "median": 2,
+     "dist": {
+      "1": 4,
+      "2": 36,
+      "3": 21,
+      "4": 6
+     }
+    },
+    "writing_quality": {
+     "mean": 3.6,
+     "median": 4,
+     "dist": {
+      "2": 1,
+      "3": 26,
+      "4": 39,
+      "5": 1
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 2.97,
+     "median": 3,
+     "dist": {
+      "2": 18,
+      "3": 34,
+      "4": 14,
+      "5": 1
+     }
+    },
+    "overclaiming": {
+     "substantial": 29,
+     "mild": 35,
+     "none": 3
+    },
+    "share_substantial_or_severe": 0.433,
+    "share_with_major_issue": 0.955,
+    "mean_major_issues": 2.24,
+    "harness": {
+     "custom": 43,
+     "off-the-shelf": 12,
+     "none": 12
+    },
+    "repeated_runs": {
+     "systematic": 24,
+     "some": 22,
+     "none": 21
+    },
+    "human_intervention": {
+     "none reported": 67
+    },
+    "new_scientific_result": {
+     "none": 59,
+     "claimed": 6,
+     "claimed and independently validated": 2
+    },
+    "share_variance_reported": 0.642,
+    "share_cost_reported": 0.597,
+    "share_code_url_given": 0.642,
+    "share_any_dated_system_snapshot": 0.09,
+    "share_evaluation_dates_stated": 0.015,
+    "share_single_base_model": 0.418,
+    "share_ai_use_statement": 0.239
+   },
+   "substantial": {
+    "n": 100,
+    "reproducibility": {
+     "mean": 2.7,
+     "median": 3,
+     "dist": {
+      "1": 7,
+      "2": 42,
+      "3": 29,
+      "4": 18,
+      "5": 4
+     }
+    },
+    "writing_quality": {
+     "mean": 3.83,
+     "median": 4,
+     "dist": {
+      "2": 2,
+      "3": 21,
+      "4": 69,
+      "5": 8
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.29,
+     "median": 3,
+     "dist": {
+      "1": 1,
+      "2": 23,
+      "3": 36,
+      "4": 26,
+      "5": 14
+     }
+    },
+    "overclaiming": {
+     "substantial": 35,
+     "mild": 44,
+     "none": 21
+    },
+    "share_substantial_or_severe": 0.35,
+    "share_with_major_issue": 0.81,
+    "mean_major_issues": 1.76,
+    "harness": {
+     "custom": 45,
+     "off-the-shelf": 28,
+     "unclear": 17,
+     "none": 10
+    },
+    "repeated_runs": {
+     "some": 35,
+     "systematic": 11,
+     "none": 54
+    },
+    "human_intervention": {
+     "substantial": 100
+    },
+    "new_scientific_result": {
+     "none": 54,
+     "claimed and independently validated": 29,
+     "claimed": 17
+    },
+    "share_variance_reported": 0.42,
+    "share_cost_reported": 0.3,
+    "share_code_url_given": 0.68,
+    "share_any_dated_system_snapshot": 0.08,
+    "share_evaluation_dates_stated": 0.06,
+    "share_single_base_model": 0.33,
+    "share_ai_use_statement": 0.44
+   },
+   "unclear": {
+    "n": 29,
+    "reproducibility": {
+     "mean": 2.31,
+     "median": 2,
+     "dist": {
+      "1": 7,
+      "2": 11,
+      "3": 7,
+      "4": 3,
+      "5": 1
+     }
+    },
+    "writing_quality": {
+     "mean": 3.83,
+     "median": 4,
+     "dist": {
+      "2": 1,
+      "3": 5,
+      "4": 21,
+      "5": 2
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.41,
+     "median": 3,
+     "dist": {
+      "1": 1,
+      "2": 4,
+      "3": 12,
+      "4": 6,
+      "5": 6
+     }
+    },
+    "overclaiming": {
+     "substantial": 7,
+     "mild": 16,
+     "none": 6
+    },
+    "share_substantial_or_severe": 0.241,
+    "share_with_major_issue": 0.828,
+    "mean_major_issues": 1.83,
+    "harness": {
+     "custom": 17,
+     "unclear": 4,
+     "off-the-shelf": 5,
+     "none": 3
+    },
+    "repeated_runs": {
+     "none": 11,
+     "some": 15,
+     "systematic": 3
+    },
+    "human_intervention": {
+     "unclear": 29
+    },
+    "new_scientific_result": {
+     "none": 20,
+     "claimed and independently validated": 3,
+     "claimed": 6
+    },
+    "share_variance_reported": 0.345,
+    "share_cost_reported": 0.379,
+    "share_code_url_given": 0.517,
+    "share_any_dated_system_snapshot": 0.0,
+    "share_evaluation_dates_stated": 0.069,
+    "share_single_base_model": 0.517,
+    "share_ai_use_statement": 0.345
+   }
+  },
+  "reasoning_proof_vs_rest": {
+   "reasoning-proof": {
+    "n": 34,
+    "reproducibility": {
+     "mean": 3.5,
+     "median": 4,
+     "dist": {
+      "1": 1,
+      "2": 6,
+      "3": 7,
+      "4": 15,
+      "5": 5
+     }
+    },
+    "writing_quality": {
+     "mean": 4.15,
+     "median": 4,
+     "dist": {
+      "3": 4,
+      "4": 21,
+      "5": 9
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.97,
+     "median": 4,
+     "dist": {
+      "2": 6,
+      "3": 4,
+      "4": 9,
+      "5": 15
+     }
+    },
+    "overclaiming": {
+     "substantial": 7,
+     "mild": 7,
+     "none": 20
+    },
+    "share_substantial_or_severe": 0.206,
+    "share_with_major_issue": 0.471,
+    "mean_major_issues": 0.88,
+    "harness": {
+     "custom": 10,
+     "unclear": 18,
+     "none": 4,
+     "off-the-shelf": 2
+    },
+    "repeated_runs": {
+     "some": 3,
+     "none": 31
+    },
+    "human_intervention": {
+     "substantial": 28,
+     "unclear": 4,
+     "none reported": 1,
+     "minor": 1
+    },
+    "new_scientific_result": {
+     "none": 9,
+     "claimed and independently validated": 19,
+     "claimed": 6
+    },
+    "share_variance_reported": 0.088,
+    "share_cost_reported": 0.206,
+    "share_code_url_given": 0.441,
+    "share_any_dated_system_snapshot": 0.059,
+    "share_evaluation_dates_stated": 0.029,
+    "share_single_base_model": 0.412,
+    "share_ai_use_statement": 0.794
+   },
+   "rest": {
+    "n": 194,
+    "reproducibility": {
+     "mean": 2.35,
+     "median": 2,
+     "dist": {
+      "1": 21,
+      "2": 97,
+      "3": 63,
+      "4": 13
+     }
+    },
+    "writing_quality": {
+     "mean": 3.66,
+     "median": 4,
+     "dist": {
+      "2": 4,
+      "3": 60,
+      "4": 128,
+      "5": 2
+     }
+    },
+    "claims_match_evidence": {
+     "mean": 3.01,
+     "median": 3,
+     "dist": {
+      "1": 2,
+      "2": 47,
+      "3": 98,
+      "4": 41,
+      "5": 6
+     }
+    },
+    "overclaiming": {
+     "substantial": 77,
+     "mild": 105,
+     "none": 12
+    },
+    "share_substantial_or_severe": 0.397,
+    "share_with_major_issue": 0.948,
+    "mean_major_issues": 2.19,
+    "harness": {
+     "custom": 111,
+     "off-the-shelf": 56,
+     "none": 23,
+     "unclear": 4
+    },
+    "repeated_runs": {
+     "systematic": 44,
+     "some": 78,
+     "none": 72
+    },
+    "human_intervention": {
+     "none reported": 66,
+     "substantial": 72,
+     "unclear": 25,
+     "minor": 31
+    },
+    "new_scientific_result": {
+     "none": 148,
+     "claimed and independently validated": 19,
+     "claimed": 27
+    },
+    "share_variance_reported": 0.557,
+    "share_cost_reported": 0.464,
+    "share_code_url_given": 0.701,
+    "share_any_dated_system_snapshot": 0.067,
+    "share_evaluation_dates_stated": 0.041,
+    "share_single_base_model": 0.387,
+    "share_ai_use_statement": 0.253
+   }
+  },
+  "off_the_shelf_harnesses": {
+   "Claude Code": 5,
+   "OpenEvolve": 3,
+   "OpenAI Codex": 2,
+   "Codex CLI": 2,
+   "OpenCode": 2,
+   "Claude Code; custom NIMO LLMEP": 1,
+   "AutoGen": 1,
+   "OpenClaw": 1,
+   "Claude Code 2.1.78, Codex CLI 0.115.0; Claude Agent SDK 0.1.48": 1,
+   "LangGraph, LangChain, CrewAI, Pydantic AI, Google ADK, CodeAct, NotebookLM; MCP integrations": 1,
+   "Open Dr.Sai; custom GSAS-II/FastMCP interface": 1,
+   "Claude Agent SDK": 1,
+   "Pydantic AI": 1,
+   "ERA and Google AntiGravity": 1,
+   "Claude-code; Codex": 1,
+   "Google Antigravity/OpenClaw demonstrations": 1,
+   "SDE-Harness; LiteLLM": 1,
+   "OpenCode (GPT agent baseline); custom evaluation": 1,
+   "CrewAI": 1,
+   "DSPy ReAct": 1,
+   "LLaMA-Factory (linked release)": 1,
+   "ChatGPT Data Analyst": 1,
+   "Strands Agents": 1,
+   "AWS Strands Agents SDK, custom platform": 1,
+   "Claude Code v2.1.140; KimiCode; custom serving middleware": 1,
+   "AlphaEvolve Cloud API; ShinkaEvolve": 1,
+   "Claude Code CLI": 1,
+   "Harbor; customized adapters invoking Codex or Claude Code": 1,
+   "Codex CLI v0.125.0; OpenAI Agents SDK v0.8.4": 1,
+   "kiro-cli": 1,
+   "LangChain ReAct": 1,
+   "Codex; Claude Code": 1,
+   "OpenClaw (release); Codex CLI (Table S2 benchmark logs)": 1,
+   "Harbor orchestrating Codex and OpenCode": 1,
+   "Microsoft AutoGen": 1,
+   "PaperQA via Ollama": 1,
+   "OpenAI Codex and NVIDIA NeMo Agent Toolkit (reference specifies 1.8.0)": 1,
+   "Claude Code with AtomisticSkills": 1,
+   "OpenAI Agents SDK": 1,
+   "OpenAI Agents SDK; custom Qiskit evaluation": 1,
+   "Claude Code, Codex; vLLM serving": 1,
+   "NaviAgent; custom runner/evaluators": 1,
+   "MatClaw; Codex CLI 0.154.0": 1,
+   "Pydantic AI; custom FastMCP workflow; Claude Code baseline": 1,
+   "OpenEvolve 0.2.26": 1,
+   "Claude Code 2.1.156; Codex 0.131.0; Cursor Agent CLI 2026.05.28-a70ca7c": 1,
+   "Harbor; Codex, Claude Code CLI, Antigravity": 1,
+   "Claude Code and Codex; custom PhysKit": 1,
+   "Claude Code, Codex": 1
+  },
+  "prompt_v1_vs_v2": {
+   "n": 20,
+   "v1_substantial_share": 0.3,
+   "v1_retest_substantial_share": 0.25,
+   "v2_substantial_share": 0.55,
+   "mean_overclaim_level_v1": 1.23,
+   "mean_overclaim_level_v2": 1.55,
+   "mean_claims_v1": 3.12,
+   "mean_claims_v2": 2.8
+  }
+ },
+ "by_month": {
+  "2026-04": {
+   "n": 15,
+   "claims_mean": 2.6,
+   "claims_se": 0.214,
+   "ai_use_share": 0.333,
+   "ai_use_se": 0.122
+  },
+  "2026-05": {
+   "n": 39,
+   "claims_mean": 2.744,
+   "claims_se": 0.115,
+   "ai_use_share": 0.128,
+   "ai_use_se": 0.054
+  },
+  "2026-06": {
+   "n": 33,
+   "claims_mean": 2.818,
+   "claims_se": 0.154,
+   "ai_use_share": 0.242,
+   "ai_use_se": 0.075
+  },
+  "2026-07": {
+   "n": 42,
+   "claims_mean": 3.167,
+   "claims_se": 0.144,
+   "ai_use_share": 0.262,
+   "ai_use_se": 0.068
+  },
+  "2026-08": {
+   "n": 32,
+   "claims_mean": 3.5,
+   "claims_se": 0.156,
+   "ai_use_share": 0.312,
+   "ai_use_se": 0.082
+  },
+  "2026-09": {
+   "n": 42,
+   "claims_mean": 3.5,
+   "claims_se": 0.142,
+   "ai_use_share": 0.595,
+   "ai_use_se": 0.076
+  },
+  "2026-10": {
+   "n": 25,
+   "claims_mean": 3.52,
+   "claims_se": 0.154,
+   "ai_use_share": 0.48,
+   "ai_use_se": 0.1
+  }
+ },
+ "trend": {
+  "trend": {
+   "all": {
+    "claims_match_evidence": {
+     "rho": 0.37,
+     "p": 0.0002,
+     "n": 228
+    },
+    "writing_quality": {
+     "rho": 0.32,
+     "p": 0.0002,
+     "n": 228
+    },
+    "reproducibility": {
+     "rho": 0.12,
+     "p": 0.0754,
+     "n": 228
+    },
+    "overclaiming": {
+     "rho": -0.39,
+     "p": 0.0002,
+     "n": 228
+    }
+   },
+   "non-proof": {
+    "claims_match_evidence": {
+     "rho": 0.31,
+     "p": 0.0002,
+     "n": 194
+    },
+    "writing_quality": {
+     "rho": 0.26,
+     "p": 0.0006,
+     "n": 194
+    },
+    "reproducibility": {
+     "rho": 0.02,
+     "p": 0.7938,
+     "n": 194
+    },
+    "overclaiming": {
+     "rho": -0.34,
+     "p": 0.0002,
+     "n": 194
+    }
+   },
+   "no AI-use statement": {
+    "claims_match_evidence": {
+     "rho": 0.33,
+     "p": 0.0002,
+     "n": 152
+    },
+    "writing_quality": {
+     "rho": 0.33,
+     "p": 0.0002,
+     "n": 152
+    },
+    "reproducibility": {
+     "rho": 0.08,
+     "p": 0.3497,
+     "n": 152
+    },
+    "overclaiming": {
+     "rho": -0.35,
+     "p": 0.0002,
+     "n": 152
+    }
+   },
+   "AI-use statement": {
+    "claims_match_evidence": {
+     "rho": 0.21,
+     "p": 0.0684,
+     "n": 76
+    },
+    "writing_quality": {
+     "rho": 0.15,
+     "p": 0.1906,
+     "n": 76
+    },
+    "reproducibility": {
+     "rho": -0.12,
+     "p": 0.2851,
+     "n": 76
+    },
+    "overclaiming": {
+     "rho": -0.23,
+     "p": 0.0436,
+     "n": 76
+    }
+   },
+   "kind=application": {
+    "claims_match_evidence": {
+     "rho": 0.47,
+     "p": 0.0002,
+     "n": 67
+    },
+    "writing_quality": {
+     "rho": 0.43,
+     "p": 0.0002,
+     "n": 67
+    },
+    "reproducibility": {
+     "rho": 0.32,
+     "p": 0.0082,
+     "n": 67
+    },
+    "overclaiming": {
+     "rho": -0.45,
+     "p": 0.0004,
+     "n": 67
+    }
+   },
+   "kind=method": {
+    "claims_match_evidence": {
+     "rho": 0.37,
+     "p": 0.0002,
+     "n": 105
+    },
+    "writing_quality": {
+     "rho": 0.37,
+     "p": 0.0004,
+     "n": 105
+    },
+    "reproducibility": {
+     "rho": -0.08,
+     "p": 0.4403,
+     "n": 105
+    },
+    "overclaiming": {
+     "rho": -0.43,
+     "p": 0.0002,
+     "n": 105
+    }
+   },
+   "kind=benchmark": {
+    "claims_match_evidence": {
+     "rho": 0.2,
+     "p": 0.2254,
+     "n": 39
+    },
+    "writing_quality": {
+     "rho": 0.01,
+     "p": 0.971,
+     "n": 39
+    },
+    "reproducibility": {
+     "rho": 0.16,
+     "p": 0.3249,
+     "n": 39
+    },
+    "overclaiming": {
+     "rho": -0.13,
+     "p": 0.4505,
+     "n": 39
+    }
+   }
+  },
+  "by_month": {
+   "2026-04": {
+    "n": 15,
+    "share_proof": 0.13,
+    "share_ai_use_statement": 0.33,
+    "mean_claims": 2.6
+   },
+   "2026-05": {
+    "n": 39,
+    "share_proof": 0.03,
+    "share_ai_use_statement": 0.13,
+    "mean_claims": 2.74
+   },
+   "2026-06": {
+    "n": 33,
+    "share_proof": 0.09,
+    "share_ai_use_statement": 0.24,
+    "mean_claims": 2.82
+   },
+   "2026-07": {
+    "n": 42,
+    "share_proof": 0.19,
+    "share_ai_use_statement": 0.26,
+    "mean_claims": 3.17
+   },
+   "2026-08": {
+    "n": 32,
+    "share_proof": 0.22,
+    "share_ai_use_statement": 0.31,
+    "mean_claims": 3.5
+   },
+   "2026-09": {
+    "n": 42,
+    "share_proof": 0.19,
+    "share_ai_use_statement": 0.6,
+    "mean_claims": 3.5
+   },
+   "2026-10": {
+    "n": 25,
+    "share_proof": 0.2,
+    "share_ai_use_statement": 0.48,
+    "mean_claims": 3.52
+   }
+  },
+  "lag_vs_date": {
+   "rho": 0.01,
+   "p": 0.8582,
+   "n": 189
+  },
+  "lag_vs_scores": {
+   "claims_match_evidence": {
+    "rho": -0.23,
+    "p": 0.0014,
+    "n": 189
+   },
+   "writing_quality": {
+    "rho": -0.27,
+    "p": 0.0002,
+    "n": 189
+   },
+   "reproducibility": {
+    "rho": -0.17,
+    "p": 0.0174,
+    "n": 189
+   },
+   "overclaiming": {
+    "rho": 0.21,
+    "p": 0.0022,
+    "n": 189
+   }
+  }
+ },
+ "drift_check": {
+  "n": 20,
+  "metrics": {
+   "reproducibility": {
+    "early": {
+     "old": 2.1,
+     "new": 2.1
+    },
+    "late": {
+     "old": 2.7,
+     "new": 2.6
+    },
+    "late_minus_early": {
+     "old": 0.6,
+     "new": 0.5
+    },
+    "exact": 19,
+    "within_1": 20
+   },
+   "writing_quality": {
+    "early": {
+     "old": 3.3,
+     "new": 3.4
+    },
+    "late": {
+     "old": 3.9,
+     "new": 3.9
+    },
+    "late_minus_early": {
+     "old": 0.6,
+     "new": 0.5
+    },
+    "exact": 19,
+    "within_1": 20
+   },
+   "claims_match_evidence": {
+    "early": {
+     "old": 2.7,
+     "new": 2.8
+    },
+    "late": {
+     "old": 3.3,
+     "new": 3.3
+    },
+    "late_minus_early": {
+     "old": 0.6,
+     "new": 0.5
+    },
+    "exact": 17,
+    "within_1": 20
+   },
+   "overclaiming": {
+    "early": {
+     "old": 1.6,
+     "new": 1.6
+    },
+    "late": {
+     "old": 1,
+     "new": 0.9
+    },
+    "late_minus_early": {
+     "old": -0.6,
+     "new": -0.7
+    },
+    "exact": 19,
+    "within_1": 20
+   },
+   "n_major": {
+    "early": {
+     "old": 2.5,
+     "new": 2.3
+    },
+    "late": {
+     "old": 1.8,
+     "new": 2.1
+    },
+    "late_minus_early": {
+     "old": -0.7,
+     "new": -0.2
+    },
+    "exact": 11,
+    "within_1": 20
+   }
+  }
+ },
+ "test_retest": {
+  "n": 20,
+  "reproducibility": {
+   "exact": 16,
+   "within_1": 20,
+   "mean_shift": -0.1
+  },
+  "writing_quality": {
+   "exact": 16,
+   "within_1": 20,
+   "mean_shift": -0.1
+  },
+  "claims_match_evidence": {
+   "exact": 19,
+   "within_1": 20,
+   "mean_shift": 0.05
+  },
+  "overclaiming_same": 17
+ },
+ "issue_taxonomy": {
+  "n_issues": 454,
+  "n_coded": 454,
+  "missing": [],
+  "invalid_category": [],
+  "n_papers": 228,
+  "papers_with_any_major_issue": 200,
+  "categories": [
+   {
+    "id": "missing-artifacts",
+    "name": "Not making the materials needed for reproduction accessible",
+    "supergroup": "reproducibility-and-reporting",
+    "issues": 116,
+    "issue_share": 0.256,
+    "paper_share": 0.509,
+    "paper_share_apr_jun": 0.494,
+    "paper_share_jul_oct": 0.518,
+    "paper_share_proof": 0.176,
+    "paper_share_rest": 0.567
+   },
+   {
+    "id": "confounded-attribution",
+    "name": "Claiming a cause without isolating it",
+    "supergroup": "claims-and-inference",
+    "issues": 70,
+    "issue_share": 0.154,
+    "paper_share": 0.298,
+    "paper_share_apr_jun": 0.402,
+    "paper_share_jul_oct": 0.234,
+    "paper_share_proof": 0.088,
+    "paper_share_rest": 0.335
+   },
+   {
+    "id": "inadequate-comparisons",
+    "name": "Comparing against missing or unequal baselines",
+    "supergroup": "evaluation-design",
+    "issues": 40,
+    "issue_share": 0.088,
+    "paper_share": 0.171,
+    "paper_share_apr_jun": 0.172,
+    "paper_share_jul_oct": 0.17,
+    "paper_share_proof": 0.059,
+    "paper_share_rest": 0.191
+   },
+   {
+    "id": "unquantified-uncertainty",
+    "name": "Not establishing repeatability or statistical uncertainty",
+    "supergroup": "evaluation-design",
+    "issues": 33,
+    "issue_share": 0.073,
+    "paper_share": 0.145,
+    "paper_share_apr_jun": 0.207,
+    "paper_share_jul_oct": 0.106,
+    "paper_share_proof": 0.059,
+    "paper_share_rest": 0.16
+   },
+   {
+    "id": "unvalidated-scientific-results",
+    "name": "Not checking that the scientific outputs are correct",
+    "supergroup": "claims-and-inference",
+    "issues": 33,
+    "issue_share": 0.073,
+    "paper_share": 0.145,
+    "paper_share_apr_jun": 0.207,
+    "paper_share_jul_oct": 0.106,
+    "paper_share_proof": 0.088,
+    "paper_share_rest": 0.155
+   },
+   {
+    "id": "underspecified-methods",
+    "name": "Not specifying how the reported study was run",
+    "supergroup": "reproducibility-and-reporting",
+    "issues": 30,
+    "issue_share": 0.066,
+    "paper_share": 0.127,
+    "paper_share_apr_jun": 0.184,
+    "paper_share_jul_oct": 0.092,
+    "paper_share_proof": 0.118,
+    "paper_share_rest": 0.129
+   },
+   {
+    "id": "invalid-success-measure",
+    "name": "Measuring a proxy that does not establish the claimed success",
+    "supergroup": "evaluation-design",
+    "issues": 29,
+    "issue_share": 0.064,
+    "paper_share": 0.123,
+    "paper_share_apr_jun": 0.138,
+    "paper_share_jul_oct": 0.113,
+    "paper_share_proof": 0.0,
+    "paper_share_rest": 0.144
+   },
+   {
+    "id": "unsupported-scope",
+    "name": "Extending conclusions beyond the tested conditions",
+    "supergroup": "claims-and-inference",
+    "issues": 22,
+    "issue_share": 0.048,
+    "paper_share": 0.096,
+    "paper_share_apr_jun": 0.092,
+    "paper_share_jul_oct": 0.099,
+    "paper_share_proof": 0.118,
+    "paper_share_rest": 0.093
+   },
+   {
+    "id": "test-contamination",
+    "name": "Not keeping evaluation independent of development",
+    "supergroup": "evaluation-design",
+    "issues": 21,
+    "issue_share": 0.046,
+    "paper_share": 0.088,
+    "paper_share_apr_jun": 0.103,
+    "paper_share_jul_oct": 0.078,
+    "paper_share_proof": 0.0,
+    "paper_share_rest": 0.103
+   },
+   {
+    "id": "inconsistent-reporting",
+    "name": "Reporting results or procedures that disagree",
+    "supergroup": "reproducibility-and-reporting",
+    "issues": 20,
+    "issue_share": 0.044,
+    "paper_share": 0.075,
+    "paper_share_apr_jun": 0.138,
+    "paper_share_jul_oct": 0.035,
+    "paper_share_proof": 0.0,
+    "paper_share_rest": 0.088
+   },
+   {
+    "id": "unvalidated-judging",
+    "name": "Using reference answers or judges without independent validation",
+    "supergroup": "evaluation-design",
+    "issues": 19,
+    "issue_share": 0.042,
+    "paper_share": 0.083,
+    "paper_share_apr_jun": 0.069,
+    "paper_share_jul_oct": 0.092,
+    "paper_share_proof": 0.059,
+    "paper_share_rest": 0.088
+   },
+   {
+    "id": "technical-error",
+    "name": "Making a physics, mathematics, or statistical error",
+    "supergroup": "correctness-and-assurance",
+    "issues": 17,
+    "issue_share": 0.037,
+    "paper_share": 0.075,
+    "paper_share_apr_jun": 0.126,
+    "paper_share_jul_oct": 0.043,
+    "paper_share_proof": 0.088,
+    "paper_share_rest": 0.072
+   },
+   {
+    "id": "other",
+    "name": "Other failures of research practice",
+    "supergroup": "correctness-and-assurance",
+    "issues": 4,
+    "issue_share": 0.009,
+    "paper_share": 0.018,
+    "paper_share_apr_jun": 0.023,
+    "paper_share_jul_oct": 0.014,
+    "paper_share_proof": 0.0,
+    "paper_share_rest": 0.021
+   }
+  ],
+  "supergroup_paper_share": {
+   "correctness-and-assurance": 0.092,
+   "evaluation-design": 0.509,
+   "reproducibility-and-reporting": 0.662,
+   "claims-and-inference": 0.465
+  },
+  "agreement": {
+   "n": 100,
+   "primary_kappa_and_raw": [
+    0.94,
+    0.95
+   ],
+   "supergroup_kappa_and_raw": [
+    0.94,
+    0.96
+   ],
+   "primary_or_secondary_match": 0.99,
+   "top_confusions": [
+    [
+     "underspecified-methods",
+     "unvalidated-scientific-results",
+     1
+    ],
+    [
+     "confounded-attribution",
+     "inadequate-comparisons",
+     1
+    ],
+    [
+     "inadequate-comparisons",
+     "unsupported-scope",
+     1
+    ],
+    [
+     "missing-artifacts",
+     "underspecified-methods",
+     1
+    ],
+    [
+     "unquantified-uncertainty",
+     "unsupported-scope",
+     1
+    ]
+   ]
+  },
+  "cross_family_agreement": {
+   "sol_main_vs_opus": {
+    "n": 100,
+    "primary_kappa_and_raw": [
+     0.89,
+     0.9
+    ],
+    "supergroup_kappa_and_raw": [
+     0.94,
+     0.96
+    ],
+    "primary_or_secondary_match": 0.98,
+    "top_confusions": [
+     [
+      "confounded-attribution",
+      "inadequate-comparisons",
+      2
+     ],
+     [
+      "missing-artifacts",
+      "underspecified-methods",
+      2
+     ],
+     [
+      "inadequate-comparisons",
+      "unquantified-uncertainty",
+      1
+     ],
+     [
+      "underspecified-methods",
+      "unvalidated-scientific-results",
+      1
+     ],
+     [
+      "inadequate-comparisons",
+      "invalid-success-measure",
+      1
+     ],
+     [
+      "inconsistent-reporting",
+      "underspecified-methods",
+      1
+     ],
+     [
+      "technical-error",
+      "unvalidated-scientific-results",
+      1
+     ],
+     [
+      "test-contamination",
+      "unquantified-uncertainty",
+      1
+     ]
+    ]
+   },
+   "sol_recode_vs_opus": {
+    "n": 100,
+    "primary_kappa_and_raw": [
+     0.87,
+     0.89
+    ],
+    "supergroup_kappa_and_raw": [
+     0.91,
+     0.94
+    ],
+    "primary_or_secondary_match": 0.96,
+    "top_confusions": [
+     [
+      "confounded-attribution",
+      "inadequate-comparisons",
+      3
+     ],
+     [
+      "missing-artifacts",
+      "underspecified-methods",
+      3
+     ],
+     [
+      "inadequate-comparisons",
+      "unquantified-uncertainty",
+      1
+     ],
+     [
+      "invalid-success-measure",
+      "unsupported-scope",
+      1
+     ],
+     [
+      "inconsistent-reporting",
+      "underspecified-methods",
+      1
+     ],
+     [
+      "technical-error",
+      "unvalidated-scientific-results",
+      1
+     ],
+     [
+      "test-contamination",
+      "unsupported-scope",
+      1
+     ]
+    ]
+   }
+  },
+  "confidence": {
+   "high": 379,
+   "medium": 75
+  }
+ },
+ "model_lag": {
+  "n_papers_with_dated_model": 192,
+  "lag_days_any_role": {
+   "n": 189,
+   "q1": 47.0,
+   "median": 96,
+   "q3": 213.0
+  },
+  "lag_days_system_role": {
+   "n": 175,
+   "q1": 56.0,
+   "median": 98,
+   "q3": 272.0
+  },
+  "frontier_gap_days": {
+   "n": 189,
+   "q1": 40.0,
+   "median": 84,
+   "q3": 208.5
+  },
+  "flagship_releases_since": {
+   "n": 189,
+   "q1": 3.0,
+   "median": 6,
+   "q3": 14.0
+  },
+  "share_newest_is_frontier_api": 0.709,
+  "share_lag_over_180d": 0.296,
+  "share_lag_over_365d": 0.169,
+  "share_using_current_frontier": 0.042,
+  "by_month": {
+   "2026-04": {
+    "lag": {
+     "n": 12,
+     "q1": 55.5,
+     "median": 104.5,
+     "q3": 182.5
+    },
+    "frontier_gap": {
+     "n": 12,
+     "q1": 53.0,
+     "median": 101.5,
+     "q3": 181.5
+    }
+   },
+   "2026-05": {
+    "lag": {
+     "n": 32,
+     "q1": 56.0,
+     "median": 82.5,
+     "q3": 500.5
+    },
+    "frontier_gap": {
+     "n": 32,
+     "q1": 43.25,
+     "median": 71.0,
+     "q3": 496.75
+    }
+   },
+   "2026-06": {
+    "lag": {
+     "n": 30,
+     "q1": 53.75,
+     "median": 94.0,
+     "q3": 254.0
+    },
+    "frontier_gap": {
+     "n": 30,
+     "q1": 45.75,
+     "median": 84.0,
+     "q3": 250.75
+    }
+   },
+   "2026-07": {
+    "lag": {
+     "n": 36,
+     "q1": 37.0,
+     "median": 77.0,
+     "q3": 133.0
+    },
+    "frontier_gap": {
+     "n": 36,
+     "q1": 15.0,
+     "median": 57.0,
+     "q3": 128.0
+    }
+   },
+   "2026-08": {
+    "lag": {
+     "n": 25,
+     "q1": 46.0,
+     "median": 118,
+     "q3": 449.0
+    },
+    "frontier_gap": {
+     "n": 25,
+     "q1": 34.0,
+     "median": 110,
+     "q3": 434.5
+    }
+   },
+   "2026-09": {
+    "lag": {
+     "n": 33,
+     "q1": 44.0,
+     "median": 118,
+     "q3": 224.0
+    },
+    "frontier_gap": {
+     "n": 33,
+     "q1": 40.5,
+     "median": 108,
+     "q3": 222.0
+    }
+   },
+   "2026-10": {
+    "lag": {
+     "n": 21,
+     "q1": 28.5,
+     "median": 97,
+     "q3": 208.5
+    },
+    "frontier_gap": {
+     "n": 21,
+     "q1": 22.0,
+     "median": 96,
+     "q3": 202.0
+    }
+   }
+  },
+  "negative_lag": [
+   {
+    "id": "2605.15227",
+    "date": "2026-05-13",
+    "newest_model": "qwen3.8-27b",
+    "newest_release": "2026-08-14"
+   },
+   {
+    "id": "2605.30358",
+    "date": "2026-04-28",
+    "newest_model": "gpt-5.6-terra-medium",
+    "newest_release": "2026-07-09"
+   },
+   {
+    "id": "2606.29459",
+    "date": "2026-06-28",
+    "newest_model": "claude-opus-5",
+    "newest_release": "2026-07-24"
+   }
+  ],
+  "undated_general_models": {}
+ },
+ "citations": {
+  "papers": 228,
+  "bibliographies_fetched": 228,
+  "by_source": {
+   "html": 197,
+   "source": 4,
+   "pdf": 27
+  },
+  "edges": 81,
+  "by_match": {
+   "title": 8,
+   "arxiv-id": 73
+  },
+  "papers_citing_any": 56,
+  "papers_cited_by_any": 44,
+  "isolated": 138,
+  "components": [
+   31,
+   9,
+   6,
+   6,
+   5,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "edges_with_shared_author_surname": 28,
+  "median_days_between": 58,
+  "edges_citing_later_paper": 1,
+  "median_bib_size_html": 42,
+  "reviewed_papers_citing_any_corpus_paper": 64,
+  "corpus_citations_total": 105,
+  "most_cited": [
+   {
+    "id": "2604.25884",
+    "in": 8,
+    "title": "QCalEval: Benchmarking Vision-Language Models for Quantum Calibration Plot Understanding"
+   },
+   {
+    "id": "2605.03205",
+    "in": 4,
+    "title": "From Knowledge to Action: Outcomes of the 2025 Large Language Model (LLM) Hackathon for Applications in Materials Science and Chemistry"
+   },
+   {
+    "id": "2605.24002",
+    "in": 4,
+    "title": "Harnessing AtomisticSkills for Agentic Atomistic Research"
+   },
+   {
+    "id": "2606.02418",
+    "in": 4,
+    "title": "Evolutionary Discovery of Bivariate Bicycle Codes with LLM-Guided Search"
+   },
+   {
+    "id": "2605.00803",
+    "in": 3,
+    "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?"
+   },
+   {
+    "id": "2606.24808",
+    "in": 3,
+    "title": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution"
+   },
+   {
+    "id": "2606.07314",
+    "in": 3,
+    "title": "QBugLM: An Agentic Benchmarking Framework for LLM-based Quantum Software Debugging"
+   },
+   {
+    "id": "2606.29687",
+    "in": 3,
+    "title": "A Machine-Verified Proof of a Quantum-Optimization Conjecture"
+   },
+   {
+    "id": "2606.27231",
+    "in": 3,
+    "title": "A hardware-safety-gated system for LLM-written native ARTIQ control code on a trapped-ion platform"
+   },
+   {
+    "id": "2605.26179",
+    "in": 3,
+    "title": "AutoDFT: A Closed-Loop Multi-Agent Framework for Autonomous DFT Calculations"
+   },
+   {
+    "id": "2605.14344",
+    "in": 2,
+    "title": "CrystalReasoner: Reasoning and RL for Property-Conditioned Crystal Structure Generation"
+   },
+   {
+    "id": "2606.22376",
+    "in": 2,
+    "title": "Vibe Calibration: Autonomous Bring-up of a 112-Qubit Superconducting Quantum Processor by a Skill-Orchestrating Language Agent"
+   },
+   {
+    "id": "2607.14082",
+    "in": 2,
+    "title": "Building Shor's Algorithm in Lean: An Agentic Formalization of Quantum Attacks on RSA-2048 and P-256"
+   },
+   {
+    "id": "2606.23571",
+    "in": 2,
+    "title": "INCARBench: A Benchmark for Scientific Configuration in VASP INCAR by Large Language Models"
+   },
+   {
+    "id": "2605.13911",
+    "in": 2,
+    "title": "Rongzai agent: A Large Language Model-Based Autonomous Assistant for Rietveld Refinement of Neutron Diffraction Data"
+   }
+  ],
+  "late_papers": 84,
+  "late_papers_citing_any_earlier_in_set": 24,
+  "mean_earlier_papers_available": 184.8,
+  "non_self_citations_in_set": 61,
+  "references_total": 10019,
+  "definition": "late = submitted from 18 August 2026; self-citation = at least two shared author surnames",
+  "window_references": {
+   "references": 9992,
+   "to_window_preprints": 240,
+   "share": 0.024,
+   "note": "HTML and source bibliographies only; PDF-extracted lists are not itemised reliably"
+  }
+ },
+ "control": {
+  "missing_reviews": [],
+  "controls_mentioning_models": 1,
+  "groups": {
+   "control": {
+    "n": 50,
+    "share_with_major_issue": {
+     "value": 0.76,
+     "lo": 0.64,
+     "hi": 0.88
+    },
+    "mean_major_issues": {
+     "value": 1.32,
+     "lo": 1.04,
+     "hi": 1.6
+    },
+    "reproducibility": {
+     "value": 2.86,
+     "lo": 2.62,
+     "hi": 3.12
+    },
+    "writing_quality": {
+     "value": 3.64,
+     "lo": 3.48,
+     "hi": 3.8
+    },
+    "claims_match_evidence": {
+     "value": 3.26,
+     "lo": 3.0,
+     "hi": 3.52
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": 0.22,
+     "lo": 0.12,
+     "hi": 0.34
+    },
+    "share_new_result_claimed": {
+     "value": 0.72,
+     "lo": 0.6,
+     "hi": 0.84
+    },
+    "share_new_result_validated": {
+     "value": 0.3,
+     "lo": 0.18,
+     "hi": 0.42
+    },
+    "share_with_code_link": {
+     "value": 0.24,
+     "lo": 0.12,
+     "hi": 0.36
+    }
+   },
+   "ai_physics_original": {
+    "n": 130,
+    "share_with_major_issue": {
+     "value": 0.838,
+     "lo": 0.777,
+     "hi": 0.9
+    },
+    "mean_major_issues": {
+     "value": 1.954,
+     "lo": 1.754,
+     "hi": 2.146
+    },
+    "reproducibility": {
+     "value": 2.546,
+     "lo": 2.385,
+     "hi": 2.715
+    },
+    "writing_quality": {
+     "value": 3.762,
+     "lo": 3.669,
+     "hi": 3.854
+    },
+    "claims_match_evidence": {
+     "value": 3.169,
+     "lo": 3.015,
+     "hi": 3.331
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": 0.377,
+     "lo": 0.292,
+     "hi": 0.462
+    },
+    "share_new_result_claimed": {
+     "value": 0.385,
+     "lo": 0.3,
+     "hi": 0.469
+    },
+    "share_new_result_validated": {
+     "value": 0.246,
+     "lo": 0.177,
+     "hi": 0.323
+    },
+    "share_with_code_link": {
+     "value": 0.646,
+     "lo": 0.562,
+     "hi": 0.723
+    }
+   },
+   "ai_rereview_new": {
+    "n": 20,
+    "share_with_major_issue": {
+     "value": 0.9,
+     "lo": 0.75,
+     "hi": 1.0
+    },
+    "mean_major_issues": {
+     "value": 2.0,
+     "lo": 1.6,
+     "hi": 2.4
+    },
+    "reproducibility": {
+     "value": 2.1,
+     "lo": 1.7,
+     "hi": 2.5
+    },
+    "writing_quality": {
+     "value": 3.65,
+     "lo": 3.35,
+     "hi": 3.9
+    },
+    "claims_match_evidence": {
+     "value": 3.0,
+     "lo": 2.65,
+     "hi": 3.4
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": 0.4,
+     "lo": 0.2,
+     "hi": 0.6
+    },
+    "share_new_result_claimed": {
+     "value": 0.35,
+     "lo": 0.15,
+     "hi": 0.55
+    },
+    "share_new_result_validated": {
+     "value": 0.25,
+     "lo": 0.1,
+     "hi": 0.45
+    },
+    "share_with_code_link": {
+     "value": 0.55,
+     "lo": 0.35,
+     "hi": 0.75
+    }
+   },
+   "ai_rereview_original": {
+    "n": 20,
+    "share_with_major_issue": {
+     "value": 0.9,
+     "lo": 0.75,
+     "hi": 1.0
+    },
+    "mean_major_issues": {
+     "value": 2.3,
+     "lo": 1.85,
+     "hi": 2.7
+    },
+    "reproducibility": {
+     "value": 2.1,
+     "lo": 1.7,
+     "hi": 2.55
+    },
+    "writing_quality": {
+     "value": 3.7,
+     "lo": 3.45,
+     "hi": 3.95
+    },
+    "claims_match_evidence": {
+     "value": 2.95,
+     "lo": 2.6,
+     "hi": 3.35
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": 0.6,
+     "lo": 0.4,
+     "hi": 0.8
+    },
+    "share_new_result_claimed": {
+     "value": 0.3,
+     "lo": 0.1,
+     "hi": 0.5
+    },
+    "share_new_result_validated": {
+     "value": 0.25,
+     "lo": 0.05,
+     "hi": 0.45
+    },
+    "share_with_code_link": {
+     "value": 0.6,
+     "lo": 0.4,
+     "hi": 0.8
+    }
+   },
+   "ai_all_original": {
+    "n": 228,
+    "share_with_major_issue": {
+     "value": 0.877,
+     "lo": 0.833,
+     "hi": 0.917
+    },
+    "mean_major_issues": {
+     "value": 1.991,
+     "lo": 1.86,
+     "hi": 2.123
+    },
+    "reproducibility": {
+     "value": 2.522,
+     "lo": 2.404,
+     "hi": 2.64
+    },
+    "writing_quality": {
+     "value": 3.732,
+     "lo": 3.658,
+     "hi": 3.807
+    },
+    "claims_match_evidence": {
+     "value": 3.154,
+     "lo": 3.035,
+     "hi": 3.272
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": 0.368,
+     "lo": 0.307,
+     "hi": 0.43
+    },
+    "share_new_result_claimed": {
+     "value": 0.311,
+     "lo": 0.254,
+     "hi": 0.373
+    },
+    "share_new_result_validated": {
+     "value": 0.167,
+     "lo": 0.118,
+     "hi": 0.215
+    },
+    "share_with_code_link": {
+     "value": 0.662,
+     "lo": 0.601,
+     "hi": 0.724
+    }
+   }
+  },
+  "differences": {
+   "control_minus_ai_physics": {
+    "share_with_major_issue": {
+     "value": -0.078,
+     "lo": -0.215,
+     "hi": 0.049
+    },
+    "mean_major_issues": {
+     "value": -0.634,
+     "lo": -0.969,
+     "hi": -0.297
+    },
+    "reproducibility": {
+     "value": 0.314,
+     "lo": 0.023,
+     "hi": 0.606
+    },
+    "writing_quality": {
+     "value": -0.122,
+     "lo": -0.312,
+     "hi": 0.063
+    },
+    "claims_match_evidence": {
+     "value": 0.091,
+     "lo": -0.222,
+     "hi": 0.403
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": -0.157,
+     "lo": -0.294,
+     "hi": -0.011
+    },
+    "share_new_result_claimed": {
+     "value": 0.335,
+     "lo": 0.185,
+     "hi": 0.486
+    },
+    "share_new_result_validated": {
+     "value": 0.054,
+     "lo": -0.089,
+     "hi": 0.203
+    },
+    "share_with_code_link": {
+     "value": -0.406,
+     "lo": -0.545,
+     "hi": -0.258
+    }
+   },
+   "rereview_new_minus_original": {
+    "share_with_major_issue": {
+     "value": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "mean_major_issues": {
+     "value": -0.3,
+     "lo": -0.55,
+     "hi": -0.05
+    },
+    "reproducibility": {
+     "value": 0.0,
+     "lo": -0.2,
+     "hi": 0.2
+    },
+    "writing_quality": {
+     "value": -0.05,
+     "lo": -0.2,
+     "hi": 0.1
+    },
+    "claims_match_evidence": {
+     "value": 0.05,
+     "lo": -0.15,
+     "hi": 0.3
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": -0.2,
+     "lo": -0.4,
+     "hi": 0.0
+    },
+    "share_new_result_claimed": {
+     "value": 0.05,
+     "lo": 0.0,
+     "hi": 0.15
+    },
+    "share_new_result_validated": {
+     "value": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "share_with_code_link": {
+     "value": -0.05,
+     "lo": -0.15,
+     "hi": 0.0
+    }
+   },
+   "control_minus_rereview_new": {
+    "share_with_major_issue": {
+     "value": -0.14,
+     "lo": -0.31,
+     "hi": 0.05
+    },
+    "mean_major_issues": {
+     "value": -0.68,
+     "lo": -1.13,
+     "hi": -0.2
+    },
+    "reproducibility": {
+     "value": 0.76,
+     "lo": 0.29,
+     "hi": 1.21
+    },
+    "writing_quality": {
+     "value": -0.01,
+     "lo": -0.29,
+     "hi": 0.3
+    },
+    "claims_match_evidence": {
+     "value": 0.26,
+     "lo": -0.23,
+     "hi": 0.72
+    },
+    "share_substantial_or_severe_overclaiming": {
+     "value": -0.18,
+     "lo": -0.42,
+     "hi": 0.06
+    },
+    "share_new_result_claimed": {
+     "value": 0.37,
+     "lo": 0.13,
+     "hi": 0.61
+    },
+    "share_new_result_validated": {
+     "value": 0.05,
+     "lo": -0.18,
+     "hi": 0.27
+    },
+    "share_with_code_link": {
+     "value": -0.31,
+     "lo": -0.55,
+     "hi": -0.05
+    }
+   }
+  }
+ }
+}

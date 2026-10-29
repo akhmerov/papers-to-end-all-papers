@@ -1,0 +1,98 @@
+{
+  "start": "2026-04-18",
+  "end": "2026-10-18",
+  "date_basis": "initial arXiv submission",
+  "terms": {
+    "language-models": [
+      "large language",
+      "language model",
+      "language models",
+      "LLM",
+      "LLMs",
+      "ChatGPT",
+      "GPT",
+      "GPT-4",
+      "GPT-5",
+      "Claude",
+      "Gemini",
+      "DeepSeek",
+      "Qwen",
+      "Llama",
+      "foundation model",
+      "foundation models",
+      "vision-language",
+      "vision language",
+      "VLM",
+      "VLMs",
+      "reasoning model"
+    ],
+    "agents": [
+      "agentic",
+      "AI agent",
+      "AI agents",
+      "LLM agent",
+      "LLM agents",
+      "multi-agent",
+      "multiagent",
+      "autonomous agent",
+      "autonomous agents",
+      "autonomous scientist",
+      "AI scientist",
+      "autonomous research",
+      "autonomous laboratory",
+      "self-driving lab"
+    ],
+    "harnesses": [
+      "harness",
+      "harnesses",
+      "scaffold",
+      "scaffolding"
+    ]
+  },
+  "domain_terms": [
+    "condensed matter",
+    "many-body",
+    "many body",
+    "tensor network",
+    "DMRG",
+    "Hubbard",
+    "Bethe ansatz",
+    "quantum transport",
+    "quantum dot",
+    "quantum device",
+    "superconduct*",
+    "topological material",
+    "spintronic*",
+    "microscop*",
+    "diffraction",
+    "density functional",
+    "DFT",
+    "VASP",
+    "electronic structure",
+    "solid state",
+    "materials",
+    "material discovery",
+    "crystal*",
+    "alloy*",
+    "semiconductor*",
+    "atomistic",
+    "molecular dynamics",
+    "LAMMPS",
+    "phase field"
+  ],
+  "categories": [
+    "cond-mat.*",
+    "quant-ph"
+  ],
+  "field_scope": "title and abstract only; no article-body search",
+  "fulltext_policy": {
+    "exclude_from_keyword_evidence": [
+      "acknowledgments",
+      "AI-use or writing-assistance declarations",
+      "references"
+    ],
+    "require": "A substantive role in scientific methods, results, or evaluation.",
+    "note": "Exclude sections from evidence, not whole papers that contain them."
+  },
+  "relevance_policy": "Search hits are unscreened; generic agents, non-LLM foundation models, physics of AI and unrelated quant-ph applications require exclusion or separate context labels."
+}

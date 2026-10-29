@@ -1,0 +1,1128 @@
+[
+ {
+  "key": "llama-3.1-8b",
+  "papers": 10,
+  "raw_names": [
+   "LLaMA 3.1 (8B)",
+   "Llama 3.1 8B Instruct",
+   "Llama 3.1-8B",
+   "Llama-3.1-8B-Instruct",
+   "Meta-Llama-3.1-8B-Instruct"
+  ]
+ },
+ {
+  "key": "llama-3.3-70b",
+  "papers": 6,
+  "raw_names": [
+   "LLaMA-3.3 70B",
+   "Llama 3.3 70B",
+   "Llama 3.3-70B",
+   "Llama-3.3-70B-Instruct",
+   "llama-3.3-70b-instruct",
+   "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+  ]
+ },
+ {
+  "key": "llama-4-maverick",
+  "papers": 6,
+  "raw_names": [
+   "Llama 4 Maverick",
+   "Llama-4 Maverick",
+   "Llama-4-Maverick",
+   "meta-llama/llama-4-maverick"
+  ]
+ },
+ {
+  "key": "llama-4-scout",
+  "papers": 6,
+  "raw_names": [
+   "Llama 4 Scout",
+   "Llama-4-Scout",
+   "meta-llama/llama-4-scout"
+  ]
+ },
+ {
+  "key": "llm-prop",
+  "papers": 4,
+  "raw_names": [
+   "LLM-Prop",
+   "LLM-Prop (CIF)",
+   "LLM-prop"
+  ]
+ },
+ {
+  "key": "unspecified-llm",
+  "papers": 4,
+  "raw_names": [
+   "unspecified LLM"
+  ]
+ },
+ {
+  "key": "not-stated",
+  "papers": 4,
+  "raw_names": [
+   "not stated"
+  ]
+ },
+ {
+  "key": "all-minilm-l6-v2",
+  "papers": 3,
+  "raw_names": [
+   "all-MiniLM-L6-v2"
+  ]
+ },
+ {
+  "key": "llama-3-8b",
+  "papers": 3,
+  "raw_names": [
+   "LLaMA-3-8B",
+   "Llama-3-8B",
+   "Llama3-8B"
+  ]
+ },
+ {
+  "key": "mistral-7b-v0.3",
+  "papers": 3,
+  "raw_names": [
+   "Mistral-7B-Instruct-v0.3",
+   "Mistral-7B-v0.3"
+  ]
+ },
+ {
+  "key": "llama-3.2-3b",
+  "papers": 3,
+  "raw_names": [
+   "LLaMA 3.2-3B",
+   "Llama-3.2-3B-Instruct"
+  ]
+ },
+ {
+  "key": "matterchat",
+  "papers": 3,
+  "raw_names": [
+   "MatterChat"
+  ]
+ },
+ {
+  "key": "mistral-large-3",
+  "papers": 3,
+  "raw_names": [
+   "Mistral Large 3"
+  ]
+ },
+ {
+  "key": "bert",
+  "papers": 2,
+  "raw_names": [
+   "BERT"
+  ]
+ },
+ {
+  "key": "mistral-medium-3.1",
+  "papers": 2,
+  "raw_names": [
+   "Mistral Medium 3.1",
+   "mistralai/mistral-medium-3.1"
+  ]
+ },
+ {
+  "key": "nvidia-ising-calibration-1",
+  "papers": 2,
+  "raw_names": [
+   "NVIDIA Ising Calibration 1"
+  ]
+ },
+ {
+  "key": "llama-4-maverick-17b-128e",
+  "papers": 2,
+  "raw_names": [
+   "llama-4-maverick-17b-128e-instruct",
+   "llama-4-maverick-17b-128e-instruct-fp8"
+  ]
+ },
+ {
+  "key": "matscibert",
+  "papers": 2,
+  "raw_names": [
+   "MatSciBERT"
+  ]
+ },
+ {
+  "key": "sentence-transformers/all-minilm-l6-v2",
+  "papers": 2,
+  "raw_names": [
+   "sentence-transformers/all-MiniLM-L6-v2"
+  ]
+ },
+ {
+  "key": "matbert",
+  "papers": 2,
+  "raw_names": [
+   "MatBERT",
+   "MatBERT (CIF)"
+  ]
+ },
+ {
+  "key": "llama-3.2-1b",
+  "papers": 2,
+  "raw_names": [
+   "Llama-3.2-1B-Instruct"
+  ]
+ },
+ {
+  "key": "llama-3.2-11b-vision",
+  "papers": 2,
+  "raw_names": [
+   "LLaMA-3.2-11B-Vision-Instruct",
+   "Llama-3.2-11B-Vision"
+  ]
+ },
+ {
+  "key": "crystaltextllm",
+  "papers": 2,
+  "raw_names": [
+   "CrystalTextLLM"
+  ]
+ },
+ {
+  "key": "llama-3.2",
+  "papers": 2,
+  "raw_names": [
+   "Llama3.2",
+   "llama3.2"
+  ]
+ },
+ {
+  "key": "all-mpnet-base-v2",
+  "papers": 2,
+  "raw_names": [
+   "all-mpnet-base-v2"
+  ]
+ },
+ {
+  "key": "mistral-7b",
+  "papers": 2,
+  "raw_names": [
+   "Mistral-7B",
+   "Mistral-7B-Instruct"
+  ]
+ },
+ {
+  "key": "specter2",
+  "papers": 2,
+  "raw_names": [
+   "SPECTER2"
+  ]
+ },
+ {
+  "key": "polybert",
+  "papers": 2,
+  "raw_names": [
+   "PolyBERT",
+   "polyBERT"
+  ]
+ },
+ {
+  "key": "mistral-small-3.2-24b-2506",
+  "papers": 2,
+  "raw_names": [
+   "Mistral-Small-3.2-24B-Instruct-2506"
+  ]
+ },
+ {
+  "key": "large-language-models",
+  "papers": 2,
+  "raw_names": [
+   "large language models"
+  ]
+ },
+ {
+  "key": "language-model",
+  "papers": 2,
+  "raw_names": [
+   "language model"
+  ]
+ },
+ {
+  "key": "scibert",
+  "papers": 2,
+  "raw_names": [
+   "SciBERT"
+  ]
+ },
+ {
+  "key": "skywork-reward",
+  "papers": 1,
+  "raw_names": [
+   "Skywork-Reward"
+  ]
+ },
+ {
+  "key": "ibm-research/molformer-xl-both-10pct",
+  "papers": 1,
+  "raw_names": [
+   "ibm-research/MoLFormer-XL-both-10pct"
+  ]
+ },
+ {
+  "key": "alloym",
+  "papers": 1,
+  "raw_names": [
+   "aLLoyM"
+  ]
+ },
+ {
+  "key": "minicpm-o-4.5",
+  "papers": 1,
+  "raw_names": [
+   "MiniCPM-o-4.5"
+  ]
+ },
+ {
+  "key": "baseline-model-without-a-condition-vector",
+  "papers": 1,
+  "raw_names": [
+   "baseline model without a condition vector"
+  ]
+ },
+ {
+  "key": "crystallm-π",
+  "papers": 1,
+  "raw_names": [
+   "CrystaLLM-π"
+  ]
+ },
+ {
+  "key": "llm-based-evaluator",
+  "papers": 1,
+  "raw_names": [
+   "LLM-based evaluator"
+  ]
+ },
+ {
+  "key": "gp-molformer-uniq",
+  "papers": 1,
+  "raw_names": [
+   "GP-MoLFormer-Uniq"
+  ]
+ },
+ {
+  "key": "llama-2-7b",
+  "papers": 1,
+  "raw_names": [
+   "LLaMA-2 7B"
+  ]
+ },
+ {
+  "key": "llama-3",
+  "papers": 1,
+  "raw_names": [
+   "Llama3"
+  ]
+ },
+ {
+  "key": "chemt5",
+  "papers": 1,
+  "raw_names": [
+   "ChemT5"
+  ]
+ },
+ {
+  "key": "bge-large-en",
+  "papers": 1,
+  "raw_names": [
+   "BGE-large-en"
+  ]
+ },
+ {
+  "key": "biogpt",
+  "papers": 1,
+  "raw_names": [
+   "BioGPT"
+  ]
+ },
+ {
+  "key": "mistral-small-24b-2501",
+  "papers": 1,
+  "raw_names": [
+   "Mistral-Small-24B-Instruct-2501"
+  ]
+ },
+ {
+  "key": "base-llm",
+  "papers": 1,
+  "raw_names": [
+   "Base LLM"
+  ]
+ },
+ {
+  "key": "mistral-large-123b-2407-q4-0",
+  "papers": 1,
+  "raw_names": [
+   "mistral-large:123b-instruct-2407-q4_0"
+  ]
+ },
+ {
+  "key": "openclip",
+  "papers": 1,
+  "raw_names": [
+   "OpenCLIP"
+  ]
+ },
+ {
+  "key": "llama-2-70b",
+  "papers": 1,
+  "raw_names": [
+   "LLaMA-2 70B"
+  ]
+ },
+ {
+  "key": "tinyllama",
+  "papers": 1,
+  "raw_names": [
+   "TinyLLaMA"
+  ]
+ },
+ {
+  "key": "t5-transformer",
+  "papers": 1,
+  "raw_names": [
+   "T5-Transformer"
+  ]
+ },
+ {
+  "key": "llamat",
+  "papers": 1,
+  "raw_names": [
+   "LLaMat"
+  ]
+ },
+ {
+  "key": "phi-4-mini",
+  "papers": 1,
+  "raw_names": [
+   "Phi-4-mini-instruct"
+  ]
+ },
+ {
+  "key": "nomic-embed-text",
+  "papers": 1,
+  "raw_names": [
+   "Nomic-Embed-Text"
+  ]
+ },
+ {
+  "key": "llm-as-judge",
+  "papers": 1,
+  "raw_names": [
+   "LLM-as-judge"
+  ]
+ },
+ {
+  "key": "code-llama",
+  "papers": 1,
+  "raw_names": [
+   "code llama"
+  ]
+ },
+ {
+  "key": "ether0",
+  "papers": 1,
+  "raw_names": [
+   "Ether0"
+  ]
+ },
+ {
+  "key": "socratic-ai-model",
+  "papers": 1,
+  "raw_names": [
+   "Socratic AI reasoning model"
+  ]
+ },
+ {
+  "key": "t5-base",
+  "papers": 1,
+  "raw_names": [
+   "T5-base"
+  ]
+ },
+ {
+  "key": "bart",
+  "papers": 1,
+  "raw_names": [
+   "BART"
+  ]
+ },
+ {
+  "key": "llama-2-13b",
+  "papers": 1,
+  "raw_names": [
+   "LLaMA-2 13B"
+  ]
+ },
+ {
+  "key": "whisper",
+  "papers": 1,
+  "raw_names": [
+   "Whisper"
+  ]
+ },
+ {
+  "key": "llmprop",
+  "papers": 1,
+  "raw_names": [
+   "LLMProp"
+  ]
+ },
+ {
+  "key": "plaid++-wyckoff-base",
+  "papers": 1,
+  "raw_names": [
+   "PLAID++ Wyckoff Base"
+  ]
+ },
+ {
+  "key": "crystext",
+  "papers": 1,
+  "raw_names": [
+   "CrysText"
+  ]
+ },
+ {
+  "key": "catberta",
+  "papers": 1,
+  "raw_names": [
+   "CatBERTa"
+  ]
+ },
+ {
+  "key": "qe-catalytic",
+  "papers": 1,
+  "raw_names": [
+   "QE-Catalytic"
+  ]
+ },
+ {
+  "key": "crystext-rl",
+  "papers": 1,
+  "raw_names": [
+   "CrysText-RL"
+  ]
+ },
+ {
+  "key": "gap-catberta",
+  "papers": 1,
+  "raw_names": [
+   "GAP-CatBERTa"
+  ]
+ },
+ {
+  "key": "roberta",
+  "papers": 1,
+  "raw_names": [
+   "RoBERTa"
+  ]
+ },
+ {
+  "key": "perovskite-rl",
+  "papers": 1,
+  "raw_names": [
+   "Perovskite-RL"
+  ]
+ },
+ {
+  "key": "medsiglip",
+  "papers": 1,
+  "raw_names": [
+   "MedSigLIP"
+  ]
+ },
+ {
+  "key": "biomedclip",
+  "papers": 1,
+  "raw_names": [
+   "BioMedCLIP"
+  ]
+ },
+ {
+  "key": "clip",
+  "papers": 1,
+  "raw_names": [
+   "CLIP"
+  ]
+ },
+ {
+  "key": "sentence-transformer",
+  "papers": 1,
+  "raw_names": [
+   "Sentence-Transformer"
+  ]
+ },
+ {
+  "key": "qiskit-code-assistant",
+  "papers": 1,
+  "raw_names": [
+   "Qiskit Code Assistant"
+  ]
+ },
+ {
+  "key": "granite-4.1-8b",
+  "papers": 1,
+  "raw_names": [
+   "Granite 4.1 8B"
+  ]
+ },
+ {
+  "key": "granite-4.1-30b",
+  "papers": 1,
+  "raw_names": [
+   "Granite 4.1 30B"
+  ]
+ },
+ {
+  "key": "mistral-small-3.2-24b",
+  "papers": 1,
+  "raw_names": [
+   "Mistral Small 3.2 24B"
+  ]
+ },
+ {
+  "key": "chemdfm",
+  "papers": 1,
+  "raw_names": [
+   "ChemDFM"
+  ]
+ },
+ {
+  "key": "llama-3.1",
+  "papers": 1,
+  "raw_names": [
+   "Llama-3.1"
+  ]
+ },
+ {
+  "key": "small-gpt-2",
+  "papers": 1,
+  "raw_names": [
+   "small GPT-2"
+  ]
+ },
+ {
+  "key": "matmind",
+  "papers": 1,
+  "raw_names": [
+   "MatMind"
+  ]
+ },
+ {
+  "key": "matbert-109m",
+  "papers": 1,
+  "raw_names": [
+   "MatBERT-109M"
+  ]
+ },
+ {
+  "key": "granite-4.0-micro",
+  "papers": 1,
+  "raw_names": [
+   "Granite 4.0 Micro"
+  ]
+ },
+ {
+  "key": "sbert",
+  "papers": 1,
+  "raw_names": [
+   "SBERT"
+  ]
+ },
+ {
+  "key": "llama-3-70b",
+  "papers": 1,
+  "raw_names": [
+   "Llama 3 70B"
+  ]
+ },
+ {
+  "key": "nova-pro",
+  "papers": 1,
+  "raw_names": [
+   "Nova Pro"
+  ]
+ },
+ {
+  "key": "crystalreasoner",
+  "papers": 1,
+  "raw_names": [
+   "CrystalReasoner"
+  ]
+ },
+ {
+  "key": "flowllm",
+  "papers": 1,
+  "raw_names": [
+   "FlowLLM"
+  ]
+ },
+ {
+  "key": "crystallm-large",
+  "papers": 1,
+  "raw_names": [
+   "CrystaLLM-large"
+  ]
+ },
+ {
+  "key": "crysreas-rl",
+  "papers": 1,
+  "raw_names": [
+   "CrysReas-RL (SFT+GRPO)"
+  ]
+ },
+ {
+  "key": "crysreas",
+  "papers": 1,
+  "raw_names": [
+   "CrysReas-Thinking (SFT+CoT)"
+  ]
+ },
+ {
+  "key": "crysllmgen-7b",
+  "papers": 1,
+  "raw_names": [
+   "CrysLLMGen-7B"
+  ]
+ },
+ {
+  "key": "crysreas-base",
+  "papers": 1,
+  "raw_names": [
+   "CrysReas-Base (SFT only)"
+  ]
+ },
+ {
+  "key": "plaid++-wyckoff",
+  "papers": 1,
+  "raw_names": [
+   "PLAID++ Wyckoff"
+  ]
+ },
+ {
+  "key": "self-rag",
+  "papers": 1,
+  "raw_names": [
+   "Self-RAG"
+  ]
+ },
+ {
+  "key": "unspecified-teacher-llm",
+  "papers": 1,
+  "raw_names": [
+   "unspecified teacher LLM"
+  ]
+ },
+ {
+  "key": "llava-7b",
+  "papers": 1,
+  "raw_names": [
+   "LLaVA-7B"
+  ]
+ },
+ {
+  "key": "clip-vit/16",
+  "papers": 1,
+  "raw_names": [
+   "CLIP-ViT/16"
+  ]
+ },
+ {
+  "key": "clip-vit/32",
+  "papers": 1,
+  "raw_names": [
+   "CLIP-ViT/32"
+  ]
+ },
+ {
+  "key": "llava-next-7b",
+  "papers": 1,
+  "raw_names": [
+   "LLaVA-Next-7B"
+  ]
+ },
+ {
+  "key": "llava-next-13b",
+  "papers": 1,
+  "raw_names": [
+   "LLaVA-Next-13B"
+  ]
+ },
+ {
+  "key": "llava-13b",
+  "papers": 1,
+  "raw_names": [
+   "LLaVA-13B"
+  ]
+ },
+ {
+  "key": "batterybert",
+  "papers": 1,
+  "raw_names": [
+   "BatteryBERT"
+  ]
+ },
+ {
+  "key": "language-model-generator",
+  "papers": 1,
+  "raw_names": [
+   "language-model generator (unspecified)"
+  ]
+ },
+ {
+  "key": "clip-vit-b/32",
+  "papers": 1,
+  "raw_names": [
+   "CLIP ViT-B/32"
+  ]
+ },
+ {
+  "key": "matinformer",
+  "papers": 1,
+  "raw_names": [
+   "MatInFormer"
+  ]
+ },
+ {
+  "key": "baai/bge-base-en-v1.5",
+  "papers": 1,
+  "raw_names": [
+   "BAAI/bge-base-en-v1.5"
+  ]
+ },
+ {
+  "key": "graph-preflexor-3b",
+  "papers": 1,
+  "raw_names": [
+   "Graph-PRefLexOR-3B"
+  ]
+ },
+ {
+  "key": "graph-preflexor-8b",
+  "papers": 1,
+  "raw_names": [
+   "Graph-PRefLexOR-8B"
+  ]
+ },
+ {
+  "key": "graph-preflexor-1.7b",
+  "papers": 1,
+  "raw_names": [
+   "Graph-PRefLexOR-1.7B"
+  ]
+ },
+ {
+  "key": "questioner-model",
+  "papers": 1,
+  "raw_names": [
+   "questioner model"
+  ]
+ },
+ {
+  "key": "llama-4-maverick-17b",
+  "papers": 1,
+  "raw_names": [
+   "llama4-maverick-17b"
+  ]
+ },
+ {
+  "key": "xlnet",
+  "papers": 1,
+  "raw_names": [
+   "XLNet"
+  ]
+ },
+ {
+  "key": "nemotron-3-super",
+  "papers": 1,
+  "raw_names": [
+   "Nemotron 3 Super"
+  ]
+ },
+ {
+  "key": "devstral-2",
+  "papers": 1,
+  "raw_names": [
+   "Devstral 2"
+  ]
+ },
+ {
+  "key": "llama-3.3",
+  "papers": 1,
+  "raw_names": [
+   "Llama 3.3"
+  ]
+ },
+ {
+  "key": "mistral-7b-v0.2",
+  "papers": 1,
+  "raw_names": [
+   "Mistral-7B-Instruct-v0.2"
+  ]
+ },
+ {
+  "key": "distilgpt2",
+  "papers": 1,
+  "raw_names": [
+   "DistilGPT2"
+  ]
+ },
+ {
+  "key": "nemotron",
+  "papers": 1,
+  "raw_names": [
+   "nemotron"
+  ]
+ },
+ {
+  "key": "frontier-class-llm-as-judge",
+  "papers": 1,
+  "raw_names": [
+   "frontier reasoning-class LLM-as-judge"
+  ]
+ },
+ {
+  "key": "bge-cross-encoder",
+  "papers": 1,
+  "raw_names": [
+   "BGE cross-encoder"
+  ]
+ },
+ {
+  "key": "codellama-7b",
+  "papers": 1,
+  "raw_names": [
+   "CodeLlama-7B"
+  ]
+ },
+ {
+  "key": "codellama-13b",
+  "papers": 1,
+  "raw_names": [
+   "CodeLlama-13B"
+  ]
+ },
+ {
+  "key": "polyt5",
+  "papers": 1,
+  "raw_names": [
+   "POLYT5"
+  ]
+ },
+ {
+  "key": "selfies-ted",
+  "papers": 1,
+  "raw_names": [
+   "SELFIES-TED"
+  ]
+ },
+ {
+  "key": "polybart",
+  "papers": 1,
+  "raw_names": [
+   "polyBART"
+  ]
+ },
+ {
+  "key": "transpolymer",
+  "papers": 1,
+  "raw_names": [
+   "TransPolymer"
+  ]
+ },
+ {
+  "key": "polymergpt",
+  "papers": 1,
+  "raw_names": [
+   "PolymerGPT"
+  ]
+ },
+ {
+  "key": "meaningbert",
+  "papers": 1,
+  "raw_names": [
+   "MeaningBERT"
+  ]
+ },
+ {
+  "key": "finbert",
+  "papers": 1,
+  "raw_names": [
+   "FinBERT"
+  ]
+ },
+ {
+  "key": "llm-only",
+  "papers": 1,
+  "raw_names": [
+   "LLM-only"
+  ]
+ },
+ {
+  "key": "csllm",
+  "papers": 1,
+  "raw_names": [
+   "CSLLM"
+  ]
+ },
+ {
+  "key": "syncry",
+  "papers": 1,
+  "raw_names": [
+   "SynCry"
+  ]
+ },
+ {
+  "key": "structllm",
+  "papers": 1,
+  "raw_names": [
+   "StructLLM"
+  ]
+ },
+ {
+  "key": "bge-m3",
+  "papers": 1,
+  "raw_names": [
+   "BGE-M3"
+  ]
+ },
+ {
+  "key": "unspecified-bertscore-encoder",
+  "papers": 1,
+  "raw_names": [
+   "unspecified BERTScore encoder"
+  ]
+ },
+ {
+  "key": "deberta-v3-large",
+  "papers": 1,
+  "raw_names": [
+   "DeBERTa-v3-large"
+  ]
+ },
+ {
+  "key": "amazon/nova-pro-v1",
+  "papers": 1,
+  "raw_names": [
+   "amazon/nova-pro-v1"
+  ]
+ },
+ {
+  "key": "mistral-small-2603",
+  "papers": 1,
+  "raw_names": [
+   "mistralai/mistral-small-2603"
+  ]
+ },
+ {
+  "key": "llm-based-sequence-predictor",
+  "papers": 1,
+  "raw_names": [
+   "LLM-based sequence predictor"
+  ]
+ },
+ {
+  "key": "supervising-llm-session",
+  "papers": 1,
+  "raw_names": [
+   "supervising LLM session (unnamed)"
+  ]
+ },
+ {
+  "key": "molmo2",
+  "papers": 1,
+  "raw_names": [
+   "Molmo2"
+  ]
+ },
+ {
+  "key": "yolov8",
+  "papers": 1,
+  "raw_names": [
+   "YOLOv8"
+  ]
+ },
+ {
+  "key": "whisper-large-v3",
+  "papers": 1,
+  "raw_names": [
+   "whisper-large-v3-turbo"
+  ]
+ },
+ {
+  "key": "granite-3.3-8b",
+  "papers": 1,
+  "raw_names": [
+   "granite-3.3-8b-instruct"
+  ]
+ },
+ {
+  "key": "llama-3-3-70b",
+  "papers": 1,
+  "raw_names": [
+   "llama-3-3-70b-instruct"
+  ]
+ },
+ {
+  "key": "mistral-large",
+  "papers": 1,
+  "raw_names": [
+   "mistral-large"
+  ]
+ },
+ {
+  "key": "nemotron-3-ultra-550b-a55b",
+  "papers": 1,
+  "raw_names": [
+   "Nemotron-3-Ultra-550B-A55B"
+  ]
+ },
+ {
+  "key": "llms",
+  "papers": 1,
+  "raw_names": [
+   "LLMs"
+  ]
+ },
+ {
+  "key": "biomedparse",
+  "papers": 1,
+  "raw_names": [
+   "BiomedParse"
+  ]
+ },
+ {
+  "key": "unspecified-parser/verifier-llms",
+  "papers": 1,
+  "raw_names": [
+   "unspecified parser/verifier LLMs"
+  ]
+ },
+ {
+  "key": "autoxrd",
+  "papers": 1,
+  "raw_names": [
+   "AutoXRD"
+  ]
+ },
+ {
+  "key": "esm3",
+  "papers": 1,
+  "raw_names": [
+   "ESM3"
+  ]
+ },
+ {
+  "key": "unspecified-llm-judge",
+  "papers": 1,
+  "raw_names": [
+   "unspecified LLM judge"
+  ]
+ }
+]

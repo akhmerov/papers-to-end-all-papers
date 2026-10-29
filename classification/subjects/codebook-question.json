@@ -1,0 +1,119 @@
+{
+ "categories": [
+  {
+   "id": "physical-findings",
+   "name": "New physical or mathematical findings",
+   "supergroup": "physical-world",
+   "definition": "The main answer is a new relation, mechanism, phase behaviour, theorem, bound, or counterexample about a physical or mathematical system, rather than the performance of the approach used to obtain it.",
+   "test": "Can the main result be stated as a substantive claim about the system with all references to AI removed? Use this category for explanation, characterization, or proof from new calculations, measurements, or derivations; use targeted-design when selecting or constructing an improved object is the main deliverable, and literature-findings when synthesis of published evidence is the main deliverable.",
+   "examples": [
+    "arxiv:2606.03300",
+    "arxiv:2608.27572",
+    "arxiv:2609.10520"
+   ]
+  },
+  {
+   "id": "targeted-design",
+   "name": "Targeted material, device, or mathematical design",
+   "supergroup": "physical-world",
+   "definition": "The main answer identifies or constructs particular materials, devices, quantum circuits or codes, synthesis conditions, or operating parameters that are recommended for a specified physical or mathematical objective.",
+   "test": "Is the principal result the particular proposed or achieved solution and its target performance, rather than evidence that a general generator or search method works? Identify what specific candidate, construction, recipe, or parameter region the reader should take away; prediction-only recommendations qualify only when those recommendations themselves are the headline deliverable, and remain provisional.",
+   "examples": [
+    "arxiv:2604.23758",
+    "arxiv:2606.02418"
+   ]
+  },
+  {
+   "id": "literature-findings",
+   "name": "Physical knowledge from published evidence",
+   "supergroup": "physical-world",
+   "definition": "The main answer synthesizes what the published evidence says about materials, physical mechanisms, or physical design principles, through a review or an original analysis of a literature-derived corpus.",
+   "test": "Does the paper primarily deliver a substantive account or conclusion about the physical domain from existing reports, rather than an extraction algorithm, a database, or an assessment of whether LLMs can summarize? This includes physical-domain reviews and new cross-publication comparisons; a specific recommended new design takes targeted-design instead.",
+   "examples": [
+    "arxiv:2610.21050",
+    "arxiv:2605.29179"
+   ]
+  },
+  {
+   "id": "model-evaluation",
+   "name": "Benchmarking, reliability, and capability assessment",
+   "supergroup": "ai-workflow",
+   "definition": "The main answer measures or diagnoses how well models, agents, algorithms, or scientific software workflows perform, including the construction of a benchmark whose primary purpose is such measurement.",
+   "test": "Is the principal output an evaluation instrument, comparative score, failure taxonomy, robustness or generalization finding, or diagnosis of what a model actually uses? Prefer this category when a controlled audit or benchmark is the central research question, even if it releases data, tests prompting interventions, or includes successful laboratory runs.",
+   "examples": [
+    "arxiv:2609.00663",
+    "arxiv:2610.00636",
+    "arxiv:2610.13811"
+   ]
+  },
+  {
+   "id": "method-capability",
+   "name": "Task capability and improved computational methods",
+   "supergroup": "ai-workflow",
+   "definition": "The main answer demonstrates that a proposed computational or AI-assisted approach can perform or improve a scientific task, with the approach itself rather than a new physical result as the contribution.",
+   "test": "Is the paper mainly establishing feasibility or an improved method for prediction, inference, reasoning, generation, planning, proving, or scientific programming, using domain results to demonstrate that method? Include new trained models, representations, search policies, and bounded demonstrations on known problems; exclude complete routine execution as the central achievement, evaluation-led studies, and artifact-led resource papers.",
+   "examples": [
+    "arxiv:2606.21395",
+    "arxiv:2605.14671"
+   ]
+  },
+  {
+   "id": "workflow-automation",
+   "name": "Execution and automation of scientific workflows",
+   "supergroup": "ai-workflow",
+   "definition": "The main answer shows that an established multistep experimental, simulation, calibration, or analysis workflow can actually be executed with reduced human operation or intervention.",
+   "test": "Does the paper demonstrate execution of connected stages of a recognizable scientific routine, with evidence about completion, operator burden, throughput, recovery, or reproducibility? Human checkpoints are allowed; mere script proposals, one isolated reasoning step, a simulation backend without workflow execution, or a conceptual promise of autonomy are insufficient.",
+   "examples": [
+    "arxiv:2608.06694",
+    "arxiv:2606.22376",
+    "arxiv:2605.13911"
+   ]
+  },
+  {
+   "id": "research-infrastructure",
+   "name": "Reusable research tools and data resources",
+   "supergroup": "ai-workflow",
+   "definition": "The main deliverable is an implemented reusable dataset, database, knowledge graph, library, toolkit, platform, or interface that enables other researchers to do scientific work.",
+   "test": "Is the paper principally offering a concrete resource for others to use, with demonstrations or scores serving to establish its utility? Database size, coverage, schema, access, interoperability, and reusable functionality support this choice; merely releasing the code of a method does not, and artifacts primarily designed to measure model performance take model-evaluation.",
+   "examples": [
+    "arxiv:2606.29667"
+   ]
+  },
+  {
+   "id": "ai-workflow-perspective",
+   "name": "Reviews, perspectives, and agendas for AI-enabled research",
+   "supergroup": "ai-workflow",
+   "definition": "The main answer synthesizes the state, appropriate use, governance, organization, or future development of AI and computational workflows in scientific research.",
+   "test": "Is the main contribution an overview, conceptual architecture, taxonomy, guidance, community statement, or research agenda about AI or scientific workflows, rather than a demonstrated method, executed workflow, implemented resource, or new controlled evaluation? Physical-domain reviews whose substantive answer concerns material behaviour take literature-findings instead.",
+   "examples": [
+    "arxiv:2609.36469"
+   ]
+  }
+ ],
+ "supergroups": {
+  "physical-world": "about the physical world: the main answer concerns a material, device, physical system, mathematical object, or the published physical evidence about it, and remains intelligible and scientifically relevant when the AI contribution is removed; membership identifies the subject of the claim, not whether that claim is correct or experimentally established.",
+  "ai-workflow": "about the AI or the workflow: the main answer concerns the capability, performance, organization, or execution of models and scientific tools, or provides an artifact for doing or assessing that work, rather than a stand-alone finding about the target physical or mathematical system."
+ },
+ "tie_breaking": [
+  "Assign exactly one category from the headline claim or primary deliverable, read in the context of the complete available abstract.",
+  "Start by completing the sentence \"The main result is ...\" without listing every contribution; use the explicit aim, the result given most substantive emphasis, and the concluding claim together, rather than deciding from a title keyword or the last sentence alone.",
+  "Physical result versus AI demonstration: ask whether the particular physical or mathematical result is the intended scientific payoff, or whether it is an example showing that an approach works. Recovery of known laws, construction of known graphene devices, accurate reproduction of established structures, and high SUN generation rates do not by themselves constitute new physical findings or targeted discovery.",
+  "Capability demonstration versus automation: method-capability answers whether a task can be done or improved, often through selected examples, a new predictor, a reasoning intervention, or generated scripts; workflow-automation requires demonstrated execution of linked stages of an established routine with a claim about replacing operational work. One complete run can demonstrate automation if actual execution is the central contribution; many isolated benchmark tasks do not automatically do so.",
+  "Novel autonomous research is not automatically routine automation: a demonstration of open-ended hypothesis formation, theory recovery, or large one-off proof formalization takes method-capability when it primarily establishes research ability, unless a new stand-alone physical or mathematical result is the main payoff.",
+  "Benchmark versus capability demonstration: systematic measurement of existing approaches, diagnostic analysis, or the introduction of an evaluation testbed takes model-evaluation; a new substantive intervention whose central claim is that it enables or improves the task takes method-capability. Baseline comparisons and ablations are evidence for a method, not sufficient reason to classify every method paper as benchmarking.",
+  "If a new agent and a new benchmark appear together, use model-evaluation when cross-model limits, rankings, or failure diagnosis are the main findings; use workflow-automation when executing the scientific routine is the main result; use method-capability when the proposed intervention is the main advance. If emphasis remains genuinely balanced, prefer model-evaluation when the abstract explicitly frames the work as a controlled assessment, and otherwise prefer the demonstrated workflow or method over incidental artifact release.",
+  "Design without validation versus validated discovery: generic success at generating plausible or predicted-high-scoring candidates is method-capability when it establishes a generator or search method; specific candidate recommendations that are themselves the main answer are targeted-design, explicitly provisional if not independently checked. Named new materials with synthesis and measured target properties, or new codes or circuits with independently checked parameters, are strong targeted-design cases when their discovery is central. Validation alone never overrides a method-led or evaluation-led headline.",
+  "For targeted-design, distinguish prediction or heuristic filtering from independent physics calculation, numerical verification, formal certification, and laboratory synthesis plus measurement. A frozen forward predictor, predicted Tc, validity, novelty, a generated CIF, or recovery of a known material is not experimental validation; DFT or MD evidence supports the computed quantity within its model and does not establish synthesis, device performance, or all proposed properties. These evidence distinctions qualify the result without adding a second question-axis code.",
+  "Targeted design versus physical findings: selecting or constructing a better object, control, recipe, or parameter set for an objective takes targeted-design; establishing how an existing system behaves, why a phenomenon occurs, or what theorem is true takes physical-findings. A new algebraic code construction optimized for performance is design, whereas a new impossibility or continuity theorem is a finding.",
+  "Tool or platform versus automation: research-infrastructure applies when the implemented reusable resource is the main deliverable and examples show its utility; workflow-automation applies when autonomous or reduced-intervention operation of the scientific routine is the central result. An MCP interface, repository release, or the word platform does not decide the category.",
+  "Literature mining is not a separate question category merely because an LLM extracts text: a new reusable corpus or database takes research-infrastructure, a new extraction method takes method-capability, an extraction audit takes model-evaluation, and a substantive physical conclusion from cross-publication synthesis takes literature-findings.",
+  "A review or perspective is classified by what it explains: synthesis of physical mechanisms and materials evidence takes literature-findings, while synthesis of AI methods, research workflows, or their future organization takes ai-workflow-perspective. A statistical original analysis of literature also takes literature-findings when the physical cross-paper conclusion is central, rather than being treated as an AI review merely because it uses LLM mining.",
+  "A proposed architecture with no implemented resource or demonstrated execution takes ai-workflow-perspective when its main contribution is a vision or agenda; do not infer successful automation from future-tense claims. A concrete implemented prototype may qualify as infrastructure or capability even without production deployment.",
+  "For abstracts missing or too short to resolve the headline, use only the supplied title and tags for a provisional judgment and flag the uncertainty; do not infer validation, novelty, deployment, or autonomy that the supplied evidence does not report. If a specific physical recommendation rather than an AI agenda is the main output, classify by that recommendation despite weak evidence.",
+  "Keep every supplied row in the denominator, including apparent overlapping reports and a cover summary; a cover or brief summary of prior work provides no new validation evidence and is treated as a synthesis or perspective according to its main subject. Do not silently deduplicate or introduce an uncodable category from the five absent abstracts."
+ ],
+ "notes": {
+  "axis": "QUESTION: the main question a paper answers, judged by its headline claim or deliverable",
+  "origin": "Built by GPT-6.1 Sol agents from the titles and abstracts of an earlier, broader candidate set of papers on language models in condensed matter, materials and quantum research."
+ }
+}

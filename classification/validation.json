@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "source_records": 326,
+  "classified_records": 326,
+  "source_sha256": "4d95b757155c1eb845aa561b70ccf0c9323974b9043cf946769335aeae78a69b",
+  "schema_sha256": "f0a7c7ab9bc028c60a9e78cfc5ac31f32026cd9024a33551e8a0f8304889ad64",
+  "checks": [
+    "exact membership of the reading queue",
+    "no repeated native IDs",
+    "all label enums validated",
+    "evidence substring checks",
+    "original batch labels preserved",
+    "lead overrides explicit",
+    "source acquisition unchanged"
+  ],
+  "evidence_status": {
+    "exact": 325,
+    "normalized-match": 1
+  },
+  "flagged_records": 22,
+  "files": {
+    "taxonomy.json": "fc1e7d6422e13d75023cd3dd46fb6205d06b313b920ddd4b8b8b5611c3ebac7d",
+    "schema.json": "f0a7c7ab9bc028c60a9e78cfc5ac31f32026cd9024a33551e8a0f8304889ad64",
+    "instructions.txt": "8d1badf855cc43ebbe7401366ce5ab552f6cb81dd55ed84c93996d6ddee54c03",
+    "classified.csv": "88da11617b8ecdc65c525f19977647202ceb4356bb3d72e47ed74a8f5a9b5e51",
+    "classified.json": "b3b8bf30f3aac8cc911cc3e4020f9fb3a49fc5163bc079402bfd5eb1634d9f55",
+    "lead-review.json": "6cc2f7662b51af405001e109aa8557a51c7447ff77f3c5e296a158c551eeb0e3",
+    "pilot-review.json": "2be8a5ec03e615a02fd8978f59c90ff9bd2688f462029cfc0e6236e0930a29f1",
+    "selected-audits.json": "7f2d79f861844bf5f1cdcb35429233b2aa495cee6a17ddfc617cfac041306b5c",
+    "README.md": "7ad84df8b427161c6b714027c3e2bcfc45f054580a477c060b5fb8c72751b174",
+    "classify.py": "63e4b2da7046b4d4106ee087fb6f60ce15866ed83d5afbd9df5286b633cf9385",
+    "repair.py": "832455f1ae46d88333e6ac4dea1868bc2002c9bdf90d0a083eb111f9f78d0889"
+  },
+  "note": "Validated on the classification queue, which also contained journal records from OpenAlex; the published files keep its 326 arXiv records, and the digests below are of the published files."
+}

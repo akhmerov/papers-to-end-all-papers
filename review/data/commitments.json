@@ -1,0 +1,18 @@
+{
+ "per_file": "commitments.sha256 (sha256sum format, paths relative to the private working tree)",
+ "bundles": {
+  "per-paper review data": {
+   "files": 6,
+   "sha256_of_manifest": "6449740bb93600591e39a991d43b663f74e75fe04511720528f56ce1c012a9f7"
+  },
+  "issue taxonomy coding": {
+   "files": 10,
+   "sha256_of_manifest": "4a90216bdd14e4fdba1a0441618a01b50e4ee28260dfc1a205a731cd2a57da7f"
+  },
+  "verified examples": {
+   "files": 19,
+   "sha256_of_manifest": "734049e0d1633e441c9c612292fe707150bdfcc5eb2ba7d8e36125bf27c6e7ee"
+  }
+ },
+ "bundle_rule": "sha256 of the sha256sum-format manifest of the bundle's files, sorted by path"
+}

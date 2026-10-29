@@ -1,0 +1,101 @@
+[
+  {
+    "id": "cond-mat-language-models",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:cond-mat.* AND (ti:\"large language\" OR abs:\"large language\" OR ti:\"language model\" OR abs:\"language model\" OR ti:\"language models\" OR abs:\"language models\" OR ti:LLM OR abs:LLM OR ti:LLMs OR abs:LLMs OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT OR abs:GPT OR ti:GPT-4 OR abs:GPT-4 OR ti:GPT-5 OR abs:GPT-5 OR ti:Claude OR abs:Claude OR ti:Gemini OR abs:Gemini OR ti:DeepSeek OR abs:DeepSeek OR ti:Qwen OR abs:Qwen OR ti:Llama OR abs:Llama OR ti:\"foundation model\" OR abs:\"foundation model\" OR ti:\"foundation models\" OR abs:\"foundation models\" OR ti:vision-language OR abs:vision-language OR ti:\"vision language\" OR abs:\"vision language\" OR ti:VLM OR abs:VLM OR ti:VLMs OR abs:VLMs OR ti:\"reasoning model\" OR abs:\"reasoning model\")) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "cond-mat-agents",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:cond-mat.* AND (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"AI agents\" OR abs:\"AI agents\" OR ti:\"LLM agent\" OR abs:\"LLM agent\" OR ti:\"LLM agents\" OR abs:\"LLM agents\" OR ti:multi-agent OR abs:multi-agent OR ti:multiagent OR abs:multiagent OR ti:\"autonomous agent\" OR abs:\"autonomous agent\" OR ti:\"autonomous agents\" OR abs:\"autonomous agents\" OR ti:\"autonomous scientist\" OR abs:\"autonomous scientist\" OR ti:\"AI scientist\" OR abs:\"AI scientist\" OR ti:\"autonomous research\" OR abs:\"autonomous research\" OR ti:\"autonomous laboratory\" OR abs:\"autonomous laboratory\" OR ti:\"self-driving lab\" OR abs:\"self-driving lab\")) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "cond-mat-harnesses",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:cond-mat.* AND (ti:harness OR abs:harness OR ti:harnesses OR abs:harnesses OR ti:scaffold OR abs:scaffold OR ti:scaffolding OR abs:scaffolding)) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "quant-ph-language-models",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:quant-ph AND (ti:\"large language\" OR abs:\"large language\" OR ti:\"language model\" OR abs:\"language model\" OR ti:\"language models\" OR abs:\"language models\" OR ti:LLM OR abs:LLM OR ti:LLMs OR abs:LLMs OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT OR abs:GPT OR ti:GPT-4 OR abs:GPT-4 OR ti:GPT-5 OR abs:GPT-5 OR ti:Claude OR abs:Claude OR ti:Gemini OR abs:Gemini OR ti:DeepSeek OR abs:DeepSeek OR ti:Qwen OR abs:Qwen OR ti:Llama OR abs:Llama OR ti:\"foundation model\" OR abs:\"foundation model\" OR ti:\"foundation models\" OR abs:\"foundation models\" OR ti:vision-language OR abs:vision-language OR ti:\"vision language\" OR abs:\"vision language\" OR ti:VLM OR abs:VLM OR ti:VLMs OR abs:VLMs OR ti:\"reasoning model\" OR abs:\"reasoning model\")) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "quant-ph-agents",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:quant-ph AND (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"AI agents\" OR abs:\"AI agents\" OR ti:\"LLM agent\" OR abs:\"LLM agent\" OR ti:\"LLM agents\" OR abs:\"LLM agents\" OR ti:multi-agent OR abs:multi-agent OR ti:multiagent OR abs:multiagent OR ti:\"autonomous agent\" OR abs:\"autonomous agent\" OR ti:\"autonomous agents\" OR abs:\"autonomous agents\" OR ti:\"autonomous scientist\" OR abs:\"autonomous scientist\" OR ti:\"AI scientist\" OR abs:\"AI scientist\" OR ti:\"autonomous research\" OR abs:\"autonomous research\" OR ti:\"autonomous laboratory\" OR abs:\"autonomous laboratory\" OR ti:\"self-driving lab\" OR abs:\"self-driving lab\")) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "quant-ph-harnesses",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:quant-ph AND (ti:harness OR abs:harness OR ti:harnesses OR abs:harnesses OR ti:scaffold OR abs:scaffold OR ti:scaffolding OR abs:scaffolding)) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "cross-category-domain-language-models",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "((ti:\"condensed matter\" OR abs:\"condensed matter\" OR ti:many-body OR abs:many-body OR ti:\"many body\" OR abs:\"many body\" OR ti:\"tensor network\" OR abs:\"tensor network\" OR ti:DMRG OR abs:DMRG OR ti:Hubbard OR abs:Hubbard OR ti:\"Bethe ansatz\" OR abs:\"Bethe ansatz\" OR ti:\"quantum transport\" OR abs:\"quantum transport\" OR ti:\"quantum dot\" OR abs:\"quantum dot\" OR ti:\"quantum device\" OR abs:\"quantum device\" OR ti:superconduct* OR abs:superconduct* OR ti:\"topological material\" OR abs:\"topological material\" OR ti:spintronic* OR abs:spintronic* OR ti:microscop* OR abs:microscop* OR ti:diffraction OR abs:diffraction OR ti:\"density functional\" OR abs:\"density functional\" OR ti:DFT OR abs:DFT OR ti:VASP OR abs:VASP OR ti:\"electronic structure\" OR abs:\"electronic structure\" OR ti:\"solid state\" OR abs:\"solid state\" OR ti:materials OR abs:materials OR ti:\"material discovery\" OR abs:\"material discovery\" OR ti:crystal* OR abs:crystal* OR ti:alloy* OR abs:alloy* OR ti:semiconductor* OR abs:semiconductor* OR ti:atomistic OR abs:atomistic OR ti:\"molecular dynamics\" OR abs:\"molecular dynamics\" OR ti:LAMMPS OR abs:LAMMPS OR ti:\"phase field\" OR abs:\"phase field\") AND (ti:\"large language\" OR abs:\"large language\" OR ti:\"language model\" OR abs:\"language model\" OR ti:\"language models\" OR abs:\"language models\" OR ti:LLM OR abs:LLM OR ti:LLMs OR abs:LLMs OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT OR abs:GPT OR ti:GPT-4 OR abs:GPT-4 OR ti:GPT-5 OR abs:GPT-5 OR ti:Claude OR abs:Claude OR ti:Gemini OR abs:Gemini OR ti:DeepSeek OR abs:DeepSeek OR ti:Qwen OR abs:Qwen OR ti:Llama OR abs:Llama OR ti:\"foundation model\" OR abs:\"foundation model\" OR ti:\"foundation models\" OR abs:\"foundation models\" OR ti:vision-language OR abs:vision-language OR ti:\"vision language\" OR abs:\"vision language\" OR ti:VLM OR abs:VLM OR ti:VLMs OR abs:VLMs OR ti:\"reasoning model\" OR abs:\"reasoning model\")) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "cross-category-domain-agents",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "((ti:\"condensed matter\" OR abs:\"condensed matter\" OR ti:many-body OR abs:many-body OR ti:\"many body\" OR abs:\"many body\" OR ti:\"tensor network\" OR abs:\"tensor network\" OR ti:DMRG OR abs:DMRG OR ti:Hubbard OR abs:Hubbard OR ti:\"Bethe ansatz\" OR abs:\"Bethe ansatz\" OR ti:\"quantum transport\" OR abs:\"quantum transport\" OR ti:\"quantum dot\" OR abs:\"quantum dot\" OR ti:\"quantum device\" OR abs:\"quantum device\" OR ti:superconduct* OR abs:superconduct* OR ti:\"topological material\" OR abs:\"topological material\" OR ti:spintronic* OR abs:spintronic* OR ti:microscop* OR abs:microscop* OR ti:diffraction OR abs:diffraction OR ti:\"density functional\" OR abs:\"density functional\" OR ti:DFT OR abs:DFT OR ti:VASP OR abs:VASP OR ti:\"electronic structure\" OR abs:\"electronic structure\" OR ti:\"solid state\" OR abs:\"solid state\" OR ti:materials OR abs:materials OR ti:\"material discovery\" OR abs:\"material discovery\" OR ti:crystal* OR abs:crystal* OR ti:alloy* OR abs:alloy* OR ti:semiconductor* OR abs:semiconductor* OR ti:atomistic OR abs:atomistic OR ti:\"molecular dynamics\" OR abs:\"molecular dynamics\" OR ti:LAMMPS OR abs:LAMMPS OR ti:\"phase field\" OR abs:\"phase field\") AND (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"AI agents\" OR abs:\"AI agents\" OR ti:\"LLM agent\" OR abs:\"LLM agent\" OR ti:\"LLM agents\" OR abs:\"LLM agents\" OR ti:multi-agent OR abs:multi-agent OR ti:multiagent OR abs:multiagent OR ti:\"autonomous agent\" OR abs:\"autonomous agent\" OR ti:\"autonomous agents\" OR abs:\"autonomous agents\" OR ti:\"autonomous scientist\" OR abs:\"autonomous scientist\" OR ti:\"AI scientist\" OR abs:\"AI scientist\" OR ti:\"autonomous research\" OR abs:\"autonomous research\" OR ti:\"autonomous laboratory\" OR abs:\"autonomous laboratory\" OR ti:\"self-driving lab\" OR abs:\"self-driving lab\")) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "cross-category-domain-harnesses",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "((ti:\"condensed matter\" OR abs:\"condensed matter\" OR ti:many-body OR abs:many-body OR ti:\"many body\" OR abs:\"many body\" OR ti:\"tensor network\" OR abs:\"tensor network\" OR ti:DMRG OR abs:DMRG OR ti:Hubbard OR abs:Hubbard OR ti:\"Bethe ansatz\" OR abs:\"Bethe ansatz\" OR ti:\"quantum transport\" OR abs:\"quantum transport\" OR ti:\"quantum dot\" OR abs:\"quantum dot\" OR ti:\"quantum device\" OR abs:\"quantum device\" OR ti:superconduct* OR abs:superconduct* OR ti:\"topological material\" OR abs:\"topological material\" OR ti:spintronic* OR abs:spintronic* OR ti:microscop* OR abs:microscop* OR ti:diffraction OR abs:diffraction OR ti:\"density functional\" OR abs:\"density functional\" OR ti:DFT OR abs:DFT OR ti:VASP OR abs:VASP OR ti:\"electronic structure\" OR abs:\"electronic structure\" OR ti:\"solid state\" OR abs:\"solid state\" OR ti:materials OR abs:materials OR ti:\"material discovery\" OR abs:\"material discovery\" OR ti:crystal* OR abs:crystal* OR ti:alloy* OR abs:alloy* OR ti:semiconductor* OR abs:semiconductor* OR ti:atomistic OR abs:atomistic OR ti:\"molecular dynamics\" OR abs:\"molecular dynamics\" OR ti:LAMMPS OR abs:LAMMPS OR ti:\"phase field\" OR abs:\"phase field\") AND (ti:harness OR abs:harness OR ti:harnesses OR abs:harnesses OR ti:scaffold OR abs:scaffold OR ti:scaffolding OR abs:scaffolding)) AND submittedDate:[202604180000 TO 202610182359]",
+      "max_results": 5000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  }
+]

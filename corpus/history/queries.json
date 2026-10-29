@@ -1,0 +1,278 @@
+[
+  {
+    "id": "01-condmat-llm",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:cond-mat.* AND (ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\")) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 1500,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "02-condmat-agent",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(cat:cond-mat.* AND (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"LLM agent\" OR abs:\"LLM agent\")) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 1000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "03-quantum-manybody",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "((ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\") AND (all:\"many-body\" OR all:\"many body\" OR all:DMRG OR all:\"tensor network\" OR all:\"condensed matter\" OR all:\"Bethe ansatz\" OR all:Hartree-Fock)) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 800,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "04-devices",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(((ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\") OR (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"LLM agent\" OR abs:\"LLM agent\")) AND (all:\"quantum dot\" OR all:\"quantum transport\" OR all:\"quantum device\" OR all:superconduct* OR all:topological OR all:spintronics)) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 800,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "05-microscopy",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(((ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\") OR (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"LLM agent\" OR abs:\"LLM agent\")) AND (all:microscopy OR all:\"scanning tunneling\" OR all:\"scanning probe\" OR all:diffraction OR all:spectroscopy)) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 800,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "06-electronic-structure",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(((ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\") OR (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"LLM agent\" OR abs:\"LLM agent\")) AND (all:\"density functional\" OR all:DFT OR all:VASP OR all:\"first principles\" OR all:\"electronic structure\")) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 800,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "07-solid-materials",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "((ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\") AND (all:crystal* OR all:\"solid state\" OR all:magnet* OR all:alloy* OR all:semiconductor* OR all:\"materials discovery\")) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 1200,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "08-atomistic",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(((ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\") OR (ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"LLM agent\" OR abs:\"LLM agent\")) AND (all:\"molecular dynamics\" OR all:atomistic OR all:LAMMPS OR all:\"phase field\")) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 800,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "09-materials-agents",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "((ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"LLM agent\" OR abs:\"LLM agent\") AND (all:materials OR all:material OR all:physics)) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 1200,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "10-research-benchmarks",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "((ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:GPT-4 OR abs:GPT-4 OR ti:\"language model\" OR abs:\"language model\") AND (all:physics OR all:materials) AND (ti:benchmark OR ti:scientist OR ti:autonomous OR ti:research)) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 1000,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "11-reference-neighborhood",
+    "provider": "arxiv",
+    "operation": "ids",
+    "spec": {
+      "ids": [
+        "1409.0473",
+        "1706.03741",
+        "1707.02968",
+        "1707.06347",
+        "1810.04805",
+        "1903.10676",
+        "1904.01766",
+        "1909.01066",
+        "2004.05150",
+        "2005.14165",
+        "2009.10483",
+        "2101.00027",
+        "2101.00190",
+        "2102.11090",
+        "2104.08691",
+        "2104.14294",
+        "2106.09685",
+        "2107.00135",
+        "2110.06197",
+        "2111.00653",
+        "2112.09332",
+        "2201.12086",
+        "2202.12837",
+        "2203.02155",
+        "2205.10712",
+        "2206.06488",
+        "2206.07682",
+        "2207.09238",
+        "2210.03629",
+        "2210.11610",
+        "2211.10435",
+        "2302.04761",
+        "2302.11382",
+        "2302.12766",
+        "2302.13971",
+        "2303.03378",
+        "2303.03846",
+        "2303.04671",
+        "2303.08128",
+        "2303.08774",
+        "2303.11366",
+        "2303.17071",
+        "2304.01933",
+        "2304.02643",
+        "2305.05708",
+        "2305.14314",
+        "2305.17126",
+        "2306.01116",
+        "2306.02224",
+        "2307.09288",
+        "2307.10635",
+        "2308.14963",
+        "2308.16259",
+        "2309.03409",
+        "2309.06256",
+        "2309.12732",
+        "2310.03030",
+        "2310.08560",
+        "2310.12931",
+        "2310.14029",
+        "2311.05232",
+        "2311.07361",
+        "2311.13778",
+        "2312.00752",
+        "2312.03687",
+        "2312.08782",
+        "2312.09744",
+        "2312.10997",
+        "2312.11805",
+        "2312.16171",
+        "2401.00096",
+        "2401.08500",
+        "2402.00838",
+        "2402.03992",
+        "2402.06196",
+        "2403.15734",
+        "2405.15490",
+        "2407.10022",
+        "2407.21783",
+        "2408.06292",
+        "2408.07608",
+        "2408.08044",
+        "2408.10839",
+        "2408.11793",
+        "2409.06191",
+        "2409.13732",
+        "2410.03963",
+        "2410.13768",
+        "2410.21276",
+        "2411.00177",
+        "2411.08063",
+        "2411.16416",
+        "2412.09560",
+        "2412.11693",
+        "2412.11970",
+        "2412.19437",
+        "2501.12948",
+        "2502.13923",
+        "2502.15815",
+        "2502.16984",
+        "2503.03965",
+        "2503.06512",
+        "2503.16784",
+        "2503.21821",
+        "2503.23278",
+        "2504.01848",
+        "2504.02367",
+        "2504.08810",
+        "2504.14110",
+        "2504.14557",
+        "2505.00076",
+        "2505.03049",
+        "2505.08195",
+        "2505.09388",
+        "2505.16094",
+        "2505.18220",
+        "2506.07551",
+        "2506.12629",
+        "2508.05421",
+        "2508.06471",
+        "2508.08657",
+        "2509.01659",
+        "2509.26574",
+        "2510.01235",
+        "2510.12787",
+        "2510.26094",
+        "2510.26854",
+        "2511.02824",
+        "2512.07921",
+        "2512.18847",
+        "2512.19799",
+        "2601.10194",
+        "2601.14288",
+        "2603.27646",
+        "2604.15411"
+      ]
+    }
+  },
+  {
+    "id": "12-focused-devices",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(ti:\"large language\" OR abs:\"large language\" OR ti:LLM OR abs:LLM OR ti:ChatGPT OR abs:ChatGPT OR ti:\"language model\" OR abs:\"language model\" OR ti:agentic OR abs:agentic) AND (all:\"quantum dot\" OR all:\"quantum transport\" OR all:\"quantum device\" OR all:superconduct* OR all:\"topological material\" OR all:\"topological phase\" OR all:spintronics) AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 1500,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  },
+  {
+    "id": "13-focused-material-agents",
+    "provider": "arxiv",
+    "operation": "search",
+    "spec": {
+      "query": "(ti:agentic OR abs:agentic OR ti:\"AI agent\" OR abs:\"AI agent\" OR ti:\"LLM agent\" OR abs:\"LLM agent\") AND (ti:materials OR ti:material OR ti:crystal OR ti:atomistic OR ti:microscopy OR ti:diffraction OR ti:\"condensed matter\" OR ti:\"many-body\" OR ti:\"quantum transport\" OR ti:\"solid state\") AND submittedDate:[202201010000 TO 202610182359]",
+      "max_results": 1500,
+      "sort_by": "submitted_date",
+      "sort_order": "descending"
+    }
+  }
+]

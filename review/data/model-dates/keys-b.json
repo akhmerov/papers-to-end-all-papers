@@ -1,0 +1,889 @@
+[
+ {
+  "key": "deepseek-v4-pro",
+  "papers": 12,
+  "raw_names": [
+   "DeepSeek V4 Pro",
+   "DeepSeek V4-Pro",
+   "DeepSeek v4 Pro",
+   "DeepSeek-V4-Pro",
+   "deepseek-ai/DeepSeek-V4-Pro"
+  ]
+ },
+ {
+  "key": "deepseek-r1",
+  "papers": 10,
+  "raw_names": [
+   "DeepSeek R1",
+   "DeepSeek-R1",
+   "DeepSeek-R1-8B",
+   "DeepSeek-R1:8B"
+  ]
+ },
+ {
+  "key": "deepseek-v4-flash",
+  "papers": 9,
+  "raw_names": [
+   "DeepSeek V4 Flash",
+   "DeepSeek-V4-Flash",
+   "DeepSeek-V4-Flash (284B-A13B)",
+   "DeepSeek-v4-flash"
+  ]
+ },
+ {
+  "key": "qwen2.5-7b",
+  "papers": 8,
+  "raw_names": [
+   "Qwen-2.5-7B-Instruct",
+   "Qwen/Qwen2.5-7B-Instruct",
+   "Qwen/Qwen2.5-7B-Instruct-Turbo",
+   "Qwen2.5-7B",
+   "Qwen2.5:7B"
+  ]
+ },
+ {
+  "key": "qwen3-8b",
+  "papers": 8,
+  "raw_names": [
+   "Qwen3-8B",
+   "Qwen3-8B-Instruct"
+  ]
+ },
+ {
+  "key": "qwen3-max",
+  "papers": 7,
+  "raw_names": [
+   "Qwen3 Max",
+   "Qwen3-Max",
+   "qwen3-max"
+  ]
+ },
+ {
+  "key": "qwen3-4b",
+  "papers": 6,
+  "raw_names": [
+   "Qwen3-4B",
+   "Qwen3-Instruct (4B)",
+   "qwen3:4b"
+  ]
+ },
+ {
+  "key": "qwen3-32b",
+  "papers": 6,
+  "raw_names": [
+   "Qwen 3-32B",
+   "Qwen-3 32B",
+   "Qwen-3-32B",
+   "Qwen3 32B",
+   "Qwen3-32B"
+  ]
+ },
+ {
+  "key": "qwen3-vl-8b",
+  "papers": 6,
+  "raw_names": [
+   "Qwen3-VL-8B",
+   "Qwen3-VL-8B-Instruct",
+   "Qwen3-VL-8B-Thinking",
+   "qwen/qwen3-vl-8b-instruct"
+  ]
+ },
+ {
+  "key": "qwen3.6-plus",
+  "papers": 6,
+  "raw_names": [
+   "Qwen3.6 Plus",
+   "Qwen3.6+ (No-Thinking)",
+   "Qwen3.6+ (Thinking)",
+   "Qwen3.6-Plus"
+  ]
+ },
+ {
+  "key": "deepseek-v3",
+  "papers": 5,
+  "raw_names": [
+   "DeepSeek-V3",
+   "Deepseek-Chat",
+   "deepseek/deepseek-chat"
+  ]
+ },
+ {
+  "key": "deepseek-v3.2",
+  "papers": 5,
+  "raw_names": [
+   "DeepSeek V3.2",
+   "DeepSeek-V3.2",
+   "DeepSeek-V3.2-MAAS"
+  ]
+ },
+ {
+  "key": "qwen3.5-9b",
+  "papers": 5,
+  "raw_names": [
+   "Qwen3.5-9B",
+   "Qwen3.5:9b"
+  ]
+ },
+ {
+  "key": "qwen2.5-14b",
+  "papers": 5,
+  "raw_names": [
+   "Qwen2.5-14B",
+   "Qwen2.5-14B-Instruct"
+  ]
+ },
+ {
+  "key": "qwen3-235b-a22b",
+  "papers": 4,
+  "raw_names": [
+   "Qwen3 235B A22B",
+   "Qwen3-235B-A22B",
+   "Qwen3-235B-A22B-Instruct",
+   "Qwen3-235B-A22B-Thinking"
+  ]
+ },
+ {
+  "key": "qwen3.5-397b-a17b",
+  "papers": 4,
+  "raw_names": [
+   "Qwen3.5-397B-A17B"
+  ]
+ },
+ {
+  "key": "kimi-k2.5",
+  "papers": 4,
+  "raw_names": [
+   "Kimi K2.5",
+   "Kimi K2.5 (No-Thinking)",
+   "Kimi K2.5 (Thinking)",
+   "Kimi-K2.5",
+   "Kimi-k2.5"
+  ]
+ },
+ {
+  "key": "qwen3-1.7b",
+  "papers": 4,
+  "raw_names": [
+   "Qwen3-1.7B",
+   "Qwen3-Instruct (1.7B)"
+  ]
+ },
+ {
+  "key": "qwen2.5-coder-7b",
+  "papers": 4,
+  "raw_names": [
+   "Qwen2.5-Coder-7B"
+  ]
+ },
+ {
+  "key": "deepseek-v4.1-flash",
+  "papers": 4,
+  "raw_names": [
+   "DeepSeek V4.1 Flash",
+   "DeepSeek-V4.1-Flash",
+   "DeepSeek-v4.1-Flash"
+  ]
+ },
+ {
+  "key": "kimi-k2",
+  "papers": 3,
+  "raw_names": [
+   "Kimi K2",
+   "Kimi-K2-Thinking"
+  ]
+ },
+ {
+  "key": "deepseek-r1-0528-qwen3-8b",
+  "papers": 3,
+  "raw_names": [
+   "DeepSeek-R1-0528-Qwen3-8B"
+  ]
+ },
+ {
+  "key": "qwen3.5-122b-a10b",
+  "papers": 3,
+  "raw_names": [
+   "Qwen3.5-122B-A10B"
+  ]
+ },
+ {
+  "key": "qwen3-235b-a22b-2507",
+  "papers": 3,
+  "raw_names": [
+   "Qwen-3-235b-a22b-instruct-2507",
+   "Qwen3-235B-A22B-Instruct-2507",
+   "Qwen3-235B-A22B-Instruct-2507-MAAS",
+   "qwen3-235b-a22b-thinking-2507"
+  ]
+ },
+ {
+  "key": "qwen3-vl-32b",
+  "papers": 3,
+  "raw_names": [
+   "Qwen3-VL-32B",
+   "Qwen3-VL-32B-Instruct",
+   "qwen/qwen3-vl-32b-instruct"
+  ]
+ },
+ {
+  "key": "glm-4.6v",
+  "papers": 3,
+  "raw_names": [
+   "GLM-4.6V"
+  ]
+ },
+ {
+  "key": "kimi-k2.6",
+  "papers": 3,
+  "raw_names": [
+   "Kimi K2.6",
+   "Kimi-K2.6"
+  ]
+ },
+ {
+  "key": "minimax-m2.7",
+  "papers": 3,
+  "raw_names": [
+   "MiniMax-M2.7",
+   "MiniMax-m2.7"
+  ]
+ },
+ {
+  "key": "qwen2.5-3b",
+  "papers": 3,
+  "raw_names": [
+   "Qwen2.5-3B",
+   "Qwen2.5-3B-Instruct"
+  ]
+ },
+ {
+  "key": "glm-5.1",
+  "papers": 3,
+  "raw_names": [
+   "GLM-5.1"
+  ]
+ },
+ {
+  "key": "qwen3-vl-235b",
+  "papers": 3,
+  "raw_names": [
+   "Qwen3-VL-235B"
+  ]
+ },
+ {
+  "key": "qwen3-vl",
+  "papers": 3,
+  "raw_names": [
+   "Qwen3-VL"
+  ]
+ },
+ {
+  "key": "qwen3.6-35b-a3b",
+  "papers": 3,
+  "raw_names": [
+   "Qwen3.6-35B-A3B"
+  ]
+ },
+ {
+  "key": "glm-4.5-air",
+  "papers": 2,
+  "raw_names": [
+   "GLM-4.5-Air",
+   "glm-4.5-air"
+  ]
+ },
+ {
+  "key": "qwen3.5-35b-a3b",
+  "papers": 2,
+  "raw_names": [
+   "Qwen3.5-35B-A3B"
+  ]
+ },
+ {
+  "key": "qwen3.5-27b",
+  "papers": 2,
+  "raw_names": [
+   "Qwen3.5-27B"
+  ]
+ },
+ {
+  "key": "qwen3-235b",
+  "papers": 2,
+  "raw_names": [
+   "Qwen-3-235B",
+   "Qwen3-235B"
+  ]
+ },
+ {
+  "key": "internvl3.5",
+  "papers": 2,
+  "raw_names": [
+   "InternVL3.5"
+  ]
+ },
+ {
+  "key": "qwen2.5-vl",
+  "papers": 2,
+  "raw_names": [
+   "Qwen2.5-VL",
+   "Qwen2.5-VL / Qwen2.5"
+  ]
+ },
+ {
+  "key": "qwen3.5",
+  "papers": 2,
+  "raw_names": [
+   "Qwen-3.5 (cloud)",
+   "Qwen3.5"
+  ]
+ },
+ {
+  "key": "qwen3-0.6b",
+  "papers": 2,
+  "raw_names": [
+   "Qwen3-0.6B"
+  ]
+ },
+ {
+  "key": "deepseek-v4",
+  "papers": 2,
+  "raw_names": [
+   "DeepSeek-V4"
+  ]
+ },
+ {
+  "key": "glm-5v",
+  "papers": 2,
+  "raw_names": [
+   "GLM-5V-Turbo"
+  ]
+ },
+ {
+  "key": "internvl3-5-4b",
+  "papers": 2,
+  "raw_names": [
+   "InternVL3_5-4B"
+  ]
+ },
+ {
+  "key": "qwen3.6-27b",
+  "papers": 2,
+  "raw_names": [
+   "Qwen/Qwen3.6-27B",
+   "Qwen3.6-27B"
+  ]
+ },
+ {
+  "key": "qwen3-coder",
+  "papers": 2,
+  "raw_names": [
+   "Qwen3 Coder",
+   "Qwen3-Coder"
+  ]
+ },
+ {
+  "key": "qwen2.5-coder-32b",
+  "papers": 2,
+  "raw_names": [
+   "Qwen2.5-Coder-32B",
+   "Qwen2.5-Coder-32B-Instruct"
+  ]
+ },
+ {
+  "key": "doubao-seed-1-8",
+  "papers": 2,
+  "raw_names": [
+   "Doubao-seed-1-8"
+  ]
+ },
+ {
+  "key": "qwen2.5-72b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen2.5-72B"
+  ]
+ },
+ {
+  "key": "deepseek-r1-0528",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek-R1-0528"
+  ]
+ },
+ {
+  "key": "qwen2.5-1.5b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen2.5-1.5B"
+  ]
+ },
+ {
+  "key": "glm-4.6",
+  "papers": 1,
+  "raw_names": [
+   "GLM-4.6"
+  ]
+ },
+ {
+  "key": "mimo-v2-flash",
+  "papers": 1,
+  "raw_names": [
+   "MiMo-V2-Flash"
+  ]
+ },
+ {
+  "key": "deepseek-v3.1",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek V3.1"
+  ]
+ },
+ {
+  "key": "internvl3-38b",
+  "papers": 1,
+  "raw_names": [
+   "InternVL3-38B"
+  ]
+ },
+ {
+  "key": "internvl3-78b",
+  "papers": 1,
+  "raw_names": [
+   "InternVL3-78B"
+  ]
+ },
+ {
+  "key": "kimi-vl-a3b",
+  "papers": 1,
+  "raw_names": [
+   "Kimi-VL-A3B"
+  ]
+ },
+ {
+  "key": "deepseek-model",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek model (V3:together)"
+  ]
+ },
+ {
+  "key": "deepseek-v3.2-exp",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek-V3.2-Exp"
+  ]
+ },
+ {
+  "key": "internvl3.5-2b",
+  "papers": 1,
+  "raw_names": [
+   "InternVL3.5-2B-Instruct"
+  ]
+ },
+ {
+  "key": "internvl3.5-8b",
+  "papers": 1,
+  "raw_names": [
+   "InternVL3.5-8B-Instruct"
+  ]
+ },
+ {
+  "key": "qwen3-vl-4b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-VL-4B-Instruct"
+  ]
+ },
+ {
+  "key": "qwen3-vl-embedding",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-VL-Embedding"
+  ]
+ },
+ {
+  "key": "qwen3-vl-2b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-VL-2B-Instruct"
+  ]
+ },
+ {
+  "key": "internvl3.5-4b",
+  "papers": 1,
+  "raw_names": [
+   "InternVL3.5-4B-Instruct"
+  ]
+ },
+ {
+  "key": "scienceone-s1-base-ultra",
+  "papers": 1,
+  "raw_names": [
+   "Scienceone-s1-base-ultra"
+  ]
+ },
+ {
+  "key": "qwen3.6-35b",
+  "papers": 1,
+  "raw_names": [
+   "qwen3.6:35b"
+  ]
+ },
+ {
+  "key": "qwen3.8-27b",
+  "papers": 1,
+  "raw_names": [
+   "qwen3.8:27b"
+  ]
+ },
+ {
+  "key": "qwen3-next-80b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-Next 80B Instruct"
+  ]
+ },
+ {
+  "key": "qwen-plus",
+  "papers": 1,
+  "raw_names": [
+   "Qwen-Plus"
+  ]
+ },
+ {
+  "key": "doubao-1.5-pro",
+  "papers": 1,
+  "raw_names": [
+   "Doubao-1.5-Pro"
+  ]
+ },
+ {
+  "key": "qwen3.5-plus",
+  "papers": 1,
+  "raw_names": [
+   "Qwen 3.5 Plus"
+  ]
+ },
+ {
+  "key": "doubao-seed-2.0",
+  "papers": 1,
+  "raw_names": [
+   "Doubao-Seed-2.0"
+  ]
+ },
+ {
+  "key": "hunyuan-1.8b",
+  "papers": 1,
+  "raw_names": [
+   "Hunyuan-Instruct (1.8B)"
+  ]
+ },
+ {
+  "key": "hunyuan-7b",
+  "papers": 1,
+  "raw_names": [
+   "Hunyuan-7B-Instruct"
+  ]
+ },
+ {
+  "key": "hunyuan-4b",
+  "papers": 1,
+  "raw_names": [
+   "Hunyuan-Instruct (4B)"
+  ]
+ },
+ {
+  "key": "intern-s1-pro",
+  "papers": 1,
+  "raw_names": [
+   "Intern-S1 Pro"
+  ]
+ },
+ {
+  "key": "qwen3-30b-a3b-2507",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-30B-A3B-Instruct-2507"
+  ]
+ },
+ {
+  "key": "qwen3-coder-480b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-Coder-480B"
+  ]
+ },
+ {
+  "key": "qwen3-coder-next",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3 Coder Next"
+  ]
+ },
+ {
+  "key": "s1-base-8b",
+  "papers": 1,
+  "raw_names": [
+   "S1-Base 8B"
+  ]
+ },
+ {
+  "key": "qwen3.6",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3.6"
+  ]
+ },
+ {
+  "key": "qwen3-14b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-14B"
+  ]
+ },
+ {
+  "key": "qwen2.5-3b-base",
+  "papers": 1,
+  "raw_names": [
+   "Qwen2.5-3B base"
+  ]
+ },
+ {
+  "key": "glm-5",
+  "papers": 1,
+  "raw_names": [
+   "GLM-5 (cloud)"
+  ]
+ },
+ {
+  "key": "deepseek-r1-14b",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek-R1:14B"
+  ]
+ },
+ {
+  "key": "qwen3.5-4b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3.5-4B"
+  ]
+ },
+ {
+  "key": "qwenvlm-7b",
+  "papers": 1,
+  "raw_names": [
+   "QwenVLM-7B"
+  ]
+ },
+ {
+  "key": "qwen3-coder-plus",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3-Coder-Plus"
+  ]
+ },
+ {
+  "key": "internvl3-5-8b",
+  "papers": 1,
+  "raw_names": [
+   "InternVL3_5-8B"
+  ]
+ },
+ {
+  "key": "internvl3-5-2b",
+  "papers": 1,
+  "raw_names": [
+   "InternVL3_5-2B"
+  ]
+ },
+ {
+  "key": "glm-4.6v-flash",
+  "papers": 1,
+  "raw_names": [
+   "GLM-4.6V-Flash"
+  ]
+ },
+ {
+  "key": "qwen3.6-flash",
+  "papers": 1,
+  "raw_names": [
+   "Qwen3.6-Flash"
+  ]
+ },
+ {
+  "key": "glm-5.2",
+  "papers": 1,
+  "raw_names": [
+   "GLM-5.2"
+  ]
+ },
+ {
+  "key": "glm-4.7-flash",
+  "papers": 1,
+  "raw_names": [
+   "GLM 4.7 Flash"
+  ]
+ },
+ {
+  "key": "qwen2.5",
+  "papers": 1,
+  "raw_names": [
+   "qwen2.5"
+  ]
+ },
+ {
+  "key": "qwen2.5-coder",
+  "papers": 1,
+  "raw_names": [
+   "qwen2.5-coder"
+  ]
+ },
+ {
+  "key": "kimi-k3",
+  "papers": 1,
+  "raw_names": [
+   "Kimi K3"
+  ]
+ },
+ {
+  "key": "minimax-m3",
+  "papers": 1,
+  "raw_names": [
+   "MiniMax M3"
+  ]
+ },
+ {
+  "key": "qwen2.5-coder-3b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen2.5-Coder-3B"
+  ]
+ },
+ {
+  "key": "qwen2.5-coder-14b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen2.5-Coder-14B"
+  ]
+ },
+ {
+  "key": "qwen3-embedding-8b",
+  "papers": 1,
+  "raw_names": [
+   "qwen3-embedding-8b"
+  ]
+ },
+ {
+  "key": "deepseek-7b",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek-7B"
+  ]
+ },
+ {
+  "key": "qwq-32b",
+  "papers": 1,
+  "raw_names": [
+   "QwQ-32B"
+  ]
+ },
+ {
+  "key": "mimo-v2.5",
+  "papers": 1,
+  "raw_names": [
+   "MiMo-V2.5"
+  ]
+ },
+ {
+  "key": "mimo-v2.5-pro",
+  "papers": 1,
+  "raw_names": [
+   "MiMo-V2.5-Pro"
+  ]
+ },
+ {
+  "key": "qwen3-vl-235b-a22b",
+  "papers": 1,
+  "raw_names": [
+   "qwen/qwen3-vl-235b-a22b-instruct"
+  ]
+ },
+ {
+  "key": "qwen2.5-vl-72b",
+  "papers": 1,
+  "raw_names": [
+   "qwen/qwen2.5-vl-72b-instruct"
+  ]
+ },
+ {
+  "key": "z-ai/glm-4.6v",
+  "papers": 1,
+  "raw_names": [
+   "z-ai/glm-4.6v"
+  ]
+ },
+ {
+  "key": "bytedance-seed/seed-1.6",
+  "papers": 1,
+  "raw_names": [
+   "bytedance-seed/seed-1.6"
+  ]
+ },
+ {
+  "key": "qwen2.5-0.5b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen2.5-0.5B-Instruct"
+  ]
+ },
+ {
+  "key": "qwen2.5-vl-7b",
+  "papers": 1,
+  "raw_names": [
+   "Qwen2.5-VL-7B-Instruct"
+  ]
+ },
+ {
+  "key": "kimi",
+  "papers": 1,
+  "raw_names": [
+   "Kimi"
+  ]
+ },
+ {
+  "key": "deepseek-flash",
+  "papers": 1,
+  "raw_names": [
+   "deepseek-flash"
+  ]
+ },
+ {
+  "key": "glm-5.3",
+  "papers": 1,
+  "raw_names": [
+   "GLM 5.3"
+  ]
+ },
+ {
+  "key": "glm-5.3-flash",
+  "papers": 1,
+  "raw_names": [
+   "GLM-5.3-Flash"
+  ]
+ },
+ {
+  "key": "deepseek-4.0-pro",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek 4.0 Pro"
+  ]
+ },
+ {
+  "key": "deepseek-4.0-flash",
+  "papers": 1,
+  "raw_names": [
+   "DeepSeek 4.0 Flash"
+  ]
+ }
+]

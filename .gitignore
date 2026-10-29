@@ -1,0 +1,11 @@
+# Build outputs
+/_build/
+/_site/
+/.pixi/
+__pycache__/
+*.py[cod]
+
+# Unpublished working data (reviews, per-paper records); see review/README.md
+/review/work/
+/corpus/replay/
+/classification/work/

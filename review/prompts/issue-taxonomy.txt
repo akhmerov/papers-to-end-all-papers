@@ -1,0 +1,25 @@
+You are building a coding scheme for the major issues that referees found in 228 arXiv preprints on the use of large language models and agents in condensed matter physics, materials science and nearby quantum fields.
+
+Input: {WORK}/taxonomy/issues.jsonl. Each line is one major issue: a one-line summary written by a referee, with the paper's arXiv ID, title, primary use and paper type. The full referee reports are in {WORK}/reviews-v2/<arXiv ID>.md; read a sample of them where a one-line summary is too terse to classify. Do not read other files in the repository, and do not create or modify any file except the output below.
+
+Goal: a taxonomy that lets an essay say "X% of papers have a problem of type Y", where each type is a recognisable failure of research practice, not a property of one subfield. Read all 454 issues before deciding.
+
+Requirements:
+- 10 to 15 primary categories, plus "other". Each issue must fit exactly one primary category, so categories must be mutually exclusive. Where two failure types often co-occur in one issue, give a rule for which wins.
+- Each category describes what went wrong, in plain language a physicist would recognise. Examples of the kind of distinction wanted (not a required list): a causal or mechanistic claim drawn from an uncontrolled comparison; results inconsistent between tables, text and figures; a success metric that does not measure what is claimed; generality claimed from one model, one system or a handful of cases; no repeated runs or uncertainty; artefacts needed for reproduction not released; an LLM judging its own or similar output without independent validation; human contribution not quantified, so the agent's share is unknown; benchmark or test-set contamination; a physics or mathematics error.
+- Group categories under three or four super-groups (for example: claims beyond the evidence, reproducibility and reporting, correctness, evaluation design).
+- For each category give: a short id (kebab-case), a name, a one-sentence definition, inclusion and exclusion rules, the super-group, and three example issue_ids that fit it clearly.
+- Aim for categories that each cover at least about 3% of issues. Merge rarer types into a broader category or "other".
+
+Write {WORK}/taxonomy/taxonomy.json:
+
+{
+  "supergroups": [{"id": "...", "name": "..."}],
+  "categories": [
+    {"id": "...", "name": "...", "supergroup": "...", "definition": "...", "include": "...", "exclude": "...", "examples": ["issue_id", "..."]}
+  ],
+  "tie_breaking": ["rule", "..."],
+  "notes": "anything a coder needs to know"
+}
+
+Return as your final answer the list of categories with a rough estimate of the share of issues in each, and any difficulty you had separating categories.

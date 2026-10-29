@@ -1,0 +1,411 @@
+[
+ {
+  "id": "arxiv:2608.03824",
+  "scope": "adjacent-quantum",
+  "use": "reasoning-proof",
+  "secondary_uses": [],
+  "kind": "application",
+  "agent_form": "human-ai-collaboration",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "quantum key agreement protocols",
+  "question": "Prove impossibility of perfectly complete quantum key agreement",
+  "ai_job": "Find mathematical proof in one conversation"
+ },
+ {
+  "id": "arxiv:2609.19837",
+  "scope": "materials-science",
+  "use": "literature-knowledge",
+  "secondary_uses": [
+   "reasoning-proof",
+   "design-optimization"
+  ],
+  "kind": "review-perspective",
+  "agent_form": "unspecified",
+  "autonomy": "not-applicable",
+  "breadth": "field-overview",
+  "llm_role": "proposed",
+  "confidence": "medium",
+  "system": "high-entropy alloy catalysts",
+  "question": "Understand and optimize catalyst composition and performance",
+  "ai_job": "Extract knowledge and suggest catalyst hypotheses"
+ },
+ {
+  "id": "arxiv:2606.22376",
+  "scope": "condensed-matter",
+  "use": "experimental-control",
+  "secondary_uses": [
+   "data-interpretation"
+  ],
+  "kind": "application",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "superconducting transmon qubits",
+  "question": "Calibrate a hundred-qubit processor reliably and efficiently",
+  "ai_job": "Orchestrate measurement skills and calibration decisions"
+ },
+ {
+  "id": "arxiv:2604.25472",
+  "scope": "out-of-scope",
+  "use": "data-interpretation",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "science instructional materials",
+  "question": "Evaluate science lesson quality against educational rubrics",
+  "ai_job": "Score lessons and produce supporting rationales"
+ },
+ {
+  "id": "arxiv:2609.33192",
+  "scope": "adjacent-quantum",
+  "use": "code-algorithm-generation",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "llm-pipeline",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "Clifford circuits",
+  "question": "Generate circuits preparing specified stabilizer states",
+  "ai_job": "Generate quantum circuits with verified algorithmic traces"
+ },
+ {
+  "id": "arxiv:2607.00939",
+  "scope": "adjacent-quantum",
+  "use": "code-algorithm-generation",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "multi-agent",
+  "autonomy": "bounded-multistep",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "quantum optimization algorithms",
+  "question": "Construct quantum algorithms for software test optimization",
+  "ai_job": "Parse requirements, generate, execute, and verify applications"
+ },
+ {
+  "id": "arxiv:2606.02434",
+  "scope": "materials-science",
+  "use": "data-interpretation",
+  "secondary_uses": [
+   "code-algorithm-generation"
+  ],
+  "kind": "method",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "semiconductor circuit geometries",
+  "question": "Recover precise circuit geometry from electron microscopy images",
+  "ai_job": "Translate inspection images into editable geometry code"
+ },
+ {
+  "id": "arxiv:2605.00803",
+  "scope": "materials-science",
+  "use": "simulation-workflow",
+  "secondary_uses": [
+   "data-interpretation"
+  ],
+  "kind": "benchmark",
+  "agent_form": "tool-using-agent",
+  "autonomy": "bounded-multistep",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "computational materials models",
+  "question": "Reproduce published computational materials claims",
+  "ai_job": "Reconstruct, execute, and assess computational workflows"
+ },
+ {
+  "id": "arxiv:2605.29555",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "property-prediction"
+  ],
+  "kind": "method",
+  "agent_form": "llm-pipeline",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "high-entropy alloys",
+  "question": "Evaluate and screen candidate alloys using expert criteria",
+  "ai_job": "Judge candidate materials using learned expert rules"
+ },
+ {
+  "id": "arxiv:2605.14527",
+  "scope": "materials-science",
+  "use": "simulation-workflow",
+  "secondary_uses": [
+   "code-algorithm-generation"
+  ],
+  "kind": "method",
+  "agent_form": "multi-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "solid electrolyte interphases",
+  "question": "Develop accurate interatomic potentials for complex interfaces",
+  "ai_job": "Choose development actions from model evaluations and logs"
+ },
+ {
+  "id": "arxiv:2606.05050",
+  "scope": "materials-science",
+  "use": "research-orchestration",
+  "secondary_uses": [
+   "simulation-workflow",
+   "design-optimization"
+  ],
+  "kind": "method",
+  "agent_form": "multi-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "heterogeneous catalysts",
+  "question": "Predict working surfaces, reaction mechanisms, and promising catalysts",
+  "ai_job": "Coordinate surface modeling, pathway searches, and kinetics tools"
+ },
+ {
+  "id": "arxiv:2608.29665",
+  "scope": "materials-science",
+  "use": "simulation-workflow",
+  "secondary_uses": [
+   "literature-knowledge"
+  ],
+  "kind": "benchmark",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "pentagonal two-dimensional materials",
+  "question": "Reproduce published lattice constants from reported calculation parameters",
+  "ai_job": "Extract parameters, prepare inputs, and drive calculations"
+ },
+ {
+  "id": "arxiv:2610.17193",
+  "scope": "condensed-matter",
+  "use": "research-orchestration",
+  "secondary_uses": [
+   "design-optimization",
+   "experimental-control",
+   "data-interpretation"
+  ],
+  "kind": "method",
+  "agent_form": "human-ai-collaboration",
+  "autonomy": "closed-loop",
+  "breadth": "platform",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "solid-state defects and artificial spin ice",
+  "question": "Improve experimental designs, control, physical models, and data analysis",
+  "ai_job": "Iteratively develop and test research solutions under direction"
+ },
+ {
+  "id": "arxiv:2610.00943",
+  "scope": "condensed-matter",
+  "use": "simulation-workflow",
+  "secondary_uses": [
+   "data-interpretation"
+  ],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "bounded-multistep",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "strongly correlated electronic systems",
+  "question": "Compute electronic states and competing phases with suitable methods",
+  "ai_job": "Assist method selection, workflow planning, and interpretation"
+ },
+ {
+  "id": "arxiv:2606.17809",
+  "scope": "out-of-scope",
+  "use": "data-interpretation",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "pollen grains",
+  "question": "Describe pollen morphology for recognition across microscopy conditions",
+  "ai_job": "Generate structured morphological captions from grain images"
+ },
+ {
+  "id": "arxiv:2608.07637",
+  "scope": "materials-science",
+  "use": "simulation-workflow",
+  "secondary_uses": [
+   "data-interpretation"
+  ],
+  "kind": "method",
+  "agent_form": "llm-pipeline",
+  "autonomy": "unspecified",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "montmorillonite clays",
+  "question": "Track composition-dependent water desorption across humidity states",
+  "ai_job": "Construct campaigns and review exceptional simulation events"
+ },
+ {
+  "id": "arxiv:2608.08752",
+  "scope": "condensed-matter",
+  "use": "reasoning-proof",
+  "secondary_uses": [],
+  "kind": "application",
+  "agent_form": "human-ai-collaboration",
+  "autonomy": "human-in-loop",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "Sherrington-Kirkpatrick spin glasses",
+  "question": "Determine critical overlap scaling and its limiting distribution",
+  "ai_job": "Generate mathematical arguments extending prior comparison principles"
+ },
+ {
+  "id": "arxiv:2605.28487",
+  "scope": "materials-science",
+  "use": "reasoning-proof",
+  "secondary_uses": [
+   "literature-knowledge"
+  ],
+  "kind": "benchmark",
+  "agent_form": "llm-pipeline",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "materials synthesis processes",
+  "question": "Infer synthesis routes, process variables, and causal consistency",
+  "ai_job": "Choose process answers constrained by retrieved provenance"
+ },
+ {
+  "id": "arxiv:2610.17804",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "reasoning-proof",
+   "simulation-workflow"
+  ],
+  "kind": "method",
+  "agent_form": "tool-using-agent",
+  "autonomy": "closed-loop",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "reinforced fracture architectures",
+  "question": "Design reinforcement layouts that deflect cracks and retain load",
+  "ai_job": "Propose designs and abstract principles from fracture simulations"
+ },
+ {
+  "id": "arxiv:2608.19790",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [],
+  "kind": "benchmark",
+  "agent_form": "single-model",
+  "autonomy": "closed-loop",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "materials candidate pools",
+  "question": "Select candidate materials efficiently to reach optimal properties",
+  "ai_job": "Select next candidate using previous property observations"
+ },
+ {
+  "id": "arxiv:2607.27262",
+  "scope": "adjacent-quantum",
+  "use": "design-optimization",
+  "secondary_uses": [],
+  "kind": "application",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "parameterized quantum circuits",
+  "question": "Improve quantum circuit trainability for medical image classification",
+  "ai_job": "Propose initial quantum circuit parameters once"
+ },
+ {
+  "id": "arxiv:2610.22093",
+  "scope": "condensed-matter",
+  "use": "no-substantive-application",
+  "secondary_uses": [],
+  "kind": "application",
+  "agent_form": "no-llm-application",
+  "autonomy": "not-applicable",
+  "breadth": "single-task",
+  "llm_role": "none",
+  "confidence": "high",
+  "system": "exchange-coupled quantum dot spin chains",
+  "question": "Determine reachable distributions and efficient spin-chain sampling architectures",
+  "ai_job": "Supply target token distributions for quantum sampler distillation"
+ },
+ {
+  "id": "arxiv:2606.01089",
+  "scope": "materials-science",
+  "use": "design-optimization",
+  "secondary_uses": [
+   "literature-knowledge",
+   "reasoning-proof"
+  ],
+  "kind": "method",
+  "agent_form": "llm-pipeline",
+  "autonomy": "bounded-multistep",
+  "breadth": "workflow",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "defect-engineered titanium dioxide photocatalysts",
+  "question": "Optimize defect engineering for photocatalytic hydrogen evolution",
+  "ai_job": "Retrieve evidence and recommend mechanistically supported synthesis conditions"
+ },
+ {
+  "id": "arxiv:2608.05387",
+  "scope": "materials-science",
+  "use": "simulation-workflow",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "llm-pipeline",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "high",
+  "system": "materials for VASP calculations",
+  "question": "Prepare physically consistent electronic-structure calculation settings",
+  "ai_job": "Generate VASP INCAR files from natural-language requests"
+ },
+ {
+  "id": "arxiv:2607.20058",
+  "scope": "materials-science",
+  "use": "scientific-qa",
+  "secondary_uses": [],
+  "kind": "method",
+  "agent_form": "single-model",
+  "autonomy": "single-step",
+  "breadth": "single-task",
+  "llm_role": "substantive",
+  "confidence": "medium",
+  "system": "materials constitutive laws",
+  "question": "Test whether answers reflect governing materials constitutive laws",
+  "ai_job": "Answer constrained questions about materials mechanisms"
+ }
+]

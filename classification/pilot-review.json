@@ -1,0 +1,135 @@
+{
+  "model_requested": "claude-opus-5-5",
+  "records_reviewed": 40,
+  "batch": "000",
+  "findings": [
+    {
+      "id": "arxiv:2610.19404",
+      "overrides": {
+        "agent_form": "unspecified"
+      },
+      "note": "The abstract says only that some benchmarked active-learning policies are guided by LLMs. It doesn't say whether the LLM predicts directly or calls tools, so single-model is more specific than the abstract supports."
+    },
+    {
+      "id": "arxiv:2610.17832",
+      "overrides": {
+        "scope": "cross-domain-science"
+      },
+      "note": "Two of the four test tasks (Buchwald–Hartwig and Suzuki–Miyaura) are molecular reaction optimization, alongside COF and PCE10. The abstract doesn't make the materials tasks primary, and the label's own reason admits the mix."
+    },
+    {
+      "id": "arxiv:2610.17804",
+      "overrides": {
+        "agent_form": "unspecified"
+      },
+      "note": "The model proposes architectures and examines simulated fracture responses, but the abstract never says the LLM chooses or runs the simulation tools. The proposal–evaluation loop still supports closed-loop autonomy."
+    },
+    {
+      "id": "arxiv:2610.14922",
+      "overrides": {
+        "use": "unclear"
+      },
+      "note": "The paper only says it was done \"in collaboration with\" ChatGPT, and the label already sets llm_role to unclear. Assigning reasoning-proof claims a specific contribution the abstract doesn't describe."
+    },
+    {
+      "id": "arxiv:2610.12426",
+      "overrides": {
+        "use": "unclear"
+      },
+      "note": "The named models' role is described only as collaboration, and llm_role is unclear. A reasoning-proof use isn't established."
+    },
+    {
+      "id": "arxiv:2610.00943",
+      "overrides": {
+        "scope": "cross-domain-science"
+      },
+      "note": "The framework covers molecular, crystalline and model-Hamiltonian systems. Two of the three demonstrations are molecular (lutein DMRG-CASSCF, a CCSD dataset) and one is condensed-matter (honeycomb Hubbard DMET), so neither domain is primary."
+    },
+    {
+      "id": "arxiv:2609.37053",
+      "overrides": {
+        "use": "data-interpretation",
+        "secondary_uses": [
+          "literature-knowledge",
+          "agent-evaluation"
+        ]
+      },
+      "note": "The tasks named are GUI operation, OriginPro scripting and figure generation, and database queries. Running simulations isn't established, so data analysis is the tested scientific task, with database querying as a secondary use."
+    }
+  ],
+  "note": "Independent abstract-based review; lead decisions and mixed application-scope tags are separate in lead-review.json.",
+  "reviewed_ids": [
+    "arxiv:2610.22367",
+    "arxiv:2610.22093",
+    "arxiv:2610.21672",
+    "arxiv:2610.21050",
+    "arxiv:2610.21015",
+    "arxiv:2610.20779",
+    "arxiv:2610.19404",
+    "arxiv:2610.18949",
+    "arxiv:2610.17866",
+    "arxiv:2610.17832",
+    "arxiv:2610.17804",
+    "arxiv:2610.17708",
+    "arxiv:2610.17286",
+    "arxiv:2610.17193",
+    "arxiv:2610.14922",
+    "arxiv:2610.13811",
+    "arxiv:2610.16733",
+    "arxiv:2610.13573",
+    "arxiv:2610.12806",
+    "arxiv:2610.12700",
+    "arxiv:2610.12426",
+    "arxiv:2610.12187",
+    "arxiv:2610.10879",
+    "arxiv:2610.10258",
+    "arxiv:2610.09186",
+    "arxiv:2610.08216",
+    "arxiv:2610.07862",
+    "arxiv:2610.06623",
+    "arxiv:2610.05304",
+    "arxiv:2610.04866",
+    "arxiv:2610.04134",
+    "arxiv:2610.03972",
+    "arxiv:2610.02671",
+    "arxiv:2610.00943",
+    "arxiv:2610.00636",
+    "arxiv:2609.40146",
+    "arxiv:2609.39302",
+    "arxiv:2609.38340",
+    "arxiv:2609.37134",
+    "arxiv:2609.37053"
+  ],
+  "prompt_sha256": "5944d8a4d85e947a9c4da27d81311f3eb01aac2df4025c12a6a9be4f2fa1c6f1",
+  "response_sha256": "fdd697720f3c6d91ccb357ca55d7f33ad2f4cdad8b7fe24da472d3183cb0915f",
+  "model_usage": {
+    "claude-haiku-5-5": {
+      "inputTokens": 34280,
+      "outputTokens": 27,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.0034415,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-haiku-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    },
+    "claude-opus-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3775,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 37717,
+      "webSearchRequests": 0,
+      "costUSD": 0.377244,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 2876,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  }
+}

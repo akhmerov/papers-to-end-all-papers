@@ -1,0 +1,1574 @@
+{
+  "models": [
+    {
+      "key": "llama-3.1-8b",
+      "identified_as": "Llama 3.1 8B / 8B Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-07-23",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "note": "Raw names merge base and instruction-tuned checkpoints; both released together."
+    },
+    {
+      "key": "llama-3.3-70b",
+      "identified_as": "Llama 3.3 70B Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-12-06",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "note": "Llama 3.3 has one official 70B Instruct release. Turbo is a hosting-provider label; llama-3-3 is a punctuation variant, not another generation."
+    },
+    {
+      "key": "llama-4-maverick",
+      "identified_as": "Llama 4 Maverick 17B-128E Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2025-04-05",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "note": "17B denotes active parameters, not total parameters. BF16/FP8 are precision variants of the same launch; not the separately tuned experimental chat model."
+    },
+    {
+      "key": "llama-4-scout",
+      "identified_as": "Llama 4 Scout 17B-16E Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2025-04-05",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "note": ""
+    },
+    {
+      "key": "llm-prop",
+      "identified_as": "LLM-Prop",
+      "vendor": "Andre Niyongabo Rubungo and collaborators / Vertaix",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/vertaix/LLM-Prop",
+      "note": "T5-encoder materials-property regressor, despite the LLM label. CIF is an input representation, not an official separate model release. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "unspecified-llm",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "not-stated",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "all-minilm-l6-v2",
+      "identified_as": "all-MiniLM-L6-v2",
+      "vendor": "Sentence Transformers",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "note": "Duplicate bare and namespaced identifiers; sentence embedding encoder. First public checkpoint date not established."
+    },
+    {
+      "key": "llama-3-8b",
+      "identified_as": "Llama 3 8B",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-04-18",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3/",
+      "note": "Original Llama 3 release; base/instruct or size is not fully specified by the raw name."
+    },
+    {
+      "key": "mistral-7b-v0.3",
+      "identified_as": "Mistral 7B v0.3 / Mistral 7B Instruct v0.3",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2024-05-22",
+      "date_precision": "day",
+      "source_url": "https://docs.mistral.ai/models/mistral-7b-0-3",
+      "note": "Raw names merge base and instruction-tuned checkpoints."
+    },
+    {
+      "key": "llama-3.2-3b",
+      "identified_as": "Llama 3.2 3B / 3B Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-09-25",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "note": "Family launch; unspecified tuning or size is not resolved beyond the input."
+    },
+    {
+      "key": "matterchat",
+      "identified_as": "MatterChat",
+      "vendor": "Yingheng Tang and collaborators / Lawrence Berkeley National Laboratory",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://arxiv.org/abs/2502.13107",
+      "note": "Materials-specific graph/text multimodal model; not a general-purpose frontier API. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "mistral-large-3",
+      "identified_as": "Mistral Large 3",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2025-12-02",
+      "date_precision": "day",
+      "source_url": "https://mistral.ai/news/mistral-3/",
+      "note": "Open weights, unlike the original proprietary Mistral Large."
+    },
+    {
+      "key": "bert",
+      "identified_as": "BERT",
+      "vendor": "Google",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/google-research/bert",
+      "note": "Encoder family; checkpoint/size unspecified. Paper date is not used as weights release date. First public checkpoint date not established."
+    },
+    {
+      "key": "mistral-medium-3.1",
+      "identified_as": "Mistral Medium 3.1 (mistral-medium-2508)",
+      "vendor": "Mistral AI",
+      "class": "frontier-api",
+      "release_date": "2025-08-12",
+      "date_precision": "day",
+      "source_url": "https://docs.mistral.ai/resources/changelogs",
+      "note": "Provider namespace is an alias; this is a proprietary API model."
+    },
+    {
+      "key": "nvidia-ising-calibration-1",
+      "identified_as": "NVIDIA Ising Calibration 1 35B-A3B",
+      "vendor": "NVIDIA",
+      "class": "domain",
+      "release_date": "2026-04-14",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/nvidia/Ising-Calibration-1-35B-A3B",
+      "note": "Quantum calibration VLM; open weights but scientific-domain class takes precedence."
+    },
+    {
+      "key": "llama-4-maverick-17b-128e",
+      "identified_as": "Llama 4 Maverick 17B-128E Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2025-04-05",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "note": "17B denotes active parameters, not total parameters. BF16/FP8 are precision variants of the same launch; not the separately tuned experimental chat model."
+    },
+    {
+      "key": "matscibert",
+      "identified_as": "MatSciBERT",
+      "vendor": "M3RG / IIT Delhi",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/m3rg-iitd/matscibert",
+      "note": "Materials-science BERT encoder. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "sentence-transformers/all-minilm-l6-v2",
+      "identified_as": "all-MiniLM-L6-v2",
+      "vendor": "Sentence Transformers",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "note": "Duplicate bare and namespaced identifiers; sentence embedding encoder. First public checkpoint date not established."
+    },
+    {
+      "key": "matbert",
+      "identified_as": "MatBERT",
+      "vendor": "Lawrence Berkeley National Laboratory / LBNLP",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/lbnlp/MatBERT",
+      "note": "Materials-literature BERT encoder. 109M is a size descriptor; CIF is an input adaptation, not evidence of a separately released model. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "llama-3.2-1b",
+      "identified_as": "Llama 3.2 1B Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-09-25",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "note": "Family launch; unspecified tuning or size is not resolved beyond the input."
+    },
+    {
+      "key": "llama-3.2-11b-vision",
+      "identified_as": "Llama 3.2 11B Vision / Vision Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-09-25",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "note": "Family launch; unspecified tuning or size is not resolved beyond the input."
+    },
+    {
+      "key": "crystaltextllm",
+      "identified_as": "CrystalTextLLM / crystal-text-llm",
+      "vendor": "Noah Gruver and collaborators / Meta research",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/facebookresearch/crystal-text-llm",
+      "note": "Most plausibly the Llama 2 fine-tuned crystal generator; distinct from CrystaLLM and CrysText. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "llama-3.2",
+      "identified_as": "Llama 3.2 family",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-09-25",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "note": "Family launch; unspecified tuning or size is not resolved beyond the input."
+    },
+    {
+      "key": "all-mpnet-base-v2",
+      "identified_as": "all-mpnet-base-v2",
+      "vendor": "Sentence Transformers",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+      "note": "Sentence embedding encoder. First public checkpoint date not established."
+    },
+    {
+      "key": "mistral-7b",
+      "identified_as": "Mistral 7B / Mistral 7B Instruct (original v0.1)",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2023-09-27",
+      "date_precision": "day",
+      "source_url": "https://mistral.ai/news/announcing-mistral-7b/",
+      "note": "Revision omitted. Date is for the original family release; v0.2 and v0.3 have later dates."
+    },
+    {
+      "key": "specter2",
+      "identified_as": "SPECTER2",
+      "vendor": "Ai2",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/allenai/specter2",
+      "note": "Scientific-document embedding model; adapter variant unspecified. First public checkpoint date not established."
+    },
+    {
+      "key": "polybert",
+      "identified_as": "polyBERT",
+      "vendor": "Ramprasad Group / Georgia Institute of Technology",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/Ramprasad-Group/polyBERT",
+      "note": "Polymer fingerprint/representation encoder. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "mistral-small-3.2-24b-2506",
+      "identified_as": "Mistral Small 3.2 24B Instruct 2506",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2025-06-20",
+      "date_precision": "day",
+      "source_url": "https://docs.mistral.ai/resources/changelogs",
+      "note": "Weights released June 20; API availability followed June 23. These two keys identify the same release."
+    },
+    {
+      "key": "large-language-models",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "language-model",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "scibert",
+      "identified_as": "SciBERT",
+      "vendor": "Ai2",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/allenai/scibert",
+      "note": "Scientific-text BERT encoder; cased/uncased variant unspecified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "skywork-reward",
+      "identified_as": "Skywork Reward Model Series",
+      "vendor": "Skywork / Kunlun",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/SkyworkAI/Skywork-Reward",
+      "note": "Reward scorer, not a general-purpose generative checkpoint; size/backbone/revision unspecified. First public checkpoint date not established."
+    },
+    {
+      "key": "ibm-research/molformer-xl-both-10pct",
+      "identified_as": "MoLFormer-XL-both-10pct",
+      "vendor": "IBM Research",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct",
+      "note": "Molecular SMILES representation encoder; not the generative GP-MoLFormer. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "alloym",
+      "identified_as": "aLLoyM",
+      "vendor": "Yuna Oikawa and collaborators / University of Tokyo and NIMS",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://mdr.nims.go.jp/datasets/2bc9a70d-646f-41a2-952d-ccec287f5d6f?locale=en",
+      "note": "Mistral-based alloy phase-diagram model. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "minicpm-o-4.5",
+      "identified_as": "MiniCPM-o 4.5 (9B)",
+      "vendor": "OpenBMB / ModelBest",
+      "class": "open-weights",
+      "release_date": "2026-02-03",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/openbmb/MiniCPM-o-4_5/commits/main?p=1",
+      "note": "Earliest model upload in primary repository history (UTC); launch coverage uses February 4 in China. Not MiniCPM-V 4.5."
+    },
+    {
+      "key": "baseline-model-without-a-condition-vector",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "crystallm-π",
+      "identified_as": "CrystaLLM-π",
+      "vendor": "Materials Design and Informatics Group / UCL",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/C-Bone-UCL/CrystaLLM-pi",
+      "note": "Property-conditioned CIF-generating Transformer; distinct from original CrystaLLM. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "llm-based-evaluator",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "gp-molformer-uniq",
+      "identified_as": "GP-MoLFormer-Uniq",
+      "vendor": "IBM Research",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/ibm-research/GP-MoLFormer-Uniq",
+      "note": "Autoregressive molecular SMILES generator, trained on unique molecules. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "llama-2-7b",
+      "identified_as": "Llama 2 7B",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2023-07-18",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-2/",
+      "note": "Base versus Chat not specified; both released together."
+    },
+    {
+      "key": "llama-3",
+      "identified_as": "Llama 3 family",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-04-18",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3/",
+      "note": "Original Llama 3 release; base/instruct or size is not fully specified by the raw name."
+    },
+    {
+      "key": "chemt5",
+      "identified_as": "ChemT5 (multitask text-and-chemistry T5; most plausible)",
+      "vendor": "IBM Research / GT4SD collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/GT4SD/multitask_text_and_chemistry_t5",
+      "note": "Chemistry-specialized T5 family; exact checkpoint/size not specified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "bge-large-en",
+      "identified_as": "BGE large English embedding model",
+      "vendor": "BAAI",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/BAAI/bge-large-en",
+      "note": "Original versus v1.5 not specified. First public checkpoint date not established."
+    },
+    {
+      "key": "biogpt",
+      "identified_as": "BioGPT",
+      "vendor": "Microsoft Research",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/microsoft/BioGPT",
+      "note": "Biomedical literature generative model; original versus later Large variant unspecified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "mistral-small-24b-2501",
+      "identified_as": "Mistral Small 3 24B Instruct 2501",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2025-01-30",
+      "date_precision": "day",
+      "source_url": "https://mistral.ai/news/mistral-small-3/",
+      "note": ""
+    },
+    {
+      "key": "base-llm",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "mistral-large-123b-2407-q4-0",
+      "identified_as": "Mistral Large 2 Instruct 2407 (123B; Q4_0 quantization)",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2024-07-24",
+      "date_precision": "day",
+      "source_url": "https://mistral.ai/news/mistral-large-2407/",
+      "note": "Ollama-style tag identifies a downstream quantization of Large 2. Date is the underlying model release; exact Q4_0 artifact availability was not established."
+    },
+    {
+      "key": "openclip",
+      "identified_as": "OpenCLIP",
+      "vendor": "OpenCLIP / LAION community",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/mlfoundations/open_clip",
+      "note": "Implementation and many contrastive vision-language checkpoints, not one generative LLM. First public checkpoint date not established."
+    },
+    {
+      "key": "llama-2-70b",
+      "identified_as": "Llama 2 70B",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2023-07-18",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-2/",
+      "note": "Base versus Chat not specified; both released together."
+    },
+    {
+      "key": "tinyllama",
+      "identified_as": "TinyLlama 1.1B family",
+      "vendor": "TinyLlama project",
+      "class": "open-weights",
+      "release_date": "2023-09-04",
+      "date_precision": "day",
+      "source_url": "https://github.com/jzhang38/TinyLlama",
+      "note": "Earliest published intermediate base checkpoint in the release table. Version unspecified; Chat v0.1 followed September 16 and the final 3T checkpoint December 28, 2023."
+    },
+    {
+      "key": "t5-transformer",
+      "identified_as": "T5 (Text-to-Text Transfer Transformer; size unspecified)",
+      "vendor": "Google",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/google-research/text-to-text-transfer-transformer",
+      "note": "Encoder-decoder text-to-text model; classified under the prompt's explicit T5-style category. First public checkpoint date not established."
+    },
+    {
+      "key": "llamat",
+      "identified_as": "LLaMat family",
+      "vendor": "M3RG / IIT Delhi",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/M3RG-IITD/llamat",
+      "note": "Materials-adapted Llama 2 and Llama 3 models; variant omitted. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "phi-4-mini",
+      "identified_as": "Phi-4-mini-instruct",
+      "vendor": "Microsoft",
+      "class": "open-weights",
+      "release_date": "2025-02-26",
+      "date_precision": "day",
+      "source_url": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+      "note": ""
+    },
+    {
+      "key": "nomic-embed-text",
+      "identified_as": "Nomic Embed Text family",
+      "vendor": "Nomic AI",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1",
+      "note": "v1 versus v1.5 omitted; both differ from a generative Nomic model. First public checkpoint date not established."
+    },
+    {
+      "key": "llm-as-judge",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "code-llama",
+      "identified_as": "Code Llama family",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2023-08-24",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+      "note": "Initial 7B/13B/34B release; base, Python and Instruct variants shared this date. General coding family, not a scientific-domain model."
+    },
+    {
+      "key": "ether0",
+      "identified_as": "ether0 (24B)",
+      "vendor": "FutureHouse",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.futurehouse.org/news/ether0-a-scientific-reasoning-model-for-chemistry",
+      "note": "Chemistry reasoning model. Announcement is June 5, 2025, but exact earliest public weights visibility was not checked. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "socratic-ai-model",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Socratic AI reasoning model is not a unique vendor/checkpoint identifier; Socratic prompting and several unrelated systems share this label. No confident identification."
+    },
+    {
+      "key": "t5-base",
+      "identified_as": "T5-base",
+      "vendor": "Google",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/google-research/text-to-text-transfer-transformer",
+      "note": "Encoder-decoder text-to-text model; classified under the prompt's explicit T5-style category. First public checkpoint date not established."
+    },
+    {
+      "key": "bart",
+      "identified_as": "BART",
+      "vendor": "Meta / Facebook AI",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/facebookresearch/fairseq/tree/main/examples/bart",
+      "note": "Denoising encoder-decoder model; size and fine-tuning unspecified. First public checkpoint date not established."
+    },
+    {
+      "key": "llama-2-13b",
+      "identified_as": "Llama 2 13B",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2023-07-18",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-2/",
+      "note": "Base versus Chat not specified; both released together."
+    },
+    {
+      "key": "whisper",
+      "identified_as": "Whisper",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2022-09-21",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/whisper/",
+      "note": "Original public speech-recognition family launch; size unspecified."
+    },
+    {
+      "key": "llmprop",
+      "identified_as": "LLM-Prop",
+      "vendor": "Andre Niyongabo Rubungo and collaborators / Vertaix",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/vertaix/LLM-Prop",
+      "note": "T5-encoder materials-property regressor, despite the LLM label. CIF is an input representation, not an official separate model release. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "plaid++-wyckoff-base",
+      "identified_as": "PLaID++ Wyckoff Base (preference-unaligned base model)",
+      "vendor": "Andy Xu and collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/andaero/PLaID",
+      "note": "Paper-specific crystal generation model. Base denotes the pre-alignment ablation; input distinguishes it from aligned PLaID++. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "crystext",
+      "identified_as": "CrysText",
+      "vendor": "Trupti Mohanty and collaborators / University of Utah",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/truptimohanty/CrysText",
+      "note": "CIF generator fine-tuned from Mistral 7B v0.3 or Llama 3.1 8B; backbone unspecified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "catberta",
+      "identified_as": "CatBERTa",
+      "vendor": "Janghoon Ock and collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/hoon-ock/CatBERTa",
+      "note": "RoBERTa-based catalytic energy predictor; checkpoints listed as available on request. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "qe-catalytic",
+      "identified_as": "QE-Catalytic",
+      "vendor": "Yanjie Li and collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://arxiv.org/abs/2512.20084",
+      "note": "Graph-language model combining Qwen and Equiformer-V2 for catalytic adsorption. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "crystext-rl",
+      "identified_as": "CrysText-RL",
+      "vendor": "Trupti Mohanty and collaborators / University of Utah",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/truptimohanty/CrysText",
+      "note": "GRPO reinforcement-learning extension of CrysText; a separate scientific variant. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "gap-catberta",
+      "identified_as": "GAP-CatBERTa",
+      "vendor": "Janghoon Ock and collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Most plausibly CatBERTa with graph-assisted pretraining for adsorption-energy prediction; checkpoint release not verified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "roberta",
+      "identified_as": "RoBERTa",
+      "vendor": "Meta / Facebook AI",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/facebookresearch/fairseq/tree/main/examples/roberta",
+      "note": "Masked-language encoder, not a generative LLM. First public checkpoint date not established."
+    },
+    {
+      "key": "perovskite-rl",
+      "identified_as": "Perovskite-RL",
+      "vendor": "JH976 / LEAP project",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/JH976/Perovskite-RL",
+      "note": "Qwen3-32B adapted with SFT and GRPO for perovskite solar-cell additives. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "medsiglip",
+      "identified_as": "MedSigLIP",
+      "vendor": "Google",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/google/medsiglip-448",
+      "note": "Medical image-text embedding model; scientific-domain class takes precedence over encoder architecture. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "biomedclip",
+      "identified_as": "BiomedCLIP",
+      "vendor": "Microsoft Research",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+      "note": "Biomedical contrastive image-text encoder, not a generative LLM. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "clip",
+      "identified_as": "CLIP",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2021-01-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/clip/",
+      "note": "Original contrastive image-text model family."
+    },
+    {
+      "key": "sentence-transformer",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "qiskit-code-assistant",
+      "identified_as": "Qiskit Code Assistant",
+      "vendor": "IBM",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.ibm.com/quantum/blog/qiskit-code-assistant",
+      "note": "Assistant product rather than a unique model version; initially powered by domain-specific granite-8b-qiskit. Product preview dates are not assigned to an unspecified underlying checkpoint."
+    },
+    {
+      "key": "granite-4.1-8b",
+      "identified_as": "Granite 4.1 8B",
+      "vendor": "IBM",
+      "class": "open-weights",
+      "release_date": "2026-04-29",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "note": "Base versus instruction-tuned not specified; official model card gives the family release date."
+    },
+    {
+      "key": "granite-4.1-30b",
+      "identified_as": "Granite 4.1 30B",
+      "vendor": "IBM",
+      "class": "open-weights",
+      "release_date": "2026-04-29",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "note": "Base versus instruction-tuned not specified; official model card gives the family release date."
+    },
+    {
+      "key": "mistral-small-3.2-24b",
+      "identified_as": "Mistral Small 3.2 24B Instruct 2506",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2025-06-20",
+      "date_precision": "day",
+      "source_url": "https://docs.mistral.ai/resources/changelogs",
+      "note": "Weights released June 20; API availability followed June 23. These two keys identify the same release."
+    },
+    {
+      "key": "chemdfm",
+      "identified_as": "ChemDFM",
+      "vendor": "OpenDFM / Shanghai Jiao Tong University",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/OpenDFM/ChemDFM",
+      "note": "Chemistry dialogue foundation model; version omitted. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "llama-3.1",
+      "identified_as": "Llama 3.1 family",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-07-23",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "note": "Size and tuning unspecified; date is the common family launch."
+    },
+    {
+      "key": "small-gpt-2",
+      "identified_as": "GPT-2 small (117M / commonly 124M in implementations)",
+      "vendor": "OpenAI",
+      "class": "open-weights",
+      "release_date": "2019-02-14",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/better-language-models/",
+      "note": "The small model was released at the initial announcement; the full 1.5B model was withheld then."
+    },
+    {
+      "key": "matmind",
+      "identified_as": "MatMind (identity ambiguous)",
+      "vendor": "Unresolved materials-science research group",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://arxiv.org/abs/2606.07712",
+      "note": "Plausibly the 2026 structure-activity materials foundation model. A separate Shanghai Institute of Ceramics MatMind system was announced in 2025; raw name alone cannot resolve the collision. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "matbert-109m",
+      "identified_as": "MatBERT",
+      "vendor": "Lawrence Berkeley National Laboratory / LBNLP",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/lbnlp/MatBERT",
+      "note": "Materials-literature BERT encoder. 109M is a size descriptor; CIF is an input adaptation, not evidence of a separately released model. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "granite-4.0-micro",
+      "identified_as": "Granite 4.0 Micro (3B, conventional Transformer)",
+      "vendor": "IBM",
+      "class": "open-weights",
+      "release_date": "2025-10-02",
+      "date_precision": "day",
+      "source_url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models",
+      "note": "Do not conflate with Granite 4.0 H Micro, the hybrid Mamba/Transformer model."
+    },
+    {
+      "key": "sbert",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "llama-3-70b",
+      "identified_as": "Llama 3 70B",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-04-18",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3/",
+      "note": "Original Llama 3 release; base/instruct or size is not fully specified by the raw name."
+    },
+    {
+      "key": "nova-pro",
+      "identified_as": "Amazon Nova Pro v1",
+      "vendor": "Amazon",
+      "class": "frontier-api",
+      "release_date": "2024-12-03",
+      "date_precision": "day",
+      "source_url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/",
+      "note": "Both keys identify the first-generation proprietary Nova Pro multimodal model."
+    },
+    {
+      "key": "crystalreasoner",
+      "identified_as": "CrystalReasoner / CrysReas",
+      "vendor": "Yuyang Wu, Stefano Falletta, Delia McGrath and Sherry Yang",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://crystalreasoner.github.io/",
+      "note": "Scientific reasoning and reinforcement-learning crystal-generation framework; variant unspecified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "flowllm",
+      "identified_as": "FlowLLM: Flow Matching for Material Generation with Large Language Models as Base Distributions",
+      "vendor": "Meta / Anuroop Sriram and collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/facebookresearch/flowmm",
+      "note": "Hybrid crystal generator using an LLM base distribution and flow refinement; not an unrelated application framework named FlowLLM. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "crystallm-large",
+      "identified_as": "CrystaLLM large",
+      "vendor": "CrystaLLM research team",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/lantunes/CrystaLLM",
+      "note": "Large CIF-language-model variant; distinct from CrystalTextLLM. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "crysreas-rl",
+      "identified_as": "CrysReas-RL",
+      "vendor": "CrystalReasoner research team",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://crystalreasoner.github.io/",
+      "note": "SFT plus GRPO variant. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "crysreas",
+      "identified_as": "CrysReas-Thinking",
+      "vendor": "CrystalReasoner research team",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://crystalreasoner.github.io/",
+      "note": "Extraction loses Thinking suffix; this entry specifically denotes SFT plus chain-of-thought, not the entire CrysReas family. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "crysllmgen-7b",
+      "identified_as": "CrysLLMGen 7B",
+      "vendor": "Subhojyoti Khastagir, Kishalay Das and collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/kdmsit/crysllmgen/",
+      "note": "Paper-specific hybrid LLM/diffusion crystal generator. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "crysreas-base",
+      "identified_as": "CrysReas-Base",
+      "vendor": "CrystalReasoner research team",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://crystalreasoner.github.io/",
+      "note": "SFT-only ablation without reasoning/RL. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "plaid++-wyckoff",
+      "identified_as": "PLaID++ Wyckoff (preference-aligned model)",
+      "vendor": "Andy Xu and collaborators",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/andaero/PLaID",
+      "note": "Paper-specific crystal generation model. Base denotes the pre-alignment ablation; input distinguishes it from aligned PLaID++. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "self-rag",
+      "identified_as": "Self-RAG (Llama 2 7B/13B)",
+      "vendor": "Akari Asai and collaborators",
+      "class": "open-weights",
+      "release_date": "2023-10-01",
+      "date_precision": "month",
+      "source_url": "https://github.com/AkariAsai/self-rag",
+      "note": "Primary repository states initial code/model release in October 2023. Day 01 is a month-precision placeholder, not a verified day. General retrieval-augmented LLM checkpoints."
+    },
+    {
+      "key": "unspecified-teacher-llm",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "llava-7b",
+      "identified_as": "LLaVA 7B (version unspecified; original v0)",
+      "vendor": "LLaVA project",
+      "class": "open-weights",
+      "release_date": "2023-04-30",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/liuhaotian/LLaVA-7b-delta-v0/commits/main",
+      "note": "Earliest original 7B delta-checkpoint upload found. Raw name cannot distinguish v0, v1.3 or v1.5; v1.5 would instead date to October 5, 2023."
+    },
+    {
+      "key": "clip-vit/16",
+      "identified_as": "CLIP ViT-B/16 (most plausible)",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2021-01-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/clip/",
+      "note": "Backbone size omitted; /16 denotes patch size, not model generation. Date conditional on original OpenAI ViT-B/16 identification."
+    },
+    {
+      "key": "clip-vit/32",
+      "identified_as": "CLIP ViT-B/32 (most plausible)",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2021-01-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/clip/",
+      "note": "Backbone size omitted; /32 denotes patch size. Date conditional on original OpenAI ViT-B/32 identification."
+    },
+    {
+      "key": "llava-next-7b",
+      "identified_as": "LLaVA-NeXT / LLaVA 1.6 7B",
+      "vendor": "LLaVA project",
+      "class": "open-weights",
+      "release_date": "2024-01-30",
+      "date_precision": "day",
+      "source_url": "https://llava-vl.github.io/blog/2024-01-30-llava-next/",
+      "note": "7B backbone variant not specified."
+    },
+    {
+      "key": "llava-next-13b",
+      "identified_as": "LLaVA-NeXT / LLaVA 1.6 13B",
+      "vendor": "LLaVA project",
+      "class": "open-weights",
+      "release_date": "2024-01-30",
+      "date_precision": "day",
+      "source_url": "https://llava-vl.github.io/blog/2024-01-30-llava-next/",
+      "note": ""
+    },
+    {
+      "key": "llava-13b",
+      "identified_as": "LLaVA 13B (version unspecified; original family)",
+      "vendor": "LLaVA project",
+      "class": "open-weights",
+      "release_date": "2023-04-17",
+      "date_precision": "day",
+      "source_url": "https://github.com/haotian-liu/LLaVA",
+      "note": "Original public LLaVA release/demo date. Raw name cannot distinguish later v1.3 or v1.5; v1.5 would instead date to October 5, 2023."
+    },
+    {
+      "key": "batterybert",
+      "identified_as": "BatteryBERT",
+      "vendor": "Shu Huang and Jacqueline M. Cole",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/ShuHuang/batterybert",
+      "note": "Battery-literature BERT encoder; checkpoint variant unspecified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "language-model-generator",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "clip-vit-b/32",
+      "identified_as": "CLIP ViT-B/32",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2021-01-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/clip/",
+      "note": "Explicit original OpenAI CLIP variant."
+    },
+    {
+      "key": "matinformer",
+      "identified_as": "MatInFormer (Materials Informatics Transformer)",
+      "vendor": "Hongshuo Huang and collaborators / Carnegie Mellon University",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/hongshuh/MatInFormer",
+      "note": "Materials-property representation/prediction model, not a general-purpose generative LLM. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "baai/bge-base-en-v1.5",
+      "identified_as": "BGE base English v1.5",
+      "vendor": "BAAI",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+      "note": "First public checkpoint date not established."
+    },
+    {
+      "key": "graph-preflexor-3b",
+      "identified_as": "Graph-PRefLexOR 3B",
+      "vendor": "LAMM / MIT",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/collections/lamm-mit/preflexor",
+      "note": "Scientific graph-reasoning model; several generations share the Graph-PRefLexOR label, so exact dated checkpoint cannot be inferred from size alone. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "graph-preflexor-8b",
+      "identified_as": "Graph-PRefLexOR 8B",
+      "vendor": "LAMM / MIT",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/collections/lamm-mit/preflexor",
+      "note": "Scientific graph-reasoning model; several generations share the Graph-PRefLexOR label, so exact dated checkpoint cannot be inferred from size alone. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "graph-preflexor-1.7b",
+      "identified_as": "Graph-PRefLexOR 1.7B",
+      "vendor": "LAMM / MIT",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/collections/lamm-mit/preflexor",
+      "note": "Scientific graph-reasoning model; several generations share the Graph-PRefLexOR label, so exact dated checkpoint cannot be inferred from size alone. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "questioner-model",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "llama-4-maverick-17b",
+      "identified_as": "Llama 4 Maverick 17B-128E Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2025-04-05",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "note": "17B denotes active parameters, not total parameters. BF16/FP8 are precision variants of the same launch; not the separately tuned experimental chat model."
+    },
+    {
+      "key": "xlnet",
+      "identified_as": "XLNet",
+      "vendor": "Google / Carnegie Mellon University",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/zihangdai/xlnet",
+      "note": "Permutation-language representation model; checkpoint unspecified. First public checkpoint date not established."
+    },
+    {
+      "key": "nemotron-3-super",
+      "identified_as": "NVIDIA Nemotron 3 Super (120B-A12B)",
+      "vendor": "NVIDIA",
+      "class": "open-weights",
+      "release_date": "2026-03-10",
+      "date_precision": "day",
+      "source_url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Super/",
+      "note": "Research release page date; the December 2025 family announcement released Nano only."
+    },
+    {
+      "key": "devstral-2",
+      "identified_as": "Devstral 2 (123B)",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2025-12-09",
+      "date_precision": "day",
+      "source_url": "https://mistral.ai/news/devstral-2-vibe-cli/",
+      "note": "Distinct from Devstral Small 2 (24B); general coding model."
+    },
+    {
+      "key": "llama-3.3",
+      "identified_as": "Llama 3.3 70B Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-12-06",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "note": "Llama 3.3 has one official 70B Instruct release. Turbo is a hosting-provider label; llama-3-3 is a punctuation variant, not another generation."
+    },
+    {
+      "key": "mistral-7b-v0.2",
+      "identified_as": "Mistral 7B Instruct v0.2",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2023-12-11",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2/commits/main",
+      "note": "Use raw name: Instruct v0.2, not the separately released base v0.2. Repository records the weights addition on this date."
+    },
+    {
+      "key": "distilgpt2",
+      "identified_as": "DistilGPT2",
+      "vendor": "Hugging Face",
+      "class": "open-weights",
+      "release_date": "2019-10-03",
+      "date_precision": "day",
+      "source_url": "https://github.com/huggingface/transformers-research-projects/blob/main/distillation/README.md",
+      "note": "Original author-maintained distillation README explicitly dates the weights release."
+    },
+    {
+      "key": "nemotron",
+      "identified_as": null,
+      "vendor": "NVIDIA",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "frontier-class-llm-as-judge",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "bge-cross-encoder",
+      "identified_as": "BGE reranker / cross-encoder family",
+      "vendor": "BAAI",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Reranking architecture; exact checkpoint/version unspecified. First public checkpoint date not established."
+    },
+    {
+      "key": "codellama-7b",
+      "identified_as": "Code Llama 7B",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2023-08-24",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+      "note": "Initial 7B/13B/34B release; base, Python and Instruct variants shared this date. General coding family, not a scientific-domain model."
+    },
+    {
+      "key": "codellama-13b",
+      "identified_as": "Code Llama 13B",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2023-08-24",
+      "date_precision": "day",
+      "source_url": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+      "note": "Initial 7B/13B/34B release; base, Python and Instruct variants shared this date. General coding family, not a scientific-domain model."
+    },
+    {
+      "key": "polyt5",
+      "identified_as": "POLYT5 / polyT5",
+      "vendor": "Ramprasad Group / Georgia Institute of Technology",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://arxiv.org/abs/2510.18860",
+      "note": "Polymer-specific T5 encoder-decoder family. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "selfies-ted",
+      "identified_as": "SELFIES-TED",
+      "vendor": "IBM Research",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/ibm-research/materials.selfies-ted",
+      "note": "Small molecular encoder-decoder using SELFIES; not a general-purpose LLM. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "polybart",
+      "identified_as": "polyBART",
+      "vendor": "Ramprasad Group / Georgia Institute of Technology",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://arxiv.org/abs/2506.04233",
+      "note": "Polymer structure/property translation and generative design model. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "transpolymer",
+      "identified_as": "TransPolymer",
+      "vendor": "Changwen Xu and collaborators / Carnegie Mellon University",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/ChangwenXu98/TransPolymer",
+      "note": "Masked-language polymer encoder used for property prediction. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "polymergpt",
+      "identified_as": "PolymerGPT",
+      "vendor": "PolymerGPT research authors",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://arxiv.org/abs/2608.01431",
+      "note": "Most plausibly the decoder-based multi-property polymer generator; checkpoint/version omitted. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "meaningbert",
+      "identified_as": "MeaningBERT",
+      "vendor": "GRAAL Research / Dave Beauchemin and collaborators",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/GRAAL-Research/MeaningBERT",
+      "note": "BERT regression model for sentence meaning-preservation assessment. First public checkpoint date not established."
+    },
+    {
+      "key": "finbert",
+      "identified_as": "FinBERT (variant ambiguous)",
+      "vendor": "Unresolved; multiple FinBERT author groups",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/ProsusAI/finbert",
+      "note": "Finance-specialized BERT encoder. FinBERT names several independent models; do not assign a unique release from this raw name. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "llm-only",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "csllm",
+      "identified_as": "CSLLM (Crystal Synthesis Large Language Models)",
+      "vendor": "CSLLM research team",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/szl666/CSLLM",
+      "note": "Three-model scientific framework for synthesizability, synthesis methods and precursors. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "syncry",
+      "identified_as": "SynCry",
+      "vendor": "Jaehwan Choi and Yousung Jung / Seoul National University",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.eurekalert.org/news-releases/1114730",
+      "note": "Institution-authored release identifies the structure-redesign model; announcement/publication date does not establish weights availability. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "structllm",
+      "identified_as": "StructLLM",
+      "vendor": "Seongmin Kim, Joshua Schrier and Yousung Jung",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/snu-micc/StructLLM",
+      "note": "Materials synthesizability model fine-tuned from GPT-4o-mini; not a generic structured-data LLM with the same name. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "bge-m3",
+      "identified_as": "BGE-M3",
+      "vendor": "BAAI",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/BAAI/bge-m3",
+      "note": "Multilingual dense/sparse/multi-vector retrieval encoder. First public checkpoint date not established."
+    },
+    {
+      "key": "unspecified-bertscore-encoder",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "deberta-v3-large",
+      "identified_as": "DeBERTa-v3-large",
+      "vendor": "Microsoft",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://huggingface.co/microsoft/deberta-v3-large",
+      "note": "Disentangled-attention encoder with replaced-token pretraining. First public checkpoint date not established."
+    },
+    {
+      "key": "amazon/nova-pro-v1",
+      "identified_as": "Amazon Nova Pro v1",
+      "vendor": "Amazon",
+      "class": "frontier-api",
+      "release_date": "2024-12-03",
+      "date_precision": "day",
+      "source_url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/",
+      "note": "Both keys identify the first-generation proprietary Nova Pro multimodal model."
+    },
+    {
+      "key": "mistral-small-2603",
+      "identified_as": "Mistral Small 4 (mistral-small-2603)",
+      "vendor": "Mistral AI",
+      "class": "open-weights",
+      "release_date": "2026-03-16",
+      "date_precision": "day",
+      "source_url": "https://docs.mistral.ai/resources/changelogs",
+      "note": "The date-coded identifier is the official Small 4 model; not a nonexistent Small 3 update."
+    },
+    {
+      "key": "llm-based-sequence-predictor",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "supervising-llm-session",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "molmo2",
+      "identified_as": "Molmo 2 family",
+      "vendor": "Ai2",
+      "class": "open-weights",
+      "release_date": "2025-12-14",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/allenai/Molmo2-8B/commits/main",
+      "note": "Earliest 8B weights upload is December 14. The blog is dated December 11 while the public launch press release is December 16; upload date used as earliest concrete weights evidence, not a claim about prior private-repository visibility."
+    },
+    {
+      "key": "yolov8",
+      "identified_as": "Ultralytics YOLOv8",
+      "vendor": "Ultralytics",
+      "class": "encoder-or-other",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/ultralytics/ultralytics",
+      "note": "Object detection/vision family, not a language model; task/size unspecified. First public checkpoint date not established."
+    },
+    {
+      "key": "whisper-large-v3",
+      "identified_as": "Whisper large-v3-turbo",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2024-09-30",
+      "date_precision": "day",
+      "source_url": "https://github.com/openai/whisper/releases/tag/v20240930",
+      "note": "Extraction dropped turbo. Date is the package release containing the turbo model; the maintainer announcement followed October 1, 2024. Not the November 2023 large-v3 release."
+    },
+    {
+      "key": "granite-3.3-8b",
+      "identified_as": "Granite 3.3 8B Instruct",
+      "vendor": "IBM",
+      "class": "open-weights",
+      "release_date": "2025-04-16",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct",
+      "note": ""
+    },
+    {
+      "key": "llama-3-3-70b",
+      "identified_as": "Llama 3.3 70B Instruct",
+      "vendor": "Meta",
+      "class": "open-weights",
+      "release_date": "2024-12-06",
+      "date_precision": "day",
+      "source_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "note": "Llama 3.3 has one official 70B Instruct release. Turbo is a hosting-provider label; llama-3-3 is a punctuation variant, not another generation."
+    },
+    {
+      "key": "mistral-large",
+      "identified_as": "Mistral Large (original 2402; revision unspecified)",
+      "vendor": "Mistral AI",
+      "class": "frontier-api",
+      "release_date": "2024-02-26",
+      "date_precision": "day",
+      "source_url": "https://mistral.ai/news/mistral-large/",
+      "note": "Ambiguous across later Large 2/3 releases. Date refers only to the original proprietary model, not to a mutable latest alias."
+    },
+    {
+      "key": "nemotron-3-ultra-550b-a55b",
+      "identified_as": "NVIDIA Nemotron 3 Ultra (550B-A55B)",
+      "vendor": "NVIDIA",
+      "class": "open-weights",
+      "release_date": "2026-06-04",
+      "date_precision": "day",
+      "source_url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/",
+      "note": "Separate Ultra release, not the December 2025 Nano launch."
+    },
+    {
+      "key": "llms",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "biomedparse",
+      "identified_as": "BiomedParse",
+      "vendor": "Microsoft Research",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/microsoft/BiomedParse",
+      "note": "Biomedical segmentation/detection/recognition model, not a generative language model. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "unspecified-parser/verifier-llms",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    },
+    {
+      "key": "autoxrd",
+      "identified_as": "AutoXRD",
+      "vendor": "AutoXRD research authors",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://arxiv.org/abs/2609.00070",
+      "note": "Extraction names an autonomous LLM-agent framework for powder diffraction, not a unique underlying language-model checkpoint. Framework paper date is not a model release."
+    },
+    {
+      "key": "esm3",
+      "identified_as": "ESM3",
+      "vendor": "EvolutionaryScale",
+      "class": "domain",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://github.com/evolutionaryscale/esm",
+      "note": "Multimodal protein sequence/structure/function generative model; scientific-domain class. Open versus API checkpoint unspecified. First public model-availability date not established; paper publication is not assumed to be a weights/API release."
+    },
+    {
+      "key": "unspecified-llm-judge",
+      "identified_as": null,
+      "vendor": null,
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Family, architecture, baseline description or usage role without an identifiable model/version. No release date can be assigned from this raw name."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+You are coding referee-identified major issues in arXiv preprints on LLM and agent use in physics and materials science.
+
+Read the coding scheme in {WORK}/taxonomy/taxonomy.json first, including its tie-breaking rules.
+
+Then code every issue in {IN} (JSON lines, one issue per line, with issue_id, paper, title and the referee's one-line summary). For each issue, read the paragraph of the full referee report that discusses it, in {WORK}/reviews-v2/<paper>.md, so that you code what the referee meant rather than the wording of the one-liner. Do not read the papers themselves, and do not read any other file in the repository; in particular, do not look at other coding files.
+
+For each issue give:
+- "primary": the one category id that best fits, following the tie-breaking rules;
+- "secondary": a second category id if the issue clearly also belongs there, else null;
+- "confidence": "high", "medium" or "low";
+- "note": at most one short sentence, only when the fit is doubtful or the scheme is missing a category.
+
+Write {OUT} as a JSON list of objects {{"issue_id": "...", "primary": "...", "secondary": null, "confidence": "...", "note": ""}}, one per input line, in input order. Do not create or modify any other file.
+
+Return as your final answer the count per primary category and any recurring problem with the scheme.

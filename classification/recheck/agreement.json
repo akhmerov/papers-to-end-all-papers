@@ -1,0 +1,240 @@
+{
+ "n_recoded": 249,
+ "missing": [],
+ "agreement_displayed": {
+  "llm_role": {
+   "n": 249,
+   "kappa": 0.73,
+   "raw": 0.95
+  },
+  "scope": {
+   "n": 249,
+   "kappa": 0.85,
+   "raw": 0.89
+  },
+  "use": {
+   "n": 249,
+   "kappa": 0.81,
+   "raw": 0.83
+  },
+  "kind": {
+   "n": 249,
+   "kappa": 0.66,
+   "raw": 0.78
+  },
+  "agent_form": {
+   "n": 249,
+   "kappa": 0.8,
+   "raw": 0.84
+  },
+  "autonomy": {
+   "n": 249,
+   "kappa": 0.66,
+   "raw": 0.73
+  },
+  "breadth": {
+   "n": 249,
+   "kappa": 0.65,
+   "raw": 0.78
+  }
+ },
+ "agreement_haiku_original": {
+  "llm_role": {
+   "n": 249,
+   "kappa": 0.71,
+   "raw": 0.95
+  },
+  "scope": {
+   "n": 249,
+   "kappa": 0.89,
+   "raw": 0.92
+  },
+  "use": {
+   "n": 249,
+   "kappa": 0.79,
+   "raw": 0.81
+  },
+  "kind": {
+   "n": 249,
+   "kappa": 0.64,
+   "raw": 0.77
+  },
+  "agent_form": {
+   "n": 249,
+   "kappa": 0.8,
+   "raw": 0.84
+  },
+  "autonomy": {
+   "n": 249,
+   "kappa": 0.66,
+   "raw": 0.73
+  },
+  "breadth": {
+   "n": 249,
+   "kappa": 0.64,
+   "raw": 0.78
+  }
+ },
+ "in_frame_only": {
+  "scope": {
+   "n": 228,
+   "kappa": 0.86,
+   "raw": 0.9
+  },
+  "use": {
+   "n": 228,
+   "kappa": 0.82,
+   "raw": 0.84
+  },
+  "kind": {
+   "n": 228,
+   "kappa": 0.71,
+   "raw": 0.81
+  },
+  "agent_form": {
+   "n": 228,
+   "kappa": 0.8,
+   "raw": 0.84
+  },
+  "autonomy": {
+   "n": 228,
+   "kappa": 0.66,
+   "raw": 0.74
+  },
+  "breadth": {
+   "n": 228,
+   "kappa": 0.71,
+   "raw": 0.82
+  }
+ },
+ "frame": {
+  "in_frame_confirmed_by_sol": 227,
+  "in_frame_n": 228,
+  "controls_sol_says_in": 7,
+  "controls_n": 21,
+  "kappa": {
+   "n": 249,
+   "kappa": 0.76,
+   "raw": 0.97
+  }
+ },
+ "top_scope_confusions": [
+  [
+   "adjacent-quantum",
+   "condensed-matter",
+   6
+  ],
+  [
+   "cross-domain-science",
+   "materials-science",
+   4
+  ],
+  [
+   "cross-domain-science",
+   "condensed-matter",
+   2
+  ],
+  [
+   "materials-science",
+   "condensed-matter",
+   2
+  ],
+  [
+   "general-methods",
+   "materials-science",
+   2
+  ],
+  [
+   "cross-domain-science",
+   "other-physics",
+   1
+  ],
+  [
+   "general-methods",
+   "cross-domain-science",
+   1
+  ],
+  [
+   "adjacent-quantum",
+   "other-physics",
+   1
+  ],
+  [
+   "adjacent-quantum",
+   "molecular-chemistry",
+   1
+  ],
+  [
+   "out-of-scope",
+   "materials-science",
+   1
+  ],
+  [
+   "other-physics",
+   "materials-science",
+   1
+  ]
+ ],
+ "top_use_confusions": [
+  [
+   "property-prediction",
+   "code-algorithm-generation",
+   2
+  ],
+  [
+   "simulation-workflow",
+   "design-optimization",
+   2
+  ],
+  [
+   "reasoning-proof",
+   "unclear",
+   2
+  ],
+  [
+   "design-optimization",
+   "code-algorithm-generation",
+   2
+  ],
+  [
+   "code-algorithm-generation",
+   "design-optimization",
+   2
+  ],
+  [
+   "simulation-workflow",
+   "research-orchestration",
+   2
+  ],
+  [
+   "property-prediction",
+   "design-optimization",
+   2
+  ],
+  [
+   "design-optimization",
+   "experimental-control",
+   1
+  ],
+  [
+   "property-prediction",
+   "simulation-workflow",
+   1
+  ],
+  [
+   "research-orchestration",
+   "simulation-workflow",
+   1
+  ],
+  [
+   "data-interpretation",
+   "agent-evaluation",
+   1
+  ],
+  [
+   "research-orchestration",
+   "experimental-control",
+   1
+  ]
+ ]
+}

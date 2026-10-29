@@ -1,0 +1,1598 @@
+[
+ {
+  "id": "arxiv:2604.18176",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.18805",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.20304",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": "Closed-loop LLM planning; novel phases are demonstration, not headline."
+ },
+ {
+  "id": "arxiv:2604.20899",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.21850",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.22571",
+  "question": "workflow-automation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.22938",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": "Extraction pipeline headline; also builds largest open concrete database."
+ },
+ {
+  "id": "arxiv:2604.23758",
+  "question": "targeted-design",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": "Agent framework plus four synthesized superconductors; discovery emphasized."
+ },
+ {
+  "id": "arxiv:2604.23821",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.24283",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.25199",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.25884",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2604.27709",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.00803",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.03205",
+  "question": "ai-workflow-perspective",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.03515",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.06839",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.07145",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.08255",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.10120",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.10327",
+  "question": "method-capability",
+  "question_alt": "physical-findings",
+  "confidence": "medium",
+  "note": "Conjecture generator mostly recovers known QAOA relations."
+ },
+ {
+  "id": "arxiv:2605.13618",
+  "question": "research-infrastructure",
+  "question_alt": "ai-workflow-perspective",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.13911",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.14344",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.14527",
+  "question": "workflow-automation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.14671",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.15227",
+  "question": "research-infrastructure",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.15625",
+  "question": "workflow-automation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.15842",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": "Non-physical domain; methodology demonstrated with economic network findings."
+ },
+ {
+  "id": "arxiv:2605.16191",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.17254",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.17675",
+  "question": "ai-workflow-perspective",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.18407",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.20242",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": "Framework headline; improved devices are preliminary validation."
+ },
+ {
+  "id": "arxiv:2605.20416",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.20495",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.23934",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "low",
+  "note": "Integration demo; capability versus automation of CIM modeling unclear."
+ },
+ {
+  "id": "arxiv:2605.24002",
+  "question": "research-infrastructure",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.26021",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.26179",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.26741",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.27210",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.28487",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": "New benchmark and method; method result emphasized."
+ },
+ {
+  "id": "arxiv:2605.29179",
+  "question": "literature-findings",
+  "question_alt": "ai-workflow-perspective",
+  "confidence": "medium",
+  "note": "Perspective mixes MOF design principles with AI acceleration."
+ },
+ {
+  "id": "arxiv:2605.29394",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.29446",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.29555",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.29833",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.30358",
+  "question": "model-evaluation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2605.31495",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.00065",
+  "question": "research-infrastructure",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.00315",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.01089",
+  "question": "method-capability",
+  "question_alt": "literature-findings",
+  "confidence": "medium",
+  "note": "Framework headline; hydrogenation window given as example."
+ },
+ {
+  "id": "arxiv:2606.02418",
+  "question": "targeted-design",
+  "question_alt": "method-capability",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.02434",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.03300",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.03764",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.05050",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.05472",
+  "question": "model-evaluation",
+  "question_alt": "ai-workflow-perspective",
+  "confidence": "low",
+  "note": "Demonstrates AI can fabricate device data; integrity recommendations."
+ },
+ {
+  "id": "arxiv:2606.06415",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.07314",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.07570",
+  "question": "model-evaluation",
+  "question_alt": "literature-findings",
+  "confidence": "low",
+  "note": "LLM consensus extraction framed as capability test; HTS structure secondary."
+ },
+ {
+  "id": "arxiv:2606.07712",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.09462",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.12916",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": "Pipeline-design agent; confirmed new binder is demonstration."
+ },
+ {
+  "id": "arxiv:2606.13380",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.13811",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.17809",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.18422",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.19152",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.20729",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.21395",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.21974",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.22375",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.22376",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.22497",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.23571",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.24480",
+  "question": "ai-workflow-perspective",
+  "question_alt": "literature-findings",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.24808",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "low",
+  "note": "Framework introduced; discovered code families only described as competitive."
+ },
+ {
+  "id": "arxiv:2606.25870",
+  "question": "targeted-design",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": "First distance-5 GSE encodings emphasized, framed as search case study."
+ },
+ {
+  "id": "arxiv:2606.27231",
+  "question": "research-infrastructure",
+  "question_alt": "workflow-automation",
+  "confidence": "low",
+  "note": "Safety-gated control system; autonomous calibration as deployment demonstration."
+ },
+ {
+  "id": "arxiv:2606.29459",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.29592",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.29667",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.29687",
+  "question": "physical-findings",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": "Resolves open conjecture; also showcases LLM-plus-Lean proof methodology."
+ },
+ {
+  "id": "arxiv:2606.29717",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2606.29966",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.00924",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.00939",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.02329",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": "Autonomous research pipeline; physics findings serve as demonstration."
+ },
+ {
+  "id": "arxiv:2607.02934",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.03105",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.03193",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.04072",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.05805",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.07554",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.07597",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.07604",
+  "question": "model-evaluation",
+  "question_alt": "physical-findings",
+  "confidence": "low",
+  "note": "Human-versus-LLM synthesis comparison; also new Ba3PtO5 structural prototype."
+ },
+ {
+  "id": "arxiv:2607.07857",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": "One-off autoformalization demonstration; releases Lean library."
+ },
+ {
+  "id": "arxiv:2607.09007",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.09195",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.09789",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.10057",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.14082",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": "Agentic Lean formalization of known results; library is main artifact."
+ },
+ {
+  "id": "arxiv:2607.15535",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.17012",
+  "question": "research-infrastructure",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.17417",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.17498",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.19198",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.19506",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "low",
+  "note": "Framed as benchmark but hybrid controller is the advance."
+ },
+ {
+  "id": "arxiv:2607.20058",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.20225",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.21533",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.21811",
+  "question": "physical-findings",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": "Scheme construction with optimal security proof; treated as theorem."
+ },
+ {
+  "id": "arxiv:2607.23006",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.24479",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.24687",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.24714",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.25145",
+  "question": "workflow-automation",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.25647",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.25865",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": "AI-scientist framework; codes outperforming BB codes are secondary payoff."
+ },
+ {
+  "id": "arxiv:2607.26305",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.27262",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2607.28200",
+  "question": "workflow-automation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.00149",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.01431",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.02642",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.03824",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.04947",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.05266",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.05387",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.06694",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.07439",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": "Non-physical QNLP task; exploratory evaluation of LLM preprocessing."
+ },
+ {
+  "id": "arxiv:2608.07637",
+  "question": "workflow-automation",
+  "question_alt": "physical-findings",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.08752",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.10483",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.10882",
+  "question": "research-infrastructure",
+  "question_alt": "method-capability",
+  "confidence": "low",
+  "note": "Software-engineering mining study; released pipeline and dataset."
+ },
+ {
+  "id": "arxiv:2608.11224",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.11283",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.15900",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.15928",
+  "question": "workflow-automation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": "Closed-loop synthesis framework; new Rb3BiI6 films as demonstration."
+ },
+ {
+  "id": "arxiv:2608.16048",
+  "question": "research-infrastructure",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.17629",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.19116",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.19790",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.20434",
+  "question": "workflow-automation",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.23631",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.25189",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.25392",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": "Synthesis-planning method; five new compounds as validation."
+ },
+ {
+  "id": "arxiv:2608.27363",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.27572",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.27587",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.28100",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.29309",
+  "question": "ai-workflow-perspective",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2608.29665",
+  "question": "model-evaluation",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.00070",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": "Agent plus benchmark; cross-model scores and failures dominate."
+ },
+ {
+  "id": "arxiv:2609.00099",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.00663",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.00795",
+  "question": "ai-workflow-perspective",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.04674",
+  "question": "research-infrastructure",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.05039",
+  "question": "research-infrastructure",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.05121",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.05157",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.06038",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.07655",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.10520",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.12181",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.12184",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.12796",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.13121",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.13357",
+  "question": "workflow-automation",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.14080",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.14840",
+  "question": "workflow-automation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.14928",
+  "question": "workflow-automation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.16466",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.17123",
+  "question": "method-capability",
+  "question_alt": "targeted-design",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.17291",
+  "question": "method-capability",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.18598",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": "Hypothesis-forming SDL agent; growth-window finding is demonstration."
+ },
+ {
+  "id": "arxiv:2609.19550",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.19837",
+  "question": "ai-workflow-perspective",
+  "question_alt": "literature-findings",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.20258",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.20319",
+  "question": "model-evaluation",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.22210",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.24470",
+  "question": "model-evaluation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.25000",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.25384",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.27036",
+  "question": "model-evaluation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.27302",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.29492",
+  "question": "model-evaluation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.29595",
+  "question": "research-infrastructure",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.30133",
+  "question": "targeted-design",
+  "question_alt": "workflow-automation",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.30157",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.31679",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.31790",
+  "question": "workflow-automation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.33192",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.34119",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.34293",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.35581",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.36469",
+  "question": "ai-workflow-perspective",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.37053",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.38340",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2609.39302",
+  "question": "research-infrastructure",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.00636",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.00943",
+  "question": "workflow-automation",
+  "question_alt": "research-infrastructure",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.02671",
+  "question": "research-infrastructure",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.04134",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.04866",
+  "question": "method-capability",
+  "question_alt": "physical-findings",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.05304",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.06623",
+  "question": "targeted-design",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.07862",
+  "question": "method-capability",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.10258",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.10879",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.12187",
+  "question": "method-capability",
+  "question_alt": "model-evaluation",
+  "confidence": "low",
+  "note": "Agentic quantum code-migration case study; mixed capability and assessment."
+ },
+ {
+  "id": "arxiv:2610.12700",
+  "question": "physical-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.13573",
+  "question": "research-infrastructure",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.13811",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.16733",
+  "question": "model-evaluation",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.17193",
+  "question": "ai-workflow-perspective",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": "Guidelines and framework, with substantive case-study results."
+ },
+ {
+  "id": "arxiv:2610.17286",
+  "question": "method-capability",
+  "question_alt": "physical-findings",
+  "confidence": "low",
+  "note": "Formalized BB84 security proof; key-rate improvement secondary."
+ },
+ {
+  "id": "arxiv:2610.17708",
+  "question": "research-infrastructure",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.17804",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.17832",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.18949",
+  "question": "method-capability",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.19404",
+  "question": "model-evaluation",
+  "question_alt": "workflow-automation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.20779",
+  "question": "workflow-automation",
+  "question_alt": "model-evaluation",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.21015",
+  "question": "research-infrastructure",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.21050",
+  "question": "literature-findings",
+  "question_alt": null,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "arxiv:2610.22367",
+  "question": "targeted-design",
+  "question_alt": "method-capability",
+  "confidence": "medium",
+  "note": ""
+ }
+]

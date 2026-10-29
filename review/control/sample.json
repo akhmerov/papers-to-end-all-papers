@@ -1,0 +1,841 @@
+{
+ "seed": 20261030,
+ "window": [
+  "202604180000",
+  "202610182359"
+ ],
+ "quotas": {
+  "cond-mat.mtrl-sci": 24,
+  "quant-ph": 22,
+  "cond-mat.mes-hall": 1,
+  "cond-mat.stat-mech": 1,
+  "cond-mat.soft": 1,
+  "cond-mat.str-el": 1
+ },
+ "counts": {
+  "cond-mat.mtrl-sci": {
+   "202604": 352,
+   "202605": 842,
+   "202606": 785,
+   "202607": 825,
+   "202608": 851,
+   "202609": 979,
+   "202610": 540
+  },
+  "quant-ph": {
+   "202604": 748,
+   "202605": 1744,
+   "202606": 1665,
+   "202607": 1963,
+   "202608": 1782,
+   "202609": 2296,
+   "202610": 1362
+  },
+  "cond-mat.mes-hall": {
+   "202604": 208,
+   "202605": 528,
+   "202606": 525,
+   "202607": 545,
+   "202608": 559,
+   "202609": 577,
+   "202610": 324
+  },
+  "cond-mat.stat-mech": {
+   "202604": 170,
+   "202605": 479,
+   "202606": 433,
+   "202607": 462,
+   "202608": 437,
+   "202609": 608,
+   "202610": 300
+  },
+  "cond-mat.soft": {
+   "202604": 95,
+   "202605": 254,
+   "202606": 253,
+   "202607": 258,
+   "202608": 262,
+   "202609": 315,
+   "202610": 158
+  },
+  "cond-mat.str-el": {
+   "202604": 188,
+   "202605": 432,
+   "202606": 446,
+   "202607": 476,
+   "202608": 455,
+   "202609": 520,
+   "202610": 334
+  }
+ },
+ "sample": [
+  {
+   "arxiv_id": "2609.31545",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-09-25",
+   "title": "Unconventional magnetoelastic behavior in Al rich CoFeAl Films with inverse Heusler like local order for flexible spintronics"
+  },
+  {
+   "arxiv_id": "2609.38404",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-09-29",
+   "title": "Energy-Efficient Non-Volatile Photonic Switching via Composition-Engineered Sn-Doped GST"
+  },
+  {
+   "arxiv_id": "2607.27820",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-07-30",
+   "title": "Deep Learning for Accelerated Long-Horizon Forecasting of Multicomponent Multiphase Microstructure Evolution in High-Entropy Alloys"
+  },
+  {
+   "arxiv_id": "2608.21741",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-08-22",
+   "title": "First-Principles Atomistic Structure and Dynamics of Polyethylene During High-Pressure Radical Polymerization via Machine Learning Force Fields"
+  },
+  {
+   "arxiv_id": "2609.21551",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-09-18",
+   "title": "Orbital angular momentum accumulation in SrVO3 thin films"
+  },
+  {
+   "arxiv_id": "2610.11293",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-10-08",
+   "title": "Multifunctionality in Janus CrMCN4 (M = Si/Ge) Monolayers: Valleytronic Physics, Piezoelectric Response, and Photocatalytic Potential"
+  },
+  {
+   "arxiv_id": "2607.07002",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-07-08",
+   "title": "Size focusing in core-shell precipitates: A phase-field study"
+  },
+  {
+   "arxiv_id": "2607.08881",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-07-09",
+   "title": "High density two-component glasses of organic semiconductors prepared by physical vapor deposition"
+  },
+  {
+   "arxiv_id": "2607.29157",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-07-31",
+   "title": "Strength-degradation phase-field regularization of cohesive fracture: the antiplane case"
+  },
+  {
+   "arxiv_id": "2607.14590",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-07-16",
+   "title": "Second-Order Optical Nonlinearity of AlScN Films Grown By Molecular Beam Epitaxy"
+  },
+  {
+   "arxiv_id": "2608.22074",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-08-22",
+   "title": "Cross-Temperature Defect Identification in Atomistic Simulations via Multi-Level Domain Alignment"
+  },
+  {
+   "arxiv_id": "2606.00323",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-05-29",
+   "title": "Microstructure-specific mechanisms define multistage relaxation dynamics in a metallic model-glass"
+  },
+  {
+   "arxiv_id": "2606.06771",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-06-04",
+   "title": "Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations"
+  },
+  {
+   "arxiv_id": "2605.14328",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-05-14",
+   "title": "Unified definition of ferroelectricity"
+  },
+  {
+   "arxiv_id": "2604.23943",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-04-27",
+   "title": "Nearly Isotropic Magnon Transport in Epitaxial Lithium Aluminum Ferrite Thin Films"
+  },
+  {
+   "arxiv_id": "2607.13211",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-07-14",
+   "title": "Multiwavelength Raman investigation of mono- and few-layer MoS2 grown by Pulsed Laser Deposition on SiO2"
+  },
+  {
+   "arxiv_id": "2605.31531",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-05-29",
+   "title": "Multiplet-Selective Photoelectron Diffraction from an Altermagnet"
+  },
+  {
+   "arxiv_id": "2608.23212",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-08-24",
+   "title": "Predicted High $n$-Type $zT$ and Ultralow Lattice Thermal Conductivity in A$_2$AgIrCl$_6$ (A = Cs, Rb)"
+  },
+  {
+   "arxiv_id": "2607.25172",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-07-28",
+   "title": "A Catalogue of Topological Moiré Bands in Twisted Semiconductors"
+  },
+  {
+   "arxiv_id": "2605.17226",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-05-17",
+   "title": "On-chip detection of anisotropic thermopolarization in quartz"
+  },
+  {
+   "arxiv_id": "2605.03731",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-05-05",
+   "title": "A Correction Method for Crack Area Overestimation in Phase-Field Fracture"
+  },
+  {
+   "arxiv_id": "2609.10930",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-09-10",
+   "title": "Hyperspin Altermagnets"
+  },
+  {
+   "arxiv_id": "2608.16261",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-08-17",
+   "title": "Dimensionality Mismatch Enables Decoupled Heat and Charge Transport"
+  },
+  {
+   "arxiv_id": "2609.13978",
+   "stratum": "cond-mat.mtrl-sci",
+   "published": "2026-09-12",
+   "title": "Sodium Incorporation in CsPbBr$_{3-x}$I$_x$ Nanocrystal Electrodes: Lattice Contraction and the Suppression of Field-Driven Iodine Expulsion"
+  },
+  {
+   "arxiv_id": "2606.12030",
+   "stratum": "quant-ph",
+   "published": "2026-06-10",
+   "title": "Measurement-Free Toric-Code Memory in Array Globally Controlled Rydberg Array"
+  },
+  {
+   "arxiv_id": "2606.29042",
+   "stratum": "quant-ph",
+   "published": "2026-06-27",
+   "title": "Exact Hilbert-space ergodicity from continuous monitoring"
+  },
+  {
+   "arxiv_id": "2607.12559",
+   "stratum": "quant-ph",
+   "published": "2026-07-14",
+   "title": "The Infinitesimal Structure of Quantum Information"
+  },
+  {
+   "arxiv_id": "2610.18245",
+   "stratum": "quant-ph",
+   "published": "2026-10-13",
+   "title": "Experimental Benchmarking of a 256-Qubit Room-Temperature NV-Diamond Quantum Processor with an Optically Programmable Biomolecular Quantum Bus"
+  },
+  {
+   "arxiv_id": "2608.01483",
+   "stratum": "quant-ph",
+   "published": "2026-08-02",
+   "title": "Spatial-Order Hierarchy of Time-Dependent Exchange-Correlation Potential"
+  },
+  {
+   "arxiv_id": "2609.21243",
+   "stratum": "quant-ph",
+   "published": "2026-09-18",
+   "title": "From Trainability Diagnostics to Optimization Claims: Boundaries and Controls in Variational Quantum Optimization"
+  },
+  {
+   "arxiv_id": "2609.38894",
+   "stratum": "quant-ph",
+   "published": "2026-09-30",
+   "title": "Quantum Time-Lock Puzzles in the Quantum Random Oracle Model"
+  },
+  {
+   "arxiv_id": "2610.06742",
+   "stratum": "quant-ph",
+   "published": "2026-10-05",
+   "title": "Quantum minimum description of density matrices"
+  },
+  {
+   "arxiv_id": "2606.02675",
+   "stratum": "quant-ph",
+   "published": "2026-06-01",
+   "title": "Theory of Quantum Phase Space: Foundations and Applications"
+  },
+  {
+   "arxiv_id": "2606.12770",
+   "stratum": "quant-ph",
+   "published": "2026-06-11",
+   "title": "Explicit Quantum Circuit Simulation of Nonlinear 1-Dimensional Fluid with Carleman-linearized Boltzmann Method"
+  },
+  {
+   "arxiv_id": "2604.18238",
+   "stratum": "quant-ph",
+   "published": "2026-04-20",
+   "title": "Ontic Dynamical Locality Reduces to Bell Locality"
+  },
+  {
+   "arxiv_id": "2608.24061",
+   "stratum": "quant-ph",
+   "published": "2026-08-25",
+   "title": "Rank and Range Criteria for Mixed-State Determination from Local Marginals"
+  },
+  {
+   "arxiv_id": "2605.08745",
+   "stratum": "quant-ph",
+   "published": "2026-05-09",
+   "title": "Exclusion reshapes the operational manifestation of preparation contextuality"
+  },
+  {
+   "arxiv_id": "2607.03164",
+   "stratum": "quant-ph",
+   "published": "2026-07-03",
+   "title": "Geometric modulation of transition and survival intensities in non-Hermitian systems"
+  },
+  {
+   "arxiv_id": "2608.30340",
+   "stratum": "quant-ph",
+   "published": "2026-08-31",
+   "title": "Exact quantum splitting and the structure of finite algebras"
+  },
+  {
+   "arxiv_id": "2609.26032",
+   "stratum": "quant-ph",
+   "published": "2026-09-22",
+   "title": "Hyperbolic Restricted Boltzmann Machine Neural Quantum State"
+  },
+  {
+   "arxiv_id": "2606.17359",
+   "stratum": "quant-ph",
+   "published": "2026-06-15",
+   "title": "Canonical regularization of the stationary Coulomb problem and an Aufbau-like spectral ordering"
+  },
+  {
+   "arxiv_id": "2605.25974",
+   "stratum": "quant-ph",
+   "published": "2026-05-25",
+   "title": "PauLIB: HPC Strategies for Pauli-Arithmetic-Based Quantum Computing Workloads and Simulations"
+  },
+  {
+   "arxiv_id": "2609.26608",
+   "stratum": "quant-ph",
+   "published": "2026-09-22",
+   "title": "Geometric construction of optimal probe states in distributed multiparameter quantum sensing"
+  },
+  {
+   "arxiv_id": "2610.24686",
+   "stratum": "quant-ph",
+   "published": "2026-10-17",
+   "title": "Efficient Quantum Algorithm for Mixed-State Quantum Geometry"
+  },
+  {
+   "arxiv_id": "2605.12502",
+   "stratum": "quant-ph",
+   "published": "2026-05-12",
+   "title": "Scalable Measurement-Based Quantum Simulation Patterns for Benchmarking"
+  },
+  {
+   "arxiv_id": "2605.17587",
+   "stratum": "quant-ph",
+   "published": "2026-05-17",
+   "title": "Large-Scale Quantum Kernels for Hyperspectral Data Classification"
+  },
+  {
+   "arxiv_id": "2605.05576",
+   "stratum": "cond-mat.mes-hall",
+   "published": "2026-05-07",
+   "title": "Multifrequency Floquet Engineering of Magnon Polaritons"
+  },
+  {
+   "arxiv_id": "2609.03179",
+   "stratum": "cond-mat.stat-mech",
+   "published": "2026-09-02",
+   "title": "Accelerating stochastic processes through nonequilibrium driving: Thermodynamic constraints on the maximum speed-up"
+  },
+  {
+   "arxiv_id": "2608.00057",
+   "stratum": "cond-mat.soft",
+   "published": "2026-07-27",
+   "title": "Inferring partial crystalline order in liquids from electrical resistivity"
+  },
+  {
+   "arxiv_id": "2609.03519",
+   "stratum": "cond-mat.str-el",
+   "published": "2026-09-03",
+   "title": "Non-Resonant Impulsively Stimulated Raman Scattering by a Terahertz Field: a Case Study of 1T-TaS2"
+  }
+ ],
+ "draws": [
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202609",
+   "start": 812,
+   "arxiv_id": "2609.31545",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202606",
+   "start": 606,
+   "arxiv_id": "2606.25275",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202609",
+   "start": 934,
+   "arxiv_id": "2609.38404",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 755,
+   "arxiv_id": "2607.27820",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202608",
+   "start": 569,
+   "arxiv_id": "2608.21741",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202604",
+   "start": 306,
+   "arxiv_id": "2604.26718",
+   "rejected": "language-model term"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202609",
+   "start": 579,
+   "arxiv_id": "2609.21551",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202610",
+   "start": 208,
+   "arxiv_id": "2610.11293",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 166,
+   "arxiv_id": "2607.07002",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 233,
+   "arxiv_id": "2607.08881",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202605",
+   "start": 659,
+   "arxiv_id": "2605.26075",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 800,
+   "arxiv_id": "2607.29157",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 388,
+   "arxiv_id": "2607.14590",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202608",
+   "start": 575,
+   "arxiv_id": "2608.22074",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202605",
+   "start": 809,
+   "arxiv_id": "2606.00323",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202606",
+   "start": 19,
+   "arxiv_id": "2606.02338",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202606",
+   "start": 119,
+   "arxiv_id": "2606.06771",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202605",
+   "start": 327,
+   "arxiv_id": "2605.14328",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202604",
+   "start": 205,
+   "arxiv_id": "2604.23943",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 349,
+   "arxiv_id": "2607.13211",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202605",
+   "start": 804,
+   "arxiv_id": "2605.31531",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202608",
+   "start": 66,
+   "arxiv_id": "2608.03058",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202608",
+   "start": 810,
+   "arxiv_id": "2608.30098",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202609",
+   "start": 766,
+   "arxiv_id": "2609.30260",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202608",
+   "start": 607,
+   "arxiv_id": "2608.23212",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 675,
+   "arxiv_id": "2607.25172",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202605",
+   "start": 396,
+   "arxiv_id": "2605.17226",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202605",
+   "start": 98,
+   "arxiv_id": "2605.03731",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202609",
+   "start": 311,
+   "arxiv_id": "2609.10930",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202607",
+   "start": 784,
+   "arxiv_id": "2607.28812",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202608",
+   "start": 415,
+   "arxiv_id": "2608.16261",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mtrl-sci",
+   "month": "202609",
+   "start": 397,
+   "arxiv_id": "2609.13978",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202606",
+   "start": 528,
+   "arxiv_id": "2606.12030",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202609",
+   "start": 2146,
+   "arxiv_id": "2609.40004",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202606",
+   "start": 1450,
+   "arxiv_id": "2606.29042",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202607",
+   "start": 818,
+   "arxiv_id": "2607.12559",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202610",
+   "start": 1034,
+   "arxiv_id": "2610.18245",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202608",
+   "start": 47,
+   "arxiv_id": "2608.01483",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202609",
+   "start": 1197,
+   "arxiv_id": "2609.21243",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202609",
+   "start": 2040,
+   "arxiv_id": "2609.38894",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202610",
+   "start": 469,
+   "arxiv_id": "2610.06742",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202606",
+   "start": 33,
+   "arxiv_id": "2606.02675",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202610",
+   "start": 199,
+   "arxiv_id": "2610.03433",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202606",
+   "start": 578,
+   "arxiv_id": "2606.12770",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202604",
+   "start": 80,
+   "arxiv_id": "2604.18238",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202608",
+   "start": 1374,
+   "arxiv_id": "2608.24061",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202605",
+   "start": 465,
+   "arxiv_id": "2605.08745",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202606",
+   "start": 467,
+   "arxiv_id": "2606.10957",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202607",
+   "start": 178,
+   "arxiv_id": "2607.03164",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202608",
+   "start": 1714,
+   "arxiv_id": "2608.30340",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202609",
+   "start": 1431,
+   "arxiv_id": "2609.26032",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202606",
+   "start": 816,
+   "arxiv_id": "2606.17359",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202605",
+   "start": 1372,
+   "arxiv_id": "2605.25974",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202609",
+   "start": 1449,
+   "arxiv_id": "2609.26608",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202610",
+   "start": 1327,
+   "arxiv_id": "2610.24686",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202605",
+   "start": 645,
+   "arxiv_id": "2605.12502",
+   "rejected": null
+  },
+  {
+   "stratum": "quant-ph",
+   "month": "202605",
+   "start": 901,
+   "arxiv_id": "2605.17587",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.mes-hall",
+   "month": "202608",
+   "start": 162,
+   "arxiv_id": "2608.09932",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mes-hall",
+   "month": "202606",
+   "start": 256,
+   "arxiv_id": "2606.17673",
+   "rejected": "other primary category"
+  },
+  {
+   "stratum": "cond-mat.mes-hall",
+   "month": "202605",
+   "start": 90,
+   "arxiv_id": "2605.05576",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.stat-mech",
+   "month": "202609",
+   "start": 53,
+   "arxiv_id": "2609.03179",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.soft",
+   "month": "202607",
+   "start": 205,
+   "arxiv_id": "2608.00057",
+   "rejected": null
+  },
+  {
+   "stratum": "cond-mat.str-el",
+   "month": "202609",
+   "start": 31,
+   "arxiv_id": "2609.03519",
+   "rejected": null
+  }
+ ],
+ "rereview": {
+  "rule": "20 of the 130 reviewed papers with a cond-mat or quant-ph primary category, drawn with the same seed, reviewed again in the same shuffled batch as the control papers",
+  "ids": [
+   "2604.25199",
+   "2605.03205",
+   "2605.27210",
+   "2605.31495",
+   "2606.07712",
+   "2606.19152",
+   "2606.21974",
+   "2606.24808",
+   "2607.17498",
+   "2607.27262",
+   "2608.03824",
+   "2608.11283",
+   "2608.15900",
+   "2608.27587",
+   "2608.29665",
+   "2609.00070",
+   "2609.05039",
+   "2609.29492",
+   "2609.29595",
+   "2609.39302"
+  ]
+ }
+}

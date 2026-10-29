@@ -1,0 +1,76 @@
+{
+ "definition": "arXiv records with a language-model or named-model cue and a domain cue in title or abstract, before screening; precision is not calibrated and may change over time",
+ "queries": "corpus/history/queries.json",
+ "periods": [
+  {
+   "period": "2022H1",
+   "start": "2022-01-01",
+   "end": "2022-06-30",
+   "days": 181,
+   "candidates": 5
+  },
+  {
+   "period": "2022H2",
+   "start": "2022-07-01",
+   "end": "2022-12-31",
+   "days": 184,
+   "candidates": 11
+  },
+  {
+   "period": "2023H1",
+   "start": "2023-01-01",
+   "end": "2023-06-30",
+   "days": 181,
+   "candidates": 20
+  },
+  {
+   "period": "2023H2",
+   "start": "2023-07-01",
+   "end": "2023-12-31",
+   "days": 184,
+   "candidates": 52
+  },
+  {
+   "period": "2024H1",
+   "start": "2024-01-01",
+   "end": "2024-06-30",
+   "days": 182,
+   "candidates": 76
+  },
+  {
+   "period": "2024H2",
+   "start": "2024-07-01",
+   "end": "2024-12-31",
+   "days": 184,
+   "candidates": 113
+  },
+  {
+   "period": "2025H1",
+   "start": "2025-01-01",
+   "end": "2025-06-30",
+   "days": 181,
+   "candidates": 157
+  },
+  {
+   "period": "2025H2",
+   "start": "2025-07-01",
+   "end": "2025-12-31",
+   "days": 184,
+   "candidates": 237
+  },
+  {
+   "period": "2026H1",
+   "start": "2026-01-01",
+   "end": "2026-06-30",
+   "days": 181,
+   "candidates": 469
+  },
+  {
+   "period": "2026H2",
+   "start": "2026-07-01",
+   "end": "2026-10-15",
+   "days": 107,
+   "candidates": 555
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+{
+ "supergroups": {
+  "quantum": "Quantum computing and quantum information",
+  "materials": "Material classes and physical systems",
+  "methods": "Experimental and computational technique communities",
+  "other": "Outside condensed matter, materials and quantum research"
+ },
+ "categories": [
+  {
+   "id": "quantum-software",
+   "name": "Quantum algorithms, circuits and software",
+   "supergroup": "quantum",
+   "definition": "Research on constructing, optimizing, simulating, verifying or maintaining quantum algorithms, executable circuits and quantum programming systems.",
+   "test": "Choose when the domain result is a program, circuit, compiler or algorithm implementation judged by quantum semantics, resource counts or software correctness; ideal circuit simulations and execution on a QPU remain here unless device physics determines the result.",
+   "examples": [
+    "QEDIA: Quantum Program Verification in Lean",
+    "Discovering state-of-the-art quantum circuits with large language models",
+    "QASM-Eval: A Dataset to Train and Evaluate LLMs on OpenQASM-3 Beyond Quantum Circuits"
+   ]
+  },
+  {
+   "id": "quantum-information",
+   "name": "Quantum information theory and error-correcting codes",
+   "supergroup": "quantum",
+   "definition": "Research on quantum information resources, communication, cryptographic security, abstract error-correcting codes and mathematical limits of quantum computation.",
+   "test": "Choose when the main claim concerns entropies, entanglement as an information resource, Bell correlations, channel capacities, code parameters, security or quantum computational complexity rather than implementing a particular program or studying a material phase.",
+   "examples": [
+    "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
+    "Sharp continuity of quantum conditional entropy",
+    "Private communication via zero-private-capacity quantum channels"
+   ]
+  },
+  {
+   "id": "quantum-hardware",
+   "name": "Quantum devices, control and infrastructure",
+   "supergroup": "quantum",
+   "definition": "Research on physical qubit and quantum-sensing platforms, device calibration and control, quantum-network links and their enabling cryogenic or laboratory infrastructure.",
+   "test": "Choose when judging the result requires physical device expertise, such as qubit operating points, pulse dynamics, coherence, calibration signals, ion transport, link-generation probabilities or dilution cooling; a physics-grounded simulation can qualify.",
+   "examples": [
+    "zenDot: An LLM-integrated quantum TCAD platform for semiconductor quantum-device design and optimization automation",
+    "Onnes: A Physics-Grounded Multi-Agent LLM Simulator for Cryogenic Fault Diagnosis in Quantum Computing Infrastructure",
+    "Vibe Calibration: Autonomous Bring-up of a 112-Qubit Superconducting Quantum Processor by a Skill-Orchestrating Language Agent"
+   ]
+  },
+  {
+   "id": "structural-materials",
+   "name": "Metals, alloys and engineering materials",
+   "supergroup": "materials",
+   "definition": "Research restricted to metals, alloys, metallic glasses, high-entropy solids or engineered load-bearing and irradiation-resistant materials, including composites, cement and refractory compound families.",
+   "test": "Choose for class-specific composition, processing, corrosion, deformation, fracture, durability or performance studies and knowledge resources; named metallic hosts belong here unless a dominant catalytic, battery, electronic or collective quantum property sets another material field.",
+   "examples": [
+    "LLM-guided phase diagram construction through high-throughput experimentation",
+    "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
+    "Applications of bio-enhanced cementitious composites for sustainable building materials: emission-reduction and carbon-sequestration pathways"
+   ]
+  },
+  {
+   "id": "molecular-soft",
+   "name": "Polymers, molecular materials and soft matter",
+   "supergroup": "materials",
+   "definition": "Research on polymers and resins, non-framework molecular solids and energetic compounds, colloids, jamming and active particulate matter.",
+   "test": "Choose when the abstract is restricted to these systems and requires expertise in molecular organization, polymer architecture, thermal transitions, soft mechanics or particulate statistical physics, including class-specific tools and benchmarks.",
+   "examples": [
+    "A Multi-Agent Framework for Automated Coarse-Grained Molecular Dynamics of Polymers",
+    "Thermal pathway reconstruction exposes a reliability gap for AI-guided materials design",
+    "Scale-free correlations in extremely persistent active matter"
+   ]
+  },
+  {
+   "id": "porous-hosts",
+   "name": "Porous frameworks and adsorbing layered hosts",
+   "supergroup": "materials",
+   "definition": "Research on metal-organic and covalent organic frameworks, responsive porous crystals and layered adsorbent hosts whose synthesis, pore structure or guest-host behavior is the subject.",
+   "test": "Choose for framework-specific synthesis, validation, screening, adsorption, separation or guest-induced transitions, and for composition-dependent hydration of layered hosts; an electrode or catalysis objective takes precedence over the host label.",
+   "examples": [
+    "ActMOF: Mapping Reticular Synthesis through Active Learning",
+    "Large Language Model-Assisted Systematic Study of Anomalous Adsorption Phenomena",
+    "Agent-MD: Selective LLM Intervention with Event-Driven Escalation for Stateful GCMC--MD Campaigns"
+   ]
+  },
+  {
+   "id": "energy-reactive",
+   "name": "Battery materials, catalysts and reactive surfaces",
+   "supergroup": "materials",
+   "definition": "Research on battery electrodes, electrolytes and interphases, catalytic materials and surface-adsorbate systems whose ionic, electrochemical or reactive behavior defines the study.",
+   "test": "Choose for studies restricted to battery materials or catalysts, including their synthesis, curation and characterization, or for substantive adsorption-energy and reaction-mechanism results on catalytic surfaces; a generic structure-building demonstration alone does not qualify.",
+   "examples": [
+    "Graph neural networks and machine learning interatomic potentials for voltage prediction and screening high energy density sodium-ion cathode materials",
+    "Accelerating battery materials discovery with an agentic AI for automated XPS analysis integrating physical constraints and chemometrics",
+    "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin"
+   ]
+  },
+  {
+   "id": "electronic-functional",
+   "name": "Electronic, optical and inorganic functional materials",
+   "supergroup": "materials",
+   "definition": "Research on semiconductors, classical electronic and photonic devices, optical and dielectric materials, thermoelectrics and specified inorganic functional compound families such as oxide perovskites and elpasolites.",
+   "test": "Choose for class-restricted electronic, optical, dielectric, thermoelectric or functional-compound studies and resources, including perovskite-family structure or synthesis studies; unrestricted inorganic-crystal prediction and generation belong to a methods community even if band gap is an objective.",
+   "examples": [
+    "PervoTransformer: Multi-Scale Transformer-Based Device Design and Atomistic Modeling of Perovskites",
+    "Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery",
+    "From High-Throughput Screening to Generative Design: Artificial Intelligence-Driven Dielectric Materials Discovery"
+   ]
+  },
+  {
+   "id": "quantum-matter",
+   "name": "Magnetism, correlated matter and many-body condensed-matter theory",
+   "supergroup": "materials",
+   "definition": "Research on magnetic, superconducting, topological and correlated matter and the spin, lattice and many-body models used to understand its phases, spectra and dynamics.",
+   "test": "Choose when the physics result concerns collective material behavior, phase identification, magnetic response, superconductivity, localization, integrable spin systems or many-body spectral and topological properties; proofs about these systems qualify without a named chemical compound.",
+   "examples": [
+    "Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics",
+    "Bethe Ansatz with a Large Language Model",
+    "Improving the lower bound on the Laughlin gap: An SDP search"
+   ]
+  },
+  {
+   "id": "atomistic-simulation",
+   "name": "Electronic structure and atomistic simulation",
+   "supergroup": "methods",
+   "definition": "Research on transferable electronic-structure, quantum-chemical and atomistic modeling methods and workflows, including DFT, many-body electronic structure, interatomic potentials, molecular dynamics and Monte Carlo.",
+   "test": "After checking material-class precedence, choose when the central domain expertise is building simulation-ready atomistic models, selecting physical approximations, configuring or executing calculations, converging solvers, developing potentials or validating physical simulation workflows.",
+   "examples": [
+    "AutoDFT: A Closed-Loop Multi-Agent Framework for Autonomous DFT Calculations",
+    "MASON: Materials Atomistic Structure builder Operated in Natural language",
+    "GROMACS-Agent: Text-to-Workflow Generation for Molecular Dynamics A multi-agent framework for topology-aware GROMACS workflow generation, evaluation, correction, and selected safe execution"
+   ]
+  },
+  {
+   "id": "diffraction-spectroscopy",
+   "name": "Diffraction, crystallography, spectroscopy and metrology",
+   "supergroup": "methods",
+   "definition": "Research on transferable structure determination and quantitative materials analysis from diffraction, spectra and related non-imaging physical measurements.",
+   "test": "After checking material-class precedence, choose when the domain content concerns indexing, phase identification, refinement, measurement-based structural inference, spectral interpretation or quantitative probe-response analysis such as thermoreflectance, rather than generic crystal generation or spatial imaging.",
+   "examples": [
+    "NeuDiff Agent: a governed AI workflow for single-crystal neutron crystallography",
+    "AutoXRD: Autonomous LLM Agents and Comprehensive Evaluation for Powder Diffraction Analysis",
+    "RamanGPT: Bidirectional Mapping Between Crystal Structures and Raman Spectra with Graph Neural Networks and Generative Transformers"
+   ]
+  },
+  {
+   "id": "microscopy",
+   "name": "Microscopy and spatially resolved characterization",
+   "supergroup": "methods",
+   "definition": "Research on transferable electron, X-ray and scanning-probe microscopy, image-based materials characterization and associated instrument control or specimen preparation.",
+   "test": "After checking material-class precedence, choose when the abstract centers on acquiring or interpreting spatial images, image-derived microstructure, tip or beam conditioning, tomography, microscope-local spectroscopy or FIB milling across materials.",
+   "examples": [
+    "STEMGym: Benchmarking Sequential Decision-Making under Dose Budgets in Autonomous Electron Microscopy",
+    "Unmodeled states and uncertain action outcomes in agentic scanning tunneling microscopy",
+    "TEM Agent: enhancing transmission electron microscopy with modern AI tools"
+   ]
+  },
+  {
+   "id": "synthesis-labs",
+   "name": "Synthesis planning and laboratory automation",
+   "supergroup": "methods",
+   "definition": "Research on transferable synthesis chemistry, process planning and experimental laboratory orchestration across material classes.",
+   "test": "After checking material-class precedence, choose when the domain result concerns viable synthesis routes, precursors, reaction conditions, deposition or mixing protocols, robotic execution or integration of an experimental laboratory; use the appropriate measurement community for a specific analytical instrument.",
+   "examples": [
+    "ProvMind: Provenance-grounded reasoning for materials synthesis",
+    "Evaluating LLM-based AI agents integrated with materials synthesis tools: the case of atomic layer deposition",
+    "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol"
+   ]
+  },
+  {
+   "id": "materials-informatics",
+   "name": "Materials informatics and data-driven discovery",
+   "supergroup": "methods",
+   "definition": "Research on transferable materials-data representations, databases, ontologies, learned property models, generative crystal design and statistical search or optimization over materials candidates.",
+   "test": "After checking material-class precedence, choose when the scientific object is a materials dataset, representation, database comparison, statistical predictor, candidate generator or acquisition policy rather than the physical validity or execution of a simulation or experiment.",
+   "examples": [
+    "MatQuery: Execution-Grounded Natural-Language Querying over Heterogeneous Materials Databases",
+    "Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop",
+    "Portfolio-Based Constrained Multi-Objective Bayesian Optimization for Materials Design"
+   ]
+  },
+  {
+   "id": "cross-materials",
+   "name": "Materials science across communities",
+   "supergroup": "methods",
+   "definition": "Reviews, perspectives and knowledge or reasoning studies spanning materials science as a whole without a dominant material or technique community.",
+   "test": "Use only when the abstract substantively spans several material classes and several methods communities, and no one specialist community accounts for its central scope; tools, database methods, synthesis reviews and simulation benchmarks must instead receive their specific methods field.",
+   "examples": [
+    "Large language models in materials science: mechanistic understanding, structure–property reasoning and future opportunities",
+    "MatSciBench: Benchmarking the Reasoning Ability of Large Language Models in Materials Science",
+    "OmniMatBench: A Human-Calibrated Multimodal Reasoning Benchmark Across 19 Materials Science Subfields"
+   ]
+  },
+  {
+   "id": "other-fields",
+   "name": "Outside condensed matter, materials and quantum research",
+   "supergroup": "other",
+   "definition": "Papers whose physics, chemistry or other scientific content belongs to a community outside condensed matter, materials science and quantum computing or information: molecular and quantum chemistry, biology and medicine, other areas of physics, mathematics, economics or general scientific methods without a materials or quantum focus.",
+   "test": "Choose when none of the other categories' communities would be the natural referee for the scientific content, for example molecular quantum chemistry, biological microscopy, radiation transport, pure mathematics or a general-purpose scientific agent evaluated without a materials or quantum focus. Do not choose it merely because the AI method is general.",
+   "examples": [
+    "Can Autonomous LLM Agents Execute Multireference Quantum Chemistry Calculations?",
+    "Million-scale multimodal pollen microscopy with expert-guided foundation models",
+    "TheoPhysEval: Assessing AI agents at autonomous theoretical physics problem solving"
+   ]
+  }
+ ],
+ "tie_breaking": [
+  "Assign exactly one FIELD by the expertise needed to judge the physics or materials content of the main results, or the sustained content of a review or benchmark; AI architecture, model size, agent count, code generation, question answering and extraction are not field criteria.",
+  "Material-class precedence: choose a material category when the evidence and evaluation are restricted to that class or when the paper reports a substantive result about it; otherwise choose the technique community whose physical or materials methods are being developed or evaluated. A named illustrative material does not establish the field.",
+  "Operationalize restriction using the evaluated scope, required domain assumptions and scientific conclusions rather than whether the authors call their method generalizable: a polymer-only benchmark, MOF validation resource or alloy-only database stays with its material community even if the extraction or optimization algorithm could transfer.",
+  "Distinguish a substantive material result from a tool demonstration: a composition-dependent trend, measured property improvement, phase discovery or physically interpreted mechanism sets a material field; successful execution, numerical reproduction, schema fidelity or runtime savings on a convenient example normally leaves a transferable method in its methods community. If the entire study and its domain assumptions are class-specific, the restriction itself suffices.",
+  "For multiple material systems, use their shared category if one covers all substantive studies, otherwise a clearly dominant class; absent either, use the dominant methods community. Use cross-materials only for work genuinely spanning materials science as a whole, never merely because a technique works on several chemistries.",
+  "Materials informatics versus atomistic simulation: learned structure-property regression, descriptors, database search, inverse crystal generation and Bayesian acquisition policies are materials-informatics; choosing electronic-structure theory, building simulation-ready geometries, validating forces or potentials, and setting up or executing DFT, MD or Monte Carlo are atomistic-simulation. Judge what must be physically validated, not whether structures or DFT-labelled data appear.",
+  "A generative crystal model trained on Materials Project with SUN or property-prediction metrics belongs to materials-informatics, even if DFT relaxation is its evaluator; a geometry builder for slabs, defects and interfaces or a tool for simulator configuration belongs to atomistic-simulation. A model inferred from measured diffraction belongs to diffraction-spectroscopy.",
+  "A machine-learning interatomic potential is atomistic-simulation when forces, energies, trajectories or simulation stability are the object; embedding an existing potential inside a general property-prediction representation does not by itself move materials-informatics to atomistic-simulation. Class-restricted potential development still follows the material class.",
+  "Materials informatics versus synthesis-labs: prediction or optimization over generic candidate/property tables belongs to materials-informatics, including offline Bayesian-optimization studies motivated by self-driving labs; chemically valid routes, precursors, reaction conditions and physical laboratory execution belong to synthesis-labs. A synthesis-knowledge benchmark follows synthesis-labs, not cross-materials.",
+  "Generic literature digitization, materials ontologies, knowledge graphs and database construction belong to materials-informatics because their community concerns reusable materials evidence and data representations; a class-restricted resource belongs to its material category, and an extraction study centered on reproducing physical simulation workflows can belong to atomistic-simulation.",
+  "Diffraction-spectroscopy versus microscopy: indexing, phase identification and structure refinement from diffraction belong to diffraction-spectroscopy; spatial image formation, reconstruction, segmentation, tip conditioning and instrument-local analytical imaging belong to microscopy. Electron diffraction, EBSD and EELS embedded in an electron-microscope workflow follow microscopy when imaging and acquisition dominate; standalone reciprocal-space structure refinement follows diffraction-spectroscopy.",
+  "Raman analysis, non-imaging XPS and thermoreflectance fall within diffraction-spectroscopy when transferable probe physics and quantitative analysis are central. Battery-SEI XPS, ferroelectric-domain switching or magnetic spin-wave spectroscopy follow their material communities when restricted to those systems or reporting their physics; the presence of a particular instrument is not overriding.",
+  "Generic fracture-surface image recognition belongs to microscopy and transferable crystallographic plane inference belongs to diffraction-spectroscopy; reinforced fracture architectures, concrete and irradiation-resistant engineering solids belong to structural-materials. Do not infer an alloy solely from automotive processing language.",
+  "Quantum software versus quantum information: executable circuit construction, program verification, SDK maintenance and gate-level resource optimization belong to quantum-software; code distance or rate, channel capacity, cryptographic security, information inequalities and query-complexity or completeness theorems belong to quantum-information. Formalization in Lean decides neither.",
+  "Error-correcting-code discovery belongs to quantum-information when the main object is a code family or encoding and its distance, rate or abstract noise performance; implemented syndrome-extraction or decoding circuit design belongs to quantum-software. A code/circuit co-design paper without a dominant code-theoretic result follows quantum-software; quantum-hardware requires substantive platform physics beyond a generic error model or qubit budget.",
+  "Quantum hardware requires device-specific parameters or substantive physical constraints: qubit and defect coherence, calibration plots, pulse dynamics, cryogenic faults, ion transport and stochastic link generation qualify, even in simulation. Circuit-level topology constraints, hardware-facing programming syntax or a demonstration on IBM/IonQ do not alone override quantum-software.",
+  "Quantum control follows quantum-hardware when continuous-time dynamics, physical pulse limits, noise or platform-constrained protocols determine the result; abstract ansatz or variational circuit optimization follows quantum-software. Ideal CHSH circuit implementations remain quantum-software; fundamental Bell bounds belong to quantum-information.",
+  "The quantum supergroup is for computing and information, not every quantum-mechanical system: spin-chain solvability, spin-glass limits, Laughlin gaps, topological edge spectra, many-body operator-entanglement growth and matrix-product-state phase theorems belong to quantum-matter when they concern condensed-matter models. Computational-complexity theorems about a Hubbard energy problem belong to quantum-information; quantum-walk localization without an algorithmic claim follows quantum-matter.",
+  "Superconducting transition temperatures, permanent magnets, altermagnetism and superconducting-state selection belong to quantum-matter; superconducting-qubit calibration and sensing-defect coherence belong to quantum-hardware. Classical transistor and optical-device studies follow electronic-functional, including non-qubit semiconductor quantum dots.",
+  "Preserve the SUBJECT functional priorities inside the material groups: electrodes, electrolytes and battery interphases or catalytic function override alloy, polymer, semiconductor or porous-framework chemistry and go to energy-reactive; organic semiconductors and emitters go to electronic-functional, not molecular-soft.",
+  "Porous-hosts includes MOFs, COFs, soft porous crystals and layered clay hosts when adsorption, hydration or guest-host structure is substantive; framework synthesis and ZnO-to-ZIF-8 conversion follow the framework product. A framework studied as an electrode or catalyst goes to energy-reactive.",
+  "Electronic-functional merges the former semiconductor-optical and most functional-solids families: perovskite solar cells, semiconductor halides, organic electronics, optical multilayers, dielectric polymers and crystals, thermoelectric chalcogenides, oxide/double-perovskite and elpasolite family studies qualify; a band-gap target across unrestricted inorganic crystals does not.",
+  "Structural-materials includes metallic glasses, high-entropy solids, composites, construction/reactor materials and MAX-phase engineering ceramics. A balanced refractory/soft-magnetic alloy study keeps this shared alloy category, while a permanent-magnet-only study goes to quantum-matter; corrosion of specified metal hosts stays structural-materials, whereas inhibitor molecules without a specified host merge into molecular-soft.",
+  "For vague or missing abstracts, use only the supplied title and tags and flag the decision as provisional; do not invent chemistry, physical function or community from an AI label. Prefer a positively supported methods community over cross-materials, which is not a missing-information category; if no dominant community can be established, record uncertainty for adjudication."
+ ],
+ "notes": {
+  "axis": "FIELD: the research community whose expertise is needed to judge the physics or materials content of a paper",
+  "origin": "Built by GPT-6.1 Sol agents from the titles and abstracts of an earlier, broader candidate set of papers on language models in condensed matter, materials and quantum research; the category other-fields was added for the reviewed papers outside these fields."
+ }
+}

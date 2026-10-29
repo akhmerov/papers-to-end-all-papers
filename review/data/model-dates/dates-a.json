@@ -1,0 +1,1416 @@
+{
+  "models": [
+    {
+      "key": "gpt-5.4",
+      "identified_as": "GPT-5.4",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-03-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5-4/",
+      "note": "Reasoning labels and Codex CLI usage do not identify separate releases."
+    },
+    {
+      "key": "gpt-5.5",
+      "identified_as": "GPT-5.5",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-04-23",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5-5/",
+      "note": "ChatGPT and Codex release; API followed the next day."
+    },
+    {
+      "key": "gpt-4o",
+      "identified_as": "GPT-4o",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2024-05-13",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/hello-gpt-4o/",
+      "note": ""
+    },
+    {
+      "key": "gpt-5",
+      "identified_as": "GPT-5",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-08-07",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5/",
+      "note": "Includes chat/reasoning labels; GPT-5 / Codex does not establish the separately released GPT-5-Codex variant."
+    },
+    {
+      "key": "claude-sonnet-4.6",
+      "identified_as": "Claude Sonnet 4.6",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-02-17",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "note": ""
+    },
+    {
+      "key": "gemini-3.1-pro",
+      "identified_as": "Gemini 3.1 Pro Preview",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2026-02-19",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "First public preview. Low and Reasoning denote inference settings, not separate model releases."
+    },
+    {
+      "key": "claude-opus-4.6",
+      "identified_as": "Claude Opus 4.6",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-02-05",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "note": ""
+    },
+    {
+      "key": "gpt-5.6-sol",
+      "identified_as": "GPT-5.6 Sol",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Public launch after restricted partner preview on June 26. gpt-5.6 is an alias for Sol; Codex and duplicated names do not create another model."
+    },
+    {
+      "key": "claude-haiku-4.5",
+      "identified_as": "Claude Haiku 4.5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2025-10-15",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-haiku-4-5",
+      "note": ""
+    },
+    {
+      "key": "gpt-5.4-mini",
+      "identified_as": "GPT-5.4 mini",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-03-17",
+      "date_precision": "day",
+      "source_url": "https://developers.openai.com/api/docs/changelog",
+      "note": ""
+    },
+    {
+      "key": "gpt-oss-120b",
+      "identified_as": "gpt-oss-120b",
+      "vendor": "OpenAI",
+      "class": "open-weights",
+      "release_date": "2025-08-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-oss/",
+      "note": "GPT-OSS without size is ambiguous; other raw names specify 120B. OSS-120B is an abbreviated alias."
+    },
+    {
+      "key": "claude-opus-4.7",
+      "identified_as": "Claude Opus 4.7",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-04-16",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "note": ""
+    },
+    {
+      "key": "claude-opus-5",
+      "identified_as": "Claude Opus 5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-07-24",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-opus-5",
+      "note": ""
+    },
+    {
+      "key": "claude-opus-4.8",
+      "identified_as": "Claude Opus 4.8",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-05-28",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "note": ""
+    },
+    {
+      "key": "claude-sonnet-4.5",
+      "identified_as": "Claude Sonnet 4.5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2025-09-29",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "note": ""
+    },
+    {
+      "key": "gpt-4.1",
+      "identified_as": "GPT-4.1",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-04-14",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-4-1/",
+      "note": ""
+    },
+    {
+      "key": "gemini-2.5-pro",
+      "identified_as": "Gemini 2.5 Pro",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2025-03-25",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "First public experimental version; stable API release followed June 17."
+    },
+    {
+      "key": "gemma-4-31b",
+      "identified_as": "Gemma 4 31B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2026-04-02",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "note": "Initial four-size open-weights family launch. Size is unspecified only for the family-level gemma-4 entry."
+    },
+    {
+      "key": "claude-fable-5",
+      "identified_as": "Claude Fable 5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-06-09",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "note": "Initially public June 9; access suspended June 12 and restored July 1. Date is first public use."
+    },
+    {
+      "key": "gemini-2.5-flash",
+      "identified_as": "Gemini 2.5 Flash",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2025-04-17",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "First public preview; stable release June 17."
+    },
+    {
+      "key": "gpt-4o-mini",
+      "identified_as": "GPT-4o mini",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2024-07-18",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+      "note": ""
+    },
+    {
+      "key": "gpt-5-mini",
+      "identified_as": "GPT-5 mini",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-08-07",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5/",
+      "note": "GPT-5o-mini is an apparent typo for GPT-5 mini."
+    },
+    {
+      "key": "gpt-5.2",
+      "identified_as": "GPT-5.2",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-12-11",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5-2/",
+      "note": ""
+    },
+    {
+      "key": "gpt-5.4-nano",
+      "identified_as": "GPT-5.4 nano",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-03-17",
+      "date_precision": "day",
+      "source_url": "https://developers.openai.com/api/docs/changelog",
+      "note": ""
+    },
+    {
+      "key": "claude-sonnet-5",
+      "identified_as": "Claude Sonnet 5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-06-30",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "note": ""
+    },
+    {
+      "key": "gpt-4.1-mini",
+      "identified_as": "GPT-4.1 mini",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-04-14",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-4-1/",
+      "note": ""
+    },
+    {
+      "key": "gpt-oss-20b",
+      "identified_as": "gpt-oss-20b",
+      "vendor": "OpenAI",
+      "class": "open-weights",
+      "release_date": "2025-08-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-oss/",
+      "note": ""
+    },
+    {
+      "key": "gemini-3-flash",
+      "identified_as": "Gemini 3 Flash Preview",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2025-12-17",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": ""
+    },
+    {
+      "key": "claude-sonnet-4",
+      "identified_as": "Claude Sonnet 4",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2025-05-22",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "note": ""
+    },
+    {
+      "key": "o4-mini",
+      "identified_as": "OpenAI o4-mini",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-04-16",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "note": ""
+    },
+    {
+      "key": "o3",
+      "identified_as": "OpenAI o3",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-04-16",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "note": ""
+    },
+    {
+      "key": "gpt-5.6-terra",
+      "identified_as": "GPT-5.6 Terra",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Public launch after restricted partner preview. Medium Thinking denotes a reasoning setting, not a separate model."
+    },
+    {
+      "key": "gpt-6-astra",
+      "identified_as": "GPT-6 Astra",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-09-04",
+      "date_precision": "day",
+      "source_url": "https://community.openai.com/t/introducing-gpt-6-astra-the-most-intelligent-and-aligned-model-in-the-world/1394703",
+      "note": "September 3 launch was restricted to selected organizations. Official September 4 post confirms access for all Pro, Enterprise and Business Premium users and live API."
+    },
+    {
+      "key": "gpt-5.1",
+      "identified_as": "GPT-5.1",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-11-12",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-1/",
+      "note": "First ChatGPT rollout; API release was November 13."
+    },
+    {
+      "key": "gpt-5.3-codex",
+      "identified_as": "GPT-5.3-Codex",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-02-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "note": "Codex release; API followed February 24. For gpt-5.3, the raw name explicitly says Codex; do not substitute GPT-5.3 Instant."
+    },
+    {
+      "key": "gemini-2.5-flash-lite",
+      "identified_as": "Gemini 2.5 Flash-Lite",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2025-06-17",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "First public preview; stable release July 22."
+    },
+    {
+      "key": "gpt-4",
+      "identified_as": "GPT-4",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2023-03-14",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-4/",
+      "note": ""
+    },
+    {
+      "key": "gpt-5.6-luna",
+      "identified_as": "GPT-5.6 Luna",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Public launch after restricted partner preview."
+    },
+    {
+      "key": "gemini-3-pro",
+      "identified_as": "Gemini 3 Pro Preview",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2025-11-18",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": ""
+    },
+    {
+      "key": "gemini-3.5-flash",
+      "identified_as": "Gemini 3.5 Flash",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2026-05-19",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "note": ""
+    },
+    {
+      "key": "grok-4",
+      "identified_as": "Grok 4",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2025-07-09",
+      "date_precision": "day",
+      "source_url": "https://x.ai/news/grok-4",
+      "note": ""
+    },
+    {
+      "key": "claude-opus-4.5",
+      "identified_as": "Claude Opus 4.5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2025-11-24",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "note": ""
+    },
+    {
+      "key": "gemini-3.1-flash-lite",
+      "identified_as": "Gemini 3.1 Flash-Lite Preview",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2026-03-03",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "First public preview; GA followed May 7."
+    },
+    {
+      "key": "claude-opus-4.1",
+      "identified_as": "Claude Opus 4.1",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2025-08-05",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-1",
+      "note": ""
+    },
+    {
+      "key": "o1",
+      "identified_as": "OpenAI o1",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2024-12-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-chatgpt-pro/",
+      "note": "Full o1 model, distinct from o1-preview released September 12, 2024. ChatGPT-o1 is an informal name."
+    },
+    {
+      "key": "gemma-4-e4b",
+      "identified_as": "Gemma 4 E4B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2026-04-02",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "note": "Initial four-size open-weights family launch. Size is unspecified only for the family-level gemma-4 entry."
+    },
+    {
+      "key": "gpt-5.5-pro",
+      "identified_as": "GPT-5.5 Pro",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-04-23",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5-5/",
+      "note": "ChatGPT release; API followed the next day."
+    },
+    {
+      "key": "claude-fable-5.1",
+      "identified_as": "Claude Fable 5.1",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-09-01",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/claude/fable",
+      "note": "Product announcement list dates launch September 1; corroborated by AWS GA on that day. Anthropic's Models index instead lists September 15, a conflicting index date; designation date August 31 is not public release."
+    },
+    {
+      "key": "claude-opus-5.5",
+      "identified_as": "Claude Opus 5.5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-09-22",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "note": ""
+    },
+    {
+      "key": "text-embedding-3-small",
+      "identified_as": "text-embedding-3-small",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2024-01-25",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/new-embedding-models-and-api-updates/",
+      "note": ""
+    },
+    {
+      "key": "gemini-3",
+      "identified_as": "Gemini 3 (family; tier unspecified)",
+      "vendor": "Google DeepMind",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "No unique model/tier or generation is specified; releases differ across family members."
+    },
+    {
+      "key": "text-embedding-3-large",
+      "identified_as": "text-embedding-3-large",
+      "vendor": "OpenAI",
+      "class": "encoder-or-other",
+      "release_date": "2024-01-25",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/new-embedding-models-and-api-updates/",
+      "note": ""
+    },
+    {
+      "key": "gpt-3.5",
+      "identified_as": "GPT-3.5 (original ChatGPT)",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2022-11-30",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/chatgpt/",
+      "note": "Interpreted as the ChatGPT generation; raw name does not specify a checkpoint. GPT-3.5 Turbo API was a later release."
+    },
+    {
+      "key": "gemini-2.0-flash",
+      "identified_as": "Gemini 2.0 Flash",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2024-12-11",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/",
+      "note": "First public experimental version; GA followed February 5, 2025."
+    },
+    {
+      "key": "gpt-5-nano",
+      "identified_as": "GPT-5 nano",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-08-07",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5/",
+      "note": ""
+    },
+    {
+      "key": "gpt-5.6-sol-ultra",
+      "identified_as": "GPT-5.6 Sol (ultra mode)",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Ultra is a multi-agent execution mode on Sol, not a separately trained base model."
+    },
+    {
+      "key": "gemma-3-4b",
+      "identified_as": "Gemma 3 4B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2025-03-12",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+      "note": "Initial open-weights family release; IT is the instruction-tuned variant."
+    },
+    {
+      "key": "gpt-6",
+      "identified_as": "GPT-6 (family; tier unspecified)",
+      "vendor": "OpenAI",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://openai.com/index/gpt-6-astra/",
+      "note": "Family includes Astra, Sol and Luna, with different release dates. Raw name is insufficient to select a tier."
+    },
+    {
+      "key": "o3-mini",
+      "identified_as": "OpenAI o3-mini",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-01-31",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/openai-o3-mini/",
+      "note": ""
+    },
+    {
+      "key": "gemini-3.8-flash",
+      "identified_as": "Gemini 3.8 Flash",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2026-09-02",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "note": ""
+    },
+    {
+      "key": "gpt-o1",
+      "identified_as": "OpenAI o1",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2024-12-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-chatgpt-pro/",
+      "note": "Full o1 model, distinct from o1-preview released September 12, 2024. ChatGPT-o1 is an informal name."
+    },
+    {
+      "key": "anthropic-claude-3.5-sonnet",
+      "identified_as": "Claude 3.5 Sonnet",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2024-06-20",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "note": ""
+    },
+    {
+      "key": "grok-3",
+      "identified_as": "Grok 3",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2025-02-17",
+      "date_precision": "day",
+      "source_url": "https://www.axios.com/2025/02/18/elon-musk-grok-3-chatbot-openai",
+      "note": "Secondary-source launch date (US Pacific); vendor blog is dated February 19: https://x.ai/news/grok-3 ."
+    },
+    {
+      "key": "gemini-embedding-001",
+      "identified_as": "Gemini Embedding (gemini-embedding-001)",
+      "vendor": "Google DeepMind",
+      "class": "encoder-or-other",
+      "release_date": "2025-07-14",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "Specific stable endpoint; earlier experimental embedding model released March 7 was a different endpoint."
+    },
+    {
+      "key": "grok-4-fast",
+      "identified_as": "Grok 4 Fast",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2025-09-19",
+      "date_precision": "day",
+      "source_url": "https://x.ai/news/grok-4-fast",
+      "note": ""
+    },
+    {
+      "key": "gemma-3-27b",
+      "identified_as": "Gemma 3 27B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2025-03-12",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+      "note": "Initial open-weights family release; IT is the instruction-tuned variant."
+    },
+    {
+      "key": "gpt-5.2-codex",
+      "identified_as": "GPT-5.2-Codex",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-12-18",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "note": "First available in Codex; API followed January 14, 2026."
+    },
+    {
+      "key": "perplexity",
+      "identified_as": "Perplexity (product; model unspecified)",
+      "vendor": "Perplexity",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Product name does not identify an underlying model."
+    },
+    {
+      "key": "gemini-2.5",
+      "identified_as": "Gemini 2.5 (family; tier unspecified)",
+      "vendor": "Google DeepMind",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "No unique model/tier or generation is specified; releases differ across family members."
+    },
+    {
+      "key": "gpt-2",
+      "identified_as": "GPT-2",
+      "vendor": "OpenAI",
+      "class": "open-weights",
+      "release_date": "2019-02-14",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/better-language-models/",
+      "note": "First small GPT-2 weights release; full 1.5B weights were withheld initially and released later."
+    },
+    {
+      "key": "gemini-1.5-flash",
+      "identified_as": "Gemini 1.5 Flash",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2024-05-10",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "API changelog explicitly dates first preview May 10; public I/O launch article is May 14. Uses earliest documented preview, with this source discrepancy retained."
+    },
+    {
+      "key": "gpt-4-mini",
+      "identified_as": null,
+      "vendor": "OpenAI",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+      "note": "No official GPT-4 mini model identified. Could mean GPT-4o mini or GPT-4.1 mini; cannot choose from raw name."
+    },
+    {
+      "key": "claude-haiku-3.5",
+      "identified_as": "Claude 3.5 Haiku",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2024-11-04",
+      "date_precision": "day",
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/upgraded-claude-3-5-sonnet-with-computer-use-on-vertex-ai",
+      "note": "Primary hosting-provider announcement explicitly updated November 4 to confirm availability; October 22 was preannouncement."
+    },
+    {
+      "key": "gpt-5-pro",
+      "identified_as": "GPT-5 pro",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-08-07",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5/",
+      "note": "ChatGPT release; the separately named API model arrived October 6."
+    },
+    {
+      "key": "claude-class-configuration",
+      "identified_as": null,
+      "vendor": "Anthropic",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Configuration description, not a specific model."
+    },
+    {
+      "key": "gpt-based-deep-research-pipeline",
+      "identified_as": null,
+      "vendor": "OpenAI",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Pipeline description; underlying GPT model and version unspecified."
+    },
+    {
+      "key": "claude-3-opus-4.6",
+      "identified_as": "Claude Opus 4.6",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2026-02-05",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "note": "Malformed name combines Claude 3 and Opus 4.6; most plausible identification is Opus 4.6, not Claude 3 Opus."
+    },
+    {
+      "key": "grok-4.1-fast",
+      "identified_as": "Grok 4.1 Fast (reasoning)",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2025-11-19",
+      "date_precision": "day",
+      "source_url": "https://x.ai/news/grok-4-1-fast",
+      "note": "Raw name specifies reasoning endpoint."
+    },
+    {
+      "key": "gemma-4-26b-a4b",
+      "identified_as": "Gemma 4 26B-A4B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2026-04-02",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "note": "Initial four-size open-weights family launch. Size is unspecified only for the family-level gemma-4 entry."
+    },
+    {
+      "key": "claude-code",
+      "identified_as": "Claude Code (agent product; model unspecified)",
+      "vendor": "Anthropic",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "note": "Agent product supporting multiple models; its product launch is not a model release."
+    },
+    {
+      "key": "grok-4.3",
+      "identified_as": "Grok 4.3",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2026-04-30",
+      "date_precision": "day",
+      "source_url": "https://vercel.com/changelog/grok-4-3-on-ai-gateway",
+      "note": "Primary hosting-provider availability announcement; no earlier dated xAI launch announcement located. This proves availability by this day."
+    },
+    {
+      "key": "gpt-5.6-terra-medium",
+      "identified_as": "GPT-5.6 Terra",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Public launch after restricted partner preview. Medium Thinking denotes a reasoning setting, not a separate model."
+    },
+    {
+      "key": "o3-deep-research",
+      "identified_as": "o3-deep-research",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2025-02-02",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-deep-research/",
+      "note": "First usable as ChatGPT deep research, powered by a research-optimized o3. Named API release was June 26, 2025: https://community.openai.com/t/deep-research-in-the-api-webhooks-and-web-search-with-o3/1299919 . Exact original ChatGPT checkpoint versus later API snapshot is unspecified."
+    },
+    {
+      "key": "gemma-4",
+      "identified_as": "Gemma 4 (family; size unspecified)",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2026-04-02",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "note": "Initial four-size open-weights family launch. Size is unspecified only for the family-level gemma-4 entry."
+    },
+    {
+      "key": "oss-120b",
+      "identified_as": "gpt-oss-120b",
+      "vendor": "OpenAI",
+      "class": "open-weights",
+      "release_date": "2025-08-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-oss/",
+      "note": "GPT-OSS without size is ambiguous; other raw names specify 120B. OSS-120B is an abbreviated alias."
+    },
+    {
+      "key": "gpt-5.3",
+      "identified_as": "GPT-5.3-Codex",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-02-05",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "note": "Codex release; API followed February 24. For gpt-5.3, the raw name explicitly says Codex; do not substitute GPT-5.3 Instant."
+    },
+    {
+      "key": "embeddinggemma-300m",
+      "identified_as": "EmbeddingGemma 300M",
+      "vendor": "Google DeepMind",
+      "class": "encoder-or-other",
+      "release_date": "2025-09-04",
+      "date_precision": "day",
+      "source_url": "https://developers.googleblog.com/introducing-embeddinggemma/",
+      "note": "Raw repository spelling uses underscore; official model is google/embeddinggemma-300m, approximately 308M parameters."
+    },
+    {
+      "key": "grok-4-1-fast-non",
+      "identified_as": "Grok 4.1 Fast (non-reasoning)",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2025-11-19",
+      "date_precision": "day",
+      "source_url": "https://x.ai/news/grok-4-1-fast",
+      "note": "Extraction truncated the non-reasoning endpoint name."
+    },
+    {
+      "key": "grok-4.20",
+      "identified_as": "Grok 4.20",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2026-02-17",
+      "date_precision": "day",
+      "source_url": "https://epoch.ai/models/grok-4-20",
+      "note": "Reliable secondary source used for initial consumer beta date; vendor API release notes document later March 10 API availability."
+    },
+    {
+      "key": "gemma-4-12b",
+      "identified_as": "Gemma 4 12B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2026-06-03",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "note": "Later 12B release, distinct from April's initial four sizes."
+    },
+    {
+      "key": "codex-gpt-5.6-sol",
+      "identified_as": "GPT-5.6 Sol",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Public launch after restricted partner preview on June 26. gpt-5.6 is an alias for Sol; Codex and duplicated names do not create another model."
+    },
+    {
+      "key": "gpt-5.6-sol-gpt-5.6-sol",
+      "identified_as": "GPT-5.6 Sol",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Public launch after restricted partner preview on June 26. gpt-5.6 is an alias for Sol; Codex and duplicated names do not create another model."
+    },
+    {
+      "key": "claude-sonnet-3.7",
+      "identified_as": "Claude Sonnet 3.7",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2025-02-24",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "note": ""
+    },
+    {
+      "key": "gemma-3-12b",
+      "identified_as": "Gemma 3 12B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2025-03-12",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+      "note": "Initial open-weights family release; IT is the instruction-tuned variant."
+    },
+    {
+      "key": "gemma-3-1b",
+      "identified_as": "Gemma 3 1B",
+      "vendor": "Google DeepMind",
+      "class": "open-weights",
+      "release_date": "2025-03-12",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+      "note": "Initial open-weights family release; IT is the instruction-tuned variant."
+    },
+    {
+      "key": "gpt-5.6-pro",
+      "identified_as": "GPT-5.6 Sol Pro",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Interpreted as Sol Pro in ChatGPT; Pro is an extended-compute mode."
+    },
+    {
+      "key": "gpt-5.6-ultra",
+      "identified_as": "GPT-5.6 Sol (ultra mode)",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Ultra is a multi-agent execution mode on Sol, not a separately trained base model."
+    },
+    {
+      "key": "claude-opus-4",
+      "identified_as": "Claude Opus 4",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": "2025-05-22",
+      "date_precision": "day",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "note": ""
+    },
+    {
+      "key": "gemini-3.1-pro-low",
+      "identified_as": "Gemini 3.1 Pro Preview",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2026-02-19",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "First public preview. Low and Reasoning denote inference settings, not separate model releases."
+    },
+    {
+      "key": "gemini-3.6-flash",
+      "identified_as": "Gemini 3.6 Flash",
+      "vendor": "Google DeepMind",
+      "class": "frontier-api",
+      "release_date": "2026-07-21",
+      "date_precision": "day",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "note": ""
+    },
+    {
+      "key": "grok-4.5",
+      "identified_as": "Grok 4.5",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-08",
+      "date_precision": "day",
+      "source_url": "https://docs.x.ai/developers/release-notes",
+      "note": "API release notes precede July 16 announcement and July 22 consumer release."
+    },
+    {
+      "key": "chat-gpt-6",
+      "identified_as": "GPT-6 (family; tier unspecified)",
+      "vendor": "OpenAI",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://openai.com/index/gpt-6-astra/",
+      "note": "Family includes Astra, Sol and Luna, with different release dates. Raw name is insufficient to select a tier."
+    },
+    {
+      "key": "perplexity-[grok-4.6]",
+      "identified_as": "Grok 4.6 (via Perplexity)",
+      "vendor": "xAI",
+      "class": "frontier-api",
+      "release_date": "2026-08-12",
+      "date_precision": "day",
+      "source_url": "https://x.ai/news/grok-4-6",
+      "note": "Perplexity is the access product; bracketed name identifies xAI's Grok 4.6. Date is model release, not Perplexity integration."
+    },
+    {
+      "key": "grok-labelled-table",
+      "identified_as": null,
+      "vendor": "xAI",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": null,
+      "note": "Table label does not identify any model or version."
+    },
+    {
+      "key": "gpt-6-astra-pro",
+      "identified_as": "GPT-6 Astra Pro",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://openai.com/index/gpt-6-astra/",
+      "note": "No raw names supplied. Announcement promises Pro access after an initially restricted rollout; exact first public availability of Pro could not be established."
+    },
+    {
+      "key": "claude-opus-4.6-and-higher",
+      "identified_as": "Claude Opus 4.6 or later (range)",
+      "vendor": "Anthropic",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "note": "A model range, not a single checkpoint; cannot assign the lower bound's release to all higher versions."
+    },
+    {
+      "key": "gemini-flash-lite",
+      "identified_as": "Gemini Flash-Lite (generation unspecified)",
+      "vendor": "Google DeepMind",
+      "class": "generic",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "No unique model/tier or generation is specified; releases differ across family members."
+    },
+    {
+      "key": "gpt-6.1-sol",
+      "identified_as": "GPT-6.1 Sol",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-09-29",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "note": ""
+    },
+    {
+      "key": "gpt-5.6",
+      "identified_as": "GPT-5.6 Sol",
+      "vendor": "OpenAI",
+      "class": "frontier-api",
+      "release_date": "2026-07-09",
+      "date_precision": "day",
+      "source_url": "https://openai.com/index/gpt-5-6/",
+      "note": "Public launch after restricted partner preview on June 26. gpt-5.6 is an alias for Sol; Codex and duplicated names do not create another model."
+    },
+    {
+      "key": "nano-banana-2",
+      "identified_as": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "vendor": "Google DeepMind",
+      "class": "encoder-or-other",
+      "release_date": "2026-02-26",
+      "date_precision": "day",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "Image generation/editing model; first preview, before May 28 GA."
+    },
+    {
+      "key": "claude-mythos-5",
+      "identified_as": "Claude Mythos 5",
+      "vendor": "Anthropic",
+      "class": "frontier-api",
+      "release_date": null,
+      "date_precision": null,
+      "source_url": "https://www.anthropic.com/claude/mythos",
+      "note": "Announced June 9, 2026, but access limited to vetted partners. No public API/chat or weights release established by cutoff; do not substitute Fable 5."
+    }
+  ],
+  "frontier": [
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 2.0 Pro Experimental",
+      "release_date": "2025-02-05",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-updates-february-2025/"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 3",
+      "release_date": "2025-02-17",
+      "source_url": "https://www.axios.com/2025/02/18/elon-musk-grok-3-chatbot-openai"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Sonnet 3.7",
+      "release_date": "2025-02-24",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-4.5",
+      "release_date": "2025-02-27",
+      "source_url": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 2.5 Pro",
+      "release_date": "2025-03-25",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-4.1",
+      "release_date": "2025-04-14",
+      "source_url": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "OpenAI o3",
+      "release_date": "2025-04-16",
+      "source_url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 2.5 Pro Preview (I/O edition; 05-06)",
+      "release_date": "2025-05-06",
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-pro-updates/"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4",
+      "release_date": "2025-05-22",
+      "source_url": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 2.5 Pro Preview (06-05)",
+      "release_date": "2025-06-05",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "o3-pro",
+      "release_date": "2025-06-10",
+      "source_url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4",
+      "release_date": "2025-07-09",
+      "source_url": "https://x.ai/news/grok-4"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4 Heavy",
+      "release_date": "2025-07-09",
+      "source_url": "https://x.ai/news/grok-4"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 2.5 Deep Think",
+      "release_date": "2025-08-01",
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-deep-think/"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.1",
+      "release_date": "2025-08-05",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-1"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5",
+      "release_date": "2025-08-07",
+      "source_url": "https://openai.com/index/introducing-gpt-5/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5 pro",
+      "release_date": "2025-08-07",
+      "source_url": "https://openai.com/index/introducing-gpt-5/"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Sonnet 4.5",
+      "release_date": "2025-09-29",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.1 (first production rollout; announced November 17)",
+      "release_date": "2025-11-01",
+      "source_url": "https://x.ai/news/grok-4-1"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.1",
+      "release_date": "2025-11-12",
+      "source_url": "https://openai.com/index/gpt-5-1/"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 3 Pro Preview",
+      "release_date": "2025-11-18",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.1 Pro",
+      "release_date": "2025-11-19",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.5",
+      "release_date": "2025-11-24",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-5"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 3 Deep Think",
+      "release_date": "2025-12-04",
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-deep-think/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.2",
+      "release_date": "2025-12-11",
+      "source_url": "https://openai.com/index/introducing-gpt-5-2/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.2 Pro",
+      "release_date": "2025-12-11",
+      "source_url": "https://openai.com/index/introducing-gpt-5-2/"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.6",
+      "release_date": "2026-02-05",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 3 Deep Think (February upgrade)",
+      "release_date": "2026-02-12",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.20",
+      "release_date": "2026-02-17",
+      "source_url": "https://epoch.ai/models/grok-4-20"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 3.1 Pro Preview",
+      "release_date": "2026-02-19",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.4",
+      "release_date": "2026-03-05",
+      "source_url": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.4 Pro",
+      "release_date": "2026-03-05",
+      "source_url": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.7",
+      "release_date": "2026-04-16",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.5",
+      "release_date": "2026-04-23",
+      "source_url": "https://openai.com/index/introducing-gpt-5-5/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.5 Pro",
+      "release_date": "2026-04-23",
+      "source_url": "https://openai.com/index/introducing-gpt-5-5/"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.3",
+      "release_date": "2026-04-30",
+      "source_url": "https://vercel.com/changelog/grok-4-3-on-ai-gateway"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.8",
+      "release_date": "2026-05-28",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Fable 5",
+      "release_date": "2026-06-09",
+      "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.5",
+      "release_date": "2026-07-08",
+      "source_url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.6 Sol",
+      "release_date": "2026-07-09",
+      "source_url": "https://openai.com/index/gpt-5-6/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.6 Sol (ultra mode)",
+      "release_date": "2026-07-09",
+      "source_url": "https://openai.com/index/gpt-5-6/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.6 Sol Pro",
+      "release_date": "2026-07-09",
+      "source_url": "https://openai.com/index/gpt-5-6/"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 5",
+      "release_date": "2026-07-24",
+      "source_url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.6",
+      "release_date": "2026-08-12",
+      "source_url": "https://x.ai/news/grok-4-6"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Fable 5.1",
+      "release_date": "2026-09-01",
+      "source_url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-6 Astra",
+      "release_date": "2026-09-04",
+      "source_url": "https://community.openai.com/t/introducing-gpt-6-astra-the-most-intelligent-and-aligned-model-in-the-world/1394703"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.7",
+      "release_date": "2026-09-21",
+      "source_url": "https://x.ai/news/grok-4-7"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 5.5",
+      "release_date": "2026-09-22",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-6.1 Sol",
+      "release_date": "2026-09-29",
+      "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "model": "Gemini 4 Argon",
+      "release_date": "2026-10-13",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog"
+    }
+  ]
+}

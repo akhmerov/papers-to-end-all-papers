@@ -1,0 +1,10 @@
+query_id,provider,started_at,exit_code,fetched_records,distinct_provider_ids,provider_total_results,exhausted,stopping_reason,next_spec,receipt
+cond-mat-agents,arxiv,2026-10-18T22:01:52.874098+00:00,0,203,203,203,True,provider_exhausted,null,searches/receipts/cond-mat-agents.json
+cond-mat-harnesses,arxiv,2026-10-18T22:02:02.287511+00:00,0,139,139,139,True,provider_exhausted,null,searches/receipts/cond-mat-harnesses.json
+cond-mat-language-models,arxiv,2026-10-18T22:01:39.658426+00:00,0,230,230,230,True,provider_exhausted,null,searches/receipts/cond-mat-language-models.json
+cross-category-domain-agents,arxiv,2026-10-18T22:03:16.025707+00:00,0,677,677,677,True,provider_exhausted,null,searches/receipts/cross-category-domain-agents.json
+cross-category-domain-harnesses,arxiv,2026-10-18T22:03:54.811098+00:00,0,235,235,235,True,provider_exhausted,null,searches/receipts/cross-category-domain-harnesses.json
+cross-category-domain-language-models,arxiv,2026-10-18T22:02:22.565557+00:00,0,1179,1179,1179,True,provider_exhausted,null,searches/receipts/cross-category-domain-language-models.json
+quant-ph-agents,arxiv,2026-10-18T22:02:12.620353+00:00,0,117,117,117,True,provider_exhausted,null,searches/receipts/quant-ph-agents.json
+quant-ph-harnesses,arxiv,2026-10-18T22:02:17.788268+00:00,0,102,102,102,True,provider_exhausted,null,searches/receipts/quant-ph-harnesses.json
+quant-ph-language-models,arxiv,2026-10-18T22:02:07.445911+00:00,0,128,128,128,True,provider_exhausted,null,searches/receipts/quant-ph-language-models.json

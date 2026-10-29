@@ -1,0 +1,140 @@
+{
+ "supergroups": [
+  {
+   "id": "evaluation-design",
+   "name": "Evaluation design"
+  },
+  {
+   "id": "claims-and-inference",
+   "name": "Claims and inference"
+  },
+  {
+   "id": "reproducibility-and-reporting",
+   "name": "Reproducibility and reporting"
+  },
+  {
+   "id": "correctness-and-assurance",
+   "name": "Correctness and assurance"
+  }
+ ],
+ "categories": [
+  {
+   "id": "confounded-attribution",
+   "name": "Claiming a cause without isolating it",
+   "supergroup": "claims-and-inference",
+   "definition": "A claimed mechanism or contribution cannot be isolated from other changes or from human input.",
+   "include": "Claims that reasoning, adaptation, an architecture, a component, or an agent caused an improvement without the relevant ablation, counterfactual, or control; unquantified expert selection, steering, corrections, or effort when agent autonomy or contribution is being inferred; prompt instructions mistaken for emergent behavior.",
+   "exclude": "Use inadequate-comparisons for relative performance without a specific causal or contribution claim; use underspecified-methods for undocumented human steps when the issue concerns replay alone; use test-contamination for evaluation information reaching development."
+  },
+  {
+   "id": "inadequate-comparisons",
+   "name": "Comparing against missing or unequal baselines",
+   "supergroup": "evaluation-design",
+   "definition": "A relative performance or efficiency claim rests on absent, inappropriate, estimated, or unequally treated comparators.",
+   "include": "Missing competitive, classical, scripted, or human baselines; unequal budgets, information, stopping rules, subsets, batching, tuning, failure handling, or certification; cross-publication or modeled baselines treated as measured comparisons.",
+   "exclude": "Use confounded-attribution when the stated target is a particular cause or component contribution; use invalid-success-measure when the score itself, rather than unequal comparator treatment, fails to measure the claim; use unquantified-uncertainty for an otherwise appropriate comparison lacking precision."
+  },
+  {
+   "id": "unquantified-uncertainty",
+   "name": "Not establishing repeatability or statistical uncertainty",
+   "supergroup": "evaluation-design",
+   "definition": "The reliability or precision of a result is not established at the relevant independent sampling level.",
+   "include": "Single training runs, searches, experiments, or agent trajectories; missing confidence intervals or tests for gains and rankings; dependence or clustering omitted from uncertainty estimates; selected repeats; uncalibrated or under-covering confidence intervals.",
+   "exclude": "Use unsupported-scope for breadth across tasks or systems rather than variability within the evaluated setup; use technical-error for a demonstrated invalid statistical inference; use underspecified-methods if repeats or error-bar definitions are merely undocumented without a stated reliability concern."
+  },
+  {
+   "id": "unsupported-scope",
+   "name": "Extending conclusions beyond the tested conditions",
+   "supergroup": "claims-and-inference",
+   "definition": "A result demonstrated under restricted conditions is promoted to a broader capability, limitation, guarantee, or deployment claim.",
+   "include": "Generality from one project, model, task family, system, or small suite; simulated or component tests promoted to real deployment; conditional formal guarantees presented as unconditional or end-to-end; extrapolated scalability without tests or an adequate argument.",
+   "exclude": "Use test-contamination for loss of independence through development or training overlap; use unquantified-uncertainty for too few independent repeats; use unvalidated-scientific-results for missing correctness checks on the reported outputs themselves; use confounded-attribution for an unisolated mechanism."
+  },
+  {
+   "id": "unvalidated-scientific-results",
+   "name": "Not checking that the scientific outputs are correct",
+   "supergroup": "claims-and-inference",
+   "definition": "Reported predictions, discoveries, explanations, proofs, or executable scientific workflows lack checks sufficient to establish their substantive correctness.",
+   "include": "Generated candidates without independent calculation or experiment; surrogate predictions mistaken for established material properties; missing structural, dynamical, symmetry-sector, semantic, or mechanism validation; dry runs or syntax checks substituted for executing and validating the scientific workflow; unresolved verification of a required external theorem.",
+   "exclude": "Use unvalidated-judging when the explicit defect is unreliable reference labels or an uncalibrated judge; use invalid-success-measure for a score or proxy whose meaning does not support the claim; use technical-error for an identified error rather than an unverified result; operational security and enforcement assurances go to other."
+  },
+  {
+   "id": "invalid-success-measure",
+   "name": "Measuring a proxy that does not establish the claimed success",
+   "supergroup": "evaluation-design",
+   "definition": "The chosen score, label interpretation, denominator, or accounting boundary does not measure the capability or benefit claimed.",
+   "include": "Reference similarity treated as understanding; syntactic or geometric scores treated as scientific success; physically equivalent answers rejected; scoring that rewards invalid solutions or excludes relevant failures; novelty scores treated as discovery; incomplete end-to-end cost accounting; unmeasured absolute cost savings.",
+   "exclude": "Use unvalidated-judging when reference or judge accuracy, rather than the meaning of an otherwise accurate score, is the defect; use unvalidated-scientific-results when the missing check concerns particular scientific outputs; use inadequate-comparisons for unequal treatment of comparison arms; use inconsistent-reporting for incompatible reported values."
+  },
+  {
+   "id": "unvalidated-judging",
+   "name": "Using reference answers or judges without independent validation",
+   "supergroup": "evaluation-design",
+   "definition": "The accuracy or independence of an evaluator, reference set, or annotation process is insufficiently established.",
+   "include": "An LLM grading itself or related generated output without independent validation; teacher agreement used as truth; model-generated or extracted references without adequate audit; insufficient human annotation agreement; private or unauditable reference proofs whose semantic validity is unverified.",
+   "exclude": "Model judging is not automatically a fault: code only the reported missing independence, calibration, or audit; use invalid-success-measure when the reference is sound but the score measures the wrong construct; use technical-error for a specific established wrong answer; use missing-artifacts for reference availability alone."
+  },
+  {
+   "id": "test-contamination",
+   "name": "Not keeping evaluation independent of development",
+   "supergroup": "evaluation-design",
+   "definition": "Training, retrieval, selection, tuning, or prior exposure compromises or leaves unresolved the independence of the reported test.",
+   "include": "Train/test duplicates or related images and materials crossing splits; post-augmentation splitting; retrieval of test answers; benchmark pretraining exposure when explicitly raised; reused selection folds; adaptive optimization on the reported test set without untouched final testing.",
+   "exclude": "Preserve suspected versus demonstrated leakage in coding comments; a small or narrow test alone is unsupported-scope; missing split identifiers alone are underspecified-methods or missing-artifacts unless independence is explicitly questioned; unequal but independent test subsets are inadequate-comparisons."
+  },
+  {
+   "id": "missing-artifacts",
+   "name": "Not making the materials needed for reproduction accessible",
+   "supergroup": "reproducibility-and-reporting",
+   "definition": "Essential code, data, inputs, weights, prompts, supplements, or archived results cannot be accessed from the supplied release information.",
+   "include": "Unreleased, private, request-only, empty, incomplete, broken, gated, or unlocatable essential releases; missing referenced supplements; promised structures, inputs, or experimental drivers absent from a release; an explicit missing artifact plus missing configuration.",
+   "exclude": "Use underspecified-methods when materials are accessible or availability is not raised, but essential procedure or configuration is unspecified; use inconsistent-reporting for conflicting release and paper results rather than absent materials; use a substantive category if the issue's principal objection is validity rather than access."
+  },
+  {
+   "id": "underspecified-methods",
+   "name": "Not specifying how the reported study was run",
+   "supergroup": "reproducibility-and-reporting",
+   "definition": "Essential procedural, model, numerical, or evaluation details are missing or ambiguous, preventing faithful reconstruction.",
+   "include": "Unidentified model or snapshot, decoding and inference settings, prompts, seeds, acquisition settings, solver protocols, selection rules, environments, evaluation manifests, or human intervention records; missing accounting definitions or run provenance without an established contradiction.",
+   "exclude": "Use missing-artifacts when an essential release or supplement is explicitly inaccessible; use test-contamination when the issue explicitly questions evaluation independence; use unquantified-uncertainty when missing replication is the substantive criticism; use inconsistent-reporting when specifications disagree rather than being absent."
+  },
+  {
+   "id": "inconsistent-reporting",
+   "name": "Reporting results or procedures that disagree",
+   "supergroup": "reproducibility-and-reporting",
+   "definition": "Two representations of the same result, implementation, or protocol conflict and require reconciliation.",
+   "include": "Incompatible tables, figures, prose, appendices, released totals or implementations; contradictory units, timing ratios, success counts, loss signs, task dimensions, or claimed safeguards contradicted by documented behavior.",
+   "exclude": "Use technical-error when a demonstrated false equation, counterexample, or wrong scientific computation is the central objection, rather than incompatible reporting; use underspecified-methods for missing information; use invalid-success-measure for a consistent but misleading metric."
+  },
+  {
+   "id": "technical-error",
+   "name": "Making a physics, mathematics, or statistical error",
+   "supergroup": "correctness-and-assurance",
+   "definition": "An identified false statement, invalid derivation, incorrect computation, or logically invalid inference undermines a scientific or evaluation result.",
+   "include": "Counterexamples to claimed optima or theorems; equations with incorrect limits or reward behavior; violated assumptions that invalidate an inference; incorrect physical interpretation or evaluator calculation; treating nonsignificance as proof of absence.",
+   "exclude": "An unverified result or possible sign error alone is not a demonstrated error: use unvalidated-scientific-results or the applicable reproduction category; use inconsistent-reporting if the issue establishes only disagreement between representations; use unquantified-uncertainty for absent or inadequate uncertainty estimation without an identified invalid inference."
+  },
+  {
+   "id": "other",
+   "name": "Other failures of research practice",
+   "supergroup": "correctness-and-assurance",
+   "definition": "An explicit research-practice defect concerns operational assurance or source traceability and does not meet a primary category.",
+   "include": "Untested confidentiality, authentication, or compiler-enforcement assurances without an identified scientific-result or evaluation defect; citation mismatches that obstruct tracing claimed evidence; genuinely residual defects after applying the rules.",
+   "exclude": "Do not use as a generic home for overclaiming, mixed issues, unfamiliar physics, or difficult classification; apply a primary category whenever its defined defect is established. Document the residual reason."
+  }
+ ],
+ "tie_breaking": [
+  "Code the supplied issue, not every fault in its paper. Read the corresponding full report when the summary does not establish the nature of the objection. Use that report only to clarify this issue, not to import faults listed under other issues.",
+  "First identify the principal failed inference or requested repair. If several independent faults share one issue and none is subordinate to the others, code the first independently actionable fault in the summary's order. The pairwise rules below override this textual fallback when the clauses describe the same defect.",
+  "For the same defect, a demonstrated scientific, mathematical, or statistical error takes technical-error over absent validation; disagreement between representations without an independently established error takes inconsistent-reporting. A possible error awaiting implementation verification does not qualify as demonstrated.",
+  "For evaluation independence, explicit leakage, test-informed tuning, or missing safeguards against identified overlap takes test-contamination over generic scope or reporting concerns. Missing split documentation without such a concern remains a reproduction issue.",
+  "For the same assessment chain, an unreliable reference or uncalibrated judge takes unvalidated-judging; a sound reference coupled to a score that measures the wrong thing takes invalid-success-measure; a specific scientific output lacking a substantive check takes unvalidated-scientific-results. If a judge and a metric are independently defective, use the first independently actionable fault.",
+  "When a comparison is used to identify a mechanism, component benefit, emergent behavior, or agent share of the work, confounded-attribution takes inadequate-comparisons. When the question is only which system performs better, use inadequate-comparisons. Unmeasured human effort goes to attribution only when agent contribution or autonomy is the principal claim; otherwise it is underspecified-methods.",
+  "When unequal baselines and missing repeats concern the same superiority claim, inadequate-comparisons takes unquantified-uncertainty: repetition would not repair the comparison. A causal claim requiring an ablation takes confounded-attribution over both.",
+  "When too few repeats and narrow task coverage jointly limit a result, unquantified-uncertainty takes unsupported-scope if run stability is explicitly questioned; task or system breadth alone takes unsupported-scope. Prefer the identified local defect over generic language about generality or reliability.",
+  "For an issue about reproduction, explicit inaccessibility of an essential artifact takes missing-artifacts over underspecified-methods. A missing model identity, snapshot, or setting alone is underspecified-methods. Independent substantive validity objections bundled with release defects follow the principal-objection and textual-fallback rule.",
+  "For efficiency claims, unequal comparator treatment or a hypothetical human baseline takes inadequate-comparisons; an incomplete cost boundary, omitted training or verification costs, or no measurement of an absolute saving takes invalid-success-measure; contradictory reported costs take inconsistent-reporting; an unisolated agent contribution takes confounded-attribution.",
+  "Use other only after ruling out the twelve primary categories; do not split an issue into multiple primary assignments. Distinct issues from one paper may receive the same category."
+ ],
+ "notes": "Unit: one major-issue record. All 454 records were read before constructing the scheme; sixteen corresponding full reports were sampled to resolve terse or compound summaries. The input has 200 distinct arXiv IDs, although the brief describes a 228-paper review population. Verify the complete paper roster and the status of the 28 absent IDs before treating their absence as no major issue. For a paper-level percentage, count each paper once per category if at least one of its issues receives that code, and divide by the verified paper population (228 if confirmed). Paper-level categories can overlap and percentages need not sum to 100%; issue-level primary assignments are exclusive. These are categories of the referees' objections, not independent adjudications of the papers or claims that no other defects exist. Single-primary coding necessarily loses secondary faults in compound issues, so paper prevalence measures papers with at least one issue primarily coded to the category, not all mentions of that fault. Do not infer misconduct, established leakage, or demonstrated error from an untested risk. Human effort, LLM contribution, and resource accounting are included in broader categories because their standalone frequencies do not support additional primary categories. Provisional manual coverage estimates, for taxonomy design rather than a released coding dataset, are approximately 24% missing-artifacts, 9% underspecified-methods, 16% confounded-attribution, 9% inadequate-comparisons, 7% unquantified-uncertainty, 6% unsupported-scope, 6% unvalidated-scientific-results, 8% invalid-success-measure, 4% unvalidated-judging, 3% test-contamination, 3% technical-error, 4% inconsistent-reporting, and 1% other. Borderline compound records can shift these estimates; all twelve primary categories provisionally meet about 3% coverage, while other intentionally remains small."
+}

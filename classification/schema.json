@@ -1,0 +1,157 @@
+{
+  "type": "object",
+  "properties": {
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "type": "string",
+            "enum": [
+              "condensed-matter",
+              "materials-science",
+              "adjacent-quantum",
+              "other-physics",
+              "molecular-chemistry",
+              "cross-domain-science",
+              "general-methods",
+              "out-of-scope",
+              "unclear"
+            ]
+          },
+          "use": {
+            "type": "string",
+            "enum": [
+              "reasoning-proof",
+              "simulation-workflow",
+              "experimental-control",
+              "data-interpretation",
+              "design-optimization",
+              "property-prediction",
+              "literature-knowledge",
+              "scientific-qa",
+              "code-algorithm-generation",
+              "research-orchestration",
+              "agent-evaluation",
+              "no-substantive-application",
+              "unclear"
+            ]
+          },
+          "agent_form": {
+            "type": "string",
+            "enum": [
+              "tool-using-agent",
+              "multi-agent",
+              "llm-pipeline",
+              "single-model",
+              "human-ai-collaboration",
+              "no-llm-application",
+              "unspecified"
+            ]
+          },
+          "autonomy": {
+            "type": "string",
+            "enum": [
+              "single-step",
+              "human-in-loop",
+              "bounded-multistep",
+              "closed-loop",
+              "not-applicable",
+              "unspecified"
+            ]
+          },
+          "breadth": {
+            "type": "string",
+            "enum": [
+              "single-task",
+              "workflow",
+              "platform",
+              "field-overview",
+              "unclear"
+            ]
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "application",
+              "method",
+              "benchmark",
+              "review-perspective",
+              "proposal",
+              "other"
+            ]
+          },
+          "llm_role": {
+            "type": "string",
+            "enum": [
+              "substantive",
+              "proposed",
+              "incidental",
+              "none",
+              "unclear"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "id": {
+            "type": "string"
+          },
+          "secondary_uses": {
+            "type": "array",
+            "maxItems": 3,
+            "items": {
+              "type": "string",
+              "enum": [
+                "reasoning-proof",
+                "simulation-workflow",
+                "experimental-control",
+                "data-interpretation",
+                "design-optimization",
+                "property-prediction",
+                "literature-knowledge",
+                "scientific-qa",
+                "code-algorithm-generation",
+                "research-orchestration",
+                "agent-evaluation",
+                "no-substantive-application",
+                "unclear"
+              ]
+            }
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "scope",
+          "use",
+          "agent_form",
+          "autonomy",
+          "breadth",
+          "kind",
+          "llm_role",
+          "confidence",
+          "id",
+          "secondary_uses",
+          "evidence",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "records"
+  ],
+  "additionalProperties": false
+}

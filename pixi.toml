@@ -1,0 +1,21 @@
+[workspace]
+name = "papers-to-end-all-papers"
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64"]
+
+[dependencies]
+python = "3.13.*"
+matplotlib-base = "*"
+numpy = "*"
+scikit-learn = "*"
+# Security floor for the XML parser used by Python and matplotlib.
+libexpat = ">=2.9.0,<3"
+
+[tasks]
+check = { cmd = "python -I tools/check_public.py", description = "Fail on per-paper judgements, non-arXiv records or local paths" }
+figures = { cmd = "python -I figures/make_figures.py", description = "Draw the figures from the public data into _build/figures" }
+site = { cmd = "python -I site/build.py && python -I tools/check_public.py --site", depends-on = ["check", "figures"], description = "Build the static site into _site" }
+replay = { cmd = "python -I corpus/replay.py", description = "Replay the registered arXiv searches" }
+lexical = { cmd = "python -I classification/recheck/lexical.py", description = "LLM-free topic model of the abstracts" }
+rehash = { cmd = "python -I classification/rehash.py", description = "Update the digests in classification/validation.json" }
+agreement = { cmd = "python -I classification/recheck/compare.py && python -I classification/subjects/analyze.py", description = "Coder agreement and subject shares" }

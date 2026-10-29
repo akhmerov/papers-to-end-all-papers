@@ -1,0 +1,481 @@
+{
+  "model_requested": "claude-opus-5-5",
+  "scope": "Selected main-scope/mixed-domain records from completed batches 001 onward, not a full independent audit of all 680 records.",
+  "audits": [
+    {
+      "batch": "audit-00",
+      "ids": [
+        "arxiv:2609.36469",
+        "arxiv:2609.34119",
+        "arxiv:2609.31790",
+        "arxiv:2609.30133",
+        "arxiv:2609.27302",
+        "arxiv:2609.27036",
+        "arxiv:2609.25384",
+        "arxiv:2609.25000",
+        "arxiv:2609.19837",
+        "arxiv:2609.19550",
+        "arxiv:2609.18598",
+        "arxiv:2609.17291",
+        "arxiv:2609.17123",
+        "arxiv:2609.16466",
+        "arxiv:2609.14928",
+        "arxiv:2609.14840",
+        "arxiv:2609.12796",
+        "arxiv:2609.12184",
+        "arxiv:2609.12181",
+        "arxiv:2609.07655",
+        "arxiv:2609.05121",
+        "arxiv:2609.22210",
+        "arxiv:2609.00795",
+        "arxiv:2609.00663",
+        "arxiv:2609.00099",
+        "arxiv:2609.00070",
+        "arxiv:2608.29665",
+        "arxiv:2608.29309",
+        "arxiv:2608.28100",
+        "arxiv:2608.27587",
+        "arxiv:2608.27572",
+        "arxiv:2609.29595",
+        "arxiv:2608.25392",
+        "arxiv:2608.25189",
+        "arxiv:2608.24513",
+        "arxiv:2608.23631",
+        "arxiv:2608.19790",
+        "arxiv:2608.20434",
+        "arxiv:2608.19116",
+        "arxiv:2608.16048",
+        "arxiv:2608.15928",
+        "arxiv:2608.15900",
+        "arxiv:2608.11283",
+        "arxiv:2608.10483",
+        "arxiv:2608.08752"
+      ],
+      "findings": [
+        {
+          "id": "arxiv:2609.34119",
+          "overrides": {
+            "autonomy": "human-in-loop",
+            "evidence": "The author formulated the problem and proposed the basic strategy, while ChatGPT Astra made substantial contributions to the development of the proof."
+          },
+          "note": "The abstract explicitly says the human directed the work, so human-in-loop is established and is not just a fallback label."
+        },
+        {
+          "id": "arxiv:2609.25384",
+          "overrides": {
+            "use": "code-algorithm-generation",
+            "breadth": "single-task",
+            "llm_role": "substantive"
+          },
+          "note": "The abstract says the released code was designed with extensive LLM use, so the role is code generation. How the model was used (agent_form, autonomy) stays unspecified. Confidence stays low."
+        },
+        {
+          "id": "arxiv:2609.25000",
+          "overrides": {
+            "kind": "application"
+          },
+          "note": "This reports a proved result with an LLM-generated construction. Label it as an application, consistent with the other LLM-assisted proof papers in this set."
+        },
+        {
+          "id": "arxiv:2608.08752",
+          "overrides": {
+            "kind": "application"
+          },
+          "note": "This is a rigorous result with LLM-generated arguments. Label it as an application, consistent with the other proof-collaboration records."
+        },
+        {
+          "id": "arxiv:2609.17123",
+          "overrides": {
+            "evidence": "Astra selects a redistributed source-interconnect geometry, while a coordinating agent proposes a substrate-directed heat-removal path."
+          },
+          "note": "The current evidence is only background motivation. The replacement text names the two agents, which is what supports the multi-agent and design labels."
+        },
+        {
+          "id": "arxiv:2609.14928",
+          "overrides": {
+            "agent_form": "unspecified"
+          },
+          "note": "The LLM agent generates control code. The abstract does not say whether the agent picks or runs tools itself, so tool-using is not established."
+        },
+        {
+          "id": "arxiv:2609.22210",
+          "overrides": {
+            "kind": "method"
+          },
+          "note": "The abstract describes released open-source software that already exists, not a proposed agenda. A substantive LLM role together with kind 'proposal' is inconsistent. No evaluation is reported, so confidence stays medium."
+        },
+        {
+          "id": "arxiv:2609.00663",
+          "overrides": {
+            "kind": "benchmark"
+          },
+          "note": "The main contribution is an evaluation instrument for vision-language models on rendered crystal structures, so this is a benchmark rather than a scientific method."
+        },
+        {
+          "id": "arxiv:2608.25189",
+          "overrides": {
+            "evidence": "a stage that measures the field into the quantities a theorist would consult and supplies them to the model as a direct input"
+          },
+          "note": "The current evidence is a motivating claim. The replacement text states the method itself."
+        },
+        {
+          "id": "arxiv:2608.24513",
+          "overrides": {
+            "llm_role": "unclear",
+            "confidence": "low"
+          },
+          "note": "'Chemical language model' here means a composition encoder distilled from an interatomic potential. Treat this generic term as establishing an LLM only cautiously."
+        },
+        {
+          "id": "arxiv:2609.27036",
+          "overrides": {
+            "confidence": "medium"
+          },
+          "note": "'Language model' is one of several generic predictor families compared, and graph models do best. The LLM role is thin and may refer to chemical language models."
+        },
+        {
+          "id": "arxiv:2608.23631",
+          "overrides": {
+            "agent_form": "unspecified"
+          },
+          "note": "The abstract mentions LLM agents and executable edits but never says the LLM chooses or runs tools. The contribution is a feedback/ranking framework."
+        },
+        {
+          "id": "arxiv:2608.15928",
+          "overrides": {
+            "use": "literature-knowledge",
+            "secondary_uses": [
+              "design-optimization"
+            ],
+            "evidence": "a large language model (LLM) that distills synthesis knowledge from the literature"
+          },
+          "note": "In this abstract the LLM's job is to distill literature to initialize the search. The experimental loop is closed by Bayesian optimization and imaging, not by LLM control of the experiments."
+        }
+      ],
+      "prompt_sha256": "dc56fb93ee3701e56ff7e3f5247a6e790be3c85ae6c633423dd62a7bba085699",
+      "response_sha256": "32dae02c76b66aa5191b0b5bfb87e681eee1e654f9f84871e466aa90a019b6d3",
+      "model_usage": {
+        "claude-haiku-5-5": {
+          "inputTokens": 35882,
+          "outputTokens": 354,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.0037652,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 334,
+          "canonicalModel": "claude-haiku-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 5755,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 39421,
+          "webSearchRequests": 0,
+          "costUSD": 0.43047599999999997,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 4421,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    },
+    {
+      "batch": "audit-01",
+      "ids": [
+        "arxiv:2608.07637",
+        "arxiv:2608.06694",
+        "arxiv:2608.05387",
+        "arxiv:2608.05266",
+        "arxiv:2608.01431",
+        "arxiv:2608.00149",
+        "arxiv:2607.28200",
+        "arxiv:2607.25145",
+        "arxiv:2607.23988",
+        "arxiv:2608.11224",
+        "arxiv:2607.20058",
+        "arxiv:2607.19198",
+        "arxiv:2607.17498",
+        "arxiv:2607.17417",
+        "arxiv:2607.15535",
+        "arxiv:2607.09195",
+        "arxiv:2607.07857",
+        "arxiv:2607.07604",
+        "arxiv:2607.02934",
+        "arxiv:2607.02329",
+        "arxiv:2607.00924",
+        "arxiv:2606.29717",
+        "arxiv:2606.29667",
+        "arxiv:2606.29592",
+        "arxiv:2606.29459",
+        "arxiv:2606.24480",
+        "arxiv:2606.23571",
+        "arxiv:2606.22375",
+        "arxiv:2606.21395",
+        "arxiv:2606.19152",
+        "arxiv:2606.20729",
+        "arxiv:2606.14215",
+        "arxiv:2606.09462",
+        "arxiv:2606.07712",
+        "arxiv:2606.06415",
+        "arxiv:2606.05472",
+        "arxiv:2606.05050",
+        "arxiv:2606.03764",
+        "arxiv:2606.03300",
+        "arxiv:2606.01089",
+        "arxiv:2606.00315",
+        "arxiv:2605.31495",
+        "arxiv:2605.29833",
+        "arxiv:2605.29555",
+        "arxiv:2605.29446"
+      ],
+      "findings": [
+        {
+          "id": "arxiv:2607.23988",
+          "overrides": {
+            "llm_role": "unclear",
+            "use": "unclear",
+            "autonomy": "unspecified",
+            "confidence": "low",
+            "reason": "A GPT-2 policy emits operator sequences for molecular electronic structure; the abstract does not establish a pretrained language model or scientific agent role.",
+            "scope": "molecular-chemistry",
+            "agent_form": "unspecified"
+          },
+          "note": "The labels contradicted each other: agent_form was no-llm-application while llm_role was unclear and use was simulation-workflow. 'GPT-2 policy' is a generic architecture term and does not establish an LLM role. The calculations are also mostly on molecules (SnO, methyltin trihydroxide), so molecular-chemistry is arguably the better scope."
+        },
+        {
+          "id": "arxiv:2607.17498",
+          "overrides": {
+            "scope": "adjacent-quantum",
+            "use": "design-optimization",
+            "secondary_uses": [
+              "code-algorithm-generation",
+              "literature-knowledge",
+              "simulation-workflow"
+            ],
+            "evidence": "We demonstrate this approach across three distinct settings: Case 1, Rydberg-atom maximum-independent-set arrays; Case 2, interacting XXZ spin chains",
+            "reason": "LLM workflow designs quantum optimal-control protocols for Rydberg MIS arrays, XXZ chains and TFIM annealing. The domain is quantum control, and the output is protocol design."
+          },
+          "note": "The paper is about quantum optimal control for adiabatic computation and annealing. The spin chains are control targets, not condensed-matter studies, so the scope is adjacent-quantum. The concrete output is control protocols, so design-optimization fits better than research-orchestration."
+        },
+        {
+          "id": "arxiv:2607.17417",
+          "overrides": {
+            "scope": "cross-domain-science",
+            "application_scopes": [
+              "molecular-chemistry",
+              "materials-science"
+            ],
+            "evidence": "Checkable claims, checked cheaply, are a practical lever for trustworthy machine reasoning in chemistry.",
+            "reason": "A database-grounded verifier repairs LLM chemistry and materials claims (formulas, space groups, energies). The reported gains concern formulas across chemistry prompts."
+          },
+          "note": "The title and abstract cover both chemistry and materials, and the headline result is about chemical formulas. Labelling it materials-science only overstates the materials focus. The materials-science application scope is kept."
+        },
+        {
+          "id": "arxiv:2606.29717",
+          "overrides": {
+            "use": "code-algorithm-generation",
+            "secondary_uses": [
+              "property-prediction"
+            ]
+          },
+          "note": "The coding agent writes and improves the GNN code. The language model does not predict band gaps itself, so property prediction is only the target task."
+        },
+        {
+          "id": "arxiv:2606.29592",
+          "overrides": {
+            "use": "data-interpretation",
+            "secondary_uses": [
+              "experimental-control"
+            ],
+            "autonomy": "unspecified",
+            "confidence": "low",
+            "evidence": "Production-tier vision-language models further underperform task-specific CNNs by {\\sim}13x on crystallographic defect analysis."
+          },
+          "note": "The closed-loop navigators in the benchmark are Bayesian, RL or FSM, not LLMs. The abstract only establishes VLMs as perception analysts for defect analysis, so closed-loop LLM autonomy is invented. agent_form stays unspecified."
+        },
+        {
+          "id": "arxiv:2606.20729",
+          "overrides": {
+            "scope": "molecular-chemistry",
+            "evidence": "We show that LADeQ accelerates coupled cluster singles and doubles (CCSD) and configuration interaction singles and doubles (CISD) calculations"
+          },
+          "note": "The demonstrations are CCSD and CISD in quantum-chemistry codes. The abstract mentions materials discovery only as motivation and shows no solid-state application."
+        },
+        {
+          "id": "arxiv:2606.03764",
+          "overrides": {
+            "use": "data-interpretation",
+            "secondary_uses": [
+              "property-prediction"
+            ]
+          },
+          "note": "The LLM's part is the inverse model, which infers crystal structure from measured Raman spectra and formulas. The forward spectrum predictor is a non-LLM GNN."
+        },
+        {
+          "id": "arxiv:2606.05472",
+          "overrides": {
+            "secondary_uses": [],
+            "confidence": "low"
+          },
+          "note": "Having no-substantive-application as a secondary use contradicts llm_role substantive. Generating synthetic device data fits no use category well, so confidence is low."
+        },
+        {
+          "id": "arxiv:2606.14215",
+          "overrides": {
+            "confidence": "low",
+            "llm_role": "unclear",
+            "agent_form": "unspecified",
+            "reason": "Conversational crystal generation is demonstrated, but the abstract does not establish whether the underlying model is an LLM; full text is needed."
+          },
+          "note": "The abstract never says LapidaryEngine is or contains an LLM. LLMs appear only as motivation, so the substantive LLM role is uncertain."
+        },
+        {
+          "id": "arxiv:2608.05266",
+          "overrides": {
+            "confidence": "low"
+          },
+          "note": "The abstract never names materials or samples, so the materials-science scope is inferred only from the instrument type (microscopes and beamlines)."
+        }
+      ],
+      "prompt_sha256": "afcc9e4dd9c91ee1eeaf7e8b8b1d86373dab753e5822dd2d7aee1a7216b09dfb",
+      "response_sha256": "c21ef92751e63967373ae0bd43df4c907d6c38aafd2948431c245d73ab2895ed",
+      "model_usage": {
+        "claude-haiku-5-5": {
+          "inputTokens": 38415,
+          "outputTokens": 406,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.0040444999999999995,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 379,
+          "canonicalModel": "claude-haiku-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 9031,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 41954,
+          "webSearchRequests": 0,
+          "costUSD": 0.5162599999999999,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 7319,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    },
+    {
+      "batch": "audit-02",
+      "ids": [
+        "arxiv:2605.29179",
+        "arxiv:2605.28487",
+        "arxiv:2605.26741",
+        "arxiv:2606.07570",
+        "arxiv:2605.26179",
+        "arxiv:2606.00065",
+        "arxiv:2605.20416",
+        "arxiv:2605.24002",
+        "arxiv:2605.18407",
+        "arxiv:2605.20242",
+        "arxiv:2605.17675",
+        "arxiv:2605.17254",
+        "arxiv:2605.16191"
+      ],
+      "findings": [
+        {
+          "id": "arxiv:2605.26741",
+          "overrides": {
+            "llm_role": "incidental",
+            "confidence": "low"
+          },
+          "note": "LLM recommenders are only one comparison class among 39 inverse-design algorithms; the benchmark and headline results (diffusion best) are not LLM-centric. Treat LLM as background comparison."
+        },
+        {
+          "id": "arxiv:2605.26179",
+          "overrides": {
+            "secondary_uses": []
+          },
+          "note": "VASPBench is a scientific DFT task benchmark; per guidance use the scientific task (simulation-workflow) rather than generic agent-evaluation."
+        },
+        {
+          "id": "arxiv:2605.24002",
+          "overrides": {
+            "scope": "cross-domain-science",
+            "application_scopes": [
+              "materials-science",
+              "molecular-chemistry"
+            ],
+            "evidence": "conduct atomistic research across materials science, chemistry, and drug discovery"
+          },
+          "note": "Mixed-domain harness; demonstrations include materials campaigns (electrolytes, MOFs, catalysts, XRD) and molecular drug-design virtual screening, so cross-domain primary with materials retained."
+        },
+        {
+          "id": "arxiv:2605.20242",
+          "overrides": {
+            "autonomy": "human-in-loop",
+            "evidence": "an expert-in-the-loop closed framework that couples a domain-specialized large language model(LLM) with active learning"
+          },
+          "note": "Loop is explicitly expert-in-the-loop with expert feasibility review between screening rounds; closed-loop autonomy overstates it. LLM supplies literature-derived descriptors to Bayesian optimization."
+        },
+        {
+          "id": "arxiv:2605.17675",
+          "overrides": {
+            "scope": "general-methods"
+          },
+          "note": "Primary contribution is governance guidance for AI-assisted scientific software development; the fusion tritium-migration code is only a demonstration platform, not a materials application."
+        },
+        {
+          "id": "arxiv:2605.16191",
+          "overrides": {
+            "scope": "other-physics"
+          },
+          "note": "Optimizes macroscopic 3D PV geometry and sun-angle/shadowing via an optics solver; no materials discovery or properties are involved."
+        }
+      ],
+      "prompt_sha256": "ccb6893ef4612d6833e06b48b1c50d21ce2b1d42dfc2e89104606f296435bd8d",
+      "response_sha256": "ef484ab7e67ab6722aa83e847b6422335a446b56c3f495759cb7a0062df480ff",
+      "model_usage": {
+        "claude-haiku-5-5": {
+          "inputTokens": 13286,
+          "outputTokens": 256,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.0014566000000000002,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 231,
+          "canonicalModel": "claude-haiku-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 3057,
+          "cacheReadInputTokens": 3389,
+          "cacheCreationInputTokens": 13449,
+          "webSearchRequests": 0,
+          "costUSD": 0.1694178,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 1822,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    }
+  ]
+}

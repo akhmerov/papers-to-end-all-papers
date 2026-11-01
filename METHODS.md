@@ -8,7 +8,7 @@ Fig. 1 is `fig-pace`, Fig. 2 `fig-subjects`, Fig. 3 `fig-issues` and Fig. 4
 
 The study covers the 228 arXiv preprints submitted between 18 April and 18 October
 2026 in condensed matter, materials science and quantum research that give a
-language model a substantive role. Language-model agents carried out every step:
+language model a substantive role, demonstrated or proposed. Language-model agents carried out every step:
 Claude Haiku 5.5 classified the abstracts, GPT-6.1 Sol read the papers in full, and
 Claude Opus 5.5 provided independent second codings and checks. The author designed
 the steps and checked the agents' output; [agents/README.md](agents/README.md) lists

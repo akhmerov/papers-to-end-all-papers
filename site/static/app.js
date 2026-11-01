@@ -43,7 +43,7 @@ function svgEl(tag, attrs = {}) {
 }
 
 // ---------- state ----------
-const CONTROLS = ["q", "field", "question", "use", "family", "from", "to", "sort"];
+const CONTROLS = ["q", "field", "question", "role", "use", "family", "from", "to", "sort"];
 const CHECKS = ["code", "statement", "physical"];
 
 function state() {
@@ -71,6 +71,7 @@ function readHash() {
 function matches(r, s, terms, skip = null) {
   if (skip !== "field" && s.field && !r.field.includes(s.field)) return false;
   if (s.question && !r.question.includes(s.question)) return false;
+  if (s.role && r.role !== s.role) return false;
   if (s.use && r.use !== s.use) return false;
   if (skip !== "family" && s.family && !(r.families || []).includes(s.family)) return false;
   if (s.from && r.date < s.from) return false;
@@ -211,9 +212,10 @@ function item(r, terms) {
   for (const f of r.field) chips.append(el("span", { class: "chip", text: FIELD_SHORT[f] || f }));
   r.question.forEach((q, i) => chips.append(el("span", { class: "chip" + (r.physical_world[i] ? " phys" : ""), text: QUESTION_SHORT[q] || q })));
   for (const f of r.families || []) chips.append(el("span", { class: "chip", text: f }));
-  const meta = [r.date, "arXiv " + r.id.split(":")[1] + " [" + r.category + "]", words(r.use)];
+  const meta = [r.date, "arXiv " + r.id.split(":")[1] + " [" + r.category + "]", words(r.use)].concat(r.role === "proposed" ? ["role proposed only"] : []);
   const dl = el("dl");
   const add = (k, v) => { if (v) dl.append(el("dt", { text: k }), el("dd", {}, v)); };
+  add("Role of the model", r.role === "proposed" ? "proposed only" : "demonstrated");
   add("Scope", words(r.scope));
   add("Paper kind", words(r.kind));
   add("Agent form", words(r.agent_form));
@@ -250,7 +252,7 @@ function list(rows, terms, sort) {
 // ---------- CSV ----------
 let current = [];
 function csv() {
-  const cols = ["id", "date", "category", "title", "authors", "url", "doi", "scope", "use", "kind", "field", "question", "models", "harness", "code_urls", "ai_use_statement"];
+  const cols = ["id", "date", "category", "title", "authors", "url", "doi", "scope", "role", "use", "kind", "field", "question", "models", "harness", "code_urls", "ai_use_statement"];
   const cell = (v) => {
     const s = Array.isArray(v) ? v.join("; ") : v == null ? "" : String(v);
     return /[",\n]/.test(s) ? '"' + s.replaceAll('"', '""') + '"' : s;

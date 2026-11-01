@@ -15,7 +15,7 @@
   <h1>Language models and agents in condensed matter, materials and quantum research</h1>
   <p class="lede">The 228 arXiv preprints submitted from 18 April to 18 October 2026 that name a language model
   in their title or abstract, belong to a condensed-matter, materials or quantum category or domain, and give the
-  model a substantive role, labelled and read in full by AI agents. The searches miss papers that mention AI only
+  model a substantive role, demonstrated or proposed, labelled and read in full by AI agents. The searches miss papers that mention AI only
   in the body. Companion to a commentary in the
   <a href="https://www.condmatjclub.org">Journal Club for Condensed Matter Physics</a>.
   Labels describe what a paper is about; referee scores are not published.</p>
@@ -28,6 +28,8 @@
     <input type="search" id="q" placeholder="e.g. DFT, Majorana, microscopy, Lean"></label>
   <label>Field<select id="field"></select></label>
   <label>Question<select id="question"></select></label>
+  <label>Role of the model<select id="role"><option value="">Demonstrated or proposed</option>
+    <option value="substantive">Demonstrated</option><option value="proposed">Proposed only</option></select></label>
   <label>Use of the model<select id="use"></select></label>
   <label>Model developer<select id="family"></select></label>
   <label>From<input type="date" id="from" min="2026-04-18" max="2026-10-18"></label>

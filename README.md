@@ -4,7 +4,7 @@ Data, code and prompts behind a commentary in the
 [Journal Club for Condensed Matter Physics](https://www.condmatjclub.org) on how
 large language models and AI agents are used in condensed matter, materials and
 quantum research. It studies the 228 arXiv preprints of six months
-(18 April–18 October 2026) that give a language model a substantive role: how
+(18 April–18 October 2026) that give a language model a substantive role, demonstrated or proposed: how
 many appear, what they are about, how old the models they use are, how they
 cite each other, and what goes wrong in them, using AI referees whose
 reliability is checked along the way.

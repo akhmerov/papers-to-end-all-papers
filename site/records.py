@@ -74,6 +74,7 @@ def records():
             "category": meta["categories"][0],
             "scope": r["scope"],
             "use": r["use"],
+            "role": r["llm_role"],
             "kind": r["kind"],
             "agent_form": r["agent_form"],
             "field": both(field["sol"][uid], field["opus"][uid]),
